@@ -79,6 +79,11 @@ body {background-color: #22262a; color: #d7ded6;}
 	text-indent: -4em;
 	margin-left:6em;
 	word-wrap: break-word;}
+.ehang {
+  font-size: 0.8em;
+  text-indent: -4em;
+  margin-left:6em;
+  word-wrap: break-word;}
 .small {
 	font-size: 0.9em;}
 .sub {font-family: 'CascadiaCode';}
