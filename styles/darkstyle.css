@@ -74,6 +74,9 @@ body {background-color: #22262a; color: #d7ded6;}
 .position {
 	font-size: 0.7em;
 	}
+.eposition {
+  font-size: 0.9em;
+  }
 .hang {
 	font-size: 1em;
 	text-indent: -4em;
