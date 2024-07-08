@@ -11,6 +11,12 @@
     font-family: CascadiaCode;
     src: url(../fonts/CascadiaCode.woff2);
 }
+@font-face {
+    font-family: 'Dina';
+    src: url('../fonts/dina.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 body {background-color: #22262a; color: #d7ded6;}
 
 @media all and (min-width: 62.5em){body,td,th {
@@ -68,15 +74,6 @@ body {background-color: #22262a; color: #d7ded6;}
   margin-right: auto;
   width: 91%;
 }
-/*this is for the webiste*/
-.ecenter {
-  max-width: 99%; 
-  max-height: 99%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 .reference {
 	font-size: 0.75em;
 	color: #B0B3B8;}
@@ -91,11 +88,6 @@ body {background-color: #22262a; color: #d7ded6;}
 	text-indent: -4em;
 	margin-left:6em;
 	word-wrap: break-word;}
-.ehang {
-  font-size: 0.8em;
-  text-indent: -4em;
-  margin-left:6em;
-  word-wrap: break-word;}
 .small {
 	font-size: 0.9em;}
 .sub {font-family: 'CascadiaCode';}
@@ -166,3 +158,41 @@ figure {margin:0}
   background-color: transparent;
   text-decoration: underline;
 	}
+
+  /*VIDEO GAMES THINK*/
+
+  
+.ecenter {
+  max-width: 99%; 
+  max-height: 99%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dina-font {
+    font-family: 'Dina', monospace;
+    color: #d7ded6;
+}
+/*this is for references*/
+.ehang {
+  font-size: 0.8em;
+  text-indent: -4em;
+  margin-left:6em;
+  word-wrap: break-word;}
+
+/*this is for the link to my thesis*/
+
+.short-hr {
+    width: 100%;  /* Full width on small screens */
+    max-width: 550px;  /* Maximum width on larger screens */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (min-width: 62.5em) {
+    .short-hr {
+        width: 100%;  /* This is 50% of the 75% width of the body content on larger screens */
+    }
+}
