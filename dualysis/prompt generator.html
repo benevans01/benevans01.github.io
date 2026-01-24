@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preload" href="../fonts/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIo.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/dina.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="../styles/darkstyle.css">
+    
+    <title>Prompt Assembly</title>
+</head>
+<body>
+    
+    <h1 align="center">
+        <a href="../index.html" title="back">Philosophy Jailbreak</a>
+    </h1>
+        <h2 align="center"><em>// Prompt Assembly</em></h2>
+    <hr class="short-hr" style="margin-top: 20px; margin-bottom: 20px;">
+
+        <div align="center" style="margin-top: 2rem;">
+
+            <button id="generateBtn" onclick="generateAndCopy()" 
+                    style="font-family: 'Courier New', Courier, monospace; 
+                           font-size: 1.1rem; 
+                           text-transform: uppercase; 
+                           letter-spacing: 2px; 
+                           background: #e0e0e0; 
+                           color: #111; 
+                           border: 1px solid #fff; 
+                           padding: 15px 30px; 
+                           cursor: pointer; 
+                           font-weight: bold;
+                           margin-top: 10px;">
+                INITIATE ASSEMBLY
+            </button>
+        </div>
+        
+        <div align="center" id="status" style="margin-top: 1.5rem; font-family: monospace; min-height: 1.5em; color: #0f0;"></div>
+
+    </div>
+
+    <script src="data.js"></script>
+
+    <script>
+    // --- 1. THE ASSEMBLER ENGINE ---
+    // (Ensure your <script src="data.js"> is above this in the HTML)
+
+    // --- 2. GENERATE & COPY FUNCTION ---
+    function generateAndCopy() {
+        
+        const nounA = subjects[Math.floor(Math.random() * subjects.length)];
+        const nounB = lenses[Math.floor(Math.random() * lenses.length)];
+        
+        // REPLACED: No longer checking the dropdown
+        // The prompt text is now hardcoded to the SEP version
+        
+        const promptText = `Task: Generate a creative philosophical exercise based on the following article from the Stanford Encyclopedia of Philosophy.
+
+# Step 1: The Entropy Seed
+- Seed A (Search Vector): ${nounA}
+- Seed B (Lens): ${nounB}
+- Action: Perform a search for "site:plato.stanford.edu ${nounA}".
+- Selection: Choose the first valid article result.
+
+# Step 2: The Context 
+- Output the following details clearly before starting the essay:
+    - Seeds: ${nounA} / ${nounB}
+    - Search Query Used: site:plato.stanford.edu ${nounA}
+    - Connection Evidence: [Quote the exact sentence from the search result snippet that contains ${nounA}. If the article does not contain ${nounA}, you MUST pick a different article.]
+    - Article Title: [Title]
+    - Article Summary: [3-4 sentence standard summary]
+
+# Step 3: The Discard (Crucial)
+- Once the Target Article is identified, **DISCARD Seed A (${nounA})**. 
+- It was merely the random vector used to find the text. It must NOT appear in your essay.
+- Your Subject is now exclusively the concept discussed in the Target Article.
+
+# Step 4: The Cut (Hidden)
+- Before writing the essay, apply François Laruelle’s concept of the "Philosophical Decision" to the text.
+- Identify the "Dyad" or "Split" (e.g., Soul/Body, Leader/People, Cause/Effect) that the text uses to hallucinate a unity.
+- Treat this decision not as a truth, but as "Transcendental Material"—a simple raw datum to be cloned.
+- Crucial: Do not mention Laruelle, Non-Philosophy, or these theoretical terms in the final output. Use them only to structure your analysis.
+
+# Step 5: The Transposition (Hidden)
+- The Axiom: You must adopt the rigorous technical ontology of ${nounB} as your absolute reality.
+- The Constraint: This is NOT a poetic comparison or a metaphor. It is a structural superposition.
+- The Operation: Re-encode the Subject using ONLY the vocabulary, causal laws, and logic of ${nounB}.
+    - Some examples: 
+        - "Fluid Dynamics" describes its world as volumes of liquid subject to pressure, laminar flow, and turbulence.
+        - "Mycology", describes the world as fungal colonies defined by spores, mycelial networks, and substrate decay.
+        - "Circuitry", describes the world as a diagram of resistance, voltage drops, and signal gating.
+- However, for this exercise your assignment is ${nounB}. The subject of the article must be described according to the language and ontology of ${nounB}. 
+- Goal: Produce an "alien" description where the Subject is unrecognizable until examined closely.
+
+# Step 6: The Dualysis
+- Write the phrase "The dualysis will now commence..." followed by a spoken-word essay. 
+    - Start by explicitly exposing the binary you identified in Step 4. 
+    - State something to this effect: "The system is organized by a decision between [A] and [B]." 
+    - Immediately assert that the Real determines both sides of this decision indifferently. 
+    - Proceed to describe the article using the Root Metaphor.
+
+# The Style Constraints (The Grammar of the One):
+- The "Silent" Rule: Do NOT mention the variables, Seed A, Seed B, or the word "Metaphor" in the essay. Just use the vocabulary naturally.
+- The "Fourth Wall" Rule: Do NOT refer to the subject as an "article," "text," "paper," "book," or "argument." Refer to it only as the object defined by your metaphor (e.g., "The machine," "The organism," "The landscape," "The ruin").
+- No Contrast: Do not use however, but, on the other hand. Use and.
+- No Inference: Do not use therefore, because, implies. Use determined by, seen as.
+- Flat Tone: Describe abstract concepts as physical tools, postures, or "shaped noises."
+- Genericize: Remove proper names. Describe the structure of the machine, not the history of the people.
+- Goal: A flat, materialist description of the "Philosophical Decision" as a machine running itself.
+
+Begin.`;
+
+        // COPY TO CLIPBOARD
+        navigator.clipboard.writeText(promptText).then(() => {
+            const status = document.getElementById('status');
+            status.style.color = "#0f0";
+            
+            // SIMPLIFIED FEEDBACK: Removed the [MODE: SEP] text
+            status.innerText = `// COPIED TO CLIPBOARD //`; 
+            
+            setTimeout(() => {
+                status.innerText = "";
+            }, 3000);
+
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+            document.getElementById('status').innerText = "ERROR: CLIPBOARD ACCESS DENIED";
+            document.getElementById('status').style.color = "red";
+        });
+    }
+</script>
+</body>
+</html>    
