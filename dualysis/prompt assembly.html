@@ -17,37 +17,51 @@
         <a href="../index.html" title="back">Philosophy Jailbreak</a>
     </h1>
     <h2 align="center"><em>// Prompt Assembly</em></h2>
+    <div class="reference" align="center" style="margin-top: -20px; margin-bottom: 20px;">
+    v0.2.0
+</div>
 
-    <div align="center" style="margin-top: -15px;" class="short-hr">
-        Force an aleatory philosophical system into a posture of equivalence and estrangement.
+    <div align="left" style="margin-top: -15px;" class="short-hr">
+        Force any philosophical system into a posture of equivalence and estrangement.
     </div>
     <br> 
-    <div align="center" style="margin-top: -15px;" class="short-hr">
-        A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat (recommendation: Perplexity). 
+    <div align="left" style="margin-top: -15px;" class="short-hr">
+        A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat <span class="reference" aria-hidden="true">(tip: use <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity">Perplexity</a>)</span>. 
     </div>
     
     <hr class="short-hr" style="margin-top: 20px; margin-bottom: 20px;">
 
     <div class="machine-container" style="max-width: 800px; margin: 0 auto;">
 
-        <div align="center" style="margin-top: 2rem;">
-            <button id="generateBtn" onclick="generateAndCopy()" 
-                    style="font-family: 'Courier New', Courier, monospace; 
-                           font-size: 1.1rem; 
-                           text-transform: uppercase; 
-                           letter-spacing: 2px; 
-                           background: #e0e0e0; 
-                           color: #111; 
-                           border: 1px solid #fff; 
-                           padding: 15px 30px; 
-                           cursor: pointer; 
-                           font-weight: bold;
-                           margin-top: 10px;">
-                CLICK HERE
-            </button>
+        <div style="background: #000; color: #0f0; font-family: 'Courier New', monospace; padding: 20px; border: 1px solid #333;">
+            
+            <div id="terminal-display" 
+                 style="text-align: left; 
+                        min-height: 100px;
+                        font-size: 0.9rem;
+                        line-height: 1.4;
+                        margin-bottom: 20px;">
+                > SYSTEM READY...<br>
+                > AWAITING MANUAL TRIGGER...
+            </div>
+
+            <div align="center">
+                <button id="generateBtn" onclick="generateAndCopy()" 
+                        style="font-family: 'Courier New', Courier, monospace; 
+                               font-size: 1.1rem; 
+                               text-transform: uppercase; 
+                               letter-spacing: 2px; 
+                               background: #e0e0e0; 
+                               color: #111; 
+                               border: 1px solid #fff; 
+                               padding: 15px 30px; 
+                               cursor: pointer; 
+                               font-weight: bold;">
+                    CLICK HERE
+                </button>
+            </div>
+            
         </div>
-        
-        <div align="center" id="status" style="margin-top: 1.5rem; font-family: monospace; min-height: 1.5em; color: #0f0;"></div>
 
     </div> <script src="data.js"></script>
 
@@ -57,17 +71,18 @@
     // --- 2. GENERATE & COPY FUNCTION ---
     function generateAndCopy() {
         
+        const terminal = document.getElementById('terminal-display');
+        terminal.innerHTML = "> PROCESSING DATA STREAM...";
+
         // 1. Pick the Random Items
-        // We select the whole OBJECT (title + link) here
         const articleObj = articles[Math.floor(Math.random() * articles.length)];
         const vector = lenses[Math.floor(Math.random() * lenses.length)];
         
         // 2. EXTRACT DATA
-        // We pull the title and link directly from the database object
         const target = articleObj.title;
         const link = articleObj.link;
         
-        // 3. The Prompt Template (Now with Rule #7 added)
+        // 3. The Prompt Template
         const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self-appointed sufficiency. You achieve this by re-describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
 Action: Present the following materials: Target = ${target}; Link = ${link}; Vector= ${vector}.  
@@ -107,18 +122,24 @@ Begin.
 
         // COPY TO CLIPBOARD
         navigator.clipboard.writeText(promptText).then(() => {
-            const status = document.getElementById('status');
-            status.style.color = "#0f0";
-            status.innerText = `// COPIED TO CLIPBOARD //`; 
             
-            setTimeout(() => {
-                status.innerText = "";
-            }, 3000);
+            // 4. Update Terminal 
+            // We use inline-block + max-width + overflow hidden on the <a> tag to create the ellipsis
+            terminal.innerHTML = `
+> STATUS: COPIED TO CLIPBOARD<br>
+> ---------------------------<br>
+> TARGET: ${target}<br>
+> SOURCE: <a href="${link}" target="_blank" style="color:inherit; text-decoration: underline; display: inline-block; max-width: 45ch; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; vertical-align: bottom;">${link}</a><br>
+> VECTOR: ${vector}
+            `;
 
         }).catch(err => {
             console.error('Failed to copy: ', err);
-            document.getElementById('status').innerText = "ERROR: CLIPBOARD ACCESS DENIED";
-            document.getElementById('status').style.color = "red";
+            terminal.style.color = "red";
+            terminal.innerHTML = `
+> ERROR: CLIPBOARD ACCESS DENIED<br>
+> DETAILS: ${err}
+            `;
         });
     }
     </script>
