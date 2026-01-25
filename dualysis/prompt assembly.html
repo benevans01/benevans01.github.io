@@ -48,12 +48,11 @@
                 color: #000;
             }
         }
-
-        /* MOBILE OVERRIDE CLASS */
-        /* We will add/remove this class using JavaScript touch events */
-        .terminal-btn.is-touched {
-            background: #FF4444 !important;
-            color: #000 !important;
+        
+        /* OPTIONAL: Visual feedback when actually clicking/tapping */
+        .terminal-btn:active {
+            background: #FF4444;
+            color: #000;
         }
     </style>
 </head>
@@ -72,9 +71,9 @@
         <div style="background: #000; color: #09CC50; font-family: 'Fantasque Sans Mono', monospace; padding: 25px; border: 1px solid #333; line-height: 1.5;">
             
             <div style="margin-bottom: 20px; font-size: 0.9rem;">
-                > DIRECTIVE: Force any philosophical system into a posture of equivalence and estrangement.<br>
-                > INFO: A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat.<br>
-                > HINT: Use <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity" 
+                > <b>DIRECTIVE:</b> Force any philosophical system into a posture of equivalence and estrangement.<br>
+                > <b>INFO:</b> A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat.<br>
+                > <b>HINT:</b> Use <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity" 
                                style="color: #00AAA0; text-decoration: none;" 
                                onmouseover="this.style.textDecoration='underline'" 
                                onmouseout="this.style.textDecoration='none'">Perplexity</a>.
@@ -107,28 +106,6 @@
     </div> <script src="data.js"></script>
 
 <script>
-    // --- 0. MOBILE TOUCH FIX ---
-    // This manually handles the "flash" effect on mobile devices
-    const btn = document.getElementById('generateBtn');
-
-    // When finger touches screen: Turn RED
-    btn.addEventListener('touchstart', function() {
-        this.classList.add('is-touched');
-    }, {passive: true});
-
-    // When finger leaves screen: Turn OFF immediately
-    btn.addEventListener('touchend', function() {
-        this.classList.remove('is-touched');
-        // Force blur to prevent sticky focus states
-        this.blur();
-    });
-
-    // Also handle touch cancel (if they scroll away)
-    btn.addEventListener('touchcancel', function() {
-        this.classList.remove('is-touched');
-        this.blur();
-    });
-
     // --- 1. THE ASSEMBLER ENGINE ---
     
     function getRandomHexLine() {
@@ -212,12 +189,13 @@ Begin.
                 hexStream.innerText = getRandomHexLine();
                 
                 // Show Final Output (SOURCE color #00AAA0)
+                // ADDED BOLDING HERE
                 terminal.innerHTML = `
-> TARGET: ${target}<br>
-> SOURCE: <a href="${link}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${link}</a><br>
-> VECTOR: ${vector}<br>
+> <b>TARGET:</b> ${target}<br>
+> <b>SOURCE:</b> <a href="${link}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${link}</a><br>
+> <b>VECTOR:</b> ${vector}<br>
 > ---------------------------<br>
-> STATUS: COPIED TO CLIPBOARD
+> <b>STATUS:</b> COPIED TO CLIPBOARD
                 `;
             }, 500);
 
