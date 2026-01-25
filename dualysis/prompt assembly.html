@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <link rel="preload" href="../fonts/FantasqueSansMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    
     <link rel="preload" href="../fonts/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIo.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../fonts/dina.woff2" as="font" type="font/woff2" crossorigin>
 
     <link rel="stylesheet" href="../styles/darkstyle.css">
     
     <title>Prompt Assembly</title>
+
+    <style>
+        @font-face {
+            font-family: 'Fantasque Sans Mono';
+            /* Ensure this path matches exactly where you put the file */
+            src: url('../fonts/FantasqueSansMono-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
     
@@ -18,46 +30,50 @@
     </h1>
     <h2 align="center"><em>// Prompt Assembly</em></h2>
     <div class="reference" align="center" style="margin-top: -20px; margin-bottom: 20px;">
-    v0.2.0
+    v1.0.1
 </div>
-
-    <div align="left" style="margin-top: -15px;" class="short-hr">
-        Force any philosophical system into a posture of equivalence and estrangement.
-    </div>
-    <br> 
-    <div align="left" style="margin-top: -15px;" class="short-hr">
-        A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat <span class="reference" aria-hidden="true">(tip: use <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity">Perplexity</a>)</span>. 
-    </div>
-    
-    <hr class="short-hr" style="margin-top: 20px; margin-bottom: 20px;">
 
     <div class="machine-container" style="max-width: 800px; margin: 0 auto;">
 
-        <div style="background: #000; color: #0f0; font-family: 'Courier New', monospace; padding: 20px; border: 1px solid #333;">
+        <div style="background: #000; color: #09CC50; font-family: 'Fantasque Sans Mono', monospace; padding: 25px; border: 1px solid #333; line-height: 1.5;">
             
+            <div style="margin-bottom: 20px; font-size: 0.9rem;">
+                > DIRECTIVE: Force any philosophical system into a posture of equivalence and estrangement.<br>
+                > INFO: A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat.<br>
+                > HINT: Use <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity" 
+                               style="color: #00AAA0; text-decoration: none;" 
+                               onmouseover="this.style.textDecoration='underline'" 
+                               onmouseout="this.style.textDecoration='none'">Perplexity</a>.
+            </div>
+
+            <div id="hex-stream" style="margin-bottom: 20px; font-size: 0.9rem; white-space: nowrap; overflow: hidden;">
+                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+            </div>
+
             <div id="terminal-display" 
                  style="text-align: left; 
-                        min-height: 100px;
+                        min-height: 80px;
                         font-size: 0.9rem;
-                        line-height: 1.4;
-                        margin-bottom: 20px;">
+                        margin-bottom: 20px;
+                        word-break: break-all;">
                 > SYSTEM READY...<br>
                 > AWAITING MANUAL TRIGGER...
             </div>
 
             <div align="center">
                 <button id="generateBtn" onclick="generateAndCopy()" 
-                        style="font-family: 'Courier New', Courier, monospace; 
-                               font-size: 1.1rem; 
-                               text-transform: uppercase; 
-                               letter-spacing: 2px; 
-                               background: #e0e0e0; 
-                               color: #111; 
-                               border: 1px solid #fff; 
-                               padding: 15px 30px; 
+                        onmouseover="this.style.background='#FF4444'; this.style.color='#000'"
+                        onmouseout="this.style.background='transparent'; this.style.color='#FF4444'"
+                        style="font-family: 'Fantasque Sans Mono', monospace; 
+                               font-size: 1.2rem; 
+                               background: transparent; 
+                               color: #FF4444; 
+                               border: none; 
+                               padding: 10px; 
                                cursor: pointer; 
-                               font-weight: bold;">
-                    CLICK HERE
+                               font-weight: bold;
+                               text-transform: uppercase;">
+                    >>>> CLICK HERE <<<<
                 </button>
             </div>
             
@@ -68,21 +84,39 @@
 <script>
     // --- 1. THE ASSEMBLER ENGINE ---
     
+    // Helper function to generate random Hex pairs
+    function getRandomHexLine() {
+        let line = "> ";
+        // We generate 15 pairs to match your HTML layout
+        for(let i=0; i<15; i++) {
+            let hex = Math.floor(Math.random() * 255).toString(16).toUpperCase();
+            if(hex.length === 1) hex = "0" + hex;
+            line += hex + " ";
+        }
+        return line;
+    }
+
     // --- 2. GENERATE & COPY FUNCTION ---
     function generateAndCopy() {
         
         const terminal = document.getElementById('terminal-display');
-        terminal.innerHTML = "> PROCESSING DATA STREAM...";
+        const hexStream = document.getElementById('hex-stream');
+        
+        // 1. VISUAL START
+        terminal.innerHTML = "> INITIATING HANDSHAKE...<br>> ENCRYPTING PAYLOAD...";
 
-        // 1. Pick the Random Items
+        // 2. ANIMATION LOOP
+        const scrambleInterval = setInterval(() => {
+            hexStream.innerText = getRandomHexLine();
+        }, 50);
+
+        // 3. LOGIC: Pick the Random Items
         const articleObj = articles[Math.floor(Math.random() * articles.length)];
         const vector = lenses[Math.floor(Math.random() * lenses.length)];
-        
-        // 2. EXTRACT DATA
         const target = articleObj.title;
         const link = articleObj.link;
         
-        // 3. The Prompt Template
+        // 4. The Prompt Template
         const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self-appointed sufficiency. You achieve this by re-describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
 Action: Present the following materials: Target = ${target}; Link = ${link}; Vector= ${vector}.  
@@ -120,20 +154,30 @@ Begin.
 
 `;
 
-        // COPY TO CLIPBOARD
+        // 5. COPY TO CLIPBOARD
         navigator.clipboard.writeText(promptText).then(() => {
             
-            // 4. Update Terminal 
-            // We use inline-block + max-width + overflow hidden on the <a> tag to create the ellipsis
-            terminal.innerHTML = `
-> STATUS: COPIED TO CLIPBOARD<br>
-> ---------------------------<br>
+            // 6. DELAYED SUCCESS (Reduced to 500ms)
+            setTimeout(() => {
+                
+                // Stop the scrambling
+                clearInterval(scrambleInterval);
+                
+                // Freeze on a final random set
+                hexStream.innerText = getRandomHexLine();
+                
+                // Show Final Output (SOURCE color #00AAA0)
+                terminal.innerHTML = `
 > TARGET: ${target}<br>
-> SOURCE: <a href="${link}" target="_blank" style="color:inherit; text-decoration: underline; display: inline-block; max-width: 45ch; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; vertical-align: bottom;">${link}</a><br>
-> VECTOR: ${vector}
-            `;
+> SOURCE: <a href="${link}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${link}</a><br>
+> VECTOR: ${vector}<br>
+> ---------------------------<br>
+> STATUS: COPIED TO CLIPBOARD
+                `;
+            }, 500); // Changed from 1000 to 500
 
         }).catch(err => {
+            clearInterval(scrambleInterval);
             console.error('Failed to copy: ', err);
             terminal.style.color = "red";
             terminal.innerHTML = `
