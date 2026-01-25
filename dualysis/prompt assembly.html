@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="preload" href="../fonts/FantasqueSansMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
-    
     <link rel="preload" href="../fonts/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIo.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../fonts/dina.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -14,7 +13,7 @@
     <title>Prompt Assembly</title>
 
     <style>
-        /* 2. DEFINE THE FONT FACE */
+        /* DEFINE FONT */
         @font-face {
             font-family: 'Fantasque Sans Mono';
             src: url('../fonts/FantasqueSansMono-Regular.ttf') format('truetype');
@@ -22,7 +21,7 @@
             font-style: normal;
         }
 
-        /* 3. BUTTON STYLING */
+        /* BUTTON STYLING */
         .terminal-btn {
             font-family: 'Fantasque Sans Mono', monospace;
             font-size: 1.2rem;
@@ -33,13 +32,16 @@
             cursor: pointer;
             font-weight: bold;
             text-transform: uppercase;
-            /* Removes the blue highlight rectangle on mobile tap */
+            
+            /* CRITICAL: Disables the default blue browser highlight on mobile */
             -webkit-tap-highlight-color: transparent; 
-            transition: background 0.1s ease;
-            outline: none; /* Removes default focus ring */
+            
+            transition: background 0.05s ease; /* Super fast transition for snappiness */
+            outline: none;
         }
 
-        /* HOVER: Only on devices with a mouse */
+        /* COMPUTER ONLY: Hover Effect */
+        /* This rule NEVER runs on a touchscreen phone */
         @media (hover: hover) {
             .terminal-btn:hover {
                 background: #FF4444;
@@ -47,11 +49,11 @@
             }
         }
 
-        /* ACTIVE: Happens when you tap (Mobile) or Click-hold (PC) */
-        /* This gives the feedback, but goes away when you release because of the JS blur() fix */
-        .terminal-btn:active {
-            background: #FF4444;
-            color: #000;
+        /* MOBILE OVERRIDE CLASS */
+        /* We will add/remove this class using JavaScript touch events */
+        .terminal-btn.is-touched {
+            background: #FF4444 !important;
+            color: #000 !important;
         }
     </style>
 </head>
@@ -62,7 +64,7 @@
     </h1>
     <h2 align="center"><em>// Prompt Assembly</em></h2>
     <div class="reference" align="center" style="margin-top: -20px; margin-bottom: 20px;">
-    v1.0.2
+    v1.0.3
 </div>
 
     <div class="machine-container" style="max-width: 800px; margin: 0 auto;">
@@ -105,6 +107,28 @@
     </div> <script src="data.js"></script>
 
 <script>
+    // --- 0. MOBILE TOUCH FIX ---
+    // This manually handles the "flash" effect on mobile devices
+    const btn = document.getElementById('generateBtn');
+
+    // When finger touches screen: Turn RED
+    btn.addEventListener('touchstart', function() {
+        this.classList.add('is-touched');
+    }, {passive: true});
+
+    // When finger leaves screen: Turn OFF immediately
+    btn.addEventListener('touchend', function() {
+        this.classList.remove('is-touched');
+        // Force blur to prevent sticky focus states
+        this.blur();
+    });
+
+    // Also handle touch cancel (if they scroll away)
+    btn.addEventListener('touchcancel', function() {
+        this.classList.remove('is-touched');
+        this.blur();
+    });
+
     // --- 1. THE ASSEMBLER ENGINE ---
     
     function getRandomHexLine() {
@@ -120,12 +144,6 @@
     // --- 2. GENERATE & COPY FUNCTION ---
     function generateAndCopy() {
         
-        // --- MOBILE FIX START ---
-        // This forces the button to "lose focus" immediately after clicking.
-        // This stops the red box from sticking on mobile.
-        document.getElementById('generateBtn').blur();
-        // --- MOBILE FIX END ---
-
         const terminal = document.getElementById('terminal-display');
         const hexStream = document.getElementById('hex-stream');
         
@@ -184,7 +202,7 @@ Begin.
         // 5. COPY TO CLIPBOARD
         navigator.clipboard.writeText(promptText).then(() => {
             
-            // 6. DELAYED SUCCESS
+            // 6. DELAYED SUCCESS (500ms)
             setTimeout(() => {
                 
                 // Stop the scrambling
