@@ -14,12 +14,44 @@
     <title>Prompt Assembly</title>
 
     <style>
+        /* 2. DEFINE THE FONT FACE */
         @font-face {
             font-family: 'Fantasque Sans Mono';
-            /* Ensure this path matches exactly where you put the file */
             src: url('../fonts/FantasqueSansMono-Regular.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
+        }
+
+        /* 3. BUTTON STYLING (Moved from inline to here for mobile fix) */
+        .terminal-btn {
+            font-family: 'Fantasque Sans Mono', monospace;
+            font-size: 1.2rem;
+            background: transparent;
+            color: #FF4444;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            /* Remove blue highlight on mobile tap */
+            -webkit-tap-highlight-color: transparent; 
+            transition: background 0.1s ease;
+        }
+
+        /* 4. THE MAGIC FIX: */
+        /* Only apply hover effect if the device supports hovering (Mouse/PC) */
+        @media (hover: hover) {
+            .terminal-btn:hover {
+                background: #FF4444;
+                color: #000;
+            }
+        }
+
+        /* 5. ACTIVE STATE (Mobile Tap / Mouse Click) */
+        /* This ensures it flashes red when you touch it on mobile */
+        .terminal-btn:active {
+            background: #FF4444;
+            color: #000;
         }
     </style>
 </head>
@@ -30,7 +62,7 @@
     </h1>
     <h2 align="center"><em>// Prompt Assembly</em></h2>
     <div class="reference" align="center" style="margin-top: -20px; margin-bottom: 20px;">
-    v1.0.1
+    v0.1.0
 </div>
 
     <div class="machine-container" style="max-width: 800px; margin: 0 auto;">
@@ -61,18 +93,9 @@
             </div>
 
             <div align="center">
-                <button id="generateBtn" onclick="generateAndCopy()" 
-                        onmouseover="this.style.background='#FF4444'; this.style.color='#000'"
-                        onmouseout="this.style.background='transparent'; this.style.color='#FF4444'"
-                        style="font-family: 'Fantasque Sans Mono', monospace; 
-                               font-size: 1.2rem; 
-                               background: transparent; 
-                               color: #FF4444; 
-                               border: none; 
-                               padding: 10px; 
-                               cursor: pointer; 
-                               font-weight: bold;
-                               text-transform: uppercase;">
+                <button id="generateBtn" 
+                        class="terminal-btn"
+                        onclick="generateAndCopy()">
                     >>>> CLICK HERE <<<<
                 </button>
             </div>
@@ -157,7 +180,7 @@ Begin.
         // 5. COPY TO CLIPBOARD
         navigator.clipboard.writeText(promptText).then(() => {
             
-            // 6. DELAYED SUCCESS (Reduced to 500ms)
+            // 6. DELAYED SUCCESS (500ms)
             setTimeout(() => {
                 
                 // Stop the scrambling
@@ -174,7 +197,7 @@ Begin.
 > ---------------------------<br>
 > STATUS: COPIED TO CLIPBOARD
                 `;
-            }, 500); // Changed from 1000 to 500
+            }, 500);
 
         }).catch(err => {
             clearInterval(scrambleInterval);
