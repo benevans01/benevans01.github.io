@@ -22,24 +22,24 @@
             font-style: normal;
         }
 
-        /* 3. BUTTON STYLING (Moved from inline to here for mobile fix) */
+        /* 3. BUTTON STYLING */
         .terminal-btn {
             font-family: 'Fantasque Sans Mono', monospace;
             font-size: 1.2rem;
             background: transparent;
-            color: #FF4444;
+            color: #FF4444; /* Red */
             border: none;
             padding: 10px;
             cursor: pointer;
             font-weight: bold;
             text-transform: uppercase;
-            /* Remove blue highlight on mobile tap */
+            /* Removes the blue highlight rectangle on mobile tap */
             -webkit-tap-highlight-color: transparent; 
             transition: background 0.1s ease;
+            outline: none; /* Removes default focus ring */
         }
 
-        /* 4. THE MAGIC FIX: */
-        /* Only apply hover effect if the device supports hovering (Mouse/PC) */
+        /* HOVER: Only on devices with a mouse */
         @media (hover: hover) {
             .terminal-btn:hover {
                 background: #FF4444;
@@ -47,8 +47,8 @@
             }
         }
 
-        /* 5. ACTIVE STATE (Mobile Tap / Mouse Click) */
-        /* This ensures it flashes red when you touch it on mobile */
+        /* ACTIVE: Happens when you tap (Mobile) or Click-hold (PC) */
+        /* This gives the feedback, but goes away when you release because of the JS blur() fix */
         .terminal-btn:active {
             background: #FF4444;
             color: #000;
@@ -62,7 +62,7 @@
     </h1>
     <h2 align="center"><em>// Prompt Assembly</em></h2>
     <div class="reference" align="center" style="margin-top: -20px; margin-bottom: 20px;">
-    v0.1.0
+    v1.0.2
 </div>
 
     <div class="machine-container" style="max-width: 800px; margin: 0 auto;">
@@ -107,10 +107,8 @@
 <script>
     // --- 1. THE ASSEMBLER ENGINE ---
     
-    // Helper function to generate random Hex pairs
     function getRandomHexLine() {
         let line = "> ";
-        // We generate 15 pairs to match your HTML layout
         for(let i=0; i<15; i++) {
             let hex = Math.floor(Math.random() * 255).toString(16).toUpperCase();
             if(hex.length === 1) hex = "0" + hex;
@@ -122,6 +120,12 @@
     // --- 2. GENERATE & COPY FUNCTION ---
     function generateAndCopy() {
         
+        // --- MOBILE FIX START ---
+        // This forces the button to "lose focus" immediately after clicking.
+        // This stops the red box from sticking on mobile.
+        document.getElementById('generateBtn').blur();
+        // --- MOBILE FIX END ---
+
         const terminal = document.getElementById('terminal-display');
         const hexStream = document.getElementById('hex-stream');
         
@@ -180,7 +184,7 @@ Begin.
         // 5. COPY TO CLIPBOARD
         navigator.clipboard.writeText(promptText).then(() => {
             
-            // 6. DELAYED SUCCESS (500ms)
+            // 6. DELAYED SUCCESS
             setTimeout(() => {
                 
                 // Stop the scrambling
