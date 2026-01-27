@@ -143,7 +143,7 @@
         return line;
     }
 
-    // Fallback copy (works in more old/quirky mobile browsers)
+    // Fallback copy for older / quirky browsers
     function copyToClipboardFallback(text) {
         const textArea = document.createElement("textarea");
         textArea.value = text;
@@ -176,16 +176,22 @@
             hexStream.innerText = getRandomHexLine();
         }, 50);
 
-        // safety timeout: never let this run forever
+        // safety timeout: never let spinner run forever
         const hardStop = setTimeout(() => {
             clearInterval(scrambleInterval);
         }, 8000);
 
+        // minimum visible spin time
+        const MIN_SPIN_TIME = 700; // ms
+        const startTime = Date.now();
+
+        // 3. LOGIC: Pick the Random Items
         const articleObj = articles[Math.floor(Math.random() * articles.length)];
         const vector = lenses[Math.floor(Math.random() * lenses.length)];
         const target = articleObj.title;
         const link = articleObj.link;
 
+        // 4. The Prompt Template
         const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self-appointed sufficiency. You achieve this by re-describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
 Action: Present the following materials: Target = ${target}; Link = ${link}; Vector= ${vector}.  
@@ -225,17 +231,22 @@ Begin.
 `;
 
         function showSuccess(label) {
-            clearInterval(scrambleInterval);
-            clearTimeout(hardStop);
-            hexStream.innerText = getRandomHexLine();
-            terminal.style.color = "#09CC50";
-            terminal.innerHTML = `
+            const elapsed = Date.now() - startTime;
+            const remaining = Math.max(0, MIN_SPIN_TIME - elapsed);
+
+            setTimeout(() => {
+                clearInterval(scrambleInterval);
+                clearTimeout(hardStop);
+                hexStream.innerText = getRandomHexLine();
+                terminal.style.color = "#09CC50";
+                terminal.innerHTML = `
 > <b>TARGET:</b> ${target}<br>
 > <b>SOURCE:</b> <a href="${link}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${link}</a><br>
 > <b>VECTOR:</b> ${vector}<br>
 > ---------------------------<br>
 > <b>STATUS:</b> COPIED TO CLIPBOARD${label ? " (" + label + ")" : ""}
-            `;
+                `;
+            }, remaining);
         }
 
         function showError(message) {
@@ -249,6 +260,7 @@ Begin.
             `;
         }
 
+        // 5. COPY TO CLIPBOARD (with fallback)
         if (navigator.clipboard && window.isSecureContext) {
             navigator.clipboard.writeText(promptText).then(() => {
                 showSuccess("");
@@ -270,6 +282,7 @@ Begin.
         }
     }
 </script>
+
 
 </body>
 </html>
