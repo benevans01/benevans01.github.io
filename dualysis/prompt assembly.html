@@ -41,7 +41,6 @@
         }
 
         /* COMPUTER ONLY: Hover Effect */
-        /* This rule NEVER runs on a touchscreen phone */
         @media (hover: hover) {
             .terminal-btn:hover {
                 background: #FF4444;
@@ -58,26 +57,53 @@
 </head>
 <body>
     
-    <h1 align="center">
-        <a href="../index.html" title="back">Philosophy Jailbreak</a>
-    </h1>
-    <h2 align="center"><em>// Prompt Assembly</em></h2>
-    <div class="reference" align="center" style="margin-top: -20px; margin-bottom: 20px;">
-    v1.0.3
-</div>
-
-    <div class="machine-container" style="max-width: 800px; margin: 0 auto;">
+    <div class="machine-container" style="max-width: 850px; margin: 0 auto;">
 
         <div style="background: #000; color: #09CC50; font-family: 'Fantasque Sans Mono', monospace; padding: 25px; border: 1px solid #333; line-height: 1.5;">
             
-            <div style="margin-bottom: 20px; font-size: 0.9rem;">
-                > <b>DIRECTIVE:</b> Force any philosophical system into a posture of equivalence and estrangement.<br>
-                > <b>INFO:</b> A unique prompt will be delivered to your clipboard. Paste this into any internet-connected AI chat.<br>
-                > <b>HINT:</b> Use <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity" 
-                               style="color: #00AAA0; text-decoration: none;" 
-                               onmouseover="this.style.textDecoration='underline'" 
-                               onmouseout="this.style.textDecoration='none'">Perplexity</a>.
-            </div>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px; margin-bottom: 20px;">
+
+  <!-- LEFT: ASCII LOGO -->
+  <div style="flex-shrink: 0;">
+<pre style="color: #FF4444; font-family: 'Fantasque Sans Mono', monospace; line-height: 1.1; text-align: left; margin: 0;">
+         <span style="color: #00AAA0;">\</span> ,,:::,,
+       .: <span style="color: #00AAA0;">\</span>       '::.
+     .::'  <span style="color: #00AAA0;">\</span>        '::.
+    :::    <span style="color: #00AAA0;">/</span>          :::
+    :::   <span style="color: #00AAA0;">/</span>           :::
+     ':: <span style="color: #00AAA0;">/</span>          .::'
+        <span style="color: #00AAA0;">/</span> ..     ..::'
+       <span style="color: #00AAA0;">V</span>   '':::''
+</pre>
+  </div>
+
+  <!-- RIGHT: TITLE + PROMPT TEXT -->
+  <div style="flex: 1 1 280px; min-width: 280px;">
+
+    <h1 style="margin: 0; line-height: 1; font-size: 1.8rem;">
+      <a href="../index.html" title="back" style="color: inherit; text-decoration: none;">Philosophy Jailbreak</a>
+    </h1>
+
+    <h2 style="margin: 5px 0 0 0; font-size: 1.1rem; opacity: 0.9;"><em>// Prompt Assembly</em></h2>
+
+    <div class="reference" style="margin-bottom: 15px; font-size: 0.8rem; opacity: 0.7;">
+      v1.0.3
+    </div>
+
+    <div style="font-size: 0.9rem; line-height: 1.4;">
+      <b>DIRECTIVE:</b> Force any philosophical system into a posture of equivalence and estrangement.<br>
+      <b>QUICKSTART:</b> A unique prompt will be copied to your clipboard. Paste it into an AI chatbot with internet access.<br>
+      <b>HINT:</b> Use
+      <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity"
+         style="color: #00AAA0; text-decoration: none;"
+         onmouseover="this.style.textDecoration='underline'"
+         onmouseout="this.style.textDecoration='none'">Perplexity</a>.
+    </div>
+
+  </div>
+
+</div>
+
 
             <div id="hex-stream" style="margin-bottom: 20px; font-size: 0.9rem; white-space: nowrap; overflow: hidden;">
                 > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -159,6 +185,7 @@ Action: Generate a spoken-word essay, strictly adhering to the following conditi
     - The "Fourth Wall" Rule: DO NOT refer to the subject as an "article," "text," "argument," or "theory." Refer to it only as the object defined by the Vector (e.g., "The colony," "The lattice," "The circuit," "The sediment").
     - No Contrast: **DO NOT use "however", "but", "on the other hand".** Use "and".
     - No Inference: **DO NOT use "therefore", "because", "implies".** Use "determined by", "seen as", "aligned with".
+    - No comparison rule: Do not contrast the vector’s ontology with the target’s original framework. Do not write phrases like “in fact”, “actually”, “not really”, “not spooky”, “no longer mysterious”, or “just a way of saying”. Do not present the new description as an explanation, reinterpretation, or demystification of an older one. Speak only from inside the vector’s reality. Write as if no other model or vocabulary exists outside the vector’s own.    
     - Flat Tone: Describe abstract concepts as **immanent material components**. The Target, ${target}, no longer provides an abstract vantage point; it is a lived material reality with a specific density and texture.
     - Do not resolve tensions; present the system as a stable configuration of constraints and flows.
     - Genericize: Remove proper names. Describe the *structure* of the concepts, not the history of the thinkers.
