@@ -133,38 +133,59 @@
 
 <script>
     // --- 1. THE ASSEMBLER ENGINE ---
-    
     function getRandomHexLine() {
         let line = "> ";
-        for(let i=0; i<15; i++) {
+        for (let i = 0; i < 15; i++) {
             let hex = Math.floor(Math.random() * 255).toString(16).toUpperCase();
-            if(hex.length === 1) hex = "0" + hex;
+            if (hex.length === 1) hex = "0" + hex;
             line += hex + " ";
         }
         return line;
     }
 
+    // Fallback copy (works in more old/quirky mobile browsers)
+    function copyToClipboardFallback(text) {
+        const textArea = document.createElement("textarea");
+        textArea.value = text;
+        textArea.style.position = "fixed";
+        textArea.style.top = "-1000px";
+        textArea.style.left = "-1000px";
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+
+        let ok = false;
+        try {
+            ok = document.execCommand("copy");
+        } catch (e) {
+            ok = false;
+        }
+        document.body.removeChild(textArea);
+        return ok;
+    }
+
     // --- 2. GENERATE & COPY FUNCTION ---
     function generateAndCopy() {
-        
-        const terminal = document.getElementById('terminal-display');
-        const hexStream = document.getElementById('hex-stream');
-        
-        // 1. VISUAL START
+        const terminal = document.getElementById("terminal-display");
+        const hexStream = document.getElementById("hex-stream");
+
+        terminal.style.color = "#09CC50";
         terminal.innerHTML = "> INITIATING HANDSHAKE...<br>> ENCRYPTING PAYLOAD...";
 
-        // 2. ANIMATION LOOP
         const scrambleInterval = setInterval(() => {
             hexStream.innerText = getRandomHexLine();
         }, 50);
 
-        // 3. LOGIC: Pick the Random Items
+        // safety timeout: never let this run forever
+        const hardStop = setTimeout(() => {
+            clearInterval(scrambleInterval);
+        }, 8000);
+
         const articleObj = articles[Math.floor(Math.random() * articles.length)];
         const vector = lenses[Math.floor(Math.random() * lenses.length)];
         const target = articleObj.title;
         const link = articleObj.link;
-        
-        // 4. The Prompt Template
+
         const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self-appointed sufficiency. You achieve this by re-describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
 Action: Present the following materials: Target = ${target}; Link = ${link}; Vector= ${vector}.  
@@ -203,39 +224,52 @@ Begin.
 
 `;
 
-        // 5. COPY TO CLIPBOARD
-        navigator.clipboard.writeText(promptText).then(() => {
-            
-            // 6. DELAYED SUCCESS (500ms)
-            setTimeout(() => {
-                
-                // Stop the scrambling
-                clearInterval(scrambleInterval);
-                
-                // Freeze on a final random set
-                hexStream.innerText = getRandomHexLine();
-                
-                // Show Final Output (SOURCE color #00AAA0)
-                // ADDED BOLDING HERE
-                terminal.innerHTML = `
+        function showSuccess(label) {
+            clearInterval(scrambleInterval);
+            clearTimeout(hardStop);
+            hexStream.innerText = getRandomHexLine();
+            terminal.style.color = "#09CC50";
+            terminal.innerHTML = `
 > <b>TARGET:</b> ${target}<br>
 > <b>SOURCE:</b> <a href="${link}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${link}</a><br>
 > <b>VECTOR:</b> ${vector}<br>
 > ---------------------------<br>
-> <b>STATUS:</b> COPIED TO CLIPBOARD
-                `;
-            }, 500);
-
-        }).catch(err => {
-            clearInterval(scrambleInterval);
-            console.error('Failed to copy: ', err);
-            terminal.style.color = "red";
-            terminal.innerHTML = `
-> ERROR: CLIPBOARD ACCESS DENIED<br>
-> DETAILS: ${err}
+> <b>STATUS:</b> COPIED TO CLIPBOARD${label ? " (" + label + ")" : ""}
             `;
-        });
+        }
+
+        function showError(message) {
+            clearInterval(scrambleInterval);
+            clearTimeout(hardStop);
+            terminal.style.color = "#FF4444";
+            terminal.innerHTML = `
+> ERROR: CLIPBOARD ACCESS FAILED<br>
+> DETAILS: ${message}<br>
+> TIP: Long‑press here to select and copy the prompt manually on this device.
+            `;
+        }
+
+        if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(promptText).then(() => {
+                showSuccess("");
+            }).catch(err => {
+                const ok = copyToClipboardFallback(promptText);
+                if (ok) {
+                    showSuccess("FALLBACK");
+                } else {
+                    showError(err && err.message ? err.message : err);
+                }
+            });
+        } else {
+            const ok = copyToClipboardFallback(promptText);
+            if (ok) {
+                showSuccess("FALLBACK");
+            } else {
+                showError("Clipboard API not supported");
+            }
+        }
     }
-    </script>
+</script>
+
 </body>
 </html>
