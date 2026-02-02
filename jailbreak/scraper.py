@@ -1,62 +1,71 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import time
 
-# URL of the Stanford Encyclopedia of Philosophy Table of Contents
 URL = "https://plato.stanford.edu/contents.html"
 BASE_URL = "https://plato.stanford.edu/"
 
 print("Contacting the Stanford Encyclopedia...")
 try:
     response = requests.get(URL)
-    response.raise_for_status() # Check for errors
+    response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    # Find the main list of entries
-    # The SEP contents page usually lists entries in a div with id 'content' or similar, 
-    # but simply looking for all links containing "entries/" is the most robust method.
     entries = []
-    
-    # Get all links
     links = soup.find_all('a')
-    
+
     for link in links:
         href = link.get('href')
-        title = link.get_text()
-        
-        # Filter for actual entry links
-        if href and "entries/" in href and title:
-            # Clean up the title (remove newlines/extra spaces)
-            clean_title = " ".join(title.split())
-            
-            # Construct full URL
-            full_url = BASE_URL + href
-            
-            # Create the object
-            entry_obj = {
-                "title": clean_title,
-                "link": full_url
-            }
-            
-            entries.append(entry_obj)
+        if href and "entries/" in href:
+            full_url = BASE_URL + href.lstrip('/')
+            entries.append(full_url)
 
-    # Remove duplicates if any (based on link)
-    seen = set()
-    unique_entries = []
-    for d in entries:
-        if d['link'] not in seen:
-            seen.add(d['link'])
-            unique_entries.append(d)
+    # dedupe
+    entries = sorted(set(entries))
 
-    print(f"Successfully scraped {len(unique_entries)} articles.")
+    def get_entry_title(entry_url):
+        try:
+            r = requests.get(entry_url)
+            r.raise_for_status()
+            s = BeautifulSoup(r.content, 'html.parser')
 
-    # --- SAVE TO FILE ---
-    # We write this directly as a JavaScript file so you can use it immediately.
+            # try main H1 first
+            h1 = s.find('h1')
+            if h1 and h1.get_text(strip=True):
+                return h1.get_text(strip=True)
+
+            # fallback: <title> tag, strip the trailing " - Stanford Encyclopedia of Philosophy"
+            if s.title and s.title.string:
+                title_text = s.title.string.strip()
+                suffix = " - Stanford Encyclopedia of Philosophy"
+                if title_text.endswith(suffix):
+                    title_text = title_text[:-len(suffix)]
+                return title_text
+
+            return None
+        except Exception as e:
+            print(f"Error getting title for {entry_url}: {e}")
+            return None
+
+    output = []
+    for i, url in enumerate(entries, start=1):
+        print(f"[{i}/{len(entries)}] Fetching title for {url}")
+        title = get_entry_title(url)
+        if title:
+            output.append({"title": title, "link": url})
+        else:
+            # fall back to last path component if all else fails
+            slug = url.rstrip('/').split('/')[-1].replace('-', ' ')
+            output.append({"title": slug, "link": url})
+        time.sleep(0.5)  # be polite
+
+    print(f"Successfully scraped {len(output)} articles.")
+
     with open("sep_data.js", "w", encoding="utf-8") as f:
         f.write("// AUTO-GENERATED SEP DATABASE\n")
         f.write("const articles = ")
-        # indent=4 makes it readable, verify the format fits JS syntax
-        json_string = json.dumps(unique_entries, indent=4)
+        json_string = json.dumps(output, indent=4, ensure_ascii=False)
         f.write(json_string)
         f.write(";")
 

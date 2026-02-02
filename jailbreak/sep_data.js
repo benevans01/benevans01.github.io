@@ -1,11 +1,15 @@
 // AUTO-GENERATED SEP DATABASE
 const articles = [
     {
-        "title": "abduction",
+        "title": "18th Century German Philosophy Prior to Kant",
+        "link": "https://plato.stanford.edu/entries/18thGerman-preKant/"
+    },
+    {
+        "title": "Abduction",
         "link": "https://plato.stanford.edu/entries/abduction/"
     },
     {
-        "title": "Abelard [Abailard], Peter",
+        "title": "Peter Abelard",
         "link": "https://plato.stanford.edu/entries/abelard/"
     },
     {
@@ -13,7 +17,7 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/abhidharma/"
     },
     {
-        "title": "abilities",
+        "title": "Abilities",
         "link": "https://plato.stanford.edu/entries/abilities/"
     },
     {
@@ -21,280 +25,168 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/abner-burgos/"
     },
     {
-        "title": "abortion, ethics of",
+        "title": "The Ethics of Abortion",
         "link": "https://plato.stanford.edu/entries/abortion/"
     },
     {
-        "title": "Abrabanel, Judah",
+        "title": "Judah Abrabanel",
         "link": "https://plato.stanford.edu/entries/abrabanel/"
     },
     {
-        "title": "abstract objects",
+        "title": "Abraham Ibn Daud",
+        "link": "https://plato.stanford.edu/entries/abraham-daud/"
+    },
+    {
+        "title": "Abstract Objects",
         "link": "https://plato.stanford.edu/entries/abstract-objects/"
     },
     {
-        "title": "essential vs. accidental properties",
-        "link": "https://plato.stanford.edu/entries/essential-accidental/"
+        "title": "Abu Bakr al-Razi",
+        "link": "https://plato.stanford.edu/entries/abu-bakr-al-razi/"
     },
     {
-        "title": "action",
-        "link": "https://plato.stanford.edu/entries/action/"
-    },
-    {
-        "title": "agency: shared",
-        "link": "https://plato.stanford.edu/entries/shared-agency/"
-    },
-    {
-        "title": "logic: action",
-        "link": "https://plato.stanford.edu/entries/logic-action/"
-    },
-    {
-        "title": "practical reason: and the structure of actions",
-        "link": "https://plato.stanford.edu/entries/practical-reason-action/"
-    },
-    {
-        "title": "reasons for action: agent-neutral vs. agent-relative",
-        "link": "https://plato.stanford.edu/entries/reasons-agent/"
-    },
-    {
-        "title": "reasons for action: internal vs. external",
-        "link": "https://plato.stanford.edu/entries/reasons-internal-external/"
-    },
-    {
-        "title": "reasons for action: justification, motivation, explanation",
-        "link": "https://plato.stanford.edu/entries/reasons-just-vs-expl/"
-    },
-    {
-        "title": "action-based theories of perception",
+        "title": "Action-based Theories of Perception",
         "link": "https://plato.stanford.edu/entries/action-perception/"
     },
     {
-        "title": "quantum mechanics: action at a distance in",
-        "link": "https://plato.stanford.edu/entries/qm-action-distance/"
+        "title": "Action",
+        "link": "https://plato.stanford.edu/entries/action/"
     },
     {
-        "title": "possibilism-actualism debate",
-        "link": "https://plato.stanford.edu/entries/possibilism-actualism/"
-    },
-    {
-        "title": "actualism and possibilism in ethics",
+        "title": "Actualism and Possibilism in Ethics",
         "link": "https://plato.stanford.edu/entries/actualism-possibilism-ethics/"
     },
     {
-        "title": "adaptationism",
+        "title": "Adaptationism",
         "link": "https://plato.stanford.edu/entries/adaptationism/"
     },
     {
-        "title": "Addams, Jane",
+        "title": "Jane Addams",
         "link": "https://plato.stanford.edu/entries/addams-jane/"
     },
     {
-        "title": "Adorno, Theodor W.",
+        "title": "Theodor W. Adorno",
         "link": "https://plato.stanford.edu/entries/adorno/"
     },
     {
-        "title": "advance directives",
+        "title": "Advance Directives and Substitute Decision-Making",
         "link": "https://plato.stanford.edu/entries/advance-directives/"
     },
     {
-        "title": "Giles of Rome",
-        "link": "https://plato.stanford.edu/entries/giles/"
-    },
-    {
-        "title": "skepticism: ancient",
-        "link": "https://plato.stanford.edu/entries/skepticism-ancient/"
-    },
-    {
-        "title": "aesthetic, concept of the",
+        "title": "The Concept of the Aesthetic",
         "link": "https://plato.stanford.edu/entries/aesthetic-concept/"
     },
     {
-        "title": "aesthetic experience",
+        "title": "Aesthetic Experience",
         "link": "https://plato.stanford.edu/entries/aesthetic-experience/"
     },
     {
-        "title": "19th Century Romantic",
-        "link": "https://plato.stanford.edu/entries/aesthetics-19th-romantic/"
-    },
-    {
-        "title": "aesthetic judgment",
+        "title": "Aesthetic Judgment",
         "link": "https://plato.stanford.edu/entries/aesthetic-judgment/"
     },
     {
-        "title": "Beardsley, Monroe C.: aesthetics",
-        "link": "https://plato.stanford.edu/entries/beardsley-aesthetics/"
-    },
-    {
-        "title": "British, in the 18th century",
-        "link": "https://plato.stanford.edu/entries/aesthetics-18th-british/"
-    },
-    {
-        "title": "and cognitive science",
-        "link": "https://plato.stanford.edu/entries/aesthetics-cogsci/"
-    },
-    {
-        "title": "Collingwood, Robin George: aesthetics",
-        "link": "https://plato.stanford.edu/entries/collingwood-aesthetics/"
-    },
-    {
-        "title": "Croce, Benedetto: aesthetics",
-        "link": "https://plato.stanford.edu/entries/croce-aesthetics/"
-    },
-    {
-        "title": "cultural heritage, ethics of",
-        "link": "https://plato.stanford.edu/entries/ethics-cultural-heritage/"
-    },
-    {
-        "title": "art, definition of",
-        "link": "https://plato.stanford.edu/entries/art-definition/"
-    },
-    {
-        "title": "Dewey, John: aesthetics",
-        "link": "https://plato.stanford.edu/entries/dewey-aesthetics/"
-    },
-    {
-        "title": "environmental",
-        "link": "https://plato.stanford.edu/entries/environmental-aesthetics/"
-    },
-    {
-        "title": "existentialist",
-        "link": "https://plato.stanford.edu/entries/aesthetics-existentialist/"
-    },
-    {
-        "title": "feminist philosophy, interventions: aesthetics",
-        "link": "https://plato.stanford.edu/entries/feminism-aesthetics/"
-    },
-    {
-        "title": "French, in the 18th century",
-        "link": "https://plato.stanford.edu/entries/aesthetics-18th-french/"
-    },
-    {
-        "title": "Gadamer, Hans-Georg: aesthetics",
-        "link": "https://plato.stanford.edu/entries/gadamer-aesthetics/"
-    },
-    {
-        "title": "German, in the 18th century",
-        "link": "https://plato.stanford.edu/entries/aesthetics-18th-german/"
-    },
-    {
-        "title": "Goodman, Nelson: aesthetics",
-        "link": "https://plato.stanford.edu/entries/goodman-aesthetics/"
-    },
-    {
-        "title": "Hegel, Georg Wilhelm Friedrich: aesthetics",
-        "link": "https://plato.stanford.edu/entries/hegel-aesthetics/"
-    },
-    {
-        "title": "Heidegger, Martin: aesthetics",
-        "link": "https://plato.stanford.edu/entries/heidegger-aesthetics/"
-    },
-    {
-        "title": "Hume, David: aesthetics",
-        "link": "https://plato.stanford.edu/entries/hume-aesthetics/"
-    },
-    {
-        "title": "in critical theory",
-        "link": "https://plato.stanford.edu/entries/aesthetics-critical-theory/"
-    },
-    {
-        "title": "Japanese Philosophy: aesthetics",
-        "link": "https://plato.stanford.edu/entries/japanese-aesthetics/"
-    },
-    {
-        "title": "Nietzsche, Friedrich: aesthetics",
-        "link": "https://plato.stanford.edu/entries/nietzsche-aesthetics/"
-    },
-    {
-        "title": "Plato: aesthetics",
-        "link": "https://plato.stanford.edu/entries/plato-aesthetics/"
-    },
-    {
-        "title": "Schopenhauer, Arthur: aesthetics",
-        "link": "https://plato.stanford.edu/entries/schopenhauer-aesthetics/"
-    },
-    {
-        "title": "Wittgenstein, Ludwig: aesthetics",
-        "link": "https://plato.stanford.edu/entries/wittgenstein-aesthetics/"
-    },
-    {
-        "title": "aesthetics of the everyday",
-        "link": "https://plato.stanford.edu/entries/aesthetics-of-everyday/"
-    },
-    {
-        "title": "aesthetic testimony",
+        "title": "Aesthetic Testimony",
         "link": "https://plato.stanford.edu/entries/aesthetic-testimony/"
     },
     {
-        "title": "affirmative action",
+        "title": "18th Century British Aesthetics",
+        "link": "https://plato.stanford.edu/entries/aesthetics-18th-british/"
+    },
+    {
+        "title": "18th Century French Aesthetics",
+        "link": "https://plato.stanford.edu/entries/aesthetics-18th-french/"
+    },
+    {
+        "title": "18th Century German Aesthetics",
+        "link": "https://plato.stanford.edu/entries/aesthetics-18th-german/"
+    },
+    {
+        "title": "19th Century Romantic Aesthetics",
+        "link": "https://plato.stanford.edu/entries/aesthetics-19th-romantic/"
+    },
+    {
+        "title": "Aesthetics and Cognitive Science",
+        "link": "https://plato.stanford.edu/entries/aesthetics-cogsci/"
+    },
+    {
+        "title": "Aesthetics in Critical Theory",
+        "link": "https://plato.stanford.edu/entries/aesthetics-critical-theory/"
+    },
+    {
+        "title": "Existentialist Aesthetics",
+        "link": "https://plato.stanford.edu/entries/aesthetics-existentialist/"
+    },
+    {
+        "title": "Aesthetics of the Everyday",
+        "link": "https://plato.stanford.edu/entries/aesthetics-of-everyday/"
+    },
+    {
+        "title": "Affirmative Action",
         "link": "https://plato.stanford.edu/entries/affirmative-action/"
+    },
+    {
+        "title": "African Ethics",
+        "link": "https://plato.stanford.edu/entries/african-ethics/"
+    },
+    {
+        "title": "African Sage Philosophy",
+        "link": "https://plato.stanford.edu/entries/african-sage/"
+    },
+    {
+        "title": "Contemporary Africana Philosophy",
+        "link": "https://plato.stanford.edu/entries/africana-contemporary/"
     },
     {
         "title": "Africana Philosophy",
         "link": "https://plato.stanford.edu/entries/africana/"
     },
     {
-        "title": "contemporary",
-        "link": "https://plato.stanford.edu/entries/africana-contemporary/"
-    },
-    {
-        "title": "ethics",
-        "link": "https://plato.stanford.edu/entries/african-ethics/"
-    },
-    {
-        "title": "sage philosophy",
-        "link": "https://plato.stanford.edu/entries/african-sage/"
-    },
-    {
-        "title": "afterlife",
+        "title": "Afterlife",
         "link": "https://plato.stanford.edu/entries/afterlife/"
     },
     {
-        "title": "agency",
+        "title": "Agency",
         "link": "https://plato.stanford.edu/entries/agency/"
     },
     {
-        "title": "modeling in the philosophy of science, agent-based",
+        "title": "Agent-Based Modeling in the Philosophy of Science",
         "link": "https://plato.stanford.edu/entries/agent-modeling-philscience/"
     },
     {
-        "title": "atheism and agnosticism",
-        "link": "https://plato.stanford.edu/entries/atheism-agnosticism/"
-    },
-    {
-        "title": "Agrippa von Nettesheim, Heinrich Cornelius",
+        "title": "Heinrich Cornelius Agrippa von Nettesheim",
         "link": "https://plato.stanford.edu/entries/agrippa-nettesheim/"
     },
     {
-        "title": "of the person",
+        "title": "Akan Philosophy of the Person",
         "link": "https://plato.stanford.edu/entries/akan-person/"
     },
     {
-        "title": "weakness of will",
-        "link": "https://plato.stanford.edu/entries/weakness-will/"
+        "title": "‘Abd al-Latif al-Baghdadi",
+        "link": "https://plato.stanford.edu/entries/al-baghdadi/"
     },
     {
-        "title": "al-Baghdadi, \u2018Abd al-Latif",
-        "link": "https://plato.stanford.edu/entries/al-baghdadi/"
+        "title": "Fakhr al-Din al-Razi",
+        "link": "https://plato.stanford.edu/entries/al-din-al-razi/"
+    },
+    {
+        "title": "al-Farabi’s Philosophy of Logic and Language",
+        "link": "https://plato.stanford.edu/entries/al-farabi-logic/"
+    },
+    {
+        "title": "al-Fārābī’s Metaphysics",
+        "link": "https://plato.stanford.edu/entries/al-farabi-metaphysics/"
+    },
+    {
+        "title": "al-Farabi’s Psychology and Epistemology",
+        "link": "https://plato.stanford.edu/entries/al-farabi-psych/"
+    },
+    {
+        "title": "al-Farabi’s Philosophy of Society and Religion",
+        "link": "https://plato.stanford.edu/entries/al-farabi-soc-rel/"
     },
     {
         "title": "al-Farabi",
         "link": "https://plato.stanford.edu/entries/al-farabi/"
-    },
-    {
-        "title": "metaphysics",
-        "link": "https://plato.stanford.edu/entries/al-farabi-metaphysics/"
-    },
-    {
-        "title": "philosophy of logic and language",
-        "link": "https://plato.stanford.edu/entries/al-farabi-logic/"
-    },
-    {
-        "title": "philosophy of society and religion",
-        "link": "https://plato.stanford.edu/entries/al-farabi-soc-rel/"
-    },
-    {
-        "title": "psychology and epistemology",
-        "link": "https://plato.stanford.edu/entries/al-farabi-psych/"
     },
     {
         "title": "al-Ghazali",
@@ -305,19 +197,15 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/al-kindi/"
     },
     {
-        "title": "al-Qudat, \u02bfAyn",
+        "title": "ʿAyn al-Qudat",
         "link": "https://plato.stanford.edu/entries/al-qudat/"
     },
     {
-        "title": "al-Razi, Abu Bakr",
-        "link": "https://plato.stanford.edu/entries/abu-bakr-al-razi/"
+        "title": "Alain LeRoy Locke",
+        "link": "https://plato.stanford.edu/entries/alain-locke/"
     },
     {
-        "title": "al-Razi, Fakhr al-Din",
-        "link": "https://plato.stanford.edu/entries/al-din-al-razi/"
-    },
-    {
-        "title": "Albalag, Isaac",
+        "title": "Isaac Albalag",
         "link": "https://plato.stanford.edu/entries/albalag/"
     },
     {
@@ -325,15 +213,15 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/alberic-paris/"
     },
     {
+        "title": "Albert the Great",
+        "link": "https://plato.stanford.edu/entries/albert-great/"
+    },
+    {
         "title": "Albert of Saxony",
         "link": "https://plato.stanford.edu/entries/albert-saxony/"
     },
     {
-        "title": "Albert the Great [= Albertus Magnus]",
-        "link": "https://plato.stanford.edu/entries/albert-great/"
-    },
-    {
-        "title": "Albo, Joseph",
+        "title": "Joseph Albo",
         "link": "https://plato.stanford.edu/entries/albo-joseph/"
     },
     {
@@ -341,51 +229,63 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/alcmaeon/"
     },
     {
-        "title": "Alexander, Samuel",
-        "link": "https://plato.stanford.edu/entries/alexander/"
-    },
-    {
         "title": "Alexander of Aphrodisias",
         "link": "https://plato.stanford.edu/entries/alexander-aphrodisias/"
     },
     {
-        "title": "algebra",
-        "link": "https://plato.stanford.edu/entries/algebra/"
+        "title": "Alexander Crummell",
+        "link": "https://plato.stanford.edu/entries/alexander-crummell/"
     },
     {
-        "title": "algebra of logic tradition",
+        "title": "Alexander von Humboldt",
+        "link": "https://plato.stanford.edu/entries/alexander-humboldt/"
+    },
+    {
+        "title": "Samuel Alexander",
+        "link": "https://plato.stanford.edu/entries/alexander/"
+    },
+    {
+        "title": "The Algebra of Logic Tradition",
         "link": "https://plato.stanford.edu/entries/algebra-logic-tradition/"
     },
     {
-        "title": "fairness: algorithmic",
+        "title": "Algebra",
+        "link": "https://plato.stanford.edu/entries/algebra/"
+    },
+    {
+        "title": "Algorithmic Fairness",
         "link": "https://plato.stanford.edu/entries/algorithmic-fairness/"
     },
     {
-        "title": "alienation",
+        "title": "Alienation",
         "link": "https://plato.stanford.edu/entries/alienation/"
     },
     {
-        "title": "Althusser, Louis",
+        "title": "Moral Responsibility and the Principle of Alternative Possibilities",
+        "link": "https://plato.stanford.edu/entries/alternative-possibilities/"
+    },
+    {
+        "title": "Louis Althusser",
         "link": "https://plato.stanford.edu/entries/althusser/"
     },
     {
-        "title": "altruism",
-        "link": "https://plato.stanford.edu/entries/altruism/"
-    },
-    {
-        "title": "biological",
+        "title": "Biological Altruism",
         "link": "https://plato.stanford.edu/entries/altruism-biological/"
     },
     {
-        "title": "empirical approaches",
+        "title": "Empirical Approaches to Altruism",
         "link": "https://plato.stanford.edu/entries/altruism-empirical/"
     },
     {
-        "title": "Alyngton, Robert",
+        "title": "Altruism",
+        "link": "https://plato.stanford.edu/entries/altruism/"
+    },
+    {
+        "title": "Robert Alyngton",
         "link": "https://plato.stanford.edu/entries/alyngton/"
     },
     {
-        "title": "ambiguity",
+        "title": "Ambiguity",
         "link": "https://plato.stanford.edu/entries/ambiguity/"
     },
     {
@@ -393,31 +293,23 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/ammonius/"
     },
     {
-        "title": "Plotinus",
-        "link": "https://plato.stanford.edu/entries/plotinus/"
-    },
-    {
-        "title": "medieval theories of",
+        "title": "Medieval Theories of Analogy",
         "link": "https://plato.stanford.edu/entries/analogy-medieval/"
     },
     {
-        "title": "analogy and analogical reasoning",
-        "link": "https://plato.stanford.edu/entries/reasoning-analogy/"
-    },
-    {
-        "title": "analysis",
+        "title": "Analysis",
         "link": "https://plato.stanford.edu/entries/analysis/"
     },
     {
-        "title": "analytic/synthetic distinction",
+        "title": "The Analytic/Synthetic Distinction",
         "link": "https://plato.stanford.edu/entries/analytic-synthetic/"
     },
     {
-        "title": "anaphora",
+        "title": "Anaphora",
         "link": "https://plato.stanford.edu/entries/anaphora/"
     },
     {
-        "title": "anarchism",
+        "title": "Anarchism",
         "link": "https://plato.stanford.edu/entries/anarchism/"
     },
     {
@@ -425,139 +317,119 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/anaxagoras/"
     },
     {
-        "title": "Pyrrho",
-        "link": "https://plato.stanford.edu/entries/pyrrho/"
+        "title": "Ancient Political Philosophy",
+        "link": "https://plato.stanford.edu/entries/ancient-political/"
     },
     {
-        "title": "Anderson, John",
+        "title": "Ancient Theories of Soul",
+        "link": "https://plato.stanford.edu/entries/ancient-soul/"
+    },
+    {
+        "title": "John Anderson",
         "link": "https://plato.stanford.edu/entries/anderson-john/"
     },
     {
-        "title": "Aristotle, commentators on",
-        "link": "https://plato.stanford.edu/entries/aristotle-commentators/"
-    },
-    {
-        "title": "cognition",
-        "link": "https://plato.stanford.edu/entries/cognition-animal/"
-    },
-    {
-        "title": "communication",
+        "title": "Animal Communication",
         "link": "https://plato.stanford.edu/entries/animal-communication/"
     },
     {
-        "title": "consciousness",
-        "link": "https://plato.stanford.edu/entries/consciousness-animal/"
-    },
-    {
-        "title": "social cognition",
+        "title": "Animal Social Cognition",
         "link": "https://plato.stanford.edu/entries/animal-social-cognition/"
     },
     {
-        "title": "animalism",
+        "title": "Animalism",
         "link": "https://plato.stanford.edu/entries/animalism/"
     },
     {
-        "title": "animals, moral status of",
-        "link": "https://plato.stanford.edu/entries/moral-animal/"
+        "title": "Anna Julia Cooper",
+        "link": "https://plato.stanford.edu/entries/anna-julia-cooper/"
     },
     {
-        "title": "anomalous monism",
+        "title": "Anomalous Monism",
         "link": "https://plato.stanford.edu/entries/anomalous-monism/"
     },
     {
-        "title": "Anscombe, Gertrude Elizabeth Margaret",
+        "title": "Gertrude Elizabeth Margaret Anscombe",
         "link": "https://plato.stanford.edu/entries/anscombe/"
     },
     {
-        "title": "Anselm of Canterbury [Anselm of Bec]",
+        "title": "Anselm of Canterbury",
         "link": "https://plato.stanford.edu/entries/anselm/"
-    },
-    {
-        "title": "moral anti-realism",
-        "link": "https://plato.stanford.edu/entries/moral-anti-realism/"
     },
     {
         "title": "Antiochus of Ascalon",
         "link": "https://plato.stanford.edu/entries/antiochus-ascalon/"
     },
     {
-        "title": "a priori justification and knowledge",
+        "title": "Antonio Rosmini",
+        "link": "https://plato.stanford.edu/entries/antonio-rosmini/"
+    },
+    {
+        "title": "A PrioriJustification and Knowledge",
         "link": "https://plato.stanford.edu/entries/apriori/"
     },
     {
-        "title": "perception: epistemological problems of",
-        "link": "https://plato.stanford.edu/entries/perception-episprob/"
-    },
-    {
-        "title": "skepticism",
-        "link": "https://plato.stanford.edu/entries/skepticism/"
-    },
-    {
-        "title": "Aquinas, Thomas",
-        "link": "https://plato.stanford.edu/entries/aquinas/"
-    },
-    {
-        "title": "moral, political, and legal philosophy",
+        "title": "Aquinas’ Moral, Political, and Legal Philosophy",
         "link": "https://plato.stanford.edu/entries/aquinas-moral-political/"
     },
     {
-        "title": "metaphysics",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-metaphysics/"
+        "title": "Thomas Aquinas",
+        "link": "https://plato.stanford.edu/entries/aquinas/"
     },
     {
-        "title": "natural philosophy and natural science",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-natural/"
+        "title": "Causation in Arabic and Islamic Thought",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-causation/"
     },
     {
-        "title": "philosophy of language and logic",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-language/"
-    },
-    {
-        "title": "philosophy of mathematics",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-phil-math/"
-    },
-    {
-        "title": "philosophy of religion",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-religion/"
-    },
-    {
-        "title": "psychology and philosophy of mind",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-mind/"
-    },
-    {
-        "title": "Greek sources",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-greek/"
-    },
-    {
-        "title": "influence of Arabic and Islamic Philosophy on Judaic thought",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-judaic/"
-    },
-    {
-        "title": "influence of Arabic and Islamic Philosophy on the Latin West",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-influence/"
-    },
-    {
-        "title": "essence and existence",
+        "title": "Essence and Existence in Arabic and Islamic Philosophy",
         "link": "https://plato.stanford.edu/entries/arabic-islamic-essence/"
     },
     {
-        "title": "Ibn Kamm\u016bna",
-        "link": "https://plato.stanford.edu/entries/ibn-kammuna/"
+        "title": "Greek Sources in Arabic and Islamic Philosophy",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-greek/"
     },
     {
-        "title": "Ikhw\u0101n al-Saf\u0101\u2019",
-        "link": "https://plato.stanford.edu/entries/ikhwan-al-safa/"
+        "title": "Influence of Arabic and Islamic Philosophy on the Latin West",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-influence/"
     },
     {
-        "title": "mysticism",
+        "title": "Influence of Arabic and Islamic Philosophy on Judaic Thought",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-judaic/"
+    },
+    {
+        "title": "Arabic and Islamic Philosophy of Language and Logic",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-language/"
+    },
+    {
+        "title": "Arabic and Islamic Metaphysics",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-metaphysics/"
+    },
+    {
+        "title": "Arabic and Islamic Psychology and Philosophy of Mind",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-mind/"
+    },
+    {
+        "title": "Mysticism in Arabic and Islamic Philosophy",
         "link": "https://plato.stanford.edu/entries/arabic-islamic-mysticism/"
+    },
+    {
+        "title": "Arabic and Islamic Natural Philosophy and Natural Science",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-natural/"
+    },
+    {
+        "title": "Arabic and Islamic Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-phil-math/"
+    },
+    {
+        "title": "Arabic and Islamic Philosophy of Religion",
+        "link": "https://plato.stanford.edu/entries/arabic-islamic-religion/"
     },
     {
         "title": "Arcesilaus",
         "link": "https://plato.stanford.edu/entries/arcesilaus/"
     },
     {
-        "title": "architecture, philosophy of",
+        "title": "Philosophy of Architecture",
         "link": "https://plato.stanford.edu/entries/architecture/"
     },
     {
@@ -565,571 +437,395 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/archytas/"
     },
     {
-        "title": "Arendt, Hannah",
+        "title": "Hannah Arendt",
         "link": "https://plato.stanford.edu/entries/arendt/"
     },
     {
-        "title": "ethics: ancient",
-        "link": "https://plato.stanford.edu/entries/ethics-ancient/"
-    },
-    {
-        "title": "argument and argumentation",
+        "title": "Argument and Argumentation",
         "link": "https://plato.stanford.edu/entries/argument/"
     },
     {
-        "title": "epistemic utility arguments for epistemic norms",
-        "link": "https://plato.stanford.edu/entries/epistemic-utility/"
+        "title": "Aristotelianism in the Renaissance",
+        "link": "https://plato.stanford.edu/entries/aristotelianism-renaissance/"
     },
     {
-        "title": "in the Renaissance",
-        "link": "https://plato.stanford.edu/entries/aristotelianism-renaissance/"
+        "title": "Aristotle’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/aristotle-aesthetics/"
+    },
+    {
+        "title": "Aristotle’s Biology",
+        "link": "https://plato.stanford.edu/entries/aristotle-biology/"
+    },
+    {
+        "title": "Aristotle’s Categories",
+        "link": "https://plato.stanford.edu/entries/aristotle-categories/"
+    },
+    {
+        "title": "Aristotle on Causality",
+        "link": "https://plato.stanford.edu/entries/aristotle-causality/"
+    },
+    {
+        "title": "Commentators on Aristotle",
+        "link": "https://plato.stanford.edu/entries/aristotle-commentators/"
+    },
+    {
+        "title": "Aristotle’sDe Motu Animalium",
+        "link": "https://plato.stanford.edu/entries/aristotle-de-motu/"
+    },
+    {
+        "title": "Aristotle’s Ethics",
+        "link": "https://plato.stanford.edu/entries/aristotle-ethics/"
+    },
+    {
+        "title": "Aristotle’s Logic",
+        "link": "https://plato.stanford.edu/entries/aristotle-logic/"
+    },
+    {
+        "title": "Aristotle and Mathematics",
+        "link": "https://plato.stanford.edu/entries/aristotle-mathematics/"
+    },
+    {
+        "title": "Aristotle’s Metaphysics",
+        "link": "https://plato.stanford.edu/entries/aristotle-metaphysics/"
+    },
+    {
+        "title": "Aristotle’s Natural Philosophy",
+        "link": "https://plato.stanford.edu/entries/aristotle-natphil/"
+    },
+    {
+        "title": "Aristotle on Non-contradiction",
+        "link": "https://plato.stanford.edu/entries/aristotle-noncontradiction/"
+    },
+    {
+        "title": "Aristotle’s Political Theory",
+        "link": "https://plato.stanford.edu/entries/aristotle-politics/"
+    },
+    {
+        "title": "Aristotle’s Psychology",
+        "link": "https://plato.stanford.edu/entries/aristotle-psychology/"
+    },
+    {
+        "title": "Aristotle’s Rhetoric",
+        "link": "https://plato.stanford.edu/entries/aristotle-rhetoric/"
+    },
+    {
+        "title": "The Textual Transmission of the Aristotelian Corpus",
+        "link": "https://plato.stanford.edu/entries/aristotle-text/"
     },
     {
         "title": "Aristotle",
         "link": "https://plato.stanford.edu/entries/aristotle/"
     },
     {
-        "title": "De Motu Animalium",
-        "link": "https://plato.stanford.edu/entries/aristotle-de-motu/"
-    },
-    {
-        "title": "David",
-        "link": "https://plato.stanford.edu/entries/david/"
-    },
-    {
-        "title": "Elias",
-        "link": "https://plato.stanford.edu/entries/elias/"
-    },
-    {
-        "title": "Olympiodorus",
-        "link": "https://plato.stanford.edu/entries/olympiodorus/"
-    },
-    {
-        "title": "Philoponus",
-        "link": "https://plato.stanford.edu/entries/philoponus/"
-    },
-    {
-        "title": "Simplicius",
-        "link": "https://plato.stanford.edu/entries/simplicius/"
-    },
-    {
-        "title": "aesthetics",
-        "link": "https://plato.stanford.edu/entries/aristotle-aesthetics/"
-    },
-    {
-        "title": "biology",
-        "link": "https://plato.stanford.edu/entries/aristotle-biology/"
-    },
-    {
-        "title": "categories",
-        "link": "https://plato.stanford.edu/entries/aristotle-categories/"
-    },
-    {
-        "title": "ethics",
-        "link": "https://plato.stanford.edu/entries/aristotle-ethics/"
-    },
-    {
-        "title": "logic",
-        "link": "https://plato.stanford.edu/entries/aristotle-logic/"
-    },
-    {
-        "title": "metaphysics",
-        "link": "https://plato.stanford.edu/entries/aristotle-metaphysics/"
-    },
-    {
-        "title": "political theory",
-        "link": "https://plato.stanford.edu/entries/aristotle-politics/"
-    },
-    {
-        "title": "psychology",
-        "link": "https://plato.stanford.edu/entries/aristotle-psychology/"
-    },
-    {
-        "title": "rhetoric",
-        "link": "https://plato.stanford.edu/entries/aristotle-rhetoric/"
-    },
-    {
-        "title": "causality",
-        "link": "https://plato.stanford.edu/entries/aristotle-causality/"
-    },
-    {
-        "title": "mathematics",
-        "link": "https://plato.stanford.edu/entries/aristotle-mathematics/"
-    },
-    {
-        "title": "natural philosophy",
-        "link": "https://plato.stanford.edu/entries/aristotle-natphil/"
-    },
-    {
-        "title": "on non-contradiction",
-        "link": "https://plato.stanford.edu/entries/aristotle-noncontradiction/"
-    },
-    {
-        "title": "textual transmission of Aristotelian corpus",
-        "link": "https://plato.stanford.edu/entries/aristotle-text/"
-    },
-    {
-        "title": "Arnauld, Antoine",
+        "title": "Antoine Arnauld",
         "link": "https://plato.stanford.edu/entries/arnauld/"
     },
     {
-        "title": "Voltaire",
-        "link": "https://plato.stanford.edu/entries/voltaire/"
-    },
-    {
-        "title": "Arrow\u2019s theorem",
+        "title": "Arrow’s Theorem",
         "link": "https://plato.stanford.edu/entries/arrows-theorem/"
     },
     {
-        "title": "erotic",
-        "link": "https://plato.stanford.edu/entries/erotic-art/"
+        "title": "The Definition of Art",
+        "link": "https://plato.stanford.edu/entries/art-definition/"
     },
     {
-        "title": "art, conceptual",
-        "link": "https://plato.stanford.edu/entries/conceptual-art/"
+        "title": "History of the Ontology of Art",
+        "link": "https://plato.stanford.edu/entries/art-ontology-history/"
     },
     {
-        "title": "experimental philosophy of",
-        "link": "https://plato.stanford.edu/entries/experimental-aesthetics/"
-    },
-    {
-        "title": "artifact",
+        "title": "Artifact",
         "link": "https://plato.stanford.edu/entries/artifact/"
     },
     {
-        "title": "artificial intelligence",
+        "title": "Artificial Intelligence",
         "link": "https://plato.stanford.edu/entries/artificial-intelligence/"
     },
     {
-        "title": "reasoning: automated",
-        "link": "https://plato.stanford.edu/entries/reasoning-automated/"
-    },
-    {
-        "title": "belief, formal representations of",
-        "link": "https://plato.stanford.edu/entries/formal-belief/"
-    },
-    {
-        "title": "Chinese room argument",
-        "link": "https://plato.stanford.edu/entries/chinese-room/"
-    },
-    {
-        "title": "connectionism",
-        "link": "https://plato.stanford.edu/entries/connectionism/"
-    },
-    {
-        "title": "reasoning: defeasible",
-        "link": "https://plato.stanford.edu/entries/reasoning-defeasible/"
-    },
-    {
-        "title": "ethics of",
-        "link": "https://plato.stanford.edu/entries/ethics-ai/"
-    },
-    {
-        "title": "frame problem",
-        "link": "https://plato.stanford.edu/entries/frame-problem/"
-    },
-    {
-        "title": "logic-based",
-        "link": "https://plato.stanford.edu/entries/logic-ai/"
-    },
-    {
-        "title": "Turing test",
-        "link": "https://plato.stanford.edu/entries/turing-test/"
-    },
-    {
-        "title": "tense and aspect",
-        "link": "https://plato.stanford.edu/entries/tense-aspect/"
-    },
-    {
-        "title": "assertion",
+        "title": "Assertion",
         "link": "https://plato.stanford.edu/entries/assertion/"
     },
     {
-        "title": "associationist theories of thought",
+        "title": "Associationist Theories of Thought",
         "link": "https://plato.stanford.edu/entries/associationist-thought/"
     },
     {
-        "title": "Astell, Mary",
+        "title": "Mary Astell",
         "link": "https://plato.stanford.edu/entries/astell/"
     },
     {
-        "title": "17th to 20th century",
-        "link": "https://plato.stanford.edu/entries/atomism-modern/"
+        "title": "Atheism and Agnosticism",
+        "link": "https://plato.stanford.edu/entries/atheism-agnosticism/"
     },
     {
-        "title": "ancient",
+        "title": "Ancient Atomism",
         "link": "https://plato.stanford.edu/entries/atomism-ancient/"
     },
     {
-        "title": "atonement",
+        "title": "Atomism from the 17th to the 20th Century",
+        "link": "https://plato.stanford.edu/entries/atomism-modern/"
+    },
+    {
+        "title": "Atonement",
         "link": "https://plato.stanford.edu/entries/atonement/"
     },
     {
-        "title": "attention",
+        "title": "Attention",
         "link": "https://plato.stanford.edu/entries/attention/"
     },
     {
-        "title": "properties",
-        "link": "https://plato.stanford.edu/entries/properties/"
-    },
-    {
-        "title": "perception: auditory",
-        "link": "https://plato.stanford.edu/entries/perception-auditory/"
+        "title": "August Wilhelm Rehberg",
+        "link": "https://plato.stanford.edu/entries/august-rehberg/"
     },
     {
         "title": "Augustine of Hippo",
         "link": "https://plato.stanford.edu/entries/augustine/"
     },
     {
-        "title": "Auriol [Aureol, Aureoli], Peter",
+        "title": "Peter Auriol",
         "link": "https://plato.stanford.edu/entries/auriol/"
     },
     {
-        "title": "Austin, John",
-        "link": "https://plato.stanford.edu/entries/austin-john/"
-    },
-    {
-        "title": "Austin, John Langshaw",
+        "title": "John Langshaw Austin",
         "link": "https://plato.stanford.edu/entries/austin-jl/"
     },
     {
-        "title": "authenticity",
+        "title": "John Austin",
+        "link": "https://plato.stanford.edu/entries/austin-john/"
+    },
+    {
+        "title": "Authenticity",
         "link": "https://plato.stanford.edu/entries/authenticity/"
     },
     {
-        "title": "authority",
+        "title": "Authority",
         "link": "https://plato.stanford.edu/entries/authority/"
     },
     {
-        "title": "legal obligation and authority",
-        "link": "https://plato.stanford.edu/entries/legal-obligation/"
-    },
-    {
-        "title": "informed consent",
-        "link": "https://plato.stanford.edu/entries/informed-consent/"
-    },
-    {
-        "title": "in moral and political philosophy",
+        "title": "Autonomy in Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/autonomy-moral/"
     },
     {
-        "title": "personal",
-        "link": "https://plato.stanford.edu/entries/personal-autonomy/"
+        "title": "Nicholas of Autrecourt",
+        "link": "https://plato.stanford.edu/entries/autrecourt/"
     },
     {
-        "title": "Ibn Rushd",
-        "link": "https://plato.stanford.edu/entries/ibn-rushd/"
+        "title": "The Axiom of Choice",
+        "link": "https://plato.stanford.edu/entries/axiom-choice/"
     },
     {
-        "title": "Ibn Rushd: natural philosophy",
-        "link": "https://plato.stanford.edu/entries/ibn-rushd-natural/"
-    },
-    {
-        "title": "Ibn Gabirol, Solomon",
-        "link": "https://plato.stanford.edu/entries/ibn-gabirol/"
-    },
-    {
-        "title": "Ibn Sina",
-        "link": "https://plato.stanford.edu/entries/ibn-sina/"
-    },
-    {
-        "title": "Ibn Sina: logic",
-        "link": "https://plato.stanford.edu/entries/ibn-sina-logic/"
-    },
-    {
-        "title": "Ibn Sina: metaphysics",
-        "link": "https://plato.stanford.edu/entries/ibn-sina-metaphysics/"
-    },
-    {
-        "title": "Ibn Sina: natural philosophy",
-        "link": "https://plato.stanford.edu/entries/ibn-sina-natural/"
-    },
-    {
-        "title": "bodily awareness",
-        "link": "https://plato.stanford.edu/entries/bodily-awareness/"
-    },
-    {
-        "title": "Ayer, Alfred Jules",
+        "title": "Alfred Jules Ayer",
         "link": "https://plato.stanford.edu/entries/ayer/"
     },
     {
-        "title": "Bacon, Francis",
-        "link": "https://plato.stanford.edu/entries/francis-bacon/"
+        "title": "Ayn Rand",
+        "link": "https://plato.stanford.edu/entries/ayn-rand/"
     },
     {
-        "title": "Bacon, Roger",
-        "link": "https://plato.stanford.edu/entries/roger-bacon/"
-    },
-    {
-        "title": "Scottish Philosophy: in the 19th century",
-        "link": "https://plato.stanford.edu/entries/scottish-19th/"
-    },
-    {
-        "title": "basing relation, epistemic",
+        "title": "The Epistemic Basing Relation",
         "link": "https://plato.stanford.edu/entries/basing-epistemic/"
     },
     {
-        "title": "Baudrillard, Jean",
+        "title": "Jean Baudrillard",
         "link": "https://plato.stanford.edu/entries/baudrillard/"
     },
     {
-        "title": "Bauer, Bruno",
+        "title": "Bruno Bauer",
         "link": "https://plato.stanford.edu/entries/bauer/"
     },
     {
-        "title": "Bayes\u2019 Theorem",
+        "title": "Bayes’ Theorem",
         "link": "https://plato.stanford.edu/entries/bayes-theorem/"
     },
     {
-        "title": "Bayle, Pierre",
+        "title": "Pierre Bayle",
         "link": "https://plato.stanford.edu/entries/bayle/"
     },
     {
-        "title": "Scottish Philosophy: in the 18th Century",
-        "link": "https://plato.stanford.edu/entries/scottish-18th/"
+        "title": "Beardsley’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/beardsley-aesthetics/"
     },
     {
-        "title": "beauty",
+        "title": "Beauty",
         "link": "https://plato.stanford.edu/entries/beauty/"
     },
     {
-        "title": "Beauvoir, Simone de",
+        "title": "Simone de Beauvoir",
         "link": "https://plato.stanford.edu/entries/beauvoir/"
     },
     {
-        "title": "behaviorism",
+        "title": "Behaviorism",
         "link": "https://plato.stanford.edu/entries/behaviorism/"
     },
     {
-        "title": "existence",
-        "link": "https://plato.stanford.edu/entries/existence/"
-    },
-    {
-        "title": "time",
-        "link": "https://plato.stanford.edu/entries/time/"
-    },
-    {
-        "title": "space and time: being and becoming in modern physics",
-        "link": "https://plato.stanford.edu/entries/spacetime-bebecome/"
-    },
-    {
-        "title": "belief",
-        "link": "https://plato.stanford.edu/entries/belief/"
-    },
-    {
-        "title": "self-locating beliefs",
-        "link": "https://plato.stanford.edu/entries/self-locating-beliefs/"
-    },
-    {
-        "title": "belief, ethics of",
-        "link": "https://plato.stanford.edu/entries/ethics-belief/"
-    },
-    {
-        "title": "belief merging and judgment aggregation",
+        "title": "Belief Merging and Judgment Aggregation",
         "link": "https://plato.stanford.edu/entries/belief-merging/"
     },
     {
-        "title": "Bell\u2019s Theorem",
+        "title": "Belief",
+        "link": "https://plato.stanford.edu/entries/belief/"
+    },
+    {
+        "title": "Bell’s Theorem",
         "link": "https://plato.stanford.edu/entries/bell-theorem/"
     },
     {
-        "title": "beneficence, principle of",
-        "link": "https://plato.stanford.edu/entries/principle-beneficence/"
-    },
-    {
-        "title": "Benjamin, Walter",
+        "title": "Walter Benjamin",
         "link": "https://plato.stanford.edu/entries/benjamin/"
     },
     {
-        "title": "Bentham, Jeremy",
+        "title": "Jeremy Bentham",
         "link": "https://plato.stanford.edu/entries/bentham/"
     },
     {
-        "title": "Bergson, Henri",
+        "title": "Henri Bergson",
         "link": "https://plato.stanford.edu/entries/bergson/"
     },
     {
-        "title": "Berkeley, George",
+        "title": "George Berkeley",
         "link": "https://plato.stanford.edu/entries/berkeley/"
     },
     {
-        "title": "Berlin, Isaiah",
+        "title": "Isaiah Berlin",
         "link": "https://plato.stanford.edu/entries/berlin/"
     },
     {
-        "title": "Bessarion, Basil [Cardinal]",
+        "title": "Basil [Cardinal] Bessarion",
         "link": "https://plato.stanford.edu/entries/bessarion/"
     },
     {
-        "title": "bias, implicit",
-        "link": "https://plato.stanford.edu/entries/implicit-bias/"
-    },
-    {
-        "title": "binarium famosissimum [= most famous pair]",
+        "title": "Binarium Famosissimum",
         "link": "https://plato.stanford.edu/entries/binarium/"
     },
     {
-        "title": "ecology: biodiversity",
+        "title": "Biodiversity",
         "link": "https://plato.stanford.edu/entries/biodiversity/"
     },
     {
-        "title": "theories of",
-        "link": "https://plato.stanford.edu/entries/theories-biological-development/"
-    },
-    {
-        "title": "biological individuals",
-        "link": "https://plato.stanford.edu/entries/biology-individual/"
-    },
-    {
-        "title": "information: biological",
-        "link": "https://plato.stanford.edu/entries/information-biological/"
-    },
-    {
-        "title": "conservation biology",
-        "link": "https://plato.stanford.edu/entries/conservation-biology/"
-    },
-    {
-        "title": "developmental biology",
+        "title": "Developmental Biology",
         "link": "https://plato.stanford.edu/entries/biology-developmental/"
     },
     {
-        "title": "experiment in",
+        "title": "Experiment in Biology",
         "link": "https://plato.stanford.edu/entries/biology-experiment/"
     },
     {
-        "title": "molecular biology",
-        "link": "https://plato.stanford.edu/entries/molecular-biology/"
+        "title": "Biological Individuals",
+        "link": "https://plato.stanford.edu/entries/biology-individual/"
     },
     {
-        "title": "philosophy of",
+        "title": "Philosophy of Biology",
         "link": "https://plato.stanford.edu/entries/biology-philosophy/"
     },
     {
-        "title": "reduction, scientific: in biology",
-        "link": "https://plato.stanford.edu/entries/reduction-biology/"
-    },
-    {
-        "title": "teleology: teleological notions in biology",
-        "link": "https://plato.stanford.edu/entries/teleology-biology/"
-    },
-    {
-        "title": "feminist philosophy, interventions: philosophy of biology",
-        "link": "https://plato.stanford.edu/entries/feminist-philosophy-biology/"
-    },
-    {
-        "title": "biomedicine, philosophy of",
+        "title": "Philosophy of Biomedicine",
         "link": "https://plato.stanford.edu/entries/biomedicine/"
     },
     {
-        "title": "blame",
+        "title": "Black Reparations",
+        "link": "https://plato.stanford.edu/entries/black-reparations/"
+    },
+    {
+        "title": "Blame",
         "link": "https://plato.stanford.edu/entries/blame/"
     },
     {
-        "title": "Bloch, Ernst",
+        "title": "Ernst Bloch",
         "link": "https://plato.stanford.edu/entries/bloch/"
     },
     {
-        "title": "Bodin, Jean",
+        "title": "Bodily Awareness",
+        "link": "https://plato.stanford.edu/entries/bodily-awareness/"
+    },
+    {
+        "title": "Jean Bodin",
         "link": "https://plato.stanford.edu/entries/bodin/"
-    },
-    {
-        "title": "substance",
-        "link": "https://plato.stanford.edu/entries/substance/"
-    },
-    {
-        "title": "Boethius, Anicius Manlius Severinus",
-        "link": "https://plato.stanford.edu/entries/boethius/"
     },
     {
         "title": "Boethius of Dacia",
         "link": "https://plato.stanford.edu/entries/boethius-dacia/"
     },
     {
-        "title": "correspondence principle",
+        "title": "Anicius Manlius Severinus Boethius",
+        "link": "https://plato.stanford.edu/entries/boethius/"
+    },
+    {
+        "title": "Bohr’s Correspondence Principle",
         "link": "https://plato.stanford.edu/entries/bohr-correspondence/"
     },
     {
-        "title": "Bolzano, Bernard",
-        "link": "https://plato.stanford.edu/entries/bolzano/"
+        "title": "Bolzano’s Logic",
+        "link": "https://plato.stanford.edu/entries/bolzano-logic/"
     },
     {
-        "title": "logic",
-        "link": "https://plato.stanford.edu/entries/bolzano-logic/"
+        "title": "Bernard Bolzano",
+        "link": "https://plato.stanford.edu/entries/bolzano/"
     },
     {
         "title": "Bonaventure",
         "link": "https://plato.stanford.edu/entries/bonaventure/"
     },
     {
-        "title": "Boole, George",
-        "link": "https://plato.stanford.edu/entries/boole/"
-    },
-    {
-        "title": "the mathematics of",
+        "title": "The Mathematics of Boolean Algebra",
         "link": "https://plato.stanford.edu/entries/boolalg-math/"
     },
     {
-        "title": "Bosanquet, Bernard",
+        "title": "George Boole",
+        "link": "https://plato.stanford.edu/entries/boole/"
+    },
+    {
+        "title": "Bernard Bosanquet",
         "link": "https://plato.stanford.edu/entries/bosanquet/"
     },
     {
-        "title": "boundary",
+        "title": "Boundary",
         "link": "https://plato.stanford.edu/entries/boundary/"
     },
     {
-        "title": "bounded rationality",
+        "title": "Bounded Rationality",
         "link": "https://plato.stanford.edu/entries/bounded-rationality/"
     },
     {
-        "title": "Boyle, Robert",
+        "title": "Robert Boyle",
         "link": "https://plato.stanford.edu/entries/boyle/"
     },
     {
-        "title": "Bradley, Francis Herbert",
-        "link": "https://plato.stanford.edu/entries/bradley/"
-    },
-    {
-        "title": "moral philosophy",
+        "title": "Bradley’s Moral Philosophy",
         "link": "https://plato.stanford.edu/entries/bradley-moral/"
     },
     {
-        "title": "Regress",
+        "title": "Bradley’s Regress",
         "link": "https://plato.stanford.edu/entries/bradley-regress/"
     },
     {
-        "title": "death: definition of",
-        "link": "https://plato.stanford.edu/entries/death-definition/"
+        "title": "Francis Herbert Bradley",
+        "link": "https://plato.stanford.edu/entries/bradley/"
     },
     {
-        "title": "skepticism: and content externalism",
-        "link": "https://plato.stanford.edu/entries/skepticism-content-externalism/"
-    },
-    {
-        "title": "branching time",
+        "title": "Branching Time",
         "link": "https://plato.stanford.edu/entries/branching-time/"
     },
     {
-        "title": "Brentano, Franz",
-        "link": "https://plato.stanford.edu/entries/brentano/"
-    },
-    {
-        "title": "theory of judgement",
+        "title": "Brentano’s Theory of Judgement",
         "link": "https://plato.stanford.edu/entries/brentano-judgement/"
     },
     {
-        "title": "Broad, Charlie Dunbar",
+        "title": "Franz Brentano",
+        "link": "https://plato.stanford.edu/entries/brentano/"
+    },
+    {
+        "title": "Charlie Dunbar Broad",
         "link": "https://plato.stanford.edu/entries/broad/"
     },
     {
-        "title": "Brouwer, Luitzen Egbertus Jan",
+        "title": "Luitzen Egbertus Jan Brouwer",
         "link": "https://plato.stanford.edu/entries/brouwer/"
     },
     {
-        "title": "Bruno, Giordano",
+        "title": "Giordano Bruno",
         "link": "https://plato.stanford.edu/entries/bruno/"
     },
     {
-        "title": "Buber, Martin",
+        "title": "Martin Buber",
         "link": "https://plato.stanford.edu/entries/buber/"
     },
     {
@@ -1137,47 +833,31 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/buddha/"
     },
     {
-        "title": "Chinese Philosophy: Chan Buddhism",
+        "title": "Chan Buddhism",
         "link": "https://plato.stanford.edu/entries/buddhism-chan/"
     },
     {
-        "title": "ethics: in Indian Buddhism",
-        "link": "https://plato.stanford.edu/entries/ethics-indian-buddhism/"
-    },
-    {
-        "title": "Korean Philosophy: Buddhism",
-        "link": "https://plato.stanford.edu/entries/korean-buddhism/"
-    },
-    {
-        "title": "mind: in Indian Buddhist Philosophy",
-        "link": "https://plato.stanford.edu/entries/mind-indian-buddhism/"
-    },
-    {
-        "title": "Chinese Philosophy: Tiantai Buddhism",
-        "link": "https://plato.stanford.edu/entries/buddhism-tiantai/"
-    },
-    {
-        "title": "Japanese Philosophy: Zen Buddhism",
-        "link": "https://plato.stanford.edu/entries/japanese-zen/"
-    },
-    {
-        "title": "Chinese Philosophy: Huayan Buddhism",
+        "title": "Huayan Buddhism",
         "link": "https://plato.stanford.edu/entries/buddhism-huayan/"
     },
     {
-        "title": "Buridan, John [Jean]",
+        "title": "Tiantai Buddhism",
+        "link": "https://plato.stanford.edu/entries/buddhism-tiantai/"
+    },
+    {
+        "title": "John Buridan",
         "link": "https://plato.stanford.edu/entries/buridan/"
     },
     {
-        "title": "Burke, Edmund",
+        "title": "Edmund Burke",
         "link": "https://plato.stanford.edu/entries/burke/"
     },
     {
-        "title": "Burley [Burleigh], Walter",
+        "title": "Walter Burley",
         "link": "https://plato.stanford.edu/entries/burley/"
     },
     {
-        "title": "moral philosophy",
+        "title": "Joseph Butler’s Moral Philosophy",
         "link": "https://plato.stanford.edu/entries/butler-moral/"
     },
     {
@@ -1185,35 +865,35 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/byzantine-philosophy/"
     },
     {
-        "title": "Plato: Callicles and Thrasymachus",
+        "title": "Callicles and Thrasymachus",
         "link": "https://plato.stanford.edu/entries/callicles-thrasymachus/"
     },
     {
-        "title": "Cambridge Platonists",
+        "title": "The Cambridge Platonists",
         "link": "https://plato.stanford.edu/entries/cambridge-platonists/"
     },
     {
-        "title": "Campanella, Tommaso",
+        "title": "Tommaso Campanella",
         "link": "https://plato.stanford.edu/entries/campanella/"
     },
     {
-        "title": "Camus, Albert",
+        "title": "Albert Camus",
         "link": "https://plato.stanford.edu/entries/camus/"
     },
     {
-        "title": "cancer",
+        "title": "Cancer",
         "link": "https://plato.stanford.edu/entries/cancer/"
     },
     {
-        "title": "capability approach",
+        "title": "The Capability Approach",
         "link": "https://plato.stanford.edu/entries/capability-approach/"
     },
     {
-        "title": "Cardano, Girolamo [Geronimo]",
+        "title": "Girolamo [Geronimo] Cardano",
         "link": "https://plato.stanford.edu/entries/cardano/"
     },
     {
-        "title": "Carnap, Rudolf",
+        "title": "Rudolf Carnap",
         "link": "https://plato.stanford.edu/entries/carnap/"
     },
     {
@@ -1221,603 +901,503 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/carneades/"
     },
     {
-        "title": "Cassirer, Ernst",
+        "title": "Ernst Cassirer",
         "link": "https://plato.stanford.edu/entries/cassirer/"
     },
     {
-        "title": "reasoning: moral",
-        "link": "https://plato.stanford.edu/entries/reasoning-moral/"
-    },
-    {
-        "title": "categories",
+        "title": "Categories",
         "link": "https://plato.stanford.edu/entries/categories/"
     },
     {
-        "title": "medieval theories of",
-        "link": "https://plato.stanford.edu/entries/medieval-categories/"
-    },
-    {
-        "title": "category mistakes",
+        "title": "Category Mistakes",
         "link": "https://plato.stanford.edu/entries/category-mistakes/"
     },
     {
-        "title": "category theory",
+        "title": "Category Theory",
         "link": "https://plato.stanford.edu/entries/category-theory/"
     },
     {
-        "title": "determinism: causal",
-        "link": "https://plato.stanford.edu/entries/determinism-causal/"
+        "title": "Catharine Macaulay",
+        "link": "https://plato.stanford.edu/entries/catharine-macaulay/"
     },
     {
-        "title": "causal models",
+        "title": "Causal Approaches to Scientific Explanation",
+        "link": "https://plato.stanford.edu/entries/causal-explanation-science/"
+    },
+    {
+        "title": "Causal Models",
         "link": "https://plato.stanford.edu/entries/causal-models/"
     },
     {
-        "title": "backward",
+        "title": "Backward Causation",
         "link": "https://plato.stanford.edu/entries/causation-backwards/"
     },
     {
-        "title": "counterfactual theories of",
+        "title": "Counterfactual Theories of Causation",
         "link": "https://plato.stanford.edu/entries/causation-counterfactual/"
     },
     {
-        "title": "in Arabic and Islamic thought",
-        "link": "https://plato.stanford.edu/entries/arabic-islamic-causation/"
-    },
-    {
-        "title": "in physics",
-        "link": "https://plato.stanford.edu/entries/causation-physics/"
-    },
-    {
-        "title": "in the law",
+        "title": "Causation in the Law",
         "link": "https://plato.stanford.edu/entries/causation-law/"
     },
     {
-        "title": "and manipulability",
+        "title": "Causation and Manipulability",
         "link": "https://plato.stanford.edu/entries/causation-mani/"
     },
     {
-        "title": "medieval theories of",
+        "title": "Medieval Theories of Causation",
         "link": "https://plato.stanford.edu/entries/causation-medieval/"
     },
     {
-        "title": "mental causation",
-        "link": "https://plato.stanford.edu/entries/mental-causation/"
-    },
-    {
-        "title": "the metaphysics of",
+        "title": "The Metaphysics of Causation",
         "link": "https://plato.stanford.edu/entries/causation-metaphysics/"
     },
     {
-        "title": "probabilistic",
+        "title": "Causation in Physics",
+        "link": "https://plato.stanford.edu/entries/causation-physics/"
+    },
+    {
+        "title": "Probabilistic Causation",
         "link": "https://plato.stanford.edu/entries/causation-probabilistic/"
     },
     {
-        "title": "regularity and inferential theories of",
+        "title": "Regularity and Inferential Theories of Causation",
         "link": "https://plato.stanford.edu/entries/causation-regularity/"
     },
     {
-        "title": "quantum mechanics: retrocausality",
-        "link": "https://plato.stanford.edu/entries/qm-retrocausality/"
-    },
-    {
-        "title": "Cavendish, Margaret Lucas",
-        "link": "https://plato.stanford.edu/entries/margaret-cavendish/"
-    },
-    {
-        "title": "cell biology, philosophy of",
+        "title": "Philosophy of Cell Biology",
         "link": "https://plato.stanford.edu/entries/cell-biology/"
     },
     {
-        "title": "cellular automata",
+        "title": "Cellular Automata",
         "link": "https://plato.stanford.edu/entries/cellular-automata/"
     },
     {
-        "title": "pornography: and censorship",
-        "link": "https://plato.stanford.edu/entries/pornography-censorship/"
-    },
-    {
-        "title": "certainty",
+        "title": "Certainty",
         "link": "https://plato.stanford.edu/entries/certainty/"
     },
     {
-        "title": "laws of nature: ceteris paribus",
+        "title": "Ceteris ParibusLaws",
         "link": "https://plato.stanford.edu/entries/ceteris-paribus/"
     },
     {
-        "title": "versus randomness",
+        "title": "Chance versus Randomness",
         "link": "https://plato.stanford.edu/entries/chance-randomness/"
     },
     {
-        "title": "and inconsistency",
+        "title": "Change and Inconsistency",
         "link": "https://plato.stanford.edu/entries/change/"
     },
     {
-        "title": "Chinese Philosophy: philosophy of change",
-        "link": "https://plato.stanford.edu/entries/chinese-change/"
-    },
-    {
-        "title": "chaos",
+        "title": "Chaos",
         "link": "https://plato.stanford.edu/entries/chaos/"
     },
     {
-        "title": "character, moral",
-        "link": "https://plato.stanford.edu/entries/moral-character/"
-    },
-    {
-        "title": "empirical approaches",
-        "link": "https://plato.stanford.edu/entries/moral-character-empirical/"
-    },
-    {
-        "title": "Ch\u00e2telet, \u00c9milie du",
-        "link": "https://plato.stanford.edu/entries/emilie-du-chatelet/"
-    },
-    {
-        "title": "Chatton, Walter",
-        "link": "https://plato.stanford.edu/entries/walter-chatton/"
-    },
-    {
-        "title": "chemistry, philosophy of",
+        "title": "Philosophy of Chemistry",
         "link": "https://plato.stanford.edu/entries/chemistry/"
     },
     {
-        "title": "childhood, the philosophy of",
+        "title": "The Philosophy of Childhood",
         "link": "https://plato.stanford.edu/entries/childhood/"
     },
     {
-        "title": "children, philosophy for",
+        "title": "Philosophy for Children",
         "link": "https://plato.stanford.edu/entries/children/"
     },
     {
-        "title": "philosophy in",
-        "link": "https://plato.stanford.edu/entries/philosophy-chile/"
-    },
-    {
-        "title": "ethics, biomedical: chimeras, human/non-human",
+        "title": "Human/Non-Human Chimeras",
         "link": "https://plato.stanford.edu/entries/chimeras/"
     },
     {
-        "title": "Modern Confucianism",
-        "link": "https://plato.stanford.edu/entries/confucianism-modern/"
+        "title": "Chinese Philosophy of Change (Yijing)",
+        "link": "https://plato.stanford.edu/entries/chinese-change/"
     },
     {
-        "title": "Chinese Philosophy: ethics",
-        "link": "https://plato.stanford.edu/entries/ethics-chinese/"
-    },
-    {
-        "title": "Chinese medicine",
-        "link": "https://plato.stanford.edu/entries/chinese-phil-medicine/"
-    },
-    {
-        "title": "comparative philosophy: Chinese and Western",
-        "link": "https://plato.stanford.edu/entries/comparphil-chiwes/"
-    },
-    {
-        "title": "Confucius",
-        "link": "https://plato.stanford.edu/entries/confucius/"
-    },
-    {
-        "title": "Dai Zhen",
-        "link": "https://plato.stanford.edu/entries/dai-zhen/"
-    },
-    {
-        "title": "Daoism",
-        "link": "https://plato.stanford.edu/entries/daoism/"
-    },
-    {
-        "title": "emotions in early Chinese Philosophy",
-        "link": "https://plato.stanford.edu/entries/emotions-chinese/"
-    },
-    {
-        "title": "epistemology",
+        "title": "Epistemology in Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-epistemology/"
     },
     {
-        "title": "Han Dynasty",
-        "link": "https://plato.stanford.edu/entries/han-dynasty/"
-    },
-    {
-        "title": "Laozi",
-        "link": "https://plato.stanford.edu/entries/laozi/"
-    },
-    {
-        "title": "legalism in",
+        "title": "Legalism in Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-legalism/"
     },
     {
-        "title": "logic and language in Early Chinese Philosophy",
+        "title": "Logic and Language in Early Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-logic-language/"
     },
     {
-        "title": "Mencius",
-        "link": "https://plato.stanford.edu/entries/mencius/"
-    },
-    {
-        "title": "metaphysics",
+        "title": "Metaphysics in Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-metaphysics/"
     },
     {
-        "title": "mind (heart-mind)",
+        "title": "Mind (Heart-Mind) in Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-mind/"
     },
     {
-        "title": "Mohism",
-        "link": "https://plato.stanford.edu/entries/mohism/"
+        "title": "Chinese Philosophy and Chinese Medicine",
+        "link": "https://plato.stanford.edu/entries/chinese-phil-medicine/"
     },
     {
-        "title": "Mohist Canons",
-        "link": "https://plato.stanford.edu/entries/mohist-canons/"
-    },
-    {
-        "title": "Neo-Daoism",
-        "link": "https://plato.stanford.edu/entries/neo-daoism/"
-    },
-    {
-        "title": "Qing philosophy",
-        "link": "https://plato.stanford.edu/entries/qing-philosophy/"
-    },
-    {
-        "title": "science",
+        "title": "Science and Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-phil-science/"
     },
     {
-        "title": "social and political thought",
+        "title": "The Chinese Room Argument",
+        "link": "https://plato.stanford.edu/entries/chinese-room/"
+    },
+    {
+        "title": "Social and Political Thought in Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-social-political/"
     },
     {
-        "title": "Song-Ming Confucianism",
-        "link": "https://plato.stanford.edu/entries/song-ming-confucianism/"
-    },
-    {
-        "title": "translating and interpreting",
+        "title": "Translating and Interpreting Chinese Philosophy",
         "link": "https://plato.stanford.edu/entries/chinese-translate-interpret/"
     },
     {
-        "title": "Wang Yangming",
-        "link": "https://plato.stanford.edu/entries/wang-yangming/"
-    },
-    {
-        "title": "Xunzi",
-        "link": "https://plato.stanford.edu/entries/xunzi/"
-    },
-    {
-        "title": "Zhuangzi",
-        "link": "https://plato.stanford.edu/entries/zhuangzi/"
-    },
-    {
-        "title": "Zhu Xi",
-        "link": "https://plato.stanford.edu/entries/zhu-xi/"
-    },
-    {
-        "title": "Chisholm, Roderick",
+        "title": "Roderick Chisholm",
         "link": "https://plato.stanford.edu/entries/chisholm/"
     },
     {
-        "title": "choice, axiom of",
-        "link": "https://plato.stanford.edu/entries/axiom-choice/"
-    },
-    {
-        "title": "choice, dynamic",
-        "link": "https://plato.stanford.edu/entries/dynamic-choice/"
-    },
-    {
-        "title": "social choice theory",
-        "link": "https://plato.stanford.edu/entries/social-choice/"
-    },
-    {
-        "title": "Christian theology, philosophy and",
+        "title": "Philosophy and Christian Theology",
         "link": "https://plato.stanford.edu/entries/christiantheology-philosophy/"
     },
     {
-        "title": "Church, Alonzo",
-        "link": "https://plato.stanford.edu/entries/church/"
+        "title": "The Church-Turing Thesis",
+        "link": "https://plato.stanford.edu/entries/church-turing/"
     },
     {
-        "title": "Church-Turing Thesis",
-        "link": "https://plato.stanford.edu/entries/church-turing/"
+        "title": "Alonzo Church",
+        "link": "https://plato.stanford.edu/entries/church/"
     },
     {
         "title": "Cicero",
         "link": "https://plato.stanford.edu/entries/cicero/"
     },
     {
-        "title": "citizenship",
+        "title": "Citizenship",
         "link": "https://plato.stanford.edu/entries/citizenship/"
     },
     {
-        "title": "civic education",
+        "title": "Civic Education",
         "link": "https://plato.stanford.edu/entries/civic-education/"
     },
     {
-        "title": "civic humanism",
-        "link": "https://plato.stanford.edu/entries/humanism-civic/"
-    },
-    {
-        "title": "civil disobedience",
+        "title": "Civil Disobedience",
         "link": "https://plato.stanford.edu/entries/civil-disobedience/"
     },
     {
-        "title": "civil rights",
+        "title": "Civil Rights",
         "link": "https://plato.stanford.edu/entries/civil-rights/"
     },
     {
-        "title": "Clarke, Samuel",
+        "title": "Samuel Clarke",
         "link": "https://plato.stanford.edu/entries/clarke/"
     },
     {
-        "title": "Clauberg, Johannes",
+        "title": "Johannes Clauberg",
         "link": "https://plato.stanford.edu/entries/clauberg/"
     },
     {
-        "title": "doxography of ancient philosophy",
-        "link": "https://plato.stanford.edu/entries/doxography-ancient/"
-    },
-    {
-        "title": "justice: climate",
-        "link": "https://plato.stanford.edu/entries/justice-climate/"
-    },
-    {
-        "title": "climate science",
+        "title": "Climate Science",
         "link": "https://plato.stanford.edu/entries/climate-science/"
     },
     {
-        "title": "ethics, biomedical: clinical research",
+        "title": "The Ethics of Clinical Research",
         "link": "https://plato.stanford.edu/entries/clinical-research/"
     },
     {
-        "title": "cloning",
+        "title": "Cloning",
         "link": "https://plato.stanford.edu/entries/cloning/"
     },
     {
-        "title": "Cockburn, Catharine Trotter",
+        "title": "Epistemic Closure",
+        "link": "https://plato.stanford.edu/entries/closure-epistemic/"
+    },
+    {
+        "title": "Catharine Trotter Cockburn",
         "link": "https://plato.stanford.edu/entries/cockburn/"
     },
     {
-        "title": "coercion",
+        "title": "Coercion",
         "link": "https://plato.stanford.edu/entries/coercion/"
     },
     {
-        "title": "embodied",
-        "link": "https://plato.stanford.edu/entries/embodied-cognition/"
+        "title": "Animal Cognition",
+        "link": "https://plato.stanford.edu/entries/cognition-animal/"
     },
     {
-        "title": "cognitive disability and moral status",
+        "title": "Cognitive Disability and Moral Status",
         "link": "https://plato.stanford.edu/entries/cognitive-disability/"
     },
     {
-        "title": "cognitive science",
+        "title": "Cognitive Science",
         "link": "https://plato.stanford.edu/entries/cognitive-science/"
     },
     {
-        "title": "cognitivism vs. non-cognitivism, moral",
-        "link": "https://plato.stanford.edu/entries/moral-cognitivism/"
-    },
-    {
-        "title": "Cohen, Hermann",
+        "title": "Hermann Cohen",
         "link": "https://plato.stanford.edu/entries/cohen/"
     },
     {
-        "title": "Collingwood, Robin George",
+        "title": "Collective Intentionality",
+        "link": "https://plato.stanford.edu/entries/collective-intentionality/"
+    },
+    {
+        "title": "Collective Responsibility",
+        "link": "https://plato.stanford.edu/entries/collective-responsibility/"
+    },
+    {
+        "title": "Collingwood’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/collingwood-aesthetics/"
+    },
+    {
+        "title": "Robin George Collingwood",
         "link": "https://plato.stanford.edu/entries/collingwood/"
     },
     {
-        "title": "Collins, Anthony",
+        "title": "Anthony Collins",
         "link": "https://plato.stanford.edu/entries/collins/"
     },
     {
-        "title": "colonialism",
+        "title": "Colonialism",
         "link": "https://plato.stanford.edu/entries/colonialism/"
     },
     {
-        "title": "color",
+        "title": "Color",
         "link": "https://plato.stanford.edu/entries/color/"
     },
     {
-        "title": "Reichenbach, Hans: common cause principle",
-        "link": "https://plato.stanford.edu/entries/physics-Rpcc/"
-    },
-    {
-        "title": "common good",
+        "title": "The Common Good",
         "link": "https://plato.stanford.edu/entries/common-good/"
     },
     {
-        "title": "common ground in pragmatics",
+        "title": "Common Ground in Pragmatics",
         "link": "https://plato.stanford.edu/entries/common-ground-pragmatics/"
     },
     {
-        "title": "common knowledge",
+        "title": "Common Knowledge",
         "link": "https://plato.stanford.edu/entries/common-knowledge/"
     },
     {
-        "title": "communitarianism",
+        "title": "Communitarianism",
         "link": "https://plato.stanford.edu/entries/communitarianism/"
     },
     {
-        "title": "comparative cognition, methods in",
+        "title": "Methods in Comparative Cognition",
         "link": "https://plato.stanford.edu/entries/comparative-cognition/"
     },
     {
-        "title": "compatibilism",
+        "title": "Comparative Philosophy: Chinese and Western",
+        "link": "https://plato.stanford.edu/entries/comparphil-chiwes/"
+    },
+    {
+        "title": "Compatibilism",
         "link": "https://plato.stanford.edu/entries/compatibilism/"
     },
     {
-        "title": "decision-making capacity",
-        "link": "https://plato.stanford.edu/entries/decision-capacity/"
-    },
-    {
-        "title": "computability and complexity",
-        "link": "https://plato.stanford.edu/entries/computability/"
-    },
-    {
-        "title": "computational complexity theory",
-        "link": "https://plato.stanford.edu/entries/computational-complexity/"
-    },
-    {
-        "title": "many, problem of",
-        "link": "https://plato.stanford.edu/entries/problem-of-many/"
-    },
-    {
-        "title": "compositionality",
+        "title": "Compositionality",
         "link": "https://plato.stanford.edu/entries/compositionality/"
     },
     {
-        "title": "in physical systems",
+        "title": "Computability and Complexity",
+        "link": "https://plato.stanford.edu/entries/computability/"
+    },
+    {
+        "title": "Computation in Physical Systems",
         "link": "https://plato.stanford.edu/entries/computation-physicalsystems/"
     },
     {
-        "title": "linguistics: computational",
+        "title": "Computational Complexity Theory",
+        "link": "https://plato.stanford.edu/entries/computational-complexity/"
+    },
+    {
+        "title": "Computational Linguistics",
         "link": "https://plato.stanford.edu/entries/computational-linguistics/"
     },
     {
-        "title": "computational philosophy",
-        "link": "https://plato.stanford.edu/entries/computational-philosophy/"
-    },
-    {
-        "title": "mind: computational theory of",
+        "title": "The Computational Theory of Mind",
         "link": "https://plato.stanford.edu/entries/computational-mind/"
     },
     {
-        "title": "computer science, philosophy of",
+        "title": "Computational Philosophy",
+        "link": "https://plato.stanford.edu/entries/computational-philosophy/"
+    },
+    {
+        "title": "The Philosophy of Computer Science",
         "link": "https://plato.stanford.edu/entries/computer-science/"
     },
     {
-        "title": "modern history of",
+        "title": "The Modern History of Computing",
         "link": "https://plato.stanford.edu/entries/computing-history/"
     },
     {
-        "title": "and moral responsibility",
+        "title": "Computing and Moral Responsibility",
         "link": "https://plato.stanford.edu/entries/computing-responsibility/"
     },
     {
-        "title": "Comte, Auguste",
+        "title": "Auguste Comte",
         "link": "https://plato.stanford.edu/entries/comte/"
     },
     {
-        "title": "concepts",
+        "title": "The Concept of Emotion in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/concept-emotion-india/"
+    },
+    {
+        "title": "The Concept of Evil",
+        "link": "https://plato.stanford.edu/entries/concept-evil/"
+    },
+    {
+        "title": "The Concept of Religion",
+        "link": "https://plato.stanford.edu/entries/concept-religion/"
+    },
+    {
+        "title": "Concepts",
         "link": "https://plato.stanford.edu/entries/concepts/"
     },
     {
-        "title": "condemnation of 1277",
+        "title": "Conceptual Art",
+        "link": "https://plato.stanford.edu/entries/conceptual-art/"
+    },
+    {
+        "title": "Condemnation of 1277",
         "link": "https://plato.stanford.edu/entries/condemnation/"
     },
     {
-        "title": "Condillac, \u00c9tienne Bonnot de",
+        "title": "Étienne Bonnot de Condillac",
         "link": "https://plato.stanford.edu/entries/condillac/"
     },
     {
-        "title": "conditionals",
+        "title": "Indicative Conditionals",
         "link": "https://plato.stanford.edu/entries/conditionals/"
     },
     {
-        "title": "counterfactual",
-        "link": "https://plato.stanford.edu/entries/counterfactuals/"
-    },
-    {
-        "title": "logic: conditionals",
-        "link": "https://plato.stanford.edu/entries/logic-conditionals/"
-    },
-    {
-        "title": "in the history of feminism",
-        "link": "https://plato.stanford.edu/entries/histfem-condorcet/"
-    },
-    {
-        "title": "confirmation",
+        "title": "Confirmation",
         "link": "https://plato.stanford.edu/entries/confirmation/"
     },
     {
-        "title": "gender in Confucian philosophy",
+        "title": "Gender in Confucian Philosophy",
         "link": "https://plato.stanford.edu/entries/confucian-gender/"
     },
     {
-        "title": "Japanese Philosophy: Confucian",
-        "link": "https://plato.stanford.edu/entries/japanese-confucian/"
+        "title": "Modern Confucianism",
+        "link": "https://plato.stanford.edu/entries/confucianism-modern/"
     },
     {
-        "title": "Korean Philosophy: Confucianism",
-        "link": "https://plato.stanford.edu/entries/korean-confucianism/"
+        "title": "Confucius",
+        "link": "https://plato.stanford.edu/entries/confucius/"
     },
     {
-        "title": "sentence connectives in formal logic",
+        "title": "Connectionism",
+        "link": "https://plato.stanford.edu/entries/connectionism/"
+    },
+    {
+        "title": "Sentence Connectives in Formal Logic",
         "link": "https://plato.stanford.edu/entries/connectives-logic/"
     },
     {
-        "title": "conscience",
-        "link": "https://plato.stanford.edu/entries/conscience/"
-    },
-    {
-        "title": "medieval theories of",
+        "title": "Medieval Theories of Conscience",
         "link": "https://plato.stanford.edu/entries/conscience-medieval/"
     },
     {
-        "title": "consciousness",
-        "link": "https://plato.stanford.edu/entries/consciousness/"
+        "title": "Conscience",
+        "link": "https://plato.stanford.edu/entries/conscience/"
     },
     {
-        "title": "higher-order theories",
-        "link": "https://plato.stanford.edu/entries/consciousness-higher/"
-    },
-    {
-        "title": "and intentionality",
-        "link": "https://plato.stanford.edu/entries/consciousness-intentionality/"
-    },
-    {
-        "title": "neuroscience of",
-        "link": "https://plato.stanford.edu/entries/consciousness-neuroscience/"
-    },
-    {
-        "title": "representational theories of",
-        "link": "https://plato.stanford.edu/entries/consciousness-representational/"
-    },
-    {
-        "title": "seventeenth-century theories of",
+        "title": "Seventeenth-Century Theories of Consciousness",
         "link": "https://plato.stanford.edu/entries/consciousness-17th/"
     },
     {
-        "title": "temporal",
+        "title": "Animal Consciousness",
+        "link": "https://plato.stanford.edu/entries/consciousness-animal/"
+    },
+    {
+        "title": "Higher-Order Theories of Consciousness",
+        "link": "https://plato.stanford.edu/entries/consciousness-higher/"
+    },
+    {
+        "title": "Consciousness and Intentionality",
+        "link": "https://plato.stanford.edu/entries/consciousness-intentionality/"
+    },
+    {
+        "title": "The Neuroscience of Consciousness",
+        "link": "https://plato.stanford.edu/entries/consciousness-neuroscience/"
+    },
+    {
+        "title": "Representational Theories of Consciousness",
+        "link": "https://plato.stanford.edu/entries/consciousness-representational/"
+    },
+    {
+        "title": "Temporal Consciousness",
         "link": "https://plato.stanford.edu/entries/consciousness-temporal/"
     },
     {
-        "title": "unity of",
+        "title": "The Unity of Consciousness",
         "link": "https://plato.stanford.edu/entries/consciousness-unity/"
     },
     {
-        "title": "consequence, medieval theories of",
+        "title": "Consciousness",
+        "link": "https://plato.stanford.edu/entries/consciousness/"
+    },
+    {
+        "title": "Medieval Theories of Consequence",
         "link": "https://plato.stanford.edu/entries/consequence-medieval/"
     },
     {
-        "title": "consequentialism",
-        "link": "https://plato.stanford.edu/entries/consequentialism/"
-    },
-    {
-        "title": "rule",
+        "title": "Rule Consequentialism",
         "link": "https://plato.stanford.edu/entries/consequentialism-rule/"
     },
     {
-        "title": "consequentializing",
+        "title": "Consequentialism",
+        "link": "https://plato.stanford.edu/entries/consequentialism/"
+    },
+    {
+        "title": "Consequentializing",
         "link": "https://plato.stanford.edu/entries/consequentializing/"
     },
     {
-        "title": "conservatism",
+        "title": "Conservation Biology",
+        "link": "https://plato.stanford.edu/entries/conservation-biology/"
+    },
+    {
+        "title": "Conservatism",
         "link": "https://plato.stanford.edu/entries/conservatism/"
     },
     {
-        "title": "constitutionalism",
+        "title": "Constitutionalism",
         "link": "https://plato.stanford.edu/entries/constitutionalism/"
     },
     {
-        "title": "constructive empiricism",
+        "title": "Constructive Empiricism",
         "link": "https://plato.stanford.edu/entries/constructive-empiricism/"
     },
     {
-        "title": "in metaethics",
+        "title": "Constructivism in Metaethics",
         "link": "https://plato.stanford.edu/entries/constructivism-metaethics/"
     },
     {
-        "title": "in political philosophy",
+        "title": "Constructivism in Political Philosophy",
         "link": "https://plato.stanford.edu/entries/constructivism-political/"
     },
     {
-        "title": "contextualism, epistemic",
+        "title": "Causal Theories of Mental Content",
+        "link": "https://plato.stanford.edu/entries/content-causal/"
+    },
+    {
+        "title": "Externalism About the Mind",
+        "link": "https://plato.stanford.edu/entries/content-externalism/"
+    },
+    {
+        "title": "Narrow Mental Content",
+        "link": "https://plato.stanford.edu/entries/content-narrow/"
+    },
+    {
+        "title": "Nonconceptual Mental Content",
+        "link": "https://plato.stanford.edu/entries/content-nonconceptual/"
+    },
+    {
+        "title": "Teleological Theories of Mental Content",
+        "link": "https://plato.stanford.edu/entries/content-teleological/"
+    },
+    {
+        "title": "Epistemic Contextualism",
         "link": "https://plato.stanford.edu/entries/contextualism-epistemology/"
     },
     {
@@ -1825,139 +1405,131 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/continental-rationalism/"
     },
     {
-        "title": "continuity and infinitesimals",
+        "title": "Continuity and Infinitesimals",
         "link": "https://plato.stanford.edu/entries/continuity/"
     },
     {
-        "title": "set theory: continuum hypothesis",
+        "title": "The Continuum Hypothesis",
         "link": "https://plato.stanford.edu/entries/continuum-hypothesis/"
     },
     {
-        "title": "contractarianism",
-        "link": "https://plato.stanford.edu/entries/contractarianism/"
-    },
-    {
-        "title": "contract law, philosophy of",
+        "title": "Philosophy of Contract Law",
         "link": "https://plato.stanford.edu/entries/contract-law/"
     },
     {
-        "title": "contractualism",
+        "title": "Contemporary Approaches to the Social Contract",
+        "link": "https://plato.stanford.edu/entries/contractarianism-contemporary/"
+    },
+    {
+        "title": "Contractarianism",
+        "link": "https://plato.stanford.edu/entries/contractarianism/"
+    },
+    {
+        "title": "Contractualism",
         "link": "https://plato.stanford.edu/entries/contractualism/"
     },
     {
-        "title": "contradiction",
+        "title": "Contradiction",
         "link": "https://plato.stanford.edu/entries/contradiction/"
     },
     {
-        "title": "convention",
+        "title": "Convention",
         "link": "https://plato.stanford.edu/entries/convention/"
     },
     {
-        "title": "moral/conventional distinction",
-        "link": "https://plato.stanford.edu/entries/moral-conventional/"
-    },
-    {
-        "title": "Conway, Lady Anne",
+        "title": "Lady Anne Conway",
         "link": "https://plato.stanford.edu/entries/conway/"
     },
     {
-        "title": "Cooper, Anna Julia",
-        "link": "https://plato.stanford.edu/entries/anna-julia-cooper/"
-    },
-    {
-        "title": "Copernicus, Nicolaus",
+        "title": "Nicolaus Copernicus",
         "link": "https://plato.stanford.edu/entries/copernicus/"
     },
     {
-        "title": "Cordemoy, G\u00e9raud de",
+        "title": "Géraud de Cordemoy",
         "link": "https://plato.stanford.edu/entries/cordemoy/"
     },
     {
-        "title": "corruption",
+        "title": "Corruption",
         "link": "https://plato.stanford.edu/entries/corruption/"
     },
     {
-        "title": "cosmological argument",
+        "title": "Cosmological Argument",
         "link": "https://plato.stanford.edu/entries/cosmological-argument/"
     },
     {
-        "title": "methodological debates in the 1930s and 1940s",
+        "title": "Cosmology: Methodological Debates in the 1930s and 1940s",
         "link": "https://plato.stanford.edu/entries/cosmology-30s/"
     },
     {
-        "title": "and theology",
+        "title": "Cosmology and Theology",
         "link": "https://plato.stanford.edu/entries/cosmology-theology/"
     },
     {
-        "title": "cosmology, philosophy of",
+        "title": "Philosophy of Cosmology",
         "link": "https://plato.stanford.edu/entries/cosmology/"
     },
     {
-        "title": "cosmopolitanism",
+        "title": "Cosmopolitanism",
         "link": "https://plato.stanford.edu/entries/cosmopolitanism/"
     },
     {
-        "title": "possible objects",
-        "link": "https://plato.stanford.edu/entries/possible-objects/"
+        "title": "Counterfactuals",
+        "link": "https://plato.stanford.edu/entries/counterfactuals/"
     },
     {
-        "title": "Crathorn, William",
+        "title": "William Crathorn",
         "link": "https://plato.stanford.edu/entries/crathorn/"
     },
     {
-        "title": "creation and conservation",
+        "title": "Creation and Conservation",
         "link": "https://plato.stanford.edu/entries/creation-conservation/"
     },
     {
-        "title": "creationism",
+        "title": "Creationism",
         "link": "https://plato.stanford.edu/entries/creationism/"
     },
     {
-        "title": "creativity",
+        "title": "Creativity",
         "link": "https://plato.stanford.edu/entries/creativity/"
     },
     {
-        "title": "Crescas, Hasdai",
+        "title": "Hasdai Crescas",
         "link": "https://plato.stanford.edu/entries/crescas/"
     },
     {
-        "title": "criminal law, theories of",
+        "title": "Theories of Criminal Law",
         "link": "https://plato.stanford.edu/entries/criminal-law/"
     },
     {
-        "title": "critical philosophy of race",
+        "title": "Critical Philosophy of Race",
         "link": "https://plato.stanford.edu/entries/critical-phil-race/"
     },
     {
-        "title": "critical theory",
+        "title": "Critical Theory (Frankfurt School)",
         "link": "https://plato.stanford.edu/entries/critical-theory/"
     },
     {
-        "title": "critical thinking",
+        "title": "Critical Thinking",
         "link": "https://plato.stanford.edu/entries/critical-thinking/"
     },
     {
-        "title": "Crummell, Alexander",
-        "link": "https://plato.stanford.edu/entries/alexander-crummell/"
+        "title": "Croce’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/croce-aesthetics/"
     },
     {
-        "title": "Cudworth, Ralph",
+        "title": "Ralph Cudworth",
         "link": "https://plato.stanford.edu/entries/cudworth/"
     },
     {
-        "title": "evolution: cultural",
-        "link": "https://plato.stanford.edu/entries/evolution-cultural/"
-    },
-    {
-        "title": "culture",
-        "link": "https://plato.stanford.edu/entries/culture/"
-    },
-    {
-        "title": "and cognitive science",
+        "title": "Culture and Cognitive Science",
         "link": "https://plato.stanford.edu/entries/culture-cogsci/"
     },
     {
-        "title": "Curry\u2019s paradox",
+        "title": "Culture",
+        "link": "https://plato.stanford.edu/entries/culture/"
+    },
+    {
+        "title": "Curry’s Paradox",
         "link": "https://plato.stanford.edu/entries/curry-paradox/"
     },
     {
@@ -1965,11 +1537,11 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/cusanus/"
     },
     {
-        "title": "Damian, Peter",
-        "link": "https://plato.stanford.edu/entries/peter-damian/"
+        "title": "Dai Zhen",
+        "link": "https://plato.stanford.edu/entries/dai-zhen/"
     },
     {
-        "title": "dance, philosophy of",
+        "title": "The Philosophy of Dance",
         "link": "https://plato.stanford.edu/entries/dance/"
     },
     {
@@ -1977,255 +1549,211 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/dante/"
     },
     {
-        "title": "religious",
+        "title": "Religious Daoism",
         "link": "https://plato.stanford.edu/entries/daoism-religion/"
     },
     {
-        "title": "evolution: from the Origin of Species to the Descent of Man",
-        "link": "https://plato.stanford.edu/entries/origin-descent/"
+        "title": "Daoism",
+        "link": "https://plato.stanford.edu/entries/daoism/"
     },
     {
         "title": "Darwinism",
         "link": "https://plato.stanford.edu/entries/darwinism/"
     },
     {
-        "title": "Heidegger, Martin",
-        "link": "https://plato.stanford.edu/entries/heidegger/"
+        "title": "David Lewis",
+        "link": "https://plato.stanford.edu/entries/david-lewis/"
     },
     {
-        "title": "Ibn Daud, Abraham",
-        "link": "https://plato.stanford.edu/entries/abraham-daud/"
+        "title": "David",
+        "link": "https://plato.stanford.edu/entries/david/"
     },
     {
-        "title": "Davidson, Donald",
+        "title": "Donald Davidson",
         "link": "https://plato.stanford.edu/entries/davidson/"
     },
     {
-        "title": "death",
+        "title": "The Definition of Death",
+        "link": "https://plato.stanford.edu/entries/death-definition/"
+    },
+    {
+        "title": "Death",
         "link": "https://plato.stanford.edu/entries/death/"
     },
     {
-        "title": "lying and deception: definition of",
-        "link": "https://plato.stanford.edu/entries/lying-definition/"
+        "title": "Decision-Making Capacity",
+        "link": "https://plato.stanford.edu/entries/decision-capacity/"
     },
     {
-        "title": "self-deception",
-        "link": "https://plato.stanford.edu/entries/self-deception/"
-    },
-    {
-        "title": "decision theory",
-        "link": "https://plato.stanford.edu/entries/decision-theory/"
-    },
-    {
-        "title": "causal",
+        "title": "Causal Decision Theory",
         "link": "https://plato.stanford.edu/entries/decision-causal/"
     },
     {
-        "title": "descriptive",
+        "title": "Descriptive Decision Theory",
         "link": "https://plato.stanford.edu/entries/decision-theory-descriptive/"
     },
     {
-        "title": "rational choice, normative: expected utility",
-        "link": "https://plato.stanford.edu/entries/rationality-normative-utility/"
+        "title": "Decision Theory",
+        "link": "https://plato.stanford.edu/entries/decision-theory/"
     },
     {
-        "title": "rational choice, normative: rivals to expected utility",
-        "link": "https://plato.stanford.edu/entries/rationality-normative-nonutility/"
-    },
-    {
-        "title": "contributions to the foundations of mathematics",
+        "title": "Dedekind’s Contributions to the Foundations of Mathematics",
         "link": "https://plato.stanford.edu/entries/dedekind-foundations/"
     },
     {
-        "title": "deductivism in the philosophy of mathematics",
+        "title": "Deductivism in the Philosophy of Mathematics",
         "link": "https://plato.stanford.edu/entries/deductivism-mathematics/"
     },
     {
-        "title": "defaults in semantics and pragmatics",
+        "title": "Defaults in Semantics and Pragmatics",
         "link": "https://plato.stanford.edu/entries/defaults-semantics-pragmatics/"
     },
     {
-        "title": "definitions",
+        "title": "Definitions",
         "link": "https://plato.stanford.edu/entries/definitions/"
     },
     {
-        "title": "dehumanization",
+        "title": "Dehumanization",
         "link": "https://plato.stanford.edu/entries/dehumanization/"
     },
     {
-        "title": "Deleuze, Gilles",
+        "title": "Gilles Deleuze",
         "link": "https://plato.stanford.edu/entries/deleuze/"
     },
     {
-        "title": "Delmedigo, Elijah",
+        "title": "Giambattista della Porta",
+        "link": "https://plato.stanford.edu/entries/della-porta/"
+    },
+    {
+        "title": "Elijah Delmedigo",
         "link": "https://plato.stanford.edu/entries/delmedigo/"
     },
     {
-        "title": "delusion",
+        "title": "Delusion",
         "link": "https://plato.stanford.edu/entries/delusion/"
     },
     {
-        "title": "science: and pseudo-science",
-        "link": "https://plato.stanford.edu/entries/pseudo-science/"
-    },
-    {
-        "title": "democracy",
+        "title": "Democracy",
         "link": "https://plato.stanford.edu/entries/democracy/"
-    },
-    {
-        "title": "global",
-        "link": "https://plato.stanford.edu/entries/global-democracy/"
     },
     {
         "title": "Democritus",
         "link": "https://plato.stanford.edu/entries/democritus/"
     },
     {
-        "title": "medieval theories of",
+        "title": "Medieval Theories of Demonstration",
         "link": "https://plato.stanford.edu/entries/demonstration-medieval/"
     },
     {
-        "title": "indexicals",
-        "link": "https://plato.stanford.edu/entries/indexicals/"
-    },
-    {
-        "title": "reference",
-        "link": "https://plato.stanford.edu/entries/reference/"
-    },
-    {
-        "title": "ethics: deontological",
-        "link": "https://plato.stanford.edu/entries/ethics-deontological/"
-    },
-    {
-        "title": "dependence, ontological",
+        "title": "Ontological Dependence",
         "link": "https://plato.stanford.edu/entries/dependence-ontological/"
     },
     {
-        "title": "depiction",
+        "title": "Depiction",
         "link": "https://plato.stanford.edu/entries/depiction/"
     },
     {
-        "title": "Derrida, Jacques",
+        "title": "Jacques Derrida",
         "link": "https://plato.stanford.edu/entries/derrida/"
     },
     {
-        "title": "Descartes, Ren\u00e9",
-        "link": "https://plato.stanford.edu/entries/descartes/"
-    },
-    {
-        "title": "epistemology",
+        "title": "Descartes’ Epistemology",
         "link": "https://plato.stanford.edu/entries/descartes-epistemology/"
     },
     {
-        "title": "ethics",
+        "title": "Descartes’ Ethics",
         "link": "https://plato.stanford.edu/entries/descartes-ethics/"
     },
     {
-        "title": "life and works",
-        "link": "https://plato.stanford.edu/entries/descartes-works/"
-    },
-    {
-        "title": "mathematics",
-        "link": "https://plato.stanford.edu/entries/descartes-mathematics/"
-    },
-    {
-        "title": "method",
-        "link": "https://plato.stanford.edu/entries/descartes-method/"
-    },
-    {
-        "title": "modal metaphysics",
-        "link": "https://plato.stanford.edu/entries/descartes-modal/"
-    },
-    {
-        "title": "ontological argument",
-        "link": "https://plato.stanford.edu/entries/descartes-ontological/"
-    },
-    {
-        "title": "physics",
-        "link": "https://plato.stanford.edu/entries/descartes-physics/"
-    },
-    {
-        "title": "and the pineal gland",
-        "link": "https://plato.stanford.edu/entries/pineal-gland/"
-    },
-    {
-        "title": "emotion: 17th and 18th century theories of",
-        "link": "https://plato.stanford.edu/entries/emotions-17th18th/"
-    },
-    {
-        "title": "theory of ideas",
+        "title": "Descartes’ Theory of Ideas",
         "link": "https://plato.stanford.edu/entries/descartes-ideas/"
     },
     {
-        "title": "descriptions",
+        "title": "Descartes’ Mathematics",
+        "link": "https://plato.stanford.edu/entries/descartes-mathematics/"
+    },
+    {
+        "title": "Descartes’ Method",
+        "link": "https://plato.stanford.edu/entries/descartes-method/"
+    },
+    {
+        "title": "Descartes’ Modal Metaphysics",
+        "link": "https://plato.stanford.edu/entries/descartes-modal/"
+    },
+    {
+        "title": "Descartes’ Ontological Argument",
+        "link": "https://plato.stanford.edu/entries/descartes-ontological/"
+    },
+    {
+        "title": "Descartes’ Physics",
+        "link": "https://plato.stanford.edu/entries/descartes-physics/"
+    },
+    {
+        "title": "Descartes’ Life and Works",
+        "link": "https://plato.stanford.edu/entries/descartes-works/"
+    },
+    {
+        "title": "René Descartes",
+        "link": "https://plato.stanford.edu/entries/descartes/"
+    },
+    {
+        "title": "Descriptions",
         "link": "https://plato.stanford.edu/entries/descriptions/"
     },
     {
-        "title": "desert",
+        "title": "Desert",
         "link": "https://plato.stanford.edu/entries/desert/"
     },
     {
-        "title": "Desgabets, Robert",
+        "title": "Robert Desgabets",
         "link": "https://plato.stanford.edu/entries/desgabets/"
     },
     {
-        "title": "teleology: teleological arguments for God\u2019s existence",
-        "link": "https://plato.stanford.edu/entries/teleological-arguments/"
-    },
-    {
-        "title": "desire",
+        "title": "Desire",
         "link": "https://plato.stanford.edu/entries/desire/"
     },
     {
-        "title": "determinates and determinables",
+        "title": "Determinables and Determinates",
         "link": "https://plato.stanford.edu/entries/determinate-determinables/"
     },
     {
-        "title": "freedom: ancient theories of",
-        "link": "https://plato.stanford.edu/entries/freedom-ancient/"
+        "title": "Causal Determinism",
+        "link": "https://plato.stanford.edu/entries/determinism-causal/"
     },
     {
-        "title": "evolution and development",
-        "link": "https://plato.stanford.edu/entries/evolution-development/"
+        "title": "Dewey’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/dewey-aesthetics/"
     },
     {
-        "title": "Dewey, John",
-        "link": "https://plato.stanford.edu/entries/dewey/"
-    },
-    {
-        "title": "moral philosophy",
+        "title": "Dewey’s Moral Philosophy",
         "link": "https://plato.stanford.edu/entries/dewey-moral/"
     },
     {
-        "title": "political philosophy",
+        "title": "Dewey’s Political Philosophy",
         "link": "https://plato.stanford.edu/entries/dewey-political/"
     },
     {
-        "title": "Dharmak\u012brti",
+        "title": "John Dewey",
+        "link": "https://plato.stanford.edu/entries/dewey/"
+    },
+    {
+        "title": "Dharmakīrti",
         "link": "https://plato.stanford.edu/entries/dharmakiirti/"
     },
     {
-        "title": "and diagrammatical reasoning",
+        "title": "Diagrams and Diagrammatical Reasoning",
         "link": "https://plato.stanford.edu/entries/diagrams/"
-    },
-    {
-        "title": "visual thinking in mathematics: epistemology of",
-        "link": "https://plato.stanford.edu/entries/epistemology-visual-thinking/"
     },
     {
         "title": "Dialectical School",
         "link": "https://plato.stanford.edu/entries/dialectical-school/"
     },
     {
-        "title": "Hegel, Georg Wilhelm Friedrich: dialectics",
-        "link": "https://plato.stanford.edu/entries/hegel-dialectics/"
-    },
-    {
-        "title": "dialetheism",
+        "title": "Dialetheism",
         "link": "https://plato.stanford.edu/entries/dialetheism/"
     },
     {
-        "title": "Diderot, Denis",
+        "title": "Denis Diderot",
         "link": "https://plato.stanford.edu/entries/diderot/"
     },
     {
@@ -2233,15 +1761,15 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/dietrich-freiberg/"
     },
     {
-        "title": "digital art, philosophy of",
+        "title": "The Philosophy of Digital Art",
         "link": "https://plato.stanford.edu/entries/digital-art/"
     },
     {
-        "title": "dignity",
+        "title": "Dignity",
         "link": "https://plato.stanford.edu/entries/dignity/"
     },
     {
-        "title": "Dilthey, Wilhelm",
+        "title": "Wilhelm Dilthey",
         "link": "https://plato.stanford.edu/entries/dilthey/"
     },
     {
@@ -2249,279 +1777,223 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/diodorus-cronus/"
     },
     {
-        "title": "Pseudo-Dionysius the Areopagite",
-        "link": "https://plato.stanford.edu/entries/pseudo-dionysius-areopagite/"
-    },
-    {
-        "title": "dirty hands, the problem of",
+        "title": "The Problem of Dirty Hands",
         "link": "https://plato.stanford.edu/entries/dirty-hands/"
     },
     {
-        "title": "critical disability theory",
-        "link": "https://plato.stanford.edu/entries/disability-critical/"
-    },
-    {
-        "title": "definitions and models",
-        "link": "https://plato.stanford.edu/entries/disability/"
-    },
-    {
-        "title": "feminist philosophy, topics: perspectives on disability",
-        "link": "https://plato.stanford.edu/entries/feminism-disability/"
-    },
-    {
-        "title": "health, well-being, personal relationships",
-        "link": "https://plato.stanford.edu/entries/disability-health/"
-    },
-    {
-        "title": "and health care rationing",
+        "title": "Disability and Health Care Rationing",
         "link": "https://plato.stanford.edu/entries/disability-care-rationing/"
     },
     {
-        "title": "and justice",
+        "title": "Critical Disability Theory",
+        "link": "https://plato.stanford.edu/entries/disability-critical/"
+    },
+    {
+        "title": "Disability: Health, Well-Being, and Personal Relationships",
+        "link": "https://plato.stanford.edu/entries/disability-health/"
+    },
+    {
+        "title": "Disability and Justice",
         "link": "https://plato.stanford.edu/entries/disability-justice/"
     },
     {
-        "title": "disagreement",
-        "link": "https://plato.stanford.edu/entries/disagreement/"
+        "title": "Disability: Definitions and Models",
+        "link": "https://plato.stanford.edu/entries/disability/"
     },
     {
-        "title": "moral disagreement",
+        "title": "Moral Disagreement",
         "link": "https://plato.stanford.edu/entries/disagreement-moral/"
     },
     {
-        "title": "discourse representation theory",
+        "title": "Disagreement",
+        "link": "https://plato.stanford.edu/entries/disagreement/"
+    },
+    {
+        "title": "Discourse Representation Theory",
         "link": "https://plato.stanford.edu/entries/discourse-representation-theory/"
     },
     {
-        "title": "discrimination",
+        "title": "Discrimination",
         "link": "https://plato.stanford.edu/entries/discrimination/"
     },
     {
-        "title": "health",
-        "link": "https://plato.stanford.edu/entries/health-disease/"
-    },
-    {
-        "title": "disjunction",
+        "title": "Disjunction",
         "link": "https://plato.stanford.edu/entries/disjunction/"
     },
     {
-        "title": "dispositions",
+        "title": "Dispositions",
         "link": "https://plato.stanford.edu/entries/dispositions/"
     },
     {
-        "title": "Sophists, The",
-        "link": "https://plato.stanford.edu/entries/sophists/"
-    },
-    {
-        "title": "justice: distributive",
-        "link": "https://plato.stanford.edu/entries/justice-distributive/"
-    },
-    {
-        "title": "and empirical moral psychology",
-        "link": "https://plato.stanford.edu/entries/justice-moral-psych/"
-    },
-    {
-        "title": "justice: international distributive",
-        "link": "https://plato.stanford.edu/entries/international-justice/"
-    },
-    {
-        "title": "religious diversity",
-        "link": "https://plato.stanford.edu/entries/religious-pluralism/"
-    },
-    {
-        "title": "voluntarism, theological",
-        "link": "https://plato.stanford.edu/entries/voluntarism-theological/"
-    },
-    {
-        "title": "free will: divine foreknowledge and",
-        "link": "https://plato.stanford.edu/entries/free-will-foreknowledge/"
-    },
-    {
-        "title": "freedom: divine",
+        "title": "Divine Freedom",
         "link": "https://plato.stanford.edu/entries/divine-freedom/"
     },
     {
-        "title": "hiddenness of God",
+        "title": "Hiddenness of God",
         "link": "https://plato.stanford.edu/entries/divine-hiddenness/"
     },
     {
-        "title": "illumination",
-        "link": "https://plato.stanford.edu/entries/illumination/"
-    },
-    {
-        "title": "providence, divine",
-        "link": "https://plato.stanford.edu/entries/providence-divine/"
-    },
-    {
-        "title": "revelation, divine",
+        "title": "Divine Revelation",
         "link": "https://plato.stanford.edu/entries/divine-revelation/"
     },
     {
-        "title": "simplicity: divine",
+        "title": "Divine Simplicity",
         "link": "https://plato.stanford.edu/entries/divine-simplicity/"
     },
     {
-        "title": "doing vs. allowing harm",
+        "title": "Doing vs. Allowing Harm",
         "link": "https://plato.stanford.edu/entries/doing-allowing/"
     },
     {
-        "title": "marriage and domestic partnership",
-        "link": "https://plato.stanford.edu/entries/marriage/"
-    },
-    {
-        "title": "domination",
+        "title": "Domination",
         "link": "https://plato.stanford.edu/entries/domination/"
     },
     {
-        "title": "donation and sale of human eggs and sperm",
-        "link": "https://plato.stanford.edu/entries/gametes-donation-sale/"
-    },
-    {
-        "title": "donation of human organs",
-        "link": "https://plato.stanford.edu/entries/organ-donation/"
-    },
-    {
-        "title": "double consciousness",
+        "title": "Double Consciousness",
         "link": "https://plato.stanford.edu/entries/double-consciousness/"
     },
     {
-        "title": "double effect, doctrine of",
+        "title": "Doctrine of Double Effect",
         "link": "https://plato.stanford.edu/entries/double-effect/"
     },
     {
-        "title": "Douglass, Frederick",
-        "link": "https://plato.stanford.edu/entries/frederick-douglass/"
-    },
-    {
-        "title": "doxastic voluntarism",
+        "title": "Doxastic Voluntarism",
         "link": "https://plato.stanford.edu/entries/doxastic-voluntarism/"
     },
     {
-        "title": "dreams and dreaming",
+        "title": "Doxography of Ancient Philosophy",
+        "link": "https://plato.stanford.edu/entries/doxography-ancient/"
+    },
+    {
+        "title": "Dreams and Dreaming",
         "link": "https://plato.stanford.edu/entries/dreams-dreaming/"
     },
     {
-        "title": "dualism",
-        "link": "https://plato.stanford.edu/entries/dualism/"
-    },
-    {
-        "title": "Du Bois, W.E.B.",
-        "link": "https://plato.stanford.edu/entries/dubois/"
-    },
-    {
-        "title": "Du Bos, Jean-Baptiste",
+        "title": "Jean-Baptiste Du Bos",
         "link": "https://plato.stanford.edu/entries/du-bos/"
     },
     {
-        "title": "Duhem, Pierre",
+        "title": "Dualism",
+        "link": "https://plato.stanford.edu/entries/dualism/"
+    },
+    {
+        "title": "W.E.B. Du Bois",
+        "link": "https://plato.stanford.edu/entries/dubois/"
+    },
+    {
+        "title": "Pierre Duhem",
         "link": "https://plato.stanford.edu/entries/duhem/"
     },
     {
-        "title": "Duns Scotus, John",
+        "title": "John Duns Scotus",
         "link": "https://plato.stanford.edu/entries/duns-scotus/"
     },
     {
-        "title": "Dutch book arguments",
+        "title": "Dutch Book Arguments",
         "link": "https://plato.stanford.edu/entries/dutch-book/"
     },
     {
-        "title": "logic: dynamic epistemic",
+        "title": "Dynamic Choice",
+        "link": "https://plato.stanford.edu/entries/dynamic-choice/"
+    },
+    {
+        "title": "Dynamic Epistemic Logic",
         "link": "https://plato.stanford.edu/entries/dynamic-epistemic/"
     },
     {
-        "title": "semantics: dynamic",
+        "title": "Dynamic Semantics",
         "link": "https://plato.stanford.edu/entries/dynamic-semantics/"
     },
     {
-        "title": "Early Modern India, analytic philosophy in",
+        "title": "Analytic Philosophy in Early Modern India",
         "link": "https://plato.stanford.edu/entries/early-modern-india/"
     },
     {
-        "title": "Meister Eckhart",
-        "link": "https://plato.stanford.edu/entries/meister-eckhart/"
-    },
-    {
-        "title": "genetics: ecological",
+        "title": "Ecological Genetics",
         "link": "https://plato.stanford.edu/entries/ecological-genetics/"
     },
     {
-        "title": "ecology",
+        "title": "Ecology",
         "link": "https://plato.stanford.edu/entries/ecology/"
     },
     {
-        "title": "in early modern philosophy",
-        "link": "https://plato.stanford.edu/entries/economics-early-modern/"
-    },
-    {
-        "title": "philosophy of",
-        "link": "https://plato.stanford.edu/entries/economics/"
-    },
-    {
-        "title": "Ramsey, Frank: and intergenerational welfare economics",
-        "link": "https://plato.stanford.edu/entries/ramsey-economics/"
-    },
-    {
-        "title": "economics [normative] and economic justice",
+        "title": "Normative Economics and Economic Justice",
         "link": "https://plato.stanford.edu/entries/economic-justice/"
     },
     {
-        "title": "education, philosophy of",
+        "title": "Economics in Early Modern Philosophy",
+        "link": "https://plato.stanford.edu/entries/economics-early-modern/"
+    },
+    {
+        "title": "Philosophy of Economics",
+        "link": "https://plato.stanford.edu/entries/economics/"
+    },
+    {
+        "title": "Philosophy of Education",
         "link": "https://plato.stanford.edu/entries/education-philosophy/"
     },
     {
-        "title": "Edwards, Jonathan",
+        "title": "Jonathan Edwards",
         "link": "https://plato.stanford.edu/entries/edwards/"
     },
     {
-        "title": "egalitarianism",
+        "title": "Egalitarianism",
         "link": "https://plato.stanford.edu/entries/egalitarianism/"
     },
     {
-        "title": "egoism",
+        "title": "Egoism",
         "link": "https://plato.stanford.edu/entries/egoism/"
     },
     {
-        "title": "Ehrenfels, Christian von",
+        "title": "Christian von Ehrenfels",
         "link": "https://plato.stanford.edu/entries/ehrenfels/"
     },
     {
-        "title": "space and time: the hole argument",
-        "link": "https://plato.stanford.edu/entries/spacetime-holearg/"
+        "title": "Einstein’s Philosophy of Science",
+        "link": "https://plato.stanford.edu/entries/einstein-philscience/"
     },
     {
-        "title": "philosophy of science",
-        "link": "https://plato.stanford.edu/entries/einstein-philscience/"
+        "title": "Elias",
+        "link": "https://plato.stanford.edu/entries/elias/"
     },
     {
         "title": "Elisabeth, Princess of Bohemia",
         "link": "https://plato.stanford.edu/entries/elisabeth-bohemia/"
     },
     {
-        "title": "emergent properties",
-        "link": "https://plato.stanford.edu/entries/properties-emergent/"
+        "title": "Embodied Cognition",
+        "link": "https://plato.stanford.edu/entries/embodied-cognition/"
     },
     {
-        "title": "Emerson, Ralph Waldo",
+        "title": "Ralph Waldo Emerson",
         "link": "https://plato.stanford.edu/entries/emerson/"
     },
     {
-        "title": "emotion",
-        "link": "https://plato.stanford.edu/entries/emotion/"
+        "title": "Émilie du Châtelet",
+        "link": "https://plato.stanford.edu/entries/emilie-du-chatelet/"
     },
     {
-        "title": "in the Christian tradition",
+        "title": "Emily Elizabeth Constance Jones",
+        "link": "https://plato.stanford.edu/entries/emily-elizabeth-constance-jones/"
+    },
+    {
+        "title": "Emotions in the Christian Tradition",
         "link": "https://plato.stanford.edu/entries/emotion-Christian-tradition/"
     },
     {
-        "title": "medieval theories of",
-        "link": "https://plato.stanford.edu/entries/medieval-emotions/"
+        "title": "Emotion",
+        "link": "https://plato.stanford.edu/entries/emotion/"
     },
     {
-        "title": "fiction: emotional responses to",
-        "link": "https://plato.stanford.edu/entries/fiction-emotion-response/"
+        "title": "17th and 18th Century Theories of Emotions",
+        "link": "https://plato.stanford.edu/entries/emotions-17th18th/"
     },
     {
-        "title": "empathy",
+        "title": "The Emotions in Early Chinese Philosophy",
+        "link": "https://plato.stanford.edu/entries/emotions-chinese/"
+    },
+    {
+        "title": "Empathy",
         "link": "https://plato.stanford.edu/entries/empathy/"
     },
     {
@@ -2529,39 +2001,23 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/empedocles/"
     },
     {
-        "title": "moral responsibility: empirical approaches",
-        "link": "https://plato.stanford.edu/entries/moral-responsibility-empirical/"
-    },
-    {
-        "title": "normative cognition, psychology of",
-        "link": "https://plato.stanford.edu/entries/psychology-normative-cognition/"
-    },
-    {
-        "title": "rationalism vs. empiricism",
-        "link": "https://plato.stanford.edu/entries/rationalism-empiricism/"
-    },
-    {
-        "title": "ancient and medieval",
+        "title": "Ancient and Medieval Empiricism",
         "link": "https://plato.stanford.edu/entries/empiricism-ancient-medieval/"
     },
     {
-        "title": "logical",
-        "link": "https://plato.stanford.edu/entries/logical-empiricism/"
+        "title": "Human Enhancement",
+        "link": "https://plato.stanford.edu/entries/enhancement/"
     },
     {
         "title": "Enlightenment",
         "link": "https://plato.stanford.edu/entries/enlightenment/"
     },
     {
-        "title": "logical consequence",
-        "link": "https://plato.stanford.edu/entries/logical-consequence/"
+        "title": "Environmental Aesthetics",
+        "link": "https://plato.stanford.edu/entries/environmental-aesthetics/"
     },
     {
-        "title": "information processing: and thermodynamic entropy",
-        "link": "https://plato.stanford.edu/entries/information-entropy/"
-    },
-    {
-        "title": "envy",
+        "title": "Envy",
         "link": "https://plato.stanford.edu/entries/envy/"
     },
     {
@@ -2573,675 +2029,655 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/epicurus/"
     },
     {
-        "title": "epiphenomenalism",
+        "title": "Epiphenomenalism",
         "link": "https://plato.stanford.edu/entries/epiphenomenalism/"
     },
     {
-        "title": "episteme and techne [= scientific knowledge and expertise]",
+        "title": "EpistemeandTechne",
         "link": "https://plato.stanford.edu/entries/episteme-techne/"
     },
     {
-        "title": "epistemic closure",
-        "link": "https://plato.stanford.edu/entries/closure-epistemic/"
+        "title": "Epistemic Foundations of Game Theory",
+        "link": "https://plato.stanford.edu/entries/epistemic-game/"
     },
     {
-        "title": "epistemic paradoxes",
+        "title": "Epistemic Paradoxes",
         "link": "https://plato.stanford.edu/entries/epistemic-paradoxes/"
     },
     {
-        "title": "self-doubt, epistemic",
+        "title": "Epistemic Self-Doubt",
         "link": "https://plato.stanford.edu/entries/epistemic-self-doubt/"
     },
     {
-        "title": "epistemology",
-        "link": "https://plato.stanford.edu/entries/epistemology/"
+        "title": "Epistemic Utility Arguments for Epistemic Norms",
+        "link": "https://plato.stanford.edu/entries/epistemic-utility/"
     },
     {
-        "title": "Bayesian",
+        "title": "Bayesian Epistemology",
         "link": "https://plato.stanford.edu/entries/epistemology-bayesian/"
     },
     {
-        "title": "evolutionary",
+        "title": "Evolutionary Epistemology",
         "link": "https://plato.stanford.edu/entries/epistemology-evolutionary/"
     },
     {
-        "title": "feminist philosophy, interventions: epistemology and philosophy of science",
-        "link": "https://plato.stanford.edu/entries/feminism-epistemology/"
+        "title": "Epistemology of Geometry",
+        "link": "https://plato.stanford.edu/entries/epistemology-geometry/"
     },
     {
-        "title": "Indian Philosophy (Classical): epistemology",
+        "title": "Epistemology in Classical Indian Philosophy",
         "link": "https://plato.stanford.edu/entries/epistemology-india/"
     },
     {
-        "title": "in Latin America",
+        "title": "Tibetan Epistemology and Philosophy of Language",
+        "link": "https://plato.stanford.edu/entries/epistemology-language-tibetan/"
+    },
+    {
+        "title": "Epistemology in Latin America",
         "link": "https://plato.stanford.edu/entries/epistemology-latin-america/"
     },
     {
-        "title": "moral epistemology",
-        "link": "https://plato.stanford.edu/entries/moral-epistemology/"
-    },
-    {
-        "title": "moral epistemology: a priorism in",
-        "link": "https://plato.stanford.edu/entries/moral-epistemology-a-priori/"
-    },
-    {
-        "title": "naturalism in",
+        "title": "Naturalism in Epistemology",
         "link": "https://plato.stanford.edu/entries/epistemology-naturalized/"
     },
     {
-        "title": "reliabilist epistemology",
-        "link": "https://plato.stanford.edu/entries/reliabilism/"
-    },
-    {
-        "title": "social",
+        "title": "Social Epistemology",
         "link": "https://plato.stanford.edu/entries/epistemology-social/"
     },
     {
-        "title": "feminist philosophy, interventions: social epistemology",
-        "link": "https://plato.stanford.edu/entries/feminist-social-epistemology/"
-    },
-    {
-        "title": "virtue",
+        "title": "Virtue Epistemology",
         "link": "https://plato.stanford.edu/entries/epistemology-virtue/"
     },
     {
-        "title": "epistemology, formal",
-        "link": "https://plato.stanford.edu/entries/formal-epistemology/"
+        "title": "The Epistemology of Visual Thinking in Mathematics",
+        "link": "https://plato.stanford.edu/entries/epistemology-visual-thinking/"
     },
     {
-        "title": "epsilon calculus",
+        "title": "Epistemology",
+        "link": "https://plato.stanford.edu/entries/epistemology/"
+    },
+    {
+        "title": "The Epsilon Calculus",
         "link": "https://plato.stanford.edu/entries/epsilon-calculus/"
     },
     {
-        "title": "equality",
-        "link": "https://plato.stanford.edu/entries/equality/"
-    },
-    {
-        "title": "of educational opportunity",
+        "title": "Equality of Educational Opportunity",
         "link": "https://plato.stanford.edu/entries/equal-ed-opportunity/"
     },
     {
-        "title": "of opportunity",
+        "title": "Equality of Opportunity",
         "link": "https://plato.stanford.edu/entries/equal-opportunity/"
     },
     {
-        "title": "equivalence of mass and energy",
+        "title": "Equality",
+        "link": "https://plato.stanford.edu/entries/equality/"
+    },
+    {
+        "title": "The Equivalence of Mass and Energy",
         "link": "https://plato.stanford.edu/entries/equivME/"
     },
     {
-        "title": "Erasmus, Desiderius",
+        "title": "Desiderius Erasmus",
         "link": "https://plato.stanford.edu/entries/erasmus/"
     },
     {
-        "title": "ergodic hierarchy",
+        "title": "Thomas of Erfurt",
+        "link": "https://plato.stanford.edu/entries/erfurt/"
+    },
+    {
+        "title": "The Ergodic Hierarchy",
         "link": "https://plato.stanford.edu/entries/ergodic-hierarchy/"
     },
     {
-        "title": "Eriugena, John Scottus",
-        "link": "https://plato.stanford.edu/entries/scottus-eriugena/"
+        "title": "Ernst Mach",
+        "link": "https://plato.stanford.edu/entries/ernst-mach/"
     },
     {
-        "title": "Locke, John: on real essence",
-        "link": "https://plato.stanford.edu/entries/real-essence/"
+        "title": "Erotic Art",
+        "link": "https://plato.stanford.edu/entries/erotic-art/"
     },
     {
-        "title": "eternity, in Christian thought",
+        "title": "Essential vs. Accidental Properties",
+        "link": "https://plato.stanford.edu/entries/essential-accidental/"
+    },
+    {
+        "title": "Eternity in Christian Thought",
         "link": "https://plato.stanford.edu/entries/eternity/"
     },
     {
-        "title": "business",
+        "title": "Ethics of Artificial Intelligence and Robotics",
+        "link": "https://plato.stanford.edu/entries/ethics-ai/"
+    },
+    {
+        "title": "Ancient Ethical Theory",
+        "link": "https://plato.stanford.edu/entries/ethics-ancient/"
+    },
+    {
+        "title": "The Ethics of Belief",
+        "link": "https://plato.stanford.edu/entries/ethics-belief/"
+    },
+    {
+        "title": "Business Ethics",
         "link": "https://plato.stanford.edu/entries/ethics-business/"
     },
     {
-        "title": "environmental",
+        "title": "Chinese Ethics",
+        "link": "https://plato.stanford.edu/entries/ethics-chinese/"
+    },
+    {
+        "title": "The Ethics of Cultural Heritage",
+        "link": "https://plato.stanford.edu/entries/ethics-cultural-heritage/"
+    },
+    {
+        "title": "Deontological Ethics",
+        "link": "https://plato.stanford.edu/entries/ethics-deontological/"
+    },
+    {
+        "title": "Environmental Ethics",
         "link": "https://plato.stanford.edu/entries/ethics-environmental/"
     },
     {
-        "title": "feminist philosophy, interventions: ethics",
-        "link": "https://plato.stanford.edu/entries/feminism-ethics/"
+        "title": "Ethics in Indian Buddhism",
+        "link": "https://plato.stanford.edu/entries/ethics-indian-buddhism/"
     },
     {
-        "title": "internet research",
+        "title": "Internet Research Ethics",
         "link": "https://plato.stanford.edu/entries/ethics-internet-research/"
     },
     {
-        "title": "natural law tradition",
-        "link": "https://plato.stanford.edu/entries/natural-law-ethics/"
-    },
-    {
-        "title": "personal identity: and ethics",
-        "link": "https://plato.stanford.edu/entries/identity-ethics/"
-    },
-    {
-        "title": "search engines and",
-        "link": "https://plato.stanford.edu/entries/ethics-search/"
-    },
-    {
-        "title": "social networking and ethics",
-        "link": "https://plato.stanford.edu/entries/ethics-social-networking/"
-    },
-    {
-        "title": "thick ethical concepts",
-        "link": "https://plato.stanford.edu/entries/thick-ethical-concepts/"
-    },
-    {
-        "title": "virtue",
-        "link": "https://plato.stanford.edu/entries/ethics-virtue/"
-    },
-    {
-        "title": "information technology: phenomenological approaches to ethics and",
+        "title": "Phenomenological Approaches to Ethics and Information Technology",
         "link": "https://plato.stanford.edu/entries/ethics-it-phenomenology/"
     },
     {
-        "title": "human enhancement",
-        "link": "https://plato.stanford.edu/entries/enhancement/"
+        "title": "The Ethics of Manipulation",
+        "link": "https://plato.stanford.edu/entries/ethics-manipulation/"
     },
     {
-        "title": "justice, inequality, and health",
-        "link": "https://plato.stanford.edu/entries/justice-inequality-health/"
-    },
-    {
-        "title": "justice and access to health care",
-        "link": "https://plato.stanford.edu/entries/justice-healthcareaccess/"
-    },
-    {
-        "title": "pregnancy, birth, and medicine",
+        "title": "Pregnancy, Birth, and Medicine",
         "link": "https://plato.stanford.edu/entries/ethics-pregnancy/"
     },
     {
-        "title": "privacy and medicine",
-        "link": "https://plato.stanford.edu/entries/privacy-medicine/"
+        "title": "Search Engines and Ethics",
+        "link": "https://plato.stanford.edu/entries/ethics-search/"
     },
     {
-        "title": "public health: ethics",
-        "link": "https://plato.stanford.edu/entries/publichealth-ethics/"
+        "title": "Social Networking and Ethics",
+        "link": "https://plato.stanford.edu/entries/ethics-social-networking/"
     },
     {
-        "title": "sale of human organs",
-        "link": "https://plato.stanford.edu/entries/organs-sale/"
+        "title": "Virtue Ethics",
+        "link": "https://plato.stanford.edu/entries/ethics-virtue/"
     },
     {
-        "title": "stem cell research",
-        "link": "https://plato.stanford.edu/entries/stem-cells/"
-    },
-    {
-        "title": "theory",
-        "link": "https://plato.stanford.edu/entries/theory-bioethics/"
-    },
-    {
-        "title": "eugenics",
+        "title": "Eugenics",
         "link": "https://plato.stanford.edu/entries/eugenics/"
     },
     {
-        "title": "voluntary",
+        "title": "Voluntary Euthanasia",
         "link": "https://plato.stanford.edu/entries/euthanasia-voluntary/"
     },
     {
-        "title": "events",
+        "title": "Events",
         "link": "https://plato.stanford.edu/entries/events/"
     },
     {
-        "title": "evidence",
-        "link": "https://plato.stanford.edu/entries/evidence/"
-    },
-    {
-        "title": "the legal concept of",
+        "title": "The Legal Concept of Evidence",
         "link": "https://plato.stanford.edu/entries/evidence-legal/"
     },
     {
-        "title": "evidence, higher-order",
-        "link": "https://plato.stanford.edu/entries/higher-order-evidence/"
+        "title": "Evidence",
+        "link": "https://plato.stanford.edu/entries/evidence/"
     },
     {
-        "title": "concept of",
-        "link": "https://plato.stanford.edu/entries/concept-evil/"
-    },
-    {
-        "title": "kinds and origins",
+        "title": "Kinds and Origins of Evil",
         "link": "https://plato.stanford.edu/entries/evil-kinds-origins/"
     },
     {
-        "title": "problem of",
+        "title": "The Problem of Evil",
         "link": "https://plato.stanford.edu/entries/evil/"
     },
     {
-        "title": "evolution",
-        "link": "https://plato.stanford.edu/entries/evolution/"
-    },
-    {
-        "title": "concept before Darwin",
+        "title": "Evolutionary Thought Before Darwin",
         "link": "https://plato.stanford.edu/entries/evolution-before-darwin/"
     },
     {
-        "title": "morality: and evolutionary biology",
-        "link": "https://plato.stanford.edu/entries/morality-biology/"
+        "title": "Cultural Evolution",
+        "link": "https://plato.stanford.edu/entries/evolution-cultural/"
     },
     {
-        "title": "game theory: evolutionary",
-        "link": "https://plato.stanford.edu/entries/game-evolutionary/"
+        "title": "Evolution and Development",
+        "link": "https://plato.stanford.edu/entries/evolution-development/"
     },
     {
-        "title": "psychology: evolutionary",
+        "title": "Evolution",
+        "link": "https://plato.stanford.edu/entries/evolution/"
+    },
+    {
+        "title": "Evolutionary Psychology",
         "link": "https://plato.stanford.edu/entries/evolutionary-psychology/"
     },
     {
-        "title": "existentialism",
-        "link": "https://plato.stanford.edu/entries/existentialism/"
+        "title": "Existence",
+        "link": "https://plato.stanford.edu/entries/existence/"
     },
     {
-        "title": "Mexican",
+        "title": "Mexican Existentialism",
         "link": "https://plato.stanford.edu/entries/existentialism-mexican/"
     },
     {
-        "title": "jurisprudence, experimental",
+        "title": "Existentialism",
+        "link": "https://plato.stanford.edu/entries/existentialism/"
+    },
+    {
+        "title": "Experimental Philosophy of Art and Aesthetics",
+        "link": "https://plato.stanford.edu/entries/experimental-aesthetics/"
+    },
+    {
+        "title": "Experimental Jurisprudence",
         "link": "https://plato.stanford.edu/entries/experimental-jurisprudence/"
     },
     {
-        "title": "experimental moral philosophy",
+        "title": "Experimental Moral Philosophy",
         "link": "https://plato.stanford.edu/entries/experimental-moral/"
     },
     {
-        "title": "experimental philosophy",
+        "title": "Experimental Philosophy",
         "link": "https://plato.stanford.edu/entries/experimental-philosophy/"
     },
     {
-        "title": "physics: experiment in",
-        "link": "https://plato.stanford.edu/entries/physics-experiment/"
-    },
-    {
-        "title": "mathematical: explanation",
-        "link": "https://plato.stanford.edu/entries/mathematics-explanation/"
-    },
-    {
-        "title": "metaphysical explanation",
-        "link": "https://plato.stanford.edu/entries/metaphysical-explanation/"
-    },
-    {
-        "title": "scientific explanation: 20th century theories",
-        "link": "https://plato.stanford.edu/entries/scientific-explanation-20th/"
-    },
-    {
-        "title": "scientific explanation: causal approaches to",
-        "link": "https://plato.stanford.edu/entries/causal-explanation-science/"
-    },
-    {
-        "title": "exploitation",
+        "title": "Exploitation",
         "link": "https://plato.stanford.edu/entries/exploitation/"
     },
     {
-        "title": "and self-knowledge",
-        "link": "https://plato.stanford.edu/entries/self-knowledge-externalism/"
-    },
-    {
-        "title": "externalism about the mind",
-        "link": "https://plato.stanford.edu/entries/content-externalism/"
-    },
-    {
-        "title": "intrinsic vs. extrinsic properties",
-        "link": "https://plato.stanford.edu/entries/intrinsic-extrinsic/"
-    },
-    {
-        "title": "Ibn Ezra, Abraham",
-        "link": "https://plato.stanford.edu/entries/ibn-ezra/"
-    },
-    {
-        "title": "facts",
+        "title": "Facts",
         "link": "https://plato.stanford.edu/entries/facts/"
     },
     {
-        "title": "faith",
+        "title": "Faith",
         "link": "https://plato.stanford.edu/entries/faith/"
     },
     {
-        "title": "Falaquera, Shem Tov Ibn",
+        "title": "Shem Tov Ibn Falaquera",
         "link": "https://plato.stanford.edu/entries/falaquera/"
     },
     {
-        "title": "fallacies",
+        "title": "Fallacies",
         "link": "https://plato.stanford.edu/entries/fallacies/"
     },
     {
-        "title": "Fanon, Frantz",
-        "link": "https://plato.stanford.edu/entries/frantz-fanon/"
-    },
-    {
-        "title": "fatalism",
+        "title": "Fatalism",
         "link": "https://plato.stanford.edu/entries/fatalism/"
     },
     {
-        "title": "Fechner, Gustav Theodor",
+        "title": "Gustav Theodor Fechner",
         "link": "https://plato.stanford.edu/entries/fechner/"
     },
     {
-        "title": "federalism",
+        "title": "Federalism",
         "link": "https://plato.stanford.edu/entries/federalism/"
     },
     {
-        "title": "Feigl, Herbert",
+        "title": "Herbert Feigl",
         "link": "https://plato.stanford.edu/entries/feigl/"
     },
     {
-        "title": "Fell, Margaret",
-        "link": "https://plato.stanford.edu/entries/margaret-fell/"
-    },
-    {
-        "title": "feminist philosophy",
-        "link": "https://plato.stanford.edu/entries/feminist-philosophy/"
-    },
-    {
-        "title": "analytic philosophy",
-        "link": "https://plato.stanford.edu/entries/femapproach-analytic/"
-    },
-    {
-        "title": "continental philosophy",
-        "link": "https://plato.stanford.edu/entries/femapproach-continental/"
-    },
-    {
-        "title": "intersections between analytic and continental philosophy",
+        "title": "Intersections Between Analytic and Continental Feminism",
         "link": "https://plato.stanford.edu/entries/femapproach-analy-cont/"
     },
     {
-        "title": "intersections between pragmatist and continental philosophy",
+        "title": "Analytic Feminism",
+        "link": "https://plato.stanford.edu/entries/femapproach-analytic/"
+    },
+    {
+        "title": "Continental Feminism",
+        "link": "https://plato.stanford.edu/entries/femapproach-continental/"
+    },
+    {
+        "title": "Intersections Between Pragmatist and Continental Feminism",
         "link": "https://plato.stanford.edu/entries/femapproach-prag-cont/"
     },
     {
-        "title": "Latin American feminism",
-        "link": "https://plato.stanford.edu/entries/feminism-latin-america/"
-    },
-    {
-        "title": "pragmatism",
+        "title": "Pragmatist Feminism",
         "link": "https://plato.stanford.edu/entries/femapproach-pragmatism/"
     },
     {
-        "title": "psychoanalytic philosophy",
-        "link": "https://plato.stanford.edu/entries/feminism-psychoanalysis/"
+        "title": "Feminist Aesthetics",
+        "link": "https://plato.stanford.edu/entries/feminism-aesthetics/"
     },
     {
-        "title": "bioethics",
-        "link": "https://plato.stanford.edu/entries/feminist-bioethics/"
-    },
-    {
-        "title": "environmental philosophy",
-        "link": "https://plato.stanford.edu/entries/feminism-environmental/"
-    },
-    {
-        "title": "history of philosophy",
-        "link": "https://plato.stanford.edu/entries/feminism-femhist/"
-    },
-    {
-        "title": "liberal feminism",
-        "link": "https://plato.stanford.edu/entries/feminism-liberal/"
-    },
-    {
-        "title": "metaphysics",
-        "link": "https://plato.stanford.edu/entries/feminism-metaphysics/"
-    },
-    {
-        "title": "moral psychology",
-        "link": "https://plato.stanford.edu/entries/feminism-moralpsych/"
-    },
-    {
-        "title": "philosophy of language",
-        "link": "https://plato.stanford.edu/entries/feminism-language/"
-    },
-    {
-        "title": "philosophy of law",
-        "link": "https://plato.stanford.edu/entries/feminism-law/"
-    },
-    {
-        "title": "philosophy of religion",
-        "link": "https://plato.stanford.edu/entries/feminist-religion/"
-    },
-    {
-        "title": "political philosophy",
-        "link": "https://plato.stanford.edu/entries/feminism-political/"
-    },
-    {
-        "title": "perspectives on argumentation",
+        "title": "Feminist Perspectives on Argumentation",
         "link": "https://plato.stanford.edu/entries/feminism-argumentation/"
     },
     {
-        "title": "perspectives on autonomy",
+        "title": "Feminist Perspectives on Autonomy",
         "link": "https://plato.stanford.edu/entries/feminism-autonomy/"
     },
     {
-        "title": "perspectives on class and work",
+        "title": "Feminist Perspectives on Class and Work",
         "link": "https://plato.stanford.edu/entries/feminism-class/"
     },
     {
-        "title": "perspectives on globalization",
-        "link": "https://plato.stanford.edu/entries/feminism-globalization/"
+        "title": "Feminist Perspectives on Disability",
+        "link": "https://plato.stanford.edu/entries/feminism-disability/"
     },
     {
-        "title": "perspectives on objectification",
-        "link": "https://plato.stanford.edu/entries/feminism-objectification/"
+        "title": "Feminist Environmental Philosophy",
+        "link": "https://plato.stanford.edu/entries/feminism-environmental/"
     },
     {
-        "title": "perspectives on power",
-        "link": "https://plato.stanford.edu/entries/feminist-power/"
+        "title": "Feminist Epistemology and Philosophy of Science",
+        "link": "https://plato.stanford.edu/entries/feminism-epistemology/"
     },
     {
-        "title": "perspectives on rape",
-        "link": "https://plato.stanford.edu/entries/feminism-rape/"
+        "title": "Feminist Ethics",
+        "link": "https://plato.stanford.edu/entries/feminism-ethics/"
     },
     {
-        "title": "perspectives on reproduction and the family",
+        "title": "Feminist Perspectives on Reproduction and the Family",
         "link": "https://plato.stanford.edu/entries/feminism-family/"
     },
     {
-        "title": "perspectives on science",
-        "link": "https://plato.stanford.edu/entries/feminist-science/"
+        "title": "Feminist History of Philosophy",
+        "link": "https://plato.stanford.edu/entries/feminism-femhist/"
     },
     {
-        "title": "perspectives on sex and gender",
+        "title": "Feminist Perspectives on Sex and Gender",
         "link": "https://plato.stanford.edu/entries/feminism-gender/"
     },
     {
-        "title": "perspectives on sex markets",
-        "link": "https://plato.stanford.edu/entries/feminist-sex-markets/"
+        "title": "Feminist Perspectives on Globalization",
+        "link": "https://plato.stanford.edu/entries/feminism-globalization/"
     },
     {
-        "title": "perspectives on the body",
-        "link": "https://plato.stanford.edu/entries/feminist-body/"
+        "title": "Feminist Philosophy of Language",
+        "link": "https://plato.stanford.edu/entries/feminism-language/"
     },
     {
-        "title": "perspectives on the self",
+        "title": "Latin American Feminism",
+        "link": "https://plato.stanford.edu/entries/feminism-latin-america/"
+    },
+    {
+        "title": "Feminist Philosophy of Law",
+        "link": "https://plato.stanford.edu/entries/feminism-law/"
+    },
+    {
+        "title": "Liberal Feminism",
+        "link": "https://plato.stanford.edu/entries/feminism-liberal/"
+    },
+    {
+        "title": "Feminist Metaphysics",
+        "link": "https://plato.stanford.edu/entries/feminism-metaphysics/"
+    },
+    {
+        "title": "Feminist Moral Psychology",
+        "link": "https://plato.stanford.edu/entries/feminism-moralpsych/"
+    },
+    {
+        "title": "Feminist Perspectives on Objectification",
+        "link": "https://plato.stanford.edu/entries/feminism-objectification/"
+    },
+    {
+        "title": "Feminist Political Philosophy",
+        "link": "https://plato.stanford.edu/entries/feminism-political/"
+    },
+    {
+        "title": "Psychoanalytic Feminism",
+        "link": "https://plato.stanford.edu/entries/feminism-psychoanalysis/"
+    },
+    {
+        "title": "Feminist Perspectives on Rape",
+        "link": "https://plato.stanford.edu/entries/feminism-rape/"
+    },
+    {
+        "title": "Feminist Perspectives on the Self",
         "link": "https://plato.stanford.edu/entries/feminism-self/"
     },
     {
-        "title": "perspectives on trans issues",
+        "title": "Feminist Perspectives on Trans Issues",
         "link": "https://plato.stanford.edu/entries/feminism-trans/"
     },
     {
-        "title": "Feuerbach, Ludwig Andreas",
-        "link": "https://plato.stanford.edu/entries/ludwig-feuerbach/"
+        "title": "Feminist Bioethics",
+        "link": "https://plato.stanford.edu/entries/feminist-bioethics/"
     },
     {
-        "title": "Feyerabend, Paul",
+        "title": "Feminist Perspectives on the Body",
+        "link": "https://plato.stanford.edu/entries/feminist-body/"
+    },
+    {
+        "title": "Feminist Philosophy of Biology",
+        "link": "https://plato.stanford.edu/entries/feminist-philosophy-biology/"
+    },
+    {
+        "title": "Feminist Philosophy",
+        "link": "https://plato.stanford.edu/entries/feminist-philosophy/"
+    },
+    {
+        "title": "Feminist Perspectives on Power",
+        "link": "https://plato.stanford.edu/entries/feminist-power/"
+    },
+    {
+        "title": "Feminist Philosophy of Religion",
+        "link": "https://plato.stanford.edu/entries/feminist-religion/"
+    },
+    {
+        "title": "Feminist Perspectives on Science",
+        "link": "https://plato.stanford.edu/entries/feminist-science/"
+    },
+    {
+        "title": "Feminist Perspectives on Sex Markets",
+        "link": "https://plato.stanford.edu/entries/feminist-sex-markets/"
+    },
+    {
+        "title": "Feminist Social Epistemology",
+        "link": "https://plato.stanford.edu/entries/feminist-social-epistemology/"
+    },
+    {
+        "title": "Paul Feyerabend",
         "link": "https://plato.stanford.edu/entries/feyerabend/"
     },
     {
-        "title": "Fichte, Johann Gottlieb",
-        "link": "https://plato.stanford.edu/entries/johann-fichte/"
-    },
-    {
-        "title": "Ficino, Marsilio",
+        "title": "Marsilio Ficino",
         "link": "https://plato.stanford.edu/entries/ficino/"
     },
     {
-        "title": "fiction",
+        "title": "Emotional Responses to Fiction",
+        "link": "https://plato.stanford.edu/entries/fiction-emotion-response/"
+    },
+    {
+        "title": "Fiction",
         "link": "https://plato.stanford.edu/entries/fiction/"
     },
     {
-        "title": "fictional entities",
+        "title": "Fictional Entities",
         "link": "https://plato.stanford.edu/entries/fictional-entities/"
     },
     {
-        "title": "fictionalism",
-        "link": "https://plato.stanford.edu/entries/fictionalism/"
-    },
-    {
-        "title": "mathematics, philosophy of: fictionalism",
+        "title": "Fictionalism in the Philosophy of Mathematics",
         "link": "https://plato.stanford.edu/entries/fictionalism-mathematics/"
     },
     {
-        "title": "modal",
+        "title": "Modal Fictionalism",
         "link": "https://plato.stanford.edu/entries/fictionalism-modal/"
     },
     {
-        "title": "fideism",
+        "title": "Fictionalism",
+        "link": "https://plato.stanford.edu/entries/fictionalism/"
+    },
+    {
+        "title": "Fideism",
         "link": "https://plato.stanford.edu/entries/fideism/"
     },
     {
-        "title": "film, philosophy of",
+        "title": "Philosophy of Film",
         "link": "https://plato.stanford.edu/entries/film/"
     },
     {
-        "title": "money and finance, philosophy of",
-        "link": "https://plato.stanford.edu/entries/money-finance/"
-    },
-    {
-        "title": "Findlay, J.N.",
+        "title": "John Niemeyer Findlay",
         "link": "https://plato.stanford.edu/entries/findlay/"
     },
     {
-        "title": "fine-tuning",
+        "title": "Fine-Tuning",
         "link": "https://plato.stanford.edu/entries/fine-tuning/"
     },
     {
-        "title": "Fitch\u2019s paradox of knowability",
+        "title": "Fitch’s Paradox of Knowability",
         "link": "https://plato.stanford.edu/entries/fitch-paradox/"
     },
     {
-        "title": "fitness",
+        "title": "Fitness",
         "link": "https://plato.stanford.edu/entries/fitness/"
     },
     {
-        "title": "fitting attitude theories of value",
+        "title": "Fitting Attitude Theories of Value",
         "link": "https://plato.stanford.edu/entries/fitting-attitude-theories/"
     },
     {
-        "title": "FitzRalph, Richard",
+        "title": "Richard FitzRalph",
         "link": "https://plato.stanford.edu/entries/fitzralph/"
     },
     {
-        "title": "Fleck, Ludwik",
+        "title": "Ludwik Fleck",
         "link": "https://plato.stanford.edu/entries/fleck/"
     },
     {
-        "title": "as mental simulation",
+        "title": "Folk Psychology as Mental Simulation",
         "link": "https://plato.stanford.edu/entries/folkpsych-simulation/"
     },
     {
-        "title": "as a theory",
+        "title": "Folk Psychology as a Theory",
         "link": "https://plato.stanford.edu/entries/folkpsych-theory/"
     },
     {
-        "title": "Foot, Philippa",
-        "link": "https://plato.stanford.edu/entries/philippa-foot/"
-    },
-    {
-        "title": "forgiveness",
+        "title": "Forgiveness",
         "link": "https://plato.stanford.edu/entries/forgiveness/"
     },
     {
-        "title": "mathematics, philosophy of: formalism",
-        "link": "https://plato.stanford.edu/entries/formalism-mathematics/"
-    },
-    {
-        "title": "Plato: middle period metaphysics and epistemology",
-        "link": "https://plato.stanford.edu/entries/plato-metaphysics/"
-    },
-    {
-        "title": "form vs. matter",
+        "title": "Form vs. Matter",
         "link": "https://plato.stanford.edu/entries/form-matter/"
     },
     {
-        "title": "Foucault, Michel",
+        "title": "Formal Representations of Belief",
+        "link": "https://plato.stanford.edu/entries/formal-belief/"
+    },
+    {
+        "title": "Formal Epistemology",
+        "link": "https://plato.stanford.edu/entries/formal-epistemology/"
+    },
+    {
+        "title": "Formalism in the Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/formalism-mathematics/"
+    },
+    {
+        "title": "Michel Foucault",
         "link": "https://plato.stanford.edu/entries/foucault/"
     },
     {
-        "title": "temporal parts",
-        "link": "https://plato.stanford.edu/entries/temporal-parts/"
+        "title": "The Frame Problem",
+        "link": "https://plato.stanford.edu/entries/frame-problem/"
+    },
+    {
+        "title": "Francis Bacon",
+        "link": "https://plato.stanford.edu/entries/francis-bacon/"
     },
     {
         "title": "Francis of Marchia",
         "link": "https://plato.stanford.edu/entries/francis-marchia/"
     },
     {
-        "title": "of association",
-        "link": "https://plato.stanford.edu/entries/freedom-association/"
+        "title": "Francisco Sanches",
+        "link": "https://plato.stanford.edu/entries/francisco-sanches/"
     },
     {
-        "title": "liberty: positive and negative",
-        "link": "https://plato.stanford.edu/entries/liberty-positive-negative/"
+        "title": "François Poulain de la Barre",
+        "link": "https://plato.stanford.edu/entries/francois-barre/"
     },
     {
-        "title": "of speech",
-        "link": "https://plato.stanford.edu/entries/freedom-speech/"
+        "title": "Frantz Fanon",
+        "link": "https://plato.stanford.edu/entries/frantz-fanon/"
     },
     {
-        "title": "free rider problem",
+        "title": "Frederick Douglass",
+        "link": "https://plato.stanford.edu/entries/frederick-douglass/"
+    },
+    {
+        "title": "The Free Rider Problem",
         "link": "https://plato.stanford.edu/entries/free-rider/"
     },
     {
-        "title": "free will",
+        "title": "Foreknowledge and Free Will",
+        "link": "https://plato.stanford.edu/entries/free-will-foreknowledge/"
+    },
+    {
+        "title": "Ancient Theories of Freedom and Determinism",
+        "link": "https://plato.stanford.edu/entries/freedom-ancient/"
+    },
+    {
+        "title": "Freedom of Association",
+        "link": "https://plato.stanford.edu/entries/freedom-association/"
+    },
+    {
+        "title": "Freedom of Speech",
+        "link": "https://plato.stanford.edu/entries/freedom-speech/"
+    },
+    {
+        "title": "Free Will",
         "link": "https://plato.stanford.edu/entries/freewill/"
     },
     {
-        "title": "incompatibilism: (nondeterministic) theories of free will",
-        "link": "https://plato.stanford.edu/entries/incompatibilism-theories/"
-    },
-    {
-        "title": "Frege, Gottlob",
-        "link": "https://plato.stanford.edu/entries/frege/"
-    },
-    {
-        "title": "controversy with Hilbert",
+        "title": "The Frege-Hilbert Controversy",
         "link": "https://plato.stanford.edu/entries/frege-hilbert/"
     },
     {
-        "title": "logic",
+        "title": "Frege’s Logic",
         "link": "https://plato.stanford.edu/entries/frege-logic/"
     },
     {
-        "title": "theorem and foundations for arithmetic",
+        "title": "Frege’s Theorem and Foundations for Arithmetic",
         "link": "https://plato.stanford.edu/entries/frege-theorem/"
     },
     {
-        "title": "friendship",
+        "title": "Gottlob Frege",
+        "link": "https://plato.stanford.edu/entries/frege/"
+    },
+    {
+        "title": "Friedrich Hayek",
+        "link": "https://plato.stanford.edu/entries/friedrich-hayek/"
+    },
+    {
+        "title": "Friedrich Heinrich Jacobi",
+        "link": "https://plato.stanford.edu/entries/friedrich-jacobi/"
+    },
+    {
+        "title": "Friedrich Albert Lange",
+        "link": "https://plato.stanford.edu/entries/friedrich-lange/"
+    },
+    {
+        "title": "Friendship",
         "link": "https://plato.stanford.edu/entries/friendship/"
     },
     {
-        "title": "Fuller, Margaret",
+        "title": "Margaret Fuller",
         "link": "https://plato.stanford.edu/entries/fuller-margaret/"
     },
     {
-        "title": "propositional function",
-        "link": "https://plato.stanford.edu/entries/propositional-function/"
-    },
-    {
-        "title": "recursive functions",
-        "link": "https://plato.stanford.edu/entries/recursive-functions/"
-    },
-    {
-        "title": "functionalism",
+        "title": "Functionalism",
         "link": "https://plato.stanford.edu/entries/functionalism/"
     },
     {
-        "title": "fundamentality",
+        "title": "Fundamentality",
         "link": "https://plato.stanford.edu/entries/fundamentality/"
     },
     {
-        "title": "future contingents",
+        "title": "Future Contingents",
         "link": "https://plato.stanford.edu/entries/future-contingents/"
     },
     {
-        "title": "medieval theories of",
-        "link": "https://plato.stanford.edu/entries/medieval-futcont/"
+        "title": "Gadamer’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/gadamer-aesthetics/"
     },
     {
-        "title": "Gadamer, Hans-Georg",
+        "title": "Hans-Georg Gadamer",
         "link": "https://plato.stanford.edu/entries/gadamer/"
     },
     {
@@ -3253,39 +2689,39 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/galileo/"
     },
     {
-        "title": "abstraction and completeness",
-        "link": "https://plato.stanford.edu/entries/games-abstraction/"
-    },
-    {
-        "title": "logic: and games",
-        "link": "https://plato.stanford.edu/entries/logic-games/"
-    },
-    {
-        "title": "logic: for analyzing games",
-        "link": "https://plato.stanford.edu/entries/logics-for-games/"
-    },
-    {
-        "title": "game theory",
-        "link": "https://plato.stanford.edu/entries/game-theory/"
-    },
-    {
-        "title": "epistemic foundations of",
-        "link": "https://plato.stanford.edu/entries/epistemic-game/"
-    },
-    {
-        "title": "and ethics",
+        "title": "Game Theory and Ethics",
         "link": "https://plato.stanford.edu/entries/game-ethics/"
     },
     {
-        "title": "Ga\u1e45ge\u015ba",
+        "title": "Evolutionary Game Theory",
+        "link": "https://plato.stanford.edu/entries/game-evolutionary/"
+    },
+    {
+        "title": "Game Theory",
+        "link": "https://plato.stanford.edu/entries/game-theory/"
+    },
+    {
+        "title": "Games, Full Abstraction and Full Completeness",
+        "link": "https://plato.stanford.edu/entries/games-abstraction/"
+    },
+    {
+        "title": "The Donation and Sale of Human Eggs and Sperm",
+        "link": "https://plato.stanford.edu/entries/gametes-donation-sale/"
+    },
+    {
+        "title": "Gaṅgeśa",
         "link": "https://plato.stanford.edu/entries/gangesa/"
     },
     {
-        "title": "Gassendi, Pierre",
+        "title": "Pierre Gassendi",
         "link": "https://plato.stanford.edu/entries/gassendi/"
     },
     {
-        "title": "gauge theories in physics",
+        "title": "José Ortega y Gasset",
+        "link": "https://plato.stanford.edu/entries/gasset/"
+    },
+    {
+        "title": "Gauge Theories in Physics",
         "link": "https://plato.stanford.edu/entries/gauge-theories/"
     },
     {
@@ -3293,147 +2729,115 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/gelukpa/"
     },
     {
-        "title": "gene",
+        "title": "Gene",
         "link": "https://plato.stanford.edu/entries/gene/"
     },
     {
-        "title": "generalized quantifiers",
+        "title": "Generalized Quantifiers",
         "link": "https://plato.stanford.edu/entries/generalized-quantifiers/"
     },
     {
-        "title": "early philosophical interpretations of",
-        "link": "https://plato.stanford.edu/entries/genrel-early/"
-    },
-    {
-        "title": "generic generalizations",
+        "title": "Generic Generalizations",
         "link": "https://plato.stanford.edu/entries/generics/"
     },
     {
-        "title": "genetic drift",
+        "title": "Genetic Drift",
         "link": "https://plato.stanford.edu/entries/genetic-drift/"
     },
     {
-        "title": "genetics",
+        "title": "Genetics",
         "link": "https://plato.stanford.edu/entries/genetics/"
     },
     {
-        "title": "genotype/phenotype distinction",
-        "link": "https://plato.stanford.edu/entries/genotype-phenotype/"
-    },
-    {
-        "title": "molecular",
-        "link": "https://plato.stanford.edu/entries/molecular-genetics/"
-    },
-    {
-        "title": "population",
-        "link": "https://plato.stanford.edu/entries/population-genetics/"
-    },
-    {
-        "title": "genomics and postgenomics",
+        "title": "Genomics and Postgenomics",
         "link": "https://plato.stanford.edu/entries/genomics/"
     },
     {
-        "title": "epistemology of",
-        "link": "https://plato.stanford.edu/entries/epistemology-geometry/"
+        "title": "The Genotype/Phenotype Distinction",
+        "link": "https://plato.stanford.edu/entries/genotype-phenotype/"
     },
     {
-        "title": "finitism in",
-        "link": "https://plato.stanford.edu/entries/geometry-finitism/"
+        "title": "Early Philosophical Interpretations of General Relativity",
+        "link": "https://plato.stanford.edu/entries/genrel-early/"
     },
     {
-        "title": "in the 19th century",
+        "title": "Nineteenth Century Geometry",
         "link": "https://plato.stanford.edu/entries/geometry-19th/"
     },
     {
-        "title": "George, Eliot",
-        "link": "https://plato.stanford.edu/entries/george-eliot/"
+        "title": "Finitism in Geometry",
+        "link": "https://plato.stanford.edu/entries/geometry-finitism/"
     },
     {
-        "title": "in the 18th century, prior to Kant",
-        "link": "https://plato.stanford.edu/entries/18thGerman-preKant/"
+        "title": "George Eliot",
+        "link": "https://plato.stanford.edu/entries/george-eliot/"
     },
     {
         "title": "Gersonides",
         "link": "https://plato.stanford.edu/entries/gersonides/"
     },
     {
-        "title": "justification, epistemic: foundationalist theories of",
-        "link": "https://plato.stanford.edu/entries/justep-foundational/"
+        "title": "Giles of Rome",
+        "link": "https://plato.stanford.edu/entries/giles/"
     },
     {
-        "title": "globalization",
+        "title": "Global Democracy",
+        "link": "https://plato.stanford.edu/entries/global-democracy/"
+    },
+    {
+        "title": "Globalization",
         "link": "https://plato.stanford.edu/entries/globalization/"
     },
     {
-        "title": "justice: global",
-        "link": "https://plato.stanford.edu/entries/justice-global/"
-    },
-    {
-        "title": "and other necessary beings",
+        "title": "God and Other Necessary Beings",
         "link": "https://plato.stanford.edu/entries/god-necessary-being/"
     },
     {
-        "title": "and other ultimates",
+        "title": "God and Other Ultimates",
         "link": "https://plato.stanford.edu/entries/god-ultimates/"
-    },
-    {
-        "title": "pragmatic arguments and belief in God",
-        "link": "https://plato.stanford.edu/entries/pragmatic-belief-god/"
-    },
-    {
-        "title": "moral arguments",
-        "link": "https://plato.stanford.edu/entries/moral-arguments-god/"
-    },
-    {
-        "title": "ontological arguments",
-        "link": "https://plato.stanford.edu/entries/ontological-arguments/"
     },
     {
         "title": "Godfrey of Fontaines",
         "link": "https://plato.stanford.edu/entries/godfrey/"
     },
     {
-        "title": "Godwin, William",
+        "title": "William Godwin",
         "link": "https://plato.stanford.edu/entries/godwin/"
     },
     {
-        "title": "G\u00f6del, Kurt",
-        "link": "https://plato.stanford.edu/entries/goedel/"
-    },
-    {
-        "title": "incompleteness theorems",
+        "title": "Gödel’s Incompleteness Theorems",
         "link": "https://plato.stanford.edu/entries/goedel-incompleteness/"
     },
     {
-        "title": "Goodman, Nelson",
+        "title": "Kurt Gödel",
+        "link": "https://plato.stanford.edu/entries/goedel/"
+    },
+    {
+        "title": "Gómez Pereira",
+        "link": "https://plato.stanford.edu/entries/gomez-pereira/"
+    },
+    {
+        "title": "Goodman’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/goodman-aesthetics/"
+    },
+    {
+        "title": "Nelson Goodman",
         "link": "https://plato.stanford.edu/entries/goodman/"
-    },
-    {
-        "title": "goodness, perfect",
-        "link": "https://plato.stanford.edu/entries/perfect-goodness/"
-    },
-    {
-        "title": "public goods",
-        "link": "https://plato.stanford.edu/entries/public-goods/"
     },
     {
         "title": "Gorampa [go rams pa]",
         "link": "https://plato.stanford.edu/entries/gorampa/"
     },
     {
-        "title": "grammar: typelogical",
-        "link": "https://plato.stanford.edu/entries/typelogical-grammar/"
-    },
-    {
-        "title": "Gramsci, Antonio",
+        "title": "Antonio Gramsci",
         "link": "https://plato.stanford.edu/entries/gramsci/"
     },
     {
-        "title": "gratitude",
+        "title": "Gratitude",
         "link": "https://plato.stanford.edu/entries/gratitude/"
     },
     {
-        "title": "Green, Thomas Hill",
+        "title": "Thomas Hill Green",
         "link": "https://plato.stanford.edu/entries/green/"
     },
     {
@@ -3441,251 +2845,267 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/gregory-rimini/"
     },
     {
-        "title": "Grice, Paul",
+        "title": "Paul Grice",
         "link": "https://plato.stanford.edu/entries/grice/"
     },
     {
-        "title": "Grosseteste, Robert",
+        "title": "Robert Grosseteste",
         "link": "https://plato.stanford.edu/entries/grosseteste/"
     },
     {
-        "title": "Grotius, Hugo",
+        "title": "Hugo Grotius",
         "link": "https://plato.stanford.edu/entries/grotius/"
     },
     {
-        "title": "grounding, metaphysical",
+        "title": "Metaphysical Grounding",
         "link": "https://plato.stanford.edu/entries/grounding/"
     },
     {
-        "title": "rights: group",
-        "link": "https://plato.stanford.edu/entries/rights-group/"
+        "title": "The Grounds of Moral Status",
+        "link": "https://plato.stanford.edu/entries/grounds-moral-status/"
     },
     {
-        "title": "Habermas, J\u00fcrgen",
+        "title": "Jürgen Habermas",
         "link": "https://plato.stanford.edu/entries/habermas/"
     },
     {
-        "title": "haecceitism",
+        "title": "Haecceitism",
         "link": "https://plato.stanford.edu/entries/haecceitism/"
     },
     {
-        "title": "medieval theories of",
-        "link": "https://plato.stanford.edu/entries/medieval-haecceity/"
-    },
-    {
-        "title": "Halevi, Judah",
+        "title": "Judah Halevi",
         "link": "https://plato.stanford.edu/entries/halevi/"
     },
     {
-        "title": "Hamann, Johann Georg",
+        "title": "Johann Georg Hamann",
         "link": "https://plato.stanford.edu/entries/hamann/"
     },
     {
-        "title": "happiness",
+        "title": "Philosophy in Han Dynasty China",
+        "link": "https://plato.stanford.edu/entries/han-dynasty/"
+    },
+    {
+        "title": "Happiness",
         "link": "https://plato.stanford.edu/entries/happiness/"
     },
     {
-        "title": "Hare, Richard Mervyn",
+        "title": "Richard Mervyn Hare",
         "link": "https://plato.stanford.edu/entries/hare/"
     },
     {
-        "title": "Hartley, David",
+        "title": "Harriet Taylor Mill",
+        "link": "https://plato.stanford.edu/entries/harriet-mill/"
+    },
+    {
+        "title": "David Hartley",
         "link": "https://plato.stanford.edu/entries/hartley/"
     },
     {
-        "title": "Hartmann, Nicolai",
-        "link": "https://plato.stanford.edu/entries/nicolai-hartmann/"
-    },
-    {
-        "title": "Hartshorne, Charles",
+        "title": "Charles Hartshorne",
         "link": "https://plato.stanford.edu/entries/hartshorne/"
     },
     {
-        "title": "hate speech",
+        "title": "Hate Speech",
         "link": "https://plato.stanford.edu/entries/hate-speech/"
     },
     {
-        "title": "Hayek, Friedrich",
-        "link": "https://plato.stanford.edu/entries/friedrich-hayek/"
+        "title": "Concepts of Disease and Health",
+        "link": "https://plato.stanford.edu/entries/health-disease/"
     },
     {
-        "title": "heaven and hell in Christian thought",
+        "title": "Heaven and Hell in Christian Thought",
         "link": "https://plato.stanford.edu/entries/heaven-hell/"
     },
     {
-        "title": "hedonism",
+        "title": "Hedonism",
         "link": "https://plato.stanford.edu/entries/hedonism/"
     },
     {
-        "title": "Hegel, Georg Wilhelm Friedrich",
-        "link": "https://plato.stanford.edu/entries/hegel/"
+        "title": "Hegel’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/hegel-aesthetics/"
     },
     {
-        "title": "social and political philosophy",
+        "title": "Hegel’s Dialectics",
+        "link": "https://plato.stanford.edu/entries/hegel-dialectics/"
+    },
+    {
+        "title": "Hegel’s Social and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/hegel-social-political/"
     },
     {
-        "title": "Helmholtz, Hermann von",
-        "link": "https://plato.stanford.edu/entries/hermann-helmholtz/"
+        "title": "Georg Wilhelm Friedrich Hegel",
+        "link": "https://plato.stanford.edu/entries/hegel/"
     },
     {
-        "title": "Hempel, Carl",
+        "title": "Heidegger’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/heidegger-aesthetics/"
+    },
+    {
+        "title": "Martin Heidegger",
+        "link": "https://plato.stanford.edu/entries/heidegger/"
+    },
+    {
+        "title": "Heinrich Rickert",
+        "link": "https://plato.stanford.edu/entries/heinrich-rickert/"
+    },
+    {
+        "title": "Carl Hempel",
         "link": "https://plato.stanford.edu/entries/hempel/"
     },
     {
-        "title": "Henry, Michel",
-        "link": "https://plato.stanford.edu/entries/michel-henry/"
+        "title": "Henricus Regius",
+        "link": "https://plato.stanford.edu/entries/henricus-regius/"
     },
     {
         "title": "Henry of Ghent",
         "link": "https://plato.stanford.edu/entries/henry-ghent/"
     },
     {
+        "title": "Henry More",
+        "link": "https://plato.stanford.edu/entries/henry-more/"
+    },
+    {
         "title": "Heraclitus",
         "link": "https://plato.stanford.edu/entries/heraclitus/"
     },
     {
-        "title": "Herbart, Johann Friedrich",
-        "link": "https://plato.stanford.edu/entries/johann-herbart/"
-    },
-    {
-        "title": "Herder, Johann Gottfried von",
+        "title": "Johann Gottfried von Herder",
         "link": "https://plato.stanford.edu/entries/herder/"
     },
     {
-        "title": "heritability",
+        "title": "Heritability",
         "link": "https://plato.stanford.edu/entries/heritability/"
     },
     {
-        "title": "inheritance systems",
-        "link": "https://plato.stanford.edu/entries/inheritance-systems/"
+        "title": "Hermann von Helmholtz",
+        "link": "https://plato.stanford.edu/entries/hermann-helmholtz/"
     },
     {
-        "title": "hermeneutics",
+        "title": "Hermann Lotze",
+        "link": "https://plato.stanford.edu/entries/hermann-lotze/"
+    },
+    {
+        "title": "Hermeneutics",
         "link": "https://plato.stanford.edu/entries/hermeneutics/"
     },
     {
-        "title": "Heytesbury, William",
+        "title": "William Heytesbury",
         "link": "https://plato.stanford.edu/entries/heytesbury/"
     },
     {
-        "title": "program in the foundations of mathematics",
+        "title": "Higher-Order Evidence",
+        "link": "https://plato.stanford.edu/entries/higher-order-evidence/"
+    },
+    {
+        "title": "Hilbert’s Program",
         "link": "https://plato.stanford.edu/entries/hilbert-program/"
     },
     {
-        "title": "history, philosophy of",
+        "title": "History of Western Philosophy of Music: since 1800",
+        "link": "https://plato.stanford.edu/entries/hist-westphilmusic-since-1800/"
+    },
+    {
+        "title": "History of Western Philosophy of Music: Antiquity to 1800",
+        "link": "https://plato.stanford.edu/entries/hist-westphilmusic-to-1800/"
+    },
+    {
+        "title": "The History of Feminism: Marie-Jean-Antoine-Nicolas de Caritat, Marquis de Condorcet",
+        "link": "https://plato.stanford.edu/entries/histfem-condorcet/"
+    },
+    {
+        "title": "Philosophy of History",
         "link": "https://plato.stanford.edu/entries/history/"
     },
     {
-        "title": "Hobbes, Thomas",
-        "link": "https://plato.stanford.edu/entries/hobbes/"
-    },
-    {
-        "title": "moral and political philosophy",
+        "title": "Hobbes’s Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/hobbes-moral/"
     },
     {
-        "title": "philosophy of science",
+        "title": "Hobbes’ Philosophy of Science",
         "link": "https://plato.stanford.edu/entries/hobbes-science/"
     },
     {
-        "title": "Holbach, Paul-Henri Thiry (Baron) d\u2019",
+        "title": "Thomas Hobbes",
+        "link": "https://plato.stanford.edu/entries/hobbes/"
+    },
+    {
+        "title": "Paul-Henri Thiry (Baron) d’Holbach",
         "link": "https://plato.stanford.edu/entries/holbach/"
     },
     {
-        "title": "holes",
+        "title": "Holes",
         "link": "https://plato.stanford.edu/entries/holes/"
     },
     {
-        "title": "Holkot [Holcot], Robert",
+        "title": "Methodological Holism in the Social Sciences",
+        "link": "https://plato.stanford.edu/entries/holism-social/"
+    },
+    {
+        "title": "Robert Holkot",
         "link": "https://plato.stanford.edu/entries/holkot/"
     },
     {
-        "title": "homosexuality",
+        "title": "Homosexuality",
         "link": "https://plato.stanford.edu/entries/homosexuality/"
     },
     {
-        "title": "Hook, Sidney",
-        "link": "https://plato.stanford.edu/entries/sidney-hook/"
-    },
-    {
-        "title": "hope",
+        "title": "Hope",
         "link": "https://plato.stanford.edu/entries/hope/"
     },
     {
-        "title": "Horkheimer, Max",
+        "title": "Max Horkheimer",
         "link": "https://plato.stanford.edu/entries/horkheimer/"
     },
     {
-        "title": "human genome project",
+        "title": "The Human Genome Project",
         "link": "https://plato.stanford.edu/entries/human-genome/"
     },
     {
-        "title": "human nature",
+        "title": "Human Nature",
         "link": "https://plato.stanford.edu/entries/human-nature/"
     },
     {
-        "title": "rights: human",
-        "link": "https://plato.stanford.edu/entries/rights-human/"
+        "title": "Civic Humanism",
+        "link": "https://plato.stanford.edu/entries/humanism-civic/"
     },
     {
-        "title": "Humboldt, Alexander von",
-        "link": "https://plato.stanford.edu/entries/alexander-humboldt/"
+        "title": "Hume’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/hume-aesthetics/"
     },
     {
-        "title": "Humboldt, Wilhelm von",
-        "link": "https://plato.stanford.edu/entries/wilhelm-humboldt/"
-    },
-    {
-        "title": "Hume, David",
-        "link": "https://plato.stanford.edu/entries/hume/"
-    },
-    {
-        "title": "Kant, Immanuel: and Hume on causality",
-        "link": "https://plato.stanford.edu/entries/kant-hume-causality/"
-    },
-    {
-        "title": "Kant, Immanuel: and Hume on morality",
-        "link": "https://plato.stanford.edu/entries/kant-hume-morality/"
-    },
-    {
-        "title": "moral philosophy",
-        "link": "https://plato.stanford.edu/entries/hume-moral/"
-    },
-    {
-        "title": "Newtonianism and Anti-Newtonianism",
-        "link": "https://plato.stanford.edu/entries/hume-newton/"
-    },
-    {
-        "title": "on free will",
+        "title": "Hume on Free Will",
         "link": "https://plato.stanford.edu/entries/hume-freewill/"
     },
     {
-        "title": "on religion",
+        "title": "Hume’s Moral Philosophy",
+        "link": "https://plato.stanford.edu/entries/hume-moral/"
+    },
+    {
+        "title": "Hume’s Newtonianism and Anti-Newtonianism",
+        "link": "https://plato.stanford.edu/entries/hume-newton/"
+    },
+    {
+        "title": "Hume on Religion",
         "link": "https://plato.stanford.edu/entries/hume-religion/"
     },
     {
-        "title": "modesty and humility",
-        "link": "https://plato.stanford.edu/entries/modesty-humility/"
+        "title": "David Hume",
+        "link": "https://plato.stanford.edu/entries/hume/"
     },
     {
-        "title": "humor, philosophy of",
+        "title": "Philosophy of Humor",
         "link": "https://plato.stanford.edu/entries/humor/"
     },
     {
-        "title": "Husserl, Edmund",
+        "title": "Edmund Husserl",
         "link": "https://plato.stanford.edu/entries/husserl/"
     },
     {
-        "title": "Hutcheson, Francis",
+        "title": "Francis Hutcheson",
         "link": "https://plato.stanford.edu/entries/hutcheson/"
     },
     {
-        "title": "logic: hybrid",
-        "link": "https://plato.stanford.edu/entries/logic-hybrid/"
-    },
-    {
-        "title": "hyperintensionality",
+        "title": "Hyperintensionality",
         "link": "https://plato.stanford.edu/entries/hyperintensionality/"
     },
     {
@@ -3693,559 +3113,615 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/iamblichus/"
     },
     {
-        "title": "Ibn \u2018Arab\u012b",
+        "title": "Ibn ‘Arabī",
         "link": "https://plato.stanford.edu/entries/ibn-arabi/"
     },
     {
-        "title": "Ibn B\u00e2jja [Avempace]",
+        "title": "Ibn Bâjja [Avempace]",
         "link": "https://plato.stanford.edu/entries/ibn-bajja/"
+    },
+    {
+        "title": "Abraham Ibn Ezra",
+        "link": "https://plato.stanford.edu/entries/ibn-ezra/"
+    },
+    {
+        "title": "Solomon Ibn Gabirol [Avicebron]",
+        "link": "https://plato.stanford.edu/entries/ibn-gabirol/"
+    },
+    {
+        "title": "Ibn Kammūna",
+        "link": "https://plato.stanford.edu/entries/ibn-kammuna/"
+    },
+    {
+        "title": "Ibn Rushd’s Natural Philosophy",
+        "link": "https://plato.stanford.edu/entries/ibn-rushd-natural/"
+    },
+    {
+        "title": "Ibn Rushd [Averroes]",
+        "link": "https://plato.stanford.edu/entries/ibn-rushd/"
+    },
+    {
+        "title": "Ibn Sina’s Logic",
+        "link": "https://plato.stanford.edu/entries/ibn-sina-logic/"
+    },
+    {
+        "title": "Ibn Sina’s Metaphysics",
+        "link": "https://plato.stanford.edu/entries/ibn-sina-metaphysics/"
+    },
+    {
+        "title": "Ibn Sina’s Natural Philosophy",
+        "link": "https://plato.stanford.edu/entries/ibn-sina-natural/"
+    },
+    {
+        "title": "Ibn Sina [Avicenna]",
+        "link": "https://plato.stanford.edu/entries/ibn-sina/"
     },
     {
         "title": "Ibn Taymiyya",
         "link": "https://plato.stanford.edu/entries/ibn-taymiyya/"
     },
     {
-        "title": "Tibbon, Samuel Ibn",
-        "link": "https://plato.stanford.edu/entries/tibbon/"
-    },
-    {
-        "title": "idealism",
+        "title": "Idealism",
         "link": "https://plato.stanford.edu/entries/idealism/"
     },
     {
-        "title": "identity",
-        "link": "https://plato.stanford.edu/entries/identity/"
+        "title": "Personal Identity and Ethics",
+        "link": "https://plato.stanford.edu/entries/identity-ethics/"
     },
     {
-        "title": "of indiscernibles",
+        "title": "The Identity of Indiscernibles",
         "link": "https://plato.stanford.edu/entries/identity-indiscernible/"
     },
     {
-        "title": "over time",
-        "link": "https://plato.stanford.edu/entries/identity-time/"
-    },
-    {
-        "title": "personal identity",
+        "title": "Personal Identity",
         "link": "https://plato.stanford.edu/entries/identity-personal/"
     },
     {
-        "title": "relative",
-        "link": "https://plato.stanford.edu/entries/identity-relative/"
-    },
-    {
-        "title": "transworld",
-        "link": "https://plato.stanford.edu/entries/identity-transworld/"
-    },
-    {
-        "title": "identity politics",
+        "title": "Identity Politics",
         "link": "https://plato.stanford.edu/entries/identity-politics/"
     },
     {
-        "title": "mind/brain identity theory",
-        "link": "https://plato.stanford.edu/entries/mind-identity/"
+        "title": "Relative Identity",
+        "link": "https://plato.stanford.edu/entries/identity-relative/"
     },
     {
-        "title": "ideology",
+        "title": "Identity Over Time",
+        "link": "https://plato.stanford.edu/entries/identity-time/"
+    },
+    {
+        "title": "Transworld Identity",
+        "link": "https://plato.stanford.edu/entries/identity-transworld/"
+    },
+    {
+        "title": "Identity",
+        "link": "https://plato.stanford.edu/entries/identity/"
+    },
+    {
+        "title": "Ideology",
         "link": "https://plato.stanford.edu/entries/ideology/"
     },
     {
-        "title": "law: and ideology",
-        "link": "https://plato.stanford.edu/entries/law-ideology/"
-    },
-    {
-        "title": "idiolects",
+        "title": "Idiolects",
         "link": "https://plato.stanford.edu/entries/idiolects/"
     },
     {
-        "title": "mental imagery",
-        "link": "https://plato.stanford.edu/entries/mental-imagery/"
+        "title": "Ikhwān al-Safā’",
+        "link": "https://plato.stanford.edu/entries/ikhwan-al-safa/"
     },
     {
-        "title": "imagination",
+        "title": "Divine Illumination",
+        "link": "https://plato.stanford.edu/entries/illumination/"
+    },
+    {
+        "title": "Imagination",
         "link": "https://plato.stanford.edu/entries/imagination/"
     },
     {
-        "title": "imaginative resistance",
+        "title": "Imaginative Resistance",
         "link": "https://plato.stanford.edu/entries/imaginative-resistance/"
     },
     {
-        "title": "immigration",
+        "title": "Immigration",
         "link": "https://plato.stanford.edu/entries/immigration/"
     },
     {
-        "title": "immunology, philosophy of",
+        "title": "Philosophy of Immunology",
         "link": "https://plato.stanford.edu/entries/immunology/"
     },
     {
-        "title": "immutability",
+        "title": "Immutability",
         "link": "https://plato.stanford.edu/entries/immutability/"
     },
     {
-        "title": "impartiality",
+        "title": "Impartiality",
         "link": "https://plato.stanford.edu/entries/impartiality/"
     },
     {
-        "title": "implicature",
-        "link": "https://plato.stanford.edu/entries/implicature/"
-    },
-    {
-        "title": "optimality theoretic and game theoretic approaches",
+        "title": "Optimality-Theoretic and Game-Theoretic Approaches to Implicature",
         "link": "https://plato.stanford.edu/entries/implicature-optimality-games/"
     },
     {
-        "title": "impossible worlds",
+        "title": "Implicature",
+        "link": "https://plato.stanford.edu/entries/implicature/"
+    },
+    {
+        "title": "Implicit Bias",
+        "link": "https://plato.stanford.edu/entries/implicit-bias/"
+    },
+    {
+        "title": "Impossible Worlds",
         "link": "https://plato.stanford.edu/entries/impossible-worlds/"
     },
     {
-        "title": "of scientific theories",
+        "title": "Imprecise Probabilities",
+        "link": "https://plato.stanford.edu/entries/imprecise-probabilities/"
+    },
+    {
+        "title": "The Incommensurability of Scientific Theories",
         "link": "https://plato.stanford.edu/entries/incommensurability/"
     },
     {
-        "title": "value: incommensurable",
-        "link": "https://plato.stanford.edu/entries/value-incommensurable/"
-    },
-    {
-        "title": "arguments for",
+        "title": "Arguments for Incompatibilism",
         "link": "https://plato.stanford.edu/entries/incompatibilism-arguments/"
     },
     {
-        "title": "concept of emotion",
-        "link": "https://plato.stanford.edu/entries/concept-emotion-india/"
+        "title": "Incompatibilist (Nondeterministic) Theories of Free Will",
+        "link": "https://plato.stanford.edu/entries/incompatibilism-theories/"
     },
     {
-        "title": "language and testimony",
-        "link": "https://plato.stanford.edu/entries/language-india/"
+        "title": "Independence and Large Cardinals",
+        "link": "https://plato.stanford.edu/entries/independence-large-cardinals/"
     },
     {
-        "title": "literal-nonliteral distinction",
-        "link": "https://plato.stanford.edu/entries/literal-nonliteral-india/"
+        "title": "Indexicals",
+        "link": "https://plato.stanford.edu/entries/indexicals/"
     },
     {
-        "title": "logic",
-        "link": "https://plato.stanford.edu/entries/logic-india/"
-    },
-    {
-        "title": "naturalism",
-        "link": "https://plato.stanford.edu/entries/naturalism-india/"
-    },
-    {
-        "title": "perceptual experience and concepts",
-        "link": "https://plato.stanford.edu/entries/perception-india/"
-    },
-    {
-        "title": "personhood",
-        "link": "https://plato.stanford.edu/entries/personhood-india/"
-    },
-    {
-        "title": "individualism, methodological",
-        "link": "https://plato.stanford.edu/entries/methodological-individualism/"
-    },
-    {
-        "title": "problem of",
+        "title": "The Problem of Induction",
         "link": "https://plato.stanford.edu/entries/induction-problem/"
     },
     {
-        "title": "logic: inductive",
-        "link": "https://plato.stanford.edu/entries/logic-inductive/"
-    },
-    {
-        "title": "space and time: inertial frames",
-        "link": "https://plato.stanford.edu/entries/spacetime-iframes/"
-    },
-    {
-        "title": "infinite regress arguments",
+        "title": "Infinite Regress Arguments",
         "link": "https://plato.stanford.edu/entries/infinite-regress/"
     },
     {
-        "title": "infinity",
+        "title": "Infinity",
         "link": "https://plato.stanford.edu/entries/infinity/"
     },
     {
-        "title": "logic: informal",
-        "link": "https://plato.stanford.edu/entries/logic-informal/"
+        "title": "Biological Information",
+        "link": "https://plato.stanford.edu/entries/information-biological/"
     },
     {
-        "title": "information",
-        "link": "https://plato.stanford.edu/entries/information/"
+        "title": "Information Processing and Thermodynamic Entropy",
+        "link": "https://plato.stanford.edu/entries/information-entropy/"
     },
     {
-        "title": "logic: and information",
-        "link": "https://plato.stanford.edu/entries/logic-information/"
-    },
-    {
-        "title": "quantum theory: quantum entanglement and information",
-        "link": "https://plato.stanford.edu/entries/qt-entangle/"
-    },
-    {
-        "title": "semantic conceptions of",
+        "title": "Semantic Conceptions of Information",
         "link": "https://plato.stanford.edu/entries/information-semantic/"
     },
     {
-        "title": "and moral values",
-        "link": "https://plato.stanford.edu/entries/it-moral-values/"
+        "title": "Information",
+        "link": "https://plato.stanford.edu/entries/information/"
     },
     {
-        "title": "and privacy",
-        "link": "https://plato.stanford.edu/entries/it-privacy/"
+        "title": "Informed Consent",
+        "link": "https://plato.stanford.edu/entries/informed-consent/"
     },
     {
-        "title": "Ingarden, Roman",
+        "title": "Roman Ingarden",
         "link": "https://plato.stanford.edu/entries/ingarden/"
     },
     {
-        "title": "innate/acquired distinction",
+        "title": "Inheritance Systems",
+        "link": "https://plato.stanford.edu/entries/inheritance-systems/"
+    },
+    {
+        "title": "The Distinction Between Innate and Acquired Characteristics",
         "link": "https://plato.stanford.edu/entries/innate-acquired/"
     },
     {
-        "title": "and contemporary theories of cognition",
+        "title": "Innateness and Contemporary Theories of Cognition",
         "link": "https://plato.stanford.edu/entries/innateness-cognition/"
     },
     {
-        "title": "historical controversies",
+        "title": "The Historical Controversies Surrounding Innateness",
         "link": "https://plato.stanford.edu/entries/innateness-history/"
     },
     {
-        "title": "and language",
+        "title": "Innateness and Language",
         "link": "https://plato.stanford.edu/entries/innateness-language/"
     },
     {
-        "title": "inner speech",
+        "title": "Inner Speech",
         "link": "https://plato.stanford.edu/entries/inner-speech/"
     },
     {
-        "title": "insolubles [= insolubilia]",
+        "title": "Insolubles",
         "link": "https://plato.stanford.edu/entries/insolubles/"
     },
     {
-        "title": "rationality: instrumental",
-        "link": "https://plato.stanford.edu/entries/rationality-instrumental/"
-    },
-    {
-        "title": "integrity",
+        "title": "Integrity",
         "link": "https://plato.stanford.edu/entries/integrity/"
     },
     {
-        "title": "intensional transitive verbs",
+        "title": "Intellectual Property",
+        "link": "https://plato.stanford.edu/entries/intellectual-property/"
+    },
+    {
+        "title": "Intensional Transitive Verbs",
         "link": "https://plato.stanford.edu/entries/intensional-trans-verbs/"
     },
     {
-        "title": "intention",
+        "title": "Intention",
         "link": "https://plato.stanford.edu/entries/intention/"
     },
     {
-        "title": "intentionality",
-        "link": "https://plato.stanford.edu/entries/intentionality/"
-    },
-    {
-        "title": "collective",
-        "link": "https://plato.stanford.edu/entries/collective-intentionality/"
-    },
-    {
-        "title": "in ancient philosophy",
+        "title": "Intentionality in Ancient Philosophy",
         "link": "https://plato.stanford.edu/entries/intentionality-ancient/"
     },
     {
-        "title": "phenomenal",
-        "link": "https://plato.stanford.edu/entries/phenomenal-intentionality/"
+        "title": "Intentionality",
+        "link": "https://plato.stanford.edu/entries/intentionality/"
     },
     {
-        "title": "international law, philosophy of",
+        "title": "International Distributive Justice",
+        "link": "https://plato.stanford.edu/entries/international-justice/"
+    },
+    {
+        "title": "Philosophy of International Law",
         "link": "https://plato.stanford.edu/entries/international-law/"
     },
     {
-        "title": "introspection",
+        "title": "Intrinsic vs. Extrinsic Properties",
+        "link": "https://plato.stanford.edu/entries/intrinsic-extrinsic/"
+    },
+    {
+        "title": "Introspection",
         "link": "https://plato.stanford.edu/entries/introspection/"
     },
     {
-        "title": "intuition",
+        "title": "Intuition",
         "link": "https://plato.stanford.edu/entries/intuition/"
     },
     {
-        "title": "moral intuitionism",
+        "title": "Intuitionism in Ethics",
         "link": "https://plato.stanford.edu/entries/intuitionism-ethics/"
     },
     {
-        "title": "mathematics, philosophy of: intuitionism",
+        "title": "Intuitionism in the Philosophy of Mathematics",
         "link": "https://plato.stanford.edu/entries/intuitionism/"
     },
     {
-        "title": "logic: intuitionistic",
-        "link": "https://plato.stanford.edu/entries/logic-intuitionistic/"
-    },
-    {
-        "title": "logic, history of: intuitionistic logic",
+        "title": "The Development of Intuitionistic Logic",
         "link": "https://plato.stanford.edu/entries/intuitionistic-logic-development/"
     },
     {
-        "title": "type theory: intuitionistic",
-        "link": "https://plato.stanford.edu/entries/type-theory-intuitionistic/"
-    },
-    {
-        "title": "qualia: inverted",
-        "link": "https://plato.stanford.edu/entries/qualia-inverted/"
-    },
-    {
-        "title": "Israeli, Isaac",
+        "title": "Isaac Israeli",
         "link": "https://plato.stanford.edu/entries/israeli/"
     },
     {
-        "title": "Italos, John",
-        "link": "https://plato.stanford.edu/entries/john-italos/"
+        "title": "Information Technology and Moral Values",
+        "link": "https://plato.stanford.edu/entries/it-moral-values/"
     },
     {
-        "title": "Jacobi, Friedrich Heinrich",
-        "link": "https://plato.stanford.edu/entries/friedrich-jacobi/"
+        "title": "Privacy and Information Technology",
+        "link": "https://plato.stanford.edu/entries/it-privacy/"
     },
     {
         "title": "Jaina Philosophy",
         "link": "https://plato.stanford.edu/entries/jaina-philosophy/"
     },
     {
-        "title": "James, William",
-        "link": "https://plato.stanford.edu/entries/james/"
+        "title": "James Mill",
+        "link": "https://plato.stanford.edu/entries/james-mill/"
     },
     {
         "title": "James of Viterbo",
         "link": "https://plato.stanford.edu/entries/james-viterbo/"
     },
     {
+        "title": "James Ward",
+        "link": "https://plato.stanford.edu/entries/james-ward/"
+    },
+    {
+        "title": "William James",
+        "link": "https://plato.stanford.edu/entries/james/"
+    },
+    {
+        "title": "Japanese Aesthetics",
+        "link": "https://plato.stanford.edu/entries/japanese-aesthetics/"
+    },
+    {
+        "title": "Japanese Confucian Philosophy",
+        "link": "https://plato.stanford.edu/entries/japanese-confucian/"
+    },
+    {
         "title": "Japanese Philosophy",
         "link": "https://plato.stanford.edu/entries/japanese-philosophy/"
     },
     {
-        "title": "Kokugaku School [Native Japan Studies School]",
-        "link": "https://plato.stanford.edu/entries/kokugaku-school/"
-    },
-    {
-        "title": "K\u016bkai",
-        "link": "https://plato.stanford.edu/entries/kukai/"
-    },
-    {
-        "title": "Kyoto School",
-        "link": "https://plato.stanford.edu/entries/kyoto-school/"
-    },
-    {
-        "title": "Nishida Kitar\u014d",
-        "link": "https://plato.stanford.edu/entries/nishida-kitaro/"
-    },
-    {
-        "title": "Pure Land",
+        "title": "Japanese Pure Land Philosophy",
         "link": "https://plato.stanford.edu/entries/japanese-pure-land/"
     },
     {
-        "title": "Watsuji Tetsur\u014d",
-        "link": "https://plato.stanford.edu/entries/watsuji-tetsuro/"
+        "title": "Japanese Zen Buddhist Philosophy",
+        "link": "https://plato.stanford.edu/entries/japanese-zen/"
     },
     {
-        "title": "Jaspers, Karl",
+        "title": "Karl Jaspers",
         "link": "https://plato.stanford.edu/entries/jaspers/"
     },
     {
-        "title": "Jayar\u0101\u015bi",
+        "title": "Jayarāśi",
         "link": "https://plato.stanford.edu/entries/jayaraasi/"
     },
     {
-        "title": "Jefferson, Thomas",
+        "title": "Thomas Jefferson",
         "link": "https://plato.stanford.edu/entries/jefferson/"
     },
     {
-        "title": "Jevons, William Stanley",
-        "link": "https://plato.stanford.edu/entries/william-jevons/"
+        "title": "Joane Petrizi",
+        "link": "https://plato.stanford.edu/entries/joane-petrizi/"
+    },
+    {
+        "title": "Johann Gottlieb Fichte",
+        "link": "https://plato.stanford.edu/entries/johann-fichte/"
+    },
+    {
+        "title": "Johann Friedrich Herbart",
+        "link": "https://plato.stanford.edu/entries/johann-herbart/"
+    },
+    {
+        "title": "Johann Sturm",
+        "link": "https://plato.stanford.edu/entries/johann-sturm/"
+    },
+    {
+        "title": "John Italos",
+        "link": "https://plato.stanford.edu/entries/john-italos/"
+    },
+    {
+        "title": "John Norris",
+        "link": "https://plato.stanford.edu/entries/john-norris/"
     },
     {
         "title": "John of Salisbury",
         "link": "https://plato.stanford.edu/entries/john-salisbury/"
     },
     {
-        "title": "Jones, Emily Elizabeth Constance",
-        "link": "https://plato.stanford.edu/entries/emily-elizabeth-constance-jones/"
-    },
-    {
-        "title": "jury theorems",
+        "title": "Jury Theorems",
         "link": "https://plato.stanford.edu/entries/jury-theorems/"
     },
     {
-        "title": "justice",
-        "link": "https://plato.stanford.edu/entries/justice/"
-    },
-    {
-        "title": "luck: justice and bad luck",
-        "link": "https://plato.stanford.edu/entries/justice-bad-luck/"
-    },
-    {
-        "title": "intergenerational",
-        "link": "https://plato.stanford.edu/entries/justice-intergenerational/"
-    },
-    {
-        "title": "retributive",
-        "link": "https://plato.stanford.edu/entries/justice-retributive/"
-    },
-    {
-        "title": "territorial rights and justice",
-        "link": "https://plato.stanford.edu/entries/territorial-rights/"
-    },
-    {
-        "title": "transitional",
-        "link": "https://plato.stanford.edu/entries/justice-transitional/"
-    },
-    {
-        "title": "as a virtue",
-        "link": "https://plato.stanford.edu/entries/justice-virtue/"
-    },
-    {
-        "title": "coherentist theories of",
+        "title": "Coherentist Theories of Epistemic Justification",
         "link": "https://plato.stanford.edu/entries/justep-coherence/"
     },
     {
-        "title": "internalist vs. externalist conceptions of",
+        "title": "Foundationalist Theories of Epistemic Justification",
+        "link": "https://plato.stanford.edu/entries/justep-foundational/"
+    },
+    {
+        "title": "Internalist vs. Externalist Conceptions of Epistemic Justification",
         "link": "https://plato.stanford.edu/entries/justep-intext/"
     },
     {
-        "title": "transmission of justification and warrant",
-        "link": "https://plato.stanford.edu/entries/transmission-justification-warrant/"
+        "title": "Justice and Bad Luck",
+        "link": "https://plato.stanford.edu/entries/justice-bad-luck/"
     },
     {
-        "title": "public",
+        "title": "Climate Justice",
+        "link": "https://plato.stanford.edu/entries/justice-climate/"
+    },
+    {
+        "title": "Distributive Justice",
+        "link": "https://plato.stanford.edu/entries/justice-distributive/"
+    },
+    {
+        "title": "Global Justice",
+        "link": "https://plato.stanford.edu/entries/justice-global/"
+    },
+    {
+        "title": "Justice and Access to Health Care",
+        "link": "https://plato.stanford.edu/entries/justice-healthcareaccess/"
+    },
+    {
+        "title": "Justice, Inequality, and Health",
+        "link": "https://plato.stanford.edu/entries/justice-inequality-health/"
+    },
+    {
+        "title": "Intergenerational Justice",
+        "link": "https://plato.stanford.edu/entries/justice-intergenerational/"
+    },
+    {
+        "title": "Distributive Justice and Empirical Moral Psychology",
+        "link": "https://plato.stanford.edu/entries/justice-moral-psych/"
+    },
+    {
+        "title": "Retributive Justice",
+        "link": "https://plato.stanford.edu/entries/justice-retributive/"
+    },
+    {
+        "title": "Transitional Justice",
+        "link": "https://plato.stanford.edu/entries/justice-transitional/"
+    },
+    {
+        "title": "Justice as a Virtue",
+        "link": "https://plato.stanford.edu/entries/justice-virtue/"
+    },
+    {
+        "title": "Justice",
+        "link": "https://plato.stanford.edu/entries/justice/"
+    },
+    {
+        "title": "Public Justification",
         "link": "https://plato.stanford.edu/entries/justification-public/"
     },
     {
-        "title": "Kant, Immanuel",
-        "link": "https://plato.stanford.edu/entries/kant/"
+        "title": "Justus Lipsius",
+        "link": "https://plato.stanford.edu/entries/justus-lipsius/"
     },
     {
-        "title": "account of reason",
-        "link": "https://plato.stanford.edu/entries/kant-reason/"
-    },
-    {
-        "title": "aesthetics and teleology",
+        "title": "Kant’s Aesthetics and Teleology",
         "link": "https://plato.stanford.edu/entries/kant-aesthetics/"
     },
     {
-        "title": "conceptualism/nonconceptualism",
+        "title": "Kantian Conceptualism/Nonconceptualism",
         "link": "https://plato.stanford.edu/entries/kant-conceptualism/"
     },
     {
-        "title": "critique of metaphysics",
-        "link": "https://plato.stanford.edu/entries/kant-metaphysics/"
-    },
-    {
-        "title": "and Leibniz",
-        "link": "https://plato.stanford.edu/entries/kant-leibniz/"
-    },
-    {
-        "title": "moral philosophy",
-        "link": "https://plato.stanford.edu/entries/kant-moral/"
-    },
-    {
-        "title": "philosophical development",
+        "title": "Kant’s Philosophical Development",
         "link": "https://plato.stanford.edu/entries/kant-development/"
     },
     {
-        "title": "philosophy of mathematics",
-        "link": "https://plato.stanford.edu/entries/kant-mathematics/"
+        "title": "Kant and Hume on Causality",
+        "link": "https://plato.stanford.edu/entries/kant-hume-causality/"
     },
     {
-        "title": "philosophy of religion",
-        "link": "https://plato.stanford.edu/entries/kant-religion/"
+        "title": "Kant and Hume on Morality",
+        "link": "https://plato.stanford.edu/entries/kant-hume-morality/"
     },
     {
-        "title": "philosophy of science",
-        "link": "https://plato.stanford.edu/entries/kant-science/"
-    },
-    {
-        "title": "social and political philosophy",
-        "link": "https://plato.stanford.edu/entries/kant-social-political/"
-    },
-    {
-        "title": "theory of judgment",
+        "title": "Kant’s Theory of Judgment",
         "link": "https://plato.stanford.edu/entries/kant-judgment/"
     },
     {
-        "title": "transcendental arguments",
-        "link": "https://plato.stanford.edu/entries/kant-transcendental/"
+        "title": "Leibniz’s Influence on Kant",
+        "link": "https://plato.stanford.edu/entries/kant-leibniz/"
     },
     {
-        "title": "transcendental idealism",
-        "link": "https://plato.stanford.edu/entries/kant-transcendental-idealism/"
+        "title": "Kant’s Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/kant-mathematics/"
     },
     {
-        "title": "view of mind and consciousness of self",
+        "title": "Kant’s Critique of Metaphysics",
+        "link": "https://plato.stanford.edu/entries/kant-metaphysics/"
+    },
+    {
+        "title": "Kant’s View of the Mind and Consciousness of Self",
         "link": "https://plato.stanford.edu/entries/kant-mind/"
     },
     {
-        "title": "views on space and time",
+        "title": "Kant’s Moral Philosophy",
+        "link": "https://plato.stanford.edu/entries/kant-moral/"
+    },
+    {
+        "title": "Kant’s Account of Reason",
+        "link": "https://plato.stanford.edu/entries/kant-reason/"
+    },
+    {
+        "title": "Kant’s Philosophy of Religion",
+        "link": "https://plato.stanford.edu/entries/kant-religion/"
+    },
+    {
+        "title": "Kant’s Philosophy of Science",
+        "link": "https://plato.stanford.edu/entries/kant-science/"
+    },
+    {
+        "title": "Kant’s Social and Political Philosophy",
+        "link": "https://plato.stanford.edu/entries/kant-social-political/"
+    },
+    {
+        "title": "Kant’s Views on Space and Time",
         "link": "https://plato.stanford.edu/entries/kant-spacetime/"
     },
     {
-        "title": "Kaspi, Joseph",
+        "title": "Kant’s Transcendental Idealism",
+        "link": "https://plato.stanford.edu/entries/kant-transcendental-idealism/"
+    },
+    {
+        "title": "Kant’s Transcendental Arguments",
+        "link": "https://plato.stanford.edu/entries/kant-transcendental/"
+    },
+    {
+        "title": "Immanuel Kant",
+        "link": "https://plato.stanford.edu/entries/kant/"
+    },
+    {
+        "title": "Karl Leonhard Reinhold",
+        "link": "https://plato.stanford.edu/entries/karl-reinhold/"
+    },
+    {
+        "title": "Joseph Kaspi",
         "link": "https://plato.stanford.edu/entries/kaspi-joseph/"
     },
     {
-        "title": "Kepler, Johannes",
+        "title": "Johannes Kepler",
         "link": "https://plato.stanford.edu/entries/kepler/"
     },
     {
-        "title": "Kierkegaard, S\u00f8ren",
+        "title": "Søren Kierkegaard",
         "link": "https://plato.stanford.edu/entries/kierkegaard/"
     },
     {
-        "title": "Kilvington, Richard",
+        "title": "Richard Kilvington",
         "link": "https://plato.stanford.edu/entries/kilvington/"
     },
     {
-        "title": "Kilwardby, Robert",
-        "link": "https://plato.stanford.edu/entries/robert-kilwardby/"
-    },
-    {
-        "title": "analysis of",
-        "link": "https://plato.stanford.edu/entries/knowledge-analysis/"
-    },
-    {
-        "title": "by acquaintance vs. description",
+        "title": "Knowledge by Acquaintance vs. Description",
         "link": "https://plato.stanford.edu/entries/knowledge-acquaindescrip/"
     },
     {
-        "title": "self-knowledge",
-        "link": "https://plato.stanford.edu/entries/self-knowledge/"
+        "title": "The Analysis of Knowledge",
+        "link": "https://plato.stanford.edu/entries/knowledge-analysis/"
     },
     {
-        "title": "knowledge, value of",
-        "link": "https://plato.stanford.edu/entries/knowledge-value/"
-    },
-    {
-        "title": "knowledge how",
+        "title": "Knowledge How",
         "link": "https://plato.stanford.edu/entries/knowledge-how/"
     },
     {
-        "title": "quantum mechanics: Kochen-Specker theorem",
+        "title": "The Value of Knowledge",
+        "link": "https://plato.stanford.edu/entries/knowledge-value/"
+    },
+    {
+        "title": "The Kochen-Specker Theorem",
         "link": "https://plato.stanford.edu/entries/kochen-specker/"
+    },
+    {
+        "title": "The Kokugaku (Native Japan Studies) School",
+        "link": "https://plato.stanford.edu/entries/kokugaku-school/"
+    },
+    {
+        "title": "Korean Buddhism",
+        "link": "https://plato.stanford.edu/entries/korean-buddhism/"
+    },
+    {
+        "title": "Korean Confucianism",
+        "link": "https://plato.stanford.edu/entries/korean-confucianism/"
     },
     {
         "title": "Korean Philosophy",
         "link": "https://plato.stanford.edu/entries/korean-philosophy/"
     },
     {
-        "title": "Kuhn, Thomas",
-        "link": "https://plato.stanford.edu/entries/thomas-kuhn/"
+        "title": "Kūkai",
+        "link": "https://plato.stanford.edu/entries/kukai/"
     },
     {
-        "title": "Kum\u0101rila",
+        "title": "Kumārila",
         "link": "https://plato.stanford.edu/entries/kumaarila/"
     },
     {
-        "title": "Lacan, Jacques",
-        "link": "https://plato.stanford.edu/entries/lacan/"
+        "title": "The Kyoto School",
+        "link": "https://plato.stanford.edu/entries/kyoto-school/"
     },
     {
-        "title": "La Forge, Louis de",
+        "title": "Louis de La Forge",
         "link": "https://plato.stanford.edu/entries/la-forge/"
     },
     {
-        "title": "Lakatos, Imre",
+        "title": "Jacques Lacan",
+        "link": "https://plato.stanford.edu/entries/lacan/"
+    },
+    {
+        "title": "Lady Damaris Masham",
+        "link": "https://plato.stanford.edu/entries/lady-masham/"
+    },
+    {
+        "title": "Imre Lakatos",
         "link": "https://plato.stanford.edu/entries/lakatos/"
     },
     {
-        "title": "lambda calculus, the",
+        "title": "The Lambda Calculus",
         "link": "https://plato.stanford.edu/entries/lambda-calculus/"
     },
     {
@@ -4253,167 +3729,167 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/lambert-auxerre/"
     },
     {
-        "title": "Landmann-Kalischer, Edith",
+        "title": "Edith Landmann-Kalischer",
         "link": "https://plato.stanford.edu/entries/landmann-kalischer/"
     },
     {
-        "title": "Lange, Friedrich Albert",
-        "link": "https://plato.stanford.edu/entries/friedrich-lange/"
+        "title": "Language and Testimony in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/language-india/"
     },
     {
-        "title": "language of thought hypothesis",
+        "title": "The Language of Thought Hypothesis",
         "link": "https://plato.stanford.edu/entries/language-thought/"
     },
     {
-        "title": "set theory: large cardinals and determinacy",
+        "title": "Laozi",
+        "link": "https://plato.stanford.edu/entries/laozi/"
+    },
+    {
+        "title": "Large Cardinals and Determinacy",
         "link": "https://plato.stanford.edu/entries/large-cardinals-determinacy/"
+    },
+    {
+        "title": "Analytic Philosophy in Latin America",
+        "link": "https://plato.stanford.edu/entries/latin-american-analytic/"
+    },
+    {
+        "title": "Latin American Philosophy: Metaphilosophical Foundations",
+        "link": "https://plato.stanford.edu/entries/latin-american-metaphilosophy/"
     },
     {
         "title": "Latin American Philosophy",
         "link": "https://plato.stanford.edu/entries/latin-american-philosophy/"
     },
     {
-        "title": "analytic philosophy in",
-        "link": "https://plato.stanford.edu/entries/latin-american-analytic/"
-    },
-    {
-        "title": "liberalism: in Latin America",
-        "link": "https://plato.stanford.edu/entries/liberalism-latin-america/"
-    },
-    {
-        "title": "metaphilosophical foundations",
-        "link": "https://plato.stanford.edu/entries/latin-american-metaphilosophy/"
-    },
-    {
-        "title": "philosophy of biology: in Latin America",
-        "link": "https://plato.stanford.edu/entries/phil-bio-latin-america/"
-    },
-    {
-        "title": "philosophy of science: in Latin America",
-        "link": "https://plato.stanford.edu/entries/phil-science-latin-america/"
-    },
-    {
-        "title": "skepticism: in Latin America",
-        "link": "https://plato.stanford.edu/entries/skepticism-latin-america/"
-    },
-    {
         "title": "Latinx Philosophy",
         "link": "https://plato.stanford.edu/entries/latinx/"
     },
     {
-        "title": "and language",
+        "title": "Law and Ideology",
+        "link": "https://plato.stanford.edu/entries/law-ideology/"
+    },
+    {
+        "title": "Legal Interpretivism",
+        "link": "https://plato.stanford.edu/entries/law-interpretivist/"
+    },
+    {
+        "title": "Law and Language",
         "link": "https://plato.stanford.edu/entries/law-language/"
     },
     {
-        "title": "limits of law",
+        "title": "The Limits of Law",
         "link": "https://plato.stanford.edu/entries/law-limits/"
     },
     {
-        "title": "nature of law: natural law theories",
-        "link": "https://plato.stanford.edu/entries/natural-law-theories/"
+        "title": "Naturalism in Legal Philosophy",
+        "link": "https://plato.stanford.edu/entries/lawphil-naturalism/"
     },
     {
-        "title": "rule of law and procedural fairness",
-        "link": "https://plato.stanford.edu/entries/rule-of-law/"
+        "title": "The Nature of Law",
+        "link": "https://plato.stanford.edu/entries/lawphil-nature/"
     },
     {
-        "title": "laws of nature",
+        "title": "The Pure Theory of Law",
+        "link": "https://plato.stanford.edu/entries/lawphil-theory/"
+    },
+    {
+        "title": "Laws of Nature",
         "link": "https://plato.stanford.edu/entries/laws-of-nature/"
     },
     {
-        "title": "learning, perceptual",
-        "link": "https://plato.stanford.edu/entries/perceptual-learning/"
-    },
-    {
-        "title": "learning theory, formal",
+        "title": "Formal Learning Theory",
         "link": "https://plato.stanford.edu/entries/learning-formal/"
     },
     {
-        "title": "Lef\u00e8vre d\u2019\u00c9taples, Jacques",
+        "title": "Jacques Lefèvre d’Étaples",
         "link": "https://plato.stanford.edu/entries/lefevre-etaples/"
     },
     {
-        "title": "legal interpretation",
-        "link": "https://plato.stanford.edu/entries/legal-interpretation/"
-    },
-    {
-        "title": "economic analysis of law",
+        "title": "The Economic Analysis of Law",
         "link": "https://plato.stanford.edu/entries/legal-econanalysis/"
     },
     {
-        "title": "nature of law: legal positivism",
+        "title": "Legal Interpretation",
+        "link": "https://plato.stanford.edu/entries/legal-interpretation/"
+    },
+    {
+        "title": "Legal Obligation and Authority",
+        "link": "https://plato.stanford.edu/entries/legal-obligation/"
+    },
+    {
+        "title": "Legal Positivism",
         "link": "https://plato.stanford.edu/entries/legal-positivism/"
     },
     {
-        "title": "legal probabilism",
+        "title": "Legal Probabilism",
         "link": "https://plato.stanford.edu/entries/legal-probabilism/"
     },
     {
-        "title": "punishment, legal",
+        "title": "Legal Punishment",
         "link": "https://plato.stanford.edu/entries/legal-punishment/"
     },
     {
-        "title": "interpretation and coherence in",
+        "title": "Interpretation and Coherence in Legal Reasoning",
         "link": "https://plato.stanford.edu/entries/legal-reas-interpret/"
     },
     {
-        "title": "precedent and analogy in",
+        "title": "Precedent and Analogy in Legal Reasoning",
         "link": "https://plato.stanford.edu/entries/legal-reas-prec/"
     },
     {
-        "title": "legal rights",
+        "title": "Legal Rights",
         "link": "https://plato.stanford.edu/entries/legal-rights/"
     },
     {
-        "title": "legitimacy, political",
+        "title": "Political Legitimacy",
         "link": "https://plato.stanford.edu/entries/legitimacy/"
     },
     {
-        "title": "Le Grand, Antoine",
+        "title": "Antoine Le Grand",
         "link": "https://plato.stanford.edu/entries/legrand/"
     },
     {
-        "title": "Leibniz, Gottfried Wilhelm",
-        "link": "https://plato.stanford.edu/entries/leibniz/"
-    },
-    {
-        "title": "ethics",
-        "link": "https://plato.stanford.edu/entries/leibniz-ethics/"
-    },
-    {
-        "title": "Exoteric Philosophy",
-        "link": "https://plato.stanford.edu/entries/leibniz-exoteric/"
-    },
-    {
-        "title": "influence on 19th century logic",
-        "link": "https://plato.stanford.edu/entries/leibniz-logic-influence/"
-    },
-    {
-        "title": "modal metaphysics",
-        "link": "https://plato.stanford.edu/entries/leibniz-modal/"
-    },
-    {
-        "title": "on causation",
+        "title": "Leibniz on Causation",
         "link": "https://plato.stanford.edu/entries/leibniz-causation/"
     },
     {
-        "title": "on the problem of evil",
+        "title": "Leibniz’s Ethics",
+        "link": "https://plato.stanford.edu/entries/leibniz-ethics/"
+    },
+    {
+        "title": "Leibniz on the Problem of Evil",
         "link": "https://plato.stanford.edu/entries/leibniz-evil/"
     },
     {
-        "title": "philosophy of mind",
+        "title": "Leibniz’s Exoteric Philosophy",
+        "link": "https://plato.stanford.edu/entries/leibniz-exoteric/"
+    },
+    {
+        "title": "Leibniz’s Influence on 19th Century Logic",
+        "link": "https://plato.stanford.edu/entries/leibniz-logic-influence/"
+    },
+    {
+        "title": "Leibniz’s Philosophy of Mind",
         "link": "https://plato.stanford.edu/entries/leibniz-mind/"
     },
     {
-        "title": "philosophy of physics",
+        "title": "Leibniz’s Modal Metaphysics",
+        "link": "https://plato.stanford.edu/entries/leibniz-modal/"
+    },
+    {
+        "title": "Leibniz’s Philosophy of Physics",
         "link": "https://plato.stanford.edu/entries/leibniz-physics/"
     },
     {
-        "title": "Leibowitz, Yeshayahu",
+        "title": "Gottfried Wilhelm Leibniz",
+        "link": "https://plato.stanford.edu/entries/leibniz/"
+    },
+    {
+        "title": "Yeshayahu Leibowitz",
         "link": "https://plato.stanford.edu/entries/leibowitz-yeshayahu/"
     },
     {
-        "title": "Le\u015bniewski, Stanis\u0142aw",
+        "title": "Stanisław Leśniewski",
         "link": "https://plato.stanford.edu/entries/lesniewski/"
     },
     {
@@ -4421,331 +3897,371 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/leucippus/"
     },
     {
-        "title": "levels of organization in biology",
+        "title": "Levels of Organization in Biology",
         "link": "https://plato.stanford.edu/entries/levels-org-biology/"
     },
     {
-        "title": "Levinas, Emmanuel",
+        "title": "Emmanuel Levinas",
         "link": "https://plato.stanford.edu/entries/levinas/"
     },
     {
-        "title": "Lewis, Clarence Irving",
+        "title": "Clarence Irving Lewis",
         "link": "https://plato.stanford.edu/entries/lewis-ci/"
     },
     {
-        "title": "Lewis, David",
-        "link": "https://plato.stanford.edu/entries/david-lewis/"
-    },
-    {
-        "title": "metaphysics",
+        "title": "David Lewis’s Metaphysics",
         "link": "https://plato.stanford.edu/entries/lewis-metaphysics/"
     },
     {
-        "title": "liar paradox",
+        "title": "Liar Paradox",
         "link": "https://plato.stanford.edu/entries/liar-paradox/"
     },
     {
-        "title": "liberalism",
+        "title": "Liberalism in Latin America",
+        "link": "https://plato.stanford.edu/entries/liberalism-latin-america/"
+    },
+    {
+        "title": "Liberalism",
         "link": "https://plato.stanford.edu/entries/liberalism/"
     },
     {
-        "title": "liberation, philosophy of",
+        "title": "Philosophy of Liberation",
         "link": "https://plato.stanford.edu/entries/liberation/"
     },
     {
-        "title": "libertarianism",
+        "title": "Libertarianism",
         "link": "https://plato.stanford.edu/entries/libertarianism/"
     },
     {
-        "title": "life",
-        "link": "https://plato.stanford.edu/entries/life/"
+        "title": "Positive and Negative Liberty",
+        "link": "https://plato.stanford.edu/entries/liberty-positive-negative/"
     },
     {
-        "title": "meaning of",
+        "title": "The Meaning of Life",
         "link": "https://plato.stanford.edu/entries/life-meaning/"
     },
     {
-        "title": "logic: linear",
-        "link": "https://plato.stanford.edu/entries/logic-linear/"
+        "title": "Life",
+        "link": "https://plato.stanford.edu/entries/life/"
     },
     {
-        "title": "philosophy of",
+        "title": "Philosophy of Linguistics",
         "link": "https://plato.stanford.edu/entries/linguistics/"
     },
     {
-        "title": "Lipsius, Justus",
-        "link": "https://plato.stanford.edu/entries/justus-lipsius/"
+        "title": "The Literal-Nonliteral Distinction in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/literal-nonliteral-india/"
     },
     {
-        "title": "Llull, Ramon",
+        "title": "Ramon Llull",
         "link": "https://plato.stanford.edu/entries/llull/"
     },
     {
-        "title": "location and mereology",
+        "title": "Location and Mereology",
         "link": "https://plato.stanford.edu/entries/location-mereology/"
     },
     {
-        "title": "Locke, Alain LeRoy",
-        "link": "https://plato.stanford.edu/entries/alain-locke/"
-    },
-    {
-        "title": "Locke, John",
-        "link": "https://plato.stanford.edu/entries/locke/"
-    },
-    {
-        "title": "moral philosophy",
-        "link": "https://plato.stanford.edu/entries/locke-moral/"
-    },
-    {
-        "title": "on freedom",
+        "title": "Locke On Freedom",
         "link": "https://plato.stanford.edu/entries/locke-freedom/"
     },
     {
-        "title": "on medicine",
+        "title": "Locke’s Moral Philosophy",
+        "link": "https://plato.stanford.edu/entries/locke-moral/"
+    },
+    {
+        "title": "Locke on Medicine",
         "link": "https://plato.stanford.edu/entries/locke-on-medicine/"
     },
     {
-        "title": "on personal identity",
+        "title": "Locke on Personal Identity",
         "link": "https://plato.stanford.edu/entries/locke-personal-identity/"
     },
     {
-        "title": "philosophy of science",
+        "title": "Locke’s Philosophy of Science",
         "link": "https://plato.stanford.edu/entries/locke-philosophy-science/"
     },
     {
-        "title": "political philosophy",
+        "title": "Locke’s Political Philosophy",
         "link": "https://plato.stanford.edu/entries/locke-political/"
     },
     {
-        "title": "algebraic propositional",
+        "title": "John Locke",
+        "link": "https://plato.stanford.edu/entries/locke/"
+    },
+    {
+        "title": "The Logic of Action",
+        "link": "https://plato.stanford.edu/entries/logic-action/"
+    },
+    {
+        "title": "Logic-Based Artificial Intelligence",
+        "link": "https://plato.stanford.edu/entries/logic-ai/"
+    },
+    {
+        "title": "Algebraic Propositional Logic",
         "link": "https://plato.stanford.edu/entries/logic-algebraic-propositional/"
     },
     {
-        "title": "ancient",
+        "title": "Ancient Logic",
         "link": "https://plato.stanford.edu/entries/logic-ancient/"
     },
     {
-        "title": "of belief revision",
+        "title": "Logic of Belief Revision",
         "link": "https://plato.stanford.edu/entries/logic-belief-revision/"
     },
     {
-        "title": "classical",
+        "title": "Classical Logic",
         "link": "https://plato.stanford.edu/entries/logic-classical/"
     },
     {
-        "title": "combinatory",
+        "title": "Combinatory Logic",
         "link": "https://plato.stanford.edu/entries/logic-combinatory/"
     },
     {
-        "title": "combining",
+        "title": "Combining Logics",
         "link": "https://plato.stanford.edu/entries/logic-combining/"
     },
     {
-        "title": "connexive",
+        "title": "The Logic of Conditionals",
+        "link": "https://plato.stanford.edu/entries/logic-conditionals/"
+    },
+    {
+        "title": "Connexive Logic",
         "link": "https://plato.stanford.edu/entries/logic-connexive/"
     },
     {
-        "title": "deontic",
+        "title": "Deontic Logic",
         "link": "https://plato.stanford.edu/entries/logic-deontic/"
     },
     {
-        "title": "dependence",
+        "title": "Dependence Logic",
         "link": "https://plato.stanford.edu/entries/logic-dependence/"
     },
     {
-        "title": "dialogical",
+        "title": "Dialogical Logic",
         "link": "https://plato.stanford.edu/entries/logic-dialogical/"
     },
     {
-        "title": "epistemic",
-        "link": "https://plato.stanford.edu/entries/logic-epistemic/"
-    },
-    {
-        "title": "for analyzing power in normal form games",
-        "link": "https://plato.stanford.edu/entries/logic-power-games/"
-    },
-    {
-        "title": "free",
-        "link": "https://plato.stanford.edu/entries/logic-free/"
-    },
-    {
-        "title": "fuzzy",
-        "link": "https://plato.stanford.edu/entries/logic-fuzzy/"
-    },
-    {
-        "title": "independence friendly",
-        "link": "https://plato.stanford.edu/entries/logic-if/"
-    },
-    {
-        "title": "infinitary",
-        "link": "https://plato.stanford.edu/entries/logic-infinitary/"
-    },
-    {
-        "title": "intensional",
-        "link": "https://plato.stanford.edu/entries/logic-intensional/"
-    },
-    {
-        "title": "justification",
-        "link": "https://plato.stanford.edu/entries/logic-justification/"
-    },
-    {
-        "title": "many-sorted",
-        "link": "https://plato.stanford.edu/entries/logic-many-sorted/"
-    },
-    {
-        "title": "many-valued",
-        "link": "https://plato.stanford.edu/entries/logic-manyvalued/"
-    },
-    {
-        "title": "mass expressions: logic of",
-        "link": "https://plato.stanford.edu/entries/logic-massexpress/"
-    },
-    {
-        "title": "modal",
-        "link": "https://plato.stanford.edu/entries/logic-modal/"
-    },
-    {
-        "title": "natural deduction systems in logic",
-        "link": "https://plato.stanford.edu/entries/natural-deduction/"
-    },
-    {
-        "title": "non-monotonic",
-        "link": "https://plato.stanford.edu/entries/logic-nonmonotonic/"
-    },
-    {
-        "title": "paraconsistent",
-        "link": "https://plato.stanford.edu/entries/logic-paraconsistent/"
-    },
-    {
-        "title": "preference",
-        "link": "https://plato.stanford.edu/entries/logic-preference/"
-    },
-    {
-        "title": "and probability",
-        "link": "https://plato.stanford.edu/entries/logic-probability/"
-    },
-    {
-        "title": "propositional",
-        "link": "https://plato.stanford.edu/entries/logic-propositional/"
-    },
-    {
-        "title": "propositional dynamic",
+        "title": "Propositional Dynamic Logic",
         "link": "https://plato.stanford.edu/entries/logic-dynamic/"
     },
     {
-        "title": "provability",
-        "link": "https://plato.stanford.edu/entries/logic-provability/"
+        "title": "Epistemic Logic",
+        "link": "https://plato.stanford.edu/entries/logic-epistemic/"
     },
     {
-        "title": "relevance",
-        "link": "https://plato.stanford.edu/entries/logic-relevance/"
-    },
-    {
-        "title": "second-order and higher-order",
-        "link": "https://plato.stanford.edu/entries/logic-higher-order/"
-    },
-    {
-        "title": "substructural",
-        "link": "https://plato.stanford.edu/entries/logic-substructural/"
-    },
-    {
-        "title": "temporal",
-        "link": "https://plato.stanford.edu/entries/logic-temporal/"
-    },
-    {
-        "title": "first-order logic",
+        "title": "The Emergence of First-Order Logic",
         "link": "https://plato.stanford.edu/entries/logic-firstorder-emergence/"
     },
     {
-        "title": "modal logic",
+        "title": "Free Logic",
+        "link": "https://plato.stanford.edu/entries/logic-free/"
+    },
+    {
+        "title": "Fuzzy Logic",
+        "link": "https://plato.stanford.edu/entries/logic-fuzzy/"
+    },
+    {
+        "title": "Logic and Games",
+        "link": "https://plato.stanford.edu/entries/logic-games/"
+    },
+    {
+        "title": "Second-order and Higher-order Logic",
+        "link": "https://plato.stanford.edu/entries/logic-higher-order/"
+    },
+    {
+        "title": "Hybrid Logic",
+        "link": "https://plato.stanford.edu/entries/logic-hybrid/"
+    },
+    {
+        "title": "Independence Friendly Logic",
+        "link": "https://plato.stanford.edu/entries/logic-if/"
+    },
+    {
+        "title": "Logic in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/logic-india/"
+    },
+    {
+        "title": "Inductive Logic",
+        "link": "https://plato.stanford.edu/entries/logic-inductive/"
+    },
+    {
+        "title": "Infinitary Logic",
+        "link": "https://plato.stanford.edu/entries/logic-infinitary/"
+    },
+    {
+        "title": "Informal Logic",
+        "link": "https://plato.stanford.edu/entries/logic-informal/"
+    },
+    {
+        "title": "Logic and Information",
+        "link": "https://plato.stanford.edu/entries/logic-information/"
+    },
+    {
+        "title": "Intensional Logic",
+        "link": "https://plato.stanford.edu/entries/logic-intensional/"
+    },
+    {
+        "title": "Intuitionistic Logic",
+        "link": "https://plato.stanford.edu/entries/logic-intuitionistic/"
+    },
+    {
+        "title": "Justification Logic",
+        "link": "https://plato.stanford.edu/entries/logic-justification/"
+    },
+    {
+        "title": "Linear Logic",
+        "link": "https://plato.stanford.edu/entries/logic-linear/"
+    },
+    {
+        "title": "Many-Sorted Logic",
+        "link": "https://plato.stanford.edu/entries/logic-many-sorted/"
+    },
+    {
+        "title": "Many-Valued Logic",
+        "link": "https://plato.stanford.edu/entries/logic-manyvalued/"
+    },
+    {
+        "title": "The Logic of Mass Expressions",
+        "link": "https://plato.stanford.edu/entries/logic-massexpress/"
+    },
+    {
+        "title": "Modern Origins of Modal Logic",
         "link": "https://plato.stanford.edu/entries/logic-modal-origins/"
     },
     {
-        "title": "proof theory: development of",
-        "link": "https://plato.stanford.edu/entries/proof-theory-development/"
+        "title": "Modal Logic",
+        "link": "https://plato.stanford.edu/entries/logic-modal/"
     },
     {
-        "title": "set theory: early development",
-        "link": "https://plato.stanford.edu/entries/settheory-early/"
+        "title": "Non-monotonic Logic",
+        "link": "https://plato.stanford.edu/entries/logic-nonmonotonic/"
     },
     {
-        "title": "logic, normative status of",
+        "title": "The Normative Status of Logic",
         "link": "https://plato.stanford.edu/entries/logic-normative/"
     },
     {
-        "title": "Russell\u2019s",
-        "link": "https://plato.stanford.edu/entries/logical-atomism/"
-    },
-    {
-        "title": "Wittgenstein, Ludwig: logical atomism",
-        "link": "https://plato.stanford.edu/entries/wittgenstein-atomism/"
-    },
-    {
-        "title": "logical constants",
-        "link": "https://plato.stanford.edu/entries/logical-constants/"
-    },
-    {
-        "title": "logical constructions",
-        "link": "https://plato.stanford.edu/entries/logical-construction/"
-    },
-    {
-        "title": "logical form",
-        "link": "https://plato.stanford.edu/entries/logical-form/"
-    },
-    {
-        "title": "logical pluralism",
-        "link": "https://plato.stanford.edu/entries/logical-pluralism/"
-    },
-    {
-        "title": "logical truth",
-        "link": "https://plato.stanford.edu/entries/logical-truth/"
-    },
-    {
-        "title": "logic and ontology",
+        "title": "Logic and Ontology",
         "link": "https://plato.stanford.edu/entries/logic-ontology/"
     },
     {
-        "title": "logicism and neologicism",
+        "title": "Paraconsistent Logic",
+        "link": "https://plato.stanford.edu/entries/logic-paraconsistent/"
+    },
+    {
+        "title": "Reasoning About Power in Games",
+        "link": "https://plato.stanford.edu/entries/logic-power-games/"
+    },
+    {
+        "title": "Preference Logic",
+        "link": "https://plato.stanford.edu/entries/logic-preference/"
+    },
+    {
+        "title": "Logic and Probability",
+        "link": "https://plato.stanford.edu/entries/logic-probability/"
+    },
+    {
+        "title": "Propositional Logic",
+        "link": "https://plato.stanford.edu/entries/logic-propositional/"
+    },
+    {
+        "title": "Provability Logic",
+        "link": "https://plato.stanford.edu/entries/logic-provability/"
+    },
+    {
+        "title": "Relevance Logic",
+        "link": "https://plato.stanford.edu/entries/logic-relevance/"
+    },
+    {
+        "title": "Substructural Logics",
+        "link": "https://plato.stanford.edu/entries/logic-substructural/"
+    },
+    {
+        "title": "Temporal Logic",
+        "link": "https://plato.stanford.edu/entries/logic-temporal/"
+    },
+    {
+        "title": "Russell’s Logical Atomism",
+        "link": "https://plato.stanford.edu/entries/logical-atomism/"
+    },
+    {
+        "title": "Logical Consequence",
+        "link": "https://plato.stanford.edu/entries/logical-consequence/"
+    },
+    {
+        "title": "Logical Constants",
+        "link": "https://plato.stanford.edu/entries/logical-constants/"
+    },
+    {
+        "title": "Logical Constructions",
+        "link": "https://plato.stanford.edu/entries/logical-construction/"
+    },
+    {
+        "title": "Logical Empiricism",
+        "link": "https://plato.stanford.edu/entries/logical-empiricism/"
+    },
+    {
+        "title": "Logical Form",
+        "link": "https://plato.stanford.edu/entries/logical-form/"
+    },
+    {
+        "title": "Logical Pluralism",
+        "link": "https://plato.stanford.edu/entries/logical-pluralism/"
+    },
+    {
+        "title": "Logical Truth",
+        "link": "https://plato.stanford.edu/entries/logical-truth/"
+    },
+    {
+        "title": "Logicism and Neologicism",
         "link": "https://plato.stanford.edu/entries/logicism/"
     },
     {
-        "title": "Lotze, Hermann",
-        "link": "https://plato.stanford.edu/entries/hermann-lotze/"
+        "title": "Logics for Analyzing Games",
+        "link": "https://plato.stanford.edu/entries/logics-for-games/"
     },
     {
-        "title": "love",
+        "title": "Lorenzo Valla",
+        "link": "https://plato.stanford.edu/entries/lorenzo-valla/"
+    },
+    {
+        "title": "Love",
         "link": "https://plato.stanford.edu/entries/love/"
     },
     {
-        "title": "loyalty",
+        "title": "Loyalty",
         "link": "https://plato.stanford.edu/entries/loyalty/"
-    },
-    {
-        "title": "moral",
-        "link": "https://plato.stanford.edu/entries/moral-luck/"
     },
     {
         "title": "Lucretius",
         "link": "https://plato.stanford.edu/entries/lucretius/"
     },
     {
-        "title": "Luk\u00e1cs, Georg [Gy\u00f6rgy]",
+        "title": "Lucrezia Marinella",
+        "link": "https://plato.stanford.edu/entries/lucrezia-marinella/"
+    },
+    {
+        "title": "Ludwig Andreas Feuerbach",
+        "link": "https://plato.stanford.edu/entries/ludwig-feuerbach/"
+    },
+    {
+        "title": "Georg [György] Lukács",
         "link": "https://plato.stanford.edu/entries/lukacs/"
     },
     {
-        "title": "\u0141ukasiewicz, Jan",
+        "title": "Jan Łukasiewicz",
         "link": "https://plato.stanford.edu/entries/lukasiewicz/"
     },
     {
-        "title": "Luther, Martin",
-        "link": "https://plato.stanford.edu/entries/luther/"
-    },
-    {
-        "title": "influence on philosophy",
+        "title": "Luther’s Influence on Philosophy",
         "link": "https://plato.stanford.edu/entries/luther-influence/"
     },
     {
-        "title": "Luxemburg, Rosa",
+        "title": "Martin Luther",
+        "link": "https://plato.stanford.edu/entries/luther/"
+    },
+    {
+        "title": "Rosa Luxemburg",
         "link": "https://plato.stanford.edu/entries/luxemburg/"
     },
     {
@@ -4753,659 +4269,651 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/lvov-warsaw/"
     },
     {
-        "title": "Lyotard, Jean Fran\u00e7ois",
+        "title": "The Definition of Lying and Deception",
+        "link": "https://plato.stanford.edu/entries/lying-definition/"
+    },
+    {
+        "title": "Jean François Lyotard",
         "link": "https://plato.stanford.edu/entries/lyotard/"
     },
     {
-        "title": "Macaulay, Catharine",
-        "link": "https://plato.stanford.edu/entries/catharine-macaulay/"
-    },
-    {
-        "title": "Mach, Ernst",
-        "link": "https://plato.stanford.edu/entries/ernst-mach/"
-    },
-    {
-        "title": "Machiavelli, Niccol\u00f2",
+        "title": "Niccolò Machiavelli",
         "link": "https://plato.stanford.edu/entries/machiavelli/"
     },
     {
-        "title": "macroevolution, philosophy of",
+        "title": "Philosophy of Macroevolution",
         "link": "https://plato.stanford.edu/entries/macroevolution/"
+    },
+    {
+        "title": "Madeleine de Scudéry",
+        "link": "https://plato.stanford.edu/entries/madeleine-scudery/"
     },
     {
         "title": "Madhyamaka",
         "link": "https://plato.stanford.edu/entries/madhyamaka/"
     },
     {
-        "title": "Maimon, Salomon",
+        "title": "Salomon Maimon",
         "link": "https://plato.stanford.edu/entries/maimon/"
+    },
+    {
+        "title": "The Influence of Islamic Thought on Maimonides",
+        "link": "https://plato.stanford.edu/entries/maimonides-islamic/"
     },
     {
         "title": "Maimonides",
         "link": "https://plato.stanford.edu/entries/maimonides/"
     },
     {
-        "title": "the influence of Islamic thought on",
-        "link": "https://plato.stanford.edu/entries/maimonides-islamic/"
-    },
-    {
-        "title": "Malebranche, Nicolas",
-        "link": "https://plato.stanford.edu/entries/malebranche/"
-    },
-    {
-        "title": "theory of ideas and vision in God",
+        "title": "Malebranche’s Theory of Ideas and Vision in God",
         "link": "https://plato.stanford.edu/entries/malebranche-ideas/"
     },
     {
-        "title": "Mally, Ernst",
-        "link": "https://plato.stanford.edu/entries/mally/"
+        "title": "Nicolas Malebranche",
+        "link": "https://plato.stanford.edu/entries/malebranche/"
     },
     {
-        "title": "deontic logic",
+        "title": "Mally’s Deontic Logic",
         "link": "https://plato.stanford.edu/entries/mally-deontic/"
     },
     {
-        "title": "Mandeville, Bernard",
+        "title": "Ernst Mally",
+        "link": "https://plato.stanford.edu/entries/mally/"
+    },
+    {
+        "title": "Bernard Mandeville",
         "link": "https://plato.stanford.edu/entries/mandeville/"
     },
     {
-        "title": "manipulation, ethics of",
-        "link": "https://plato.stanford.edu/entries/ethics-manipulation/"
-    },
-    {
-        "title": "Marcel, Gabriel (-Honor\u00e9)",
+        "title": "Gabriel (-Honoré) Marcel",
         "link": "https://plato.stanford.edu/entries/marcel/"
-    },
-    {
-        "title": "Marcus, Ruth Barcan",
-        "link": "https://plato.stanford.edu/entries/ruth-barcan-marcus/"
     },
     {
         "title": "Marcus Aurelius",
         "link": "https://plato.stanford.edu/entries/marcus-aurelius/"
     },
     {
-        "title": "Marcuse, Herbert",
+        "title": "Herbert Marcuse",
         "link": "https://plato.stanford.edu/entries/marcuse/"
     },
     {
-        "title": "Marinella, Lucrezia",
-        "link": "https://plato.stanford.edu/entries/lucrezia-marinella/"
+        "title": "Margaret Lucas Cavendish",
+        "link": "https://plato.stanford.edu/entries/margaret-cavendish/"
     },
     {
-        "title": "Maritain, Jacques",
+        "title": "Margaret Fell",
+        "link": "https://plato.stanford.edu/entries/margaret-fell/"
+    },
+    {
+        "title": "Jacques Maritain",
         "link": "https://plato.stanford.edu/entries/maritain/"
     },
     {
-        "title": "markets",
+        "title": "Markets",
         "link": "https://plato.stanford.edu/entries/markets/"
+    },
+    {
+        "title": "Marriage and Domestic Partnership",
+        "link": "https://plato.stanford.edu/entries/marriage/"
     },
     {
         "title": "Marsilius of Inghen",
         "link": "https://plato.stanford.edu/entries/marsilius-inghen/"
     },
     {
-        "title": "Marty, Anton",
+        "title": "Marsilius of Padua",
+        "link": "https://plato.stanford.edu/entries/marsilius-padua/"
+    },
+    {
+        "title": "Anton Marty",
         "link": "https://plato.stanford.edu/entries/marty/"
     },
     {
-        "title": "Marx, Karl",
+        "title": "Karl Marx",
         "link": "https://plato.stanford.edu/entries/marx/"
     },
     {
-        "title": "Marxism, analytical",
+        "title": "Analytical Marxism",
         "link": "https://plato.stanford.edu/entries/marxism-analytical/"
     },
     {
-        "title": "Masham, Lady Damaris",
-        "link": "https://plato.stanford.edu/entries/lady-masham/"
+        "title": "Mary Shepherd",
+        "link": "https://plato.stanford.edu/entries/mary-shepherd/"
     },
     {
-        "title": "metaphysics of",
-        "link": "https://plato.stanford.edu/entries/metaphysics-massexpress/"
-    },
-    {
-        "title": "material constitution",
+        "title": "Material Constitution",
         "link": "https://plato.stanford.edu/entries/material-constitution/"
     },
     {
-        "title": "physicalism",
-        "link": "https://plato.stanford.edu/entries/physicalism/"
-    },
-    {
-        "title": "eliminative",
+        "title": "Eliminative Materialism",
         "link": "https://plato.stanford.edu/entries/materialism-eliminative/"
     },
     {
-        "title": "style: in mathematics",
+        "title": "Mathematical Style",
         "link": "https://plato.stanford.edu/entries/mathematical-style/"
     },
     {
-        "title": "constructive",
+        "title": "Constructive Mathematics",
         "link": "https://plato.stanford.edu/entries/mathematics-constructive/"
     },
     {
-        "title": "inconsistent",
+        "title": "Mathematical Explanation",
+        "link": "https://plato.stanford.edu/entries/mathematics-explanation/"
+    },
+    {
+        "title": "Inconsistent Mathematics",
         "link": "https://plato.stanford.edu/entries/mathematics-inconsistent/"
     },
     {
-        "title": "non-deductive methods in",
+        "title": "Non-Deductive Methods in Mathematics",
         "link": "https://plato.stanford.edu/entries/mathematics-nondeductive/"
     },
     {
-        "title": "mathematics, philosophy of",
-        "link": "https://plato.stanford.edu/entries/philosophy-mathematics/"
-    },
-    {
-        "title": "indispensability arguments in the",
+        "title": "Indispensability Arguments in the Philosophy of Mathematics",
         "link": "https://plato.stanford.edu/entries/mathphil-indis/"
     },
     {
-        "title": "naturalism",
-        "link": "https://plato.stanford.edu/entries/naturalism-mathematics/"
+        "title": "Max Stirner",
+        "link": "https://plato.stanford.edu/entries/max-stirner/"
     },
     {
-        "title": "nominalism",
-        "link": "https://plato.stanford.edu/entries/nominalism-mathematics/"
-    },
-    {
-        "title": "Platonism",
-        "link": "https://plato.stanford.edu/entries/platonism-mathematics/"
-    },
-    {
-        "title": "structuralism",
-        "link": "https://plato.stanford.edu/entries/structuralism-mathematics/"
-    },
-    {
-        "title": "Wittgenstein, Ludwig: philosophy of mathematics",
-        "link": "https://plato.stanford.edu/entries/wittgenstein-mathematics/"
-    },
-    {
-        "title": "McTaggart, John M. E.",
+        "title": "John M. E. McTaggart",
         "link": "https://plato.stanford.edu/entries/mctaggart/"
     },
     {
-        "title": "Mead, George Herbert",
+        "title": "George Herbert Mead",
         "link": "https://plato.stanford.edu/entries/mead/"
     },
     {
-        "title": "normativity of",
-        "link": "https://plato.stanford.edu/entries/meaning-normativity/"
-    },
-    {
-        "title": "of words",
-        "link": "https://plato.stanford.edu/entries/word-meaning/"
-    },
-    {
-        "title": "meaning, theories of",
-        "link": "https://plato.stanford.edu/entries/meaning/"
-    },
-    {
-        "title": "meaning holism",
+        "title": "Meaning Holism",
         "link": "https://plato.stanford.edu/entries/meaning-holism/"
     },
     {
-        "title": "treating persons as means",
-        "link": "https://plato.stanford.edu/entries/persons-means/"
+        "title": "The Normativity of Meaning and Content",
+        "link": "https://plato.stanford.edu/entries/meaning-normativity/"
     },
     {
-        "title": "in science",
+        "title": "Theories of Meaning",
+        "link": "https://plato.stanford.edu/entries/meaning/"
+    },
+    {
+        "title": "Measurement in Science",
         "link": "https://plato.stanford.edu/entries/measurement-science/"
     },
     {
-        "title": "mechanism in science",
-        "link": "https://plato.stanford.edu/entries/science-mechanisms/"
-    },
-    {
-        "title": "medicine, philosophy of",
+        "title": "Philosophy of Medicine",
         "link": "https://plato.stanford.edu/entries/medicine/"
     },
     {
-        "title": "medieval philosophy",
-        "link": "https://plato.stanford.edu/entries/medieval-philosophy/"
+        "title": "Medieval Theories of the Categories",
+        "link": "https://plato.stanford.edu/entries/medieval-categories/"
     },
     {
-        "title": "literary forms of",
+        "title": "Medieval Theories of the Emotions",
+        "link": "https://plato.stanford.edu/entries/medieval-emotions/"
+    },
+    {
+        "title": "Medieval Theories of Future Contingents",
+        "link": "https://plato.stanford.edu/entries/medieval-futcont/"
+    },
+    {
+        "title": "Medieval Theories of Haecceity",
+        "link": "https://plato.stanford.edu/entries/medieval-haecceity/"
+    },
+    {
+        "title": "Literary Forms of Medieval Philosophy",
         "link": "https://plato.stanford.edu/entries/medieval-literary/"
     },
     {
-        "title": "political philosophy: medieval",
+        "title": "Medieval Philosophy",
+        "link": "https://plato.stanford.edu/entries/medieval-philosophy/"
+    },
+    {
+        "title": "Medieval Political Philosophy",
         "link": "https://plato.stanford.edu/entries/medieval-political/"
     },
     {
-        "title": "mental representation: in medieval philosophy",
-        "link": "https://plato.stanford.edu/entries/representation-medieval/"
-    },
-    {
-        "title": "modality: medieval theories of",
-        "link": "https://plato.stanford.edu/entries/modality-medieval/"
-    },
-    {
-        "title": "obligationes, medieval theories of",
-        "link": "https://plato.stanford.edu/entries/obligationes/"
-    },
-    {
-        "title": "practical reason: medieval theories of",
-        "link": "https://plato.stanford.edu/entries/practical-reason-med/"
-    },
-    {
-        "title": "terms, properties of: medieval theories of",
-        "link": "https://plato.stanford.edu/entries/medieval-terms/"
-    },
-    {
-        "title": "relations: medieval theories of",
-        "link": "https://plato.stanford.edu/entries/relations-medieval/"
-    },
-    {
-        "title": "singular terms: medieval theories of",
-        "link": "https://plato.stanford.edu/entries/singular-terms-medieval/"
-    },
-    {
-        "title": "syllogism: medieval theories of",
+        "title": "Medieval Theories of the Syllogism",
         "link": "https://plato.stanford.edu/entries/medieval-syllogism/"
     },
     {
-        "title": "transcendentals, medieval theories of",
-        "link": "https://plato.stanford.edu/entries/transcendentals-medieval/"
+        "title": "Medieval Theories: Properties of Terms",
+        "link": "https://plato.stanford.edu/entries/medieval-terms/"
     },
     {
-        "title": "Meinong, Alexius",
+        "title": "Alexius Meinong",
         "link": "https://plato.stanford.edu/entries/meinong/"
     },
     {
-        "title": "memory",
-        "link": "https://plato.stanford.edu/entries/memory/"
+        "title": "Meister Eckhart",
+        "link": "https://plato.stanford.edu/entries/meister-eckhart/"
     },
     {
-        "title": "epistemological problems of",
+        "title": "Epistemological Problems of Memory",
         "link": "https://plato.stanford.edu/entries/memory-episprob/"
     },
     {
-        "title": "Mendelssohn, Moses",
+        "title": "Memory",
+        "link": "https://plato.stanford.edu/entries/memory/"
+    },
+    {
+        "title": "Mencius",
+        "link": "https://plato.stanford.edu/entries/mencius/"
+    },
+    {
+        "title": "Moses Mendelssohn",
         "link": "https://plato.stanford.edu/entries/mendelssohn/"
     },
     {
-        "title": "causal theories of",
-        "link": "https://plato.stanford.edu/entries/content-causal/"
+        "title": "Mental Causation",
+        "link": "https://plato.stanford.edu/entries/mental-causation/"
     },
     {
-        "title": "narrow",
-        "link": "https://plato.stanford.edu/entries/content-narrow/"
-    },
-    {
-        "title": "nonconceptual",
-        "link": "https://plato.stanford.edu/entries/content-nonconceptual/"
-    },
-    {
-        "title": "teleological theories of",
-        "link": "https://plato.stanford.edu/entries/content-teleological/"
-    },
-    {
-        "title": "mental disorder",
+        "title": "Mental Disorder (Illness)",
         "link": "https://plato.stanford.edu/entries/mental-disorder/"
     },
     {
-        "title": "mental representation",
+        "title": "Mental Imagery",
+        "link": "https://plato.stanford.edu/entries/mental-imagery/"
+    },
+    {
+        "title": "Mental Representation",
         "link": "https://plato.stanford.edu/entries/mental-representation/"
     },
     {
-        "title": "mereology",
-        "link": "https://plato.stanford.edu/entries/mereology/"
-    },
-    {
-        "title": "medieval",
+        "title": "Medieval Mereology",
         "link": "https://plato.stanford.edu/entries/mereology-medieval/"
     },
     {
-        "title": "meritocracy",
+        "title": "Mereology",
+        "link": "https://plato.stanford.edu/entries/mereology/"
+    },
+    {
+        "title": "Meritocracy",
         "link": "https://plato.stanford.edu/entries/meritocracy/"
     },
     {
-        "title": "Merleau-Ponty, Maurice",
+        "title": "Maurice Merleau-Ponty",
         "link": "https://plato.stanford.edu/entries/merleau-ponty/"
     },
     {
-        "title": "Mersenne, Marin",
+        "title": "Marin Mersenne",
         "link": "https://plato.stanford.edu/entries/mersenne/"
     },
     {
-        "title": "metaepistemology",
+        "title": "Metaepistemology",
         "link": "https://plato.stanford.edu/entries/metaepistemology/"
     },
     {
-        "title": "metaethics",
+        "title": "Metaethics",
         "link": "https://plato.stanford.edu/entries/metaethics/"
     },
     {
-        "title": "metaethics, normativity in",
-        "link": "https://plato.stanford.edu/entries/normativity-metaethics/"
-    },
-    {
-        "title": "metaphor",
+        "title": "Metaphor",
         "link": "https://plato.stanford.edu/entries/metaphor/"
     },
     {
-        "title": "metaphysics",
+        "title": "Metaphysical Explanation",
+        "link": "https://plato.stanford.edu/entries/metaphysical-explanation/"
+    },
+    {
+        "title": "The Metaphysics of Mass Expressions",
+        "link": "https://plato.stanford.edu/entries/metaphysics-massexpress/"
+    },
+    {
+        "title": "Metaphysics",
         "link": "https://plato.stanford.edu/entries/metaphysics/"
     },
     {
-        "title": "realism and anti-realism about",
-        "link": "https://plato.stanford.edu/entries/realism-about-metaphysics/"
+        "title": "Methodological Individualism",
+        "link": "https://plato.stanford.edu/entries/methodological-individualism/"
     },
     {
-        "title": "Su\u00e1rez, Francisco",
-        "link": "https://plato.stanford.edu/entries/suarez/"
+        "title": "Michel Henry",
+        "link": "https://plato.stanford.edu/entries/michel-henry/"
     },
     {
-        "title": "methodological holism in the social sciences",
-        "link": "https://plato.stanford.edu/entries/holism-social/"
-    },
-    {
-        "title": "philosophy in",
-        "link": "https://plato.stanford.edu/entries/philosophy-mexico/"
-    },
-    {
-        "title": "microbiology, philosophy of",
+        "title": "Philosophy of Microbiology",
         "link": "https://plato.stanford.edu/entries/microbiology/"
     },
     {
-        "title": "Mill, Harriet Taylor",
-        "link": "https://plato.stanford.edu/entries/harriet-mill/"
-    },
-    {
-        "title": "Mill, James",
-        "link": "https://plato.stanford.edu/entries/james-mill/"
-    },
-    {
-        "title": "Mill, John Stuart",
-        "link": "https://plato.stanford.edu/entries/mill/"
-    },
-    {
-        "title": "moral and political philosophy",
+        "title": "Mill’s Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/mill-moral-political/"
     },
     {
-        "title": "modularity of",
-        "link": "https://plato.stanford.edu/entries/modularity-mind/"
+        "title": "John Stuart Mill",
+        "link": "https://plato.stanford.edu/entries/mill/"
     },
     {
-        "title": "miracles",
+        "title": "The Mind/Brain Identity Theory",
+        "link": "https://plato.stanford.edu/entries/mind-identity/"
+    },
+    {
+        "title": "Mind in Indian Buddhist Philosophy",
+        "link": "https://plato.stanford.edu/entries/mind-indian-buddhism/"
+    },
+    {
+        "title": "Miracles",
         "link": "https://plato.stanford.edu/entries/miracles/"
     },
     {
-        "title": "modality: epistemology of",
+        "title": "The Epistemology of Modality",
         "link": "https://plato.stanford.edu/entries/modality-epistemology/"
     },
     {
-        "title": "necessary and sufficient conditions",
-        "link": "https://plato.stanford.edu/entries/necessary-sufficient/"
+        "title": "Medieval Theories of Modality",
+        "link": "https://plato.stanford.edu/entries/modality-medieval/"
     },
     {
-        "title": "possible worlds",
-        "link": "https://plato.stanford.edu/entries/possible-worlds/"
-    },
-    {
-        "title": "Spinoza, Baruch: modal metaphysics",
-        "link": "https://plato.stanford.edu/entries/spinoza-modal/"
-    },
-    {
-        "title": "varieties of",
+        "title": "Varieties of Modality",
         "link": "https://plato.stanford.edu/entries/modality-varieties/"
     },
     {
-        "title": "multi-modal logic, philosophical aspects of",
-        "link": "https://plato.stanford.edu/entries/phil-multimodallogic/"
-    },
-    {
-        "title": "models in science",
-        "link": "https://plato.stanford.edu/entries/models-science/"
-    },
-    {
-        "title": "model theory",
+        "title": "Model Theory",
         "link": "https://plato.stanford.edu/entries/model-theory/"
     },
     {
-        "title": "first-order",
+        "title": "Models in Science",
+        "link": "https://plato.stanford.edu/entries/models-science/"
+    },
+    {
+        "title": "First-order Model Theory",
         "link": "https://plato.stanford.edu/entries/modeltheory-fo/"
     },
     {
-        "title": "Molyneux\u2019s problem",
+        "title": "Modesty and Humility",
+        "link": "https://plato.stanford.edu/entries/modesty-humility/"
+    },
+    {
+        "title": "Modularity of Mind",
+        "link": "https://plato.stanford.edu/entries/modularity-mind/"
+    },
+    {
+        "title": "Mohism",
+        "link": "https://plato.stanford.edu/entries/mohism/"
+    },
+    {
+        "title": "Mohist Canons",
+        "link": "https://plato.stanford.edu/entries/mohist-canons/"
+    },
+    {
+        "title": "Molecular Biology",
+        "link": "https://plato.stanford.edu/entries/molecular-biology/"
+    },
+    {
+        "title": "Molecular Genetics",
+        "link": "https://plato.stanford.edu/entries/molecular-genetics/"
+    },
+    {
+        "title": "Molyneux’s Problem",
         "link": "https://plato.stanford.edu/entries/molyneux-problem/"
     },
     {
-        "title": "monism",
+        "title": "Philosophy of Money and Finance",
+        "link": "https://plato.stanford.edu/entries/money-finance/"
+    },
+    {
+        "title": "Monism",
         "link": "https://plato.stanford.edu/entries/monism/"
     },
     {
-        "title": "neutral monism",
-        "link": "https://plato.stanford.edu/entries/neutral-monism/"
-    },
-    {
-        "title": "Russellian",
-        "link": "https://plato.stanford.edu/entries/russellian-monism/"
-    },
-    {
-        "title": "monotheism",
+        "title": "Monotheism",
         "link": "https://plato.stanford.edu/entries/monotheism/"
     },
     {
-        "title": "Montaigne, Michel de",
+        "title": "Montague Semantics",
+        "link": "https://plato.stanford.edu/entries/montague-semantics/"
+    },
+    {
+        "title": "Michel de Montaigne",
         "link": "https://plato.stanford.edu/entries/montaigne/"
     },
     {
-        "title": "Montesquieu, Charles-Louis de Secondat, Baron de",
+        "title": "Baron de Montesquieu, Charles-Louis de Secondat",
         "link": "https://plato.stanford.edu/entries/montesquieu/"
     },
     {
-        "title": "Montessori, Maria",
+        "title": "Maria Montessori",
         "link": "https://plato.stanford.edu/entries/montessori-maria/"
     },
     {
-        "title": "Moore, George Edward",
-        "link": "https://plato.stanford.edu/entries/moore/"
-    },
-    {
-        "title": "moral philosophy",
+        "title": "Moore’s Moral Philosophy",
         "link": "https://plato.stanford.edu/entries/moore-moral/"
     },
     {
-        "title": "moral decision-making under uncertainty",
+        "title": "George Edward Moore",
+        "link": "https://plato.stanford.edu/entries/moore/"
+    },
+    {
+        "title": "The Moral Status of Animals",
+        "link": "https://plato.stanford.edu/entries/moral-animal/"
+    },
+    {
+        "title": "Moral Anti-Realism",
+        "link": "https://plato.stanford.edu/entries/moral-anti-realism/"
+    },
+    {
+        "title": "Moral Arguments for the Existence of God",
+        "link": "https://plato.stanford.edu/entries/moral-arguments-god/"
+    },
+    {
+        "title": "Empirical Approaches to Moral Character",
+        "link": "https://plato.stanford.edu/entries/moral-character-empirical/"
+    },
+    {
+        "title": "Moral Character",
+        "link": "https://plato.stanford.edu/entries/moral-character/"
+    },
+    {
+        "title": "Moral Cognitivism vs. Non-Cognitivism",
+        "link": "https://plato.stanford.edu/entries/moral-cognitivism/"
+    },
+    {
+        "title": "The Moral/Conventional Distinction",
+        "link": "https://plato.stanford.edu/entries/moral-conventional/"
+    },
+    {
+        "title": "Moral Decision-Making Under Uncertainty",
         "link": "https://plato.stanford.edu/entries/moral-decision-uncertainty/"
     },
     {
-        "title": "moral demands and permissions/prerogatives",
+        "title": "Moral Demands and Permissions/Prerogatives",
         "link": "https://plato.stanford.edu/entries/moral-demands-permissions/"
     },
     {
-        "title": "moral dilemmas",
+        "title": "Moral Dilemmas",
         "link": "https://plato.stanford.edu/entries/moral-dilemmas/"
     },
     {
-        "title": "moral particularism: and moral generalism",
-        "link": "https://plato.stanford.edu/entries/moral-particularism-generalism/"
+        "title": "A Priorism in Moral Epistemology",
+        "link": "https://plato.stanford.edu/entries/moral-epistemology-a-priori/"
     },
     {
-        "title": "morality, definition of",
-        "link": "https://plato.stanford.edu/entries/morality-definition/"
+        "title": "Moral Epistemology",
+        "link": "https://plato.stanford.edu/entries/moral-epistemology/"
     },
     {
-        "title": "moral motivation",
+        "title": "Moral Luck",
+        "link": "https://plato.stanford.edu/entries/moral-luck/"
+    },
+    {
+        "title": "Moral Motivation",
         "link": "https://plato.stanford.edu/entries/moral-motivation/"
     },
     {
-        "title": "naturalism: moral",
-        "link": "https://plato.stanford.edu/entries/naturalism-moral/"
-    },
-    {
-        "title": "moral non-naturalism",
+        "title": "Moral Non-Naturalism",
         "link": "https://plato.stanford.edu/entries/moral-non-naturalism/"
     },
     {
-        "title": "moral particularism",
+        "title": "Moral Particularism and Moral Generalism",
+        "link": "https://plato.stanford.edu/entries/moral-particularism-generalism/"
+    },
+    {
+        "title": "Moral Particularism",
         "link": "https://plato.stanford.edu/entries/moral-particularism/"
     },
     {
-        "title": "phenomenology: moral",
+        "title": "Moral Phenomenology",
         "link": "https://plato.stanford.edu/entries/moral-phenomenology/"
     },
     {
-        "title": "empirical approaches",
+        "title": "Moral Psychology: Empirical Approaches",
         "link": "https://plato.stanford.edu/entries/moral-psych-emp/"
     },
     {
-        "title": "moral realism",
+        "title": "Moral Realism",
         "link": "https://plato.stanford.edu/entries/moral-realism/"
     },
     {
-        "title": "moral relativism",
+        "title": "Moral Relativism",
         "link": "https://plato.stanford.edu/entries/moral-relativism/"
     },
     {
-        "title": "moral responsibility",
-        "link": "https://plato.stanford.edu/entries/moral-responsibility/"
+        "title": "Empirical Approaches to Moral Responsibility",
+        "link": "https://plato.stanford.edu/entries/moral-responsibility-empirical/"
     },
     {
-        "title": "the epistemic condition",
+        "title": "The Epistemic Condition for Moral Responsibility",
         "link": "https://plato.stanford.edu/entries/moral-responsibility-epistemic/"
     },
     {
-        "title": "principle of alternative possibilities",
-        "link": "https://plato.stanford.edu/entries/alternative-possibilities/"
+        "title": "Moral Responsibility",
+        "link": "https://plato.stanford.edu/entries/moral-responsibility/"
     },
     {
-        "title": "moral sentimentalism",
+        "title": "Moral Sentimentalism",
         "link": "https://plato.stanford.edu/entries/moral-sentimentalism/"
     },
     {
-        "title": "moral skepticism",
-        "link": "https://plato.stanford.edu/entries/skepticism-moral/"
-    },
-    {
-        "title": "moral status, grounds of",
-        "link": "https://plato.stanford.edu/entries/grounds-moral-status/"
-    },
-    {
-        "title": "moral theory",
+        "title": "Moral Theory",
         "link": "https://plato.stanford.edu/entries/moral-theory/"
     },
     {
-        "title": "More, Henry",
-        "link": "https://plato.stanford.edu/entries/henry-more/"
+        "title": "Morality and Evolutionary Biology",
+        "link": "https://plato.stanford.edu/entries/morality-biology/"
     },
     {
-        "title": "More, Thomas",
-        "link": "https://plato.stanford.edu/entries/thomas-more/"
+        "title": "The Definition of Morality",
+        "link": "https://plato.stanford.edu/entries/morality-definition/"
     },
     {
         "title": "Mulla Sadra",
         "link": "https://plato.stanford.edu/entries/mulla-sadra/"
     },
     {
-        "title": "multiculturalism",
+        "title": "Multiculturalism",
         "link": "https://plato.stanford.edu/entries/multiculturalism/"
     },
     {
-        "title": "multiple realizability",
+        "title": "Multiple Realizability",
         "link": "https://plato.stanford.edu/entries/multiple-realizability/"
     },
     {
-        "title": "Murdoch, Iris",
+        "title": "Iris Murdoch",
         "link": "https://plato.stanford.edu/entries/murdoch/"
     },
     {
-        "title": "history of western philosophy of, antiquity to 1800",
-        "link": "https://plato.stanford.edu/entries/hist-westphilmusic-to-1800/"
-    },
-    {
-        "title": "history of western philosophy of, since 1800",
-        "link": "https://plato.stanford.edu/entries/hist-westphilmusic-since-1800/"
-    },
-    {
-        "title": "music, philosophy of",
+        "title": "The Philosophy of Music",
         "link": "https://plato.stanford.edu/entries/music/"
     },
     {
-        "title": "mysticism",
+        "title": "Mysticism",
         "link": "https://plato.stanford.edu/entries/mysticism/"
     },
     {
-        "title": "Plato: myths",
-        "link": "https://plato.stanford.edu/entries/plato-myths/"
-    },
-    {
-        "title": "N\u0101g\u0101rjuna",
+        "title": "Nāgārjuna",
         "link": "https://plato.stanford.edu/entries/nagarjuna/"
     },
     {
-        "title": "names",
+        "title": "Names",
         "link": "https://plato.stanford.edu/entries/names/"
     },
     {
-        "title": "nationalism",
+        "title": "Nationalism",
         "link": "https://plato.stanford.edu/entries/nationalism/"
     },
     {
-        "title": "Natorp, Paul",
+        "title": "Paul Natorp",
         "link": "https://plato.stanford.edu/entries/natorp/"
     },
     {
-        "title": "naturalism",
-        "link": "https://plato.stanford.edu/entries/naturalism/"
-    },
-    {
-        "title": "in legal philosophy",
-        "link": "https://plato.stanford.edu/entries/lawphil-naturalism/"
-    },
-    {
-        "title": "natural kinds",
-        "link": "https://plato.stanford.edu/entries/natural-kinds/"
-    },
-    {
-        "title": "ontology, natural language",
-        "link": "https://plato.stanford.edu/entries/natural-language-ontology/"
-    },
-    {
-        "title": "in the Renaissance",
+        "title": "Natural Philosophy in the Renaissance",
         "link": "https://plato.stanford.edu/entries/natphil-ren/"
     },
     {
-        "title": "natural selection",
+        "title": "Natural Deduction Systems in Logic",
+        "link": "https://plato.stanford.edu/entries/natural-deduction/"
+    },
+    {
+        "title": "Natural Kinds",
+        "link": "https://plato.stanford.edu/entries/natural-kinds/"
+    },
+    {
+        "title": "Natural Language Ontology",
+        "link": "https://plato.stanford.edu/entries/natural-language-ontology/"
+    },
+    {
+        "title": "The Natural Law Tradition in Ethics",
+        "link": "https://plato.stanford.edu/entries/natural-law-ethics/"
+    },
+    {
+        "title": "Natural Law Theories",
+        "link": "https://plato.stanford.edu/entries/natural-law-theories/"
+    },
+    {
+        "title": "Natural Properties",
+        "link": "https://plato.stanford.edu/entries/natural-properties/"
+    },
+    {
+        "title": "Natural Selection",
         "link": "https://plato.stanford.edu/entries/natural-selection/"
     },
     {
-        "title": "units and levels of",
-        "link": "https://plato.stanford.edu/entries/selection-units/"
+        "title": "Natural Theology and Natural Religion",
+        "link": "https://plato.stanford.edu/entries/natural-theology/"
     },
     {
-        "title": "nature of law",
-        "link": "https://plato.stanford.edu/entries/lawphil-nature/"
+        "title": "Naturalism in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/naturalism-india/"
     },
     {
-        "title": "interpretivist theories",
-        "link": "https://plato.stanford.edu/entries/law-interpretivist/"
+        "title": "Naturalism in the Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/naturalism-mathematics/"
     },
     {
-        "title": "pure theory of law",
-        "link": "https://plato.stanford.edu/entries/lawphil-theory/"
+        "title": "Moral Naturalism",
+        "link": "https://plato.stanford.edu/entries/naturalism-moral/"
     },
     {
-        "title": "needs, in moral and political philosophy",
+        "title": "Naturalism",
+        "link": "https://plato.stanford.edu/entries/naturalism/"
+    },
+    {
+        "title": "Necessary and Sufficient Conditions",
+        "link": "https://plato.stanford.edu/entries/necessary-sufficient/"
+    },
+    {
+        "title": "Needs in Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/needs/"
     },
     {
-        "title": "negation",
+        "title": "Negation",
         "link": "https://plato.stanford.edu/entries/negation/"
     },
     {
-        "title": "N\u00e9gritude",
+        "title": "Négritude",
         "link": "https://plato.stanford.edu/entries/negritude/"
     },
     {
-        "title": "neo-Kantianism",
+        "title": "Neo-Daoism",
+        "link": "https://plato.stanford.edu/entries/neo-daoism/"
+    },
+    {
+        "title": "Neo-Kantianism",
         "link": "https://plato.stanford.edu/entries/neo-kantianism/"
     },
     {
-        "title": "neoliberalism",
+        "title": "Neoliberalism",
         "link": "https://plato.stanford.edu/entries/neoliberalism/"
     },
     {
@@ -5413,79 +4921,99 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/neoplatonism/"
     },
     {
-        "title": "Neurath, Otto",
+        "title": "Otto Neurath",
         "link": "https://plato.stanford.edu/entries/neurath/"
     },
     {
-        "title": "neuroethics",
+        "title": "Neuroethics",
         "link": "https://plato.stanford.edu/entries/neuroethics/"
     },
     {
-        "title": "neuroscience, philosophy of",
+        "title": "The Philosophy of Neuroscience",
         "link": "https://plato.stanford.edu/entries/neuroscience/"
     },
     {
-        "title": "Newton, Isaac",
-        "link": "https://plato.stanford.edu/entries/newton/"
+        "title": "Neutral Monism",
+        "link": "https://plato.stanford.edu/entries/neutral-monism/"
     },
     {
-        "title": "Philosophiae Naturalis Principia Mathematica",
-        "link": "https://plato.stanford.edu/entries/newton-principia/"
-    },
-    {
-        "title": "philosophy",
+        "title": "Newton’s Philosophy",
         "link": "https://plato.stanford.edu/entries/newton-philosophy/"
     },
     {
-        "title": "views on space, time, and motion",
+        "title": "Newton’sPhilosophiae Naturalis Principia Mathematica",
+        "link": "https://plato.stanford.edu/entries/newton-principia/"
+    },
+    {
+        "title": "Newton’s Views on Space, Time, and Motion",
         "link": "https://plato.stanford.edu/entries/newton-stm/"
     },
     {
-        "title": "Nicholas of Autrecourt [de Altricuria, Autricuria, Ultricuria, Autricort]",
-        "link": "https://plato.stanford.edu/entries/autrecourt/"
+        "title": "Isaac Newton",
+        "link": "https://plato.stanford.edu/entries/newton/"
     },
     {
-        "title": "Nietzsche, Friedrich",
-        "link": "https://plato.stanford.edu/entries/nietzsche/"
+        "title": "Nicolai Hartmann",
+        "link": "https://plato.stanford.edu/entries/nicolai-hartmann/"
     },
     {
-        "title": "life and works",
+        "title": "Nicole Oresme",
+        "link": "https://plato.stanford.edu/entries/nicole-oresme/"
+    },
+    {
+        "title": "Nietzsche’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/nietzsche-aesthetics/"
+    },
+    {
+        "title": "Nietzsche’s Life and Works",
         "link": "https://plato.stanford.edu/entries/nietzsche-life-works/"
     },
     {
-        "title": "moral and political philosophy",
+        "title": "Nietzsche’s Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/nietzsche-moral-political/"
     },
     {
-        "title": "in metaphysics",
+        "title": "Friedrich Nietzsche",
+        "link": "https://plato.stanford.edu/entries/nietzsche/"
+    },
+    {
+        "title": "Nishida Kitarō",
+        "link": "https://plato.stanford.edu/entries/nishida-kitaro/"
+    },
+    {
+        "title": "Nominalism in the Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/nominalism-mathematics/"
+    },
+    {
+        "title": "Nominalism in Metaphysics",
         "link": "https://plato.stanford.edu/entries/nominalism-metaphysics/"
     },
     {
-        "title": "nonexistent objects",
+        "title": "Nonexistent Objects",
         "link": "https://plato.stanford.edu/entries/nonexistent-objects/"
     },
     {
-        "title": "nonidentity problem",
+        "title": "The Nonidentity Problem",
         "link": "https://plato.stanford.edu/entries/nonidentity-problem/"
     },
     {
-        "title": "social norms",
-        "link": "https://plato.stanford.edu/entries/social-norms/"
+        "title": "Non-wellfounded Set Theory",
+        "link": "https://plato.stanford.edu/entries/nonwellfounded-set-theory/"
     },
     {
-        "title": "Norris, John",
-        "link": "https://plato.stanford.edu/entries/john-norris/"
+        "title": "Normativity in Metaethics",
+        "link": "https://plato.stanford.edu/entries/normativity-metaethics/"
     },
     {
-        "title": "nothingness",
+        "title": "Nothingness",
         "link": "https://plato.stanford.edu/entries/nothingness/"
     },
     {
-        "title": "Novalis [Georg Friedrich Philipp von Hardenberg]",
+        "title": "Georg Friedrich Philipp von Hardenberg [Novalis]",
         "link": "https://plato.stanford.edu/entries/novalis/"
     },
     {
-        "title": "political philosophy",
+        "title": "Robert Nozick’s Political Philosophy",
         "link": "https://plato.stanford.edu/entries/nozick-political/"
     },
     {
@@ -5493,155 +5021,143 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/numenius/"
     },
     {
-        "title": "Oakeshott, Michael",
+        "title": "Michael Oakeshott",
         "link": "https://plato.stanford.edu/entries/oakeshott/"
     },
     {
-        "title": "object",
+        "title": "Object",
         "link": "https://plato.stanford.edu/entries/object/"
     },
     {
-        "title": "scientific objectivity",
-        "link": "https://plato.stanford.edu/entries/scientific-objectivity/"
+        "title": "Medieval Theories ofObligationes",
+        "link": "https://plato.stanford.edu/entries/obligationes/"
     },
     {
-        "title": "special",
-        "link": "https://plato.stanford.edu/entries/special-obligations/"
-    },
-    {
-        "title": "obligations to oneself",
-        "link": "https://plato.stanford.edu/entries/self-obligations/"
-    },
-    {
-        "title": "occasionalism",
+        "title": "Occasionalism",
         "link": "https://plato.stanford.edu/entries/occasionalism/"
     },
     {
-        "title": "Ockham [Occam], William",
+        "title": "William of Ockham",
         "link": "https://plato.stanford.edu/entries/ockham/"
     },
     {
-        "title": "Olivi, Peter John",
+        "title": "Peter John Olivi",
         "link": "https://plato.stanford.edu/entries/olivi/"
     },
     {
-        "title": "omnipotence",
+        "title": "Olympiodorus",
+        "link": "https://plato.stanford.edu/entries/olympiodorus/"
+    },
+    {
+        "title": "Omnipotence",
         "link": "https://plato.stanford.edu/entries/omnipotence/"
     },
     {
-        "title": "omnipresence",
+        "title": "Omnipresence",
         "link": "https://plato.stanford.edu/entries/omnipresence/"
     },
     {
-        "title": "omniscience",
+        "title": "Omniscience",
         "link": "https://plato.stanford.edu/entries/omniscience/"
     },
     {
-        "title": "ontological commitment",
+        "title": "Ontological Arguments",
+        "link": "https://plato.stanford.edu/entries/ontological-arguments/"
+    },
+    {
+        "title": "Ontological Commitment",
         "link": "https://plato.stanford.edu/entries/ontological-commitment/"
     },
     {
-        "title": "and information systems",
+        "title": "Ontology and Information Systems",
         "link": "https://plato.stanford.edu/entries/ontology-is/"
     },
     {
-        "title": "social ontology",
-        "link": "https://plato.stanford.edu/entries/social-ontology/"
-    },
-    {
-        "title": "ontology of art, history of",
-        "link": "https://plato.stanford.edu/entries/art-ontology-history/"
-    },
-    {
-        "title": "operationalism",
+        "title": "Operationalism",
         "link": "https://plato.stanford.edu/entries/operationalism/"
     },
     {
-        "title": "ordinary objects",
+        "title": "Ordinary Objects",
         "link": "https://plato.stanford.edu/entries/ordinary-objects/"
     },
     {
-        "title": "Oresme, Nicole",
-        "link": "https://plato.stanford.edu/entries/nicole-oresme/"
+        "title": "The Donation of Human Organs",
+        "link": "https://plato.stanford.edu/entries/organ-donation/"
+    },
+    {
+        "title": "The Sale of Human Organs",
+        "link": "https://plato.stanford.edu/entries/organs-sale/"
     },
     {
         "title": "Origen",
         "link": "https://plato.stanford.edu/entries/origen/"
     },
     {
-        "title": "original position",
+        "title": "Darwin: From theOrigin of Speciesto theDescent of Man",
+        "link": "https://plato.stanford.edu/entries/origin-descent/"
+    },
+    {
+        "title": "Original Position",
         "link": "https://plato.stanford.edu/entries/original-position/"
     },
     {
-        "title": "Ortega y Gasset, Jos\u00e9",
-        "link": "https://plato.stanford.edu/entries/gasset/"
-    },
-    {
-        "title": "other minds",
+        "title": "Other Minds",
         "link": "https://plato.stanford.edu/entries/other-minds/"
     },
     {
-        "title": "property and ownership",
-        "link": "https://plato.stanford.edu/entries/property/"
-    },
-    {
-        "title": "pacifism",
+        "title": "Pacifism",
         "link": "https://plato.stanford.edu/entries/pacifism/"
     },
     {
-        "title": "pain",
+        "title": "Pain",
         "link": "https://plato.stanford.edu/entries/pain/"
     },
     {
-        "title": "Paine, Thomas",
+        "title": "Thomas Paine",
         "link": "https://plato.stanford.edu/entries/paine/"
     },
     {
-        "title": "panentheism",
+        "title": "Panentheism",
         "link": "https://plato.stanford.edu/entries/panentheism/"
     },
     {
-        "title": "panpsychism",
+        "title": "Panpsychism",
         "link": "https://plato.stanford.edu/entries/panpsychism/"
     },
     {
-        "title": "pantheism",
+        "title": "Pantheism",
         "link": "https://plato.stanford.edu/entries/pantheism/"
     },
     {
-        "title": "Russell\u2019s paradox",
-        "link": "https://plato.stanford.edu/entries/russell-paradox/"
-    },
-    {
-        "title": "Simpson\u2019s paradox",
-        "link": "https://plato.stanford.edu/entries/paradox-simpson/"
-    },
-    {
-        "title": "Skolem\u2019s",
-        "link": "https://plato.stanford.edu/entries/paradox-skolem/"
-    },
-    {
-        "title": "St. Petersburg paradox",
-        "link": "https://plato.stanford.edu/entries/paradox-stpetersburg/"
-    },
-    {
-        "title": "suspense, paradox of",
-        "link": "https://plato.stanford.edu/entries/paradox-suspense/"
-    },
-    {
-        "title": "Zeno of Elea: Zeno\u2019s paradoxes",
-        "link": "https://plato.stanford.edu/entries/paradox-zeno/"
-    },
-    {
-        "title": "and contemporary logic",
-        "link": "https://plato.stanford.edu/entries/paradoxes-contemporary-logic/"
-    },
-    {
-        "title": "paradox of tragedy",
+        "title": "Paradox of Tragedy",
         "link": "https://plato.stanford.edu/entries/paradox-of-tragedy/"
     },
     {
-        "title": "parenthood and procreation",
+        "title": "Simpson’s Paradox",
+        "link": "https://plato.stanford.edu/entries/paradox-simpson/"
+    },
+    {
+        "title": "Skolem’s Paradox",
+        "link": "https://plato.stanford.edu/entries/paradox-skolem/"
+    },
+    {
+        "title": "The St. Petersburg Paradox",
+        "link": "https://plato.stanford.edu/entries/paradox-stpetersburg/"
+    },
+    {
+        "title": "The Paradox of Suspense",
+        "link": "https://plato.stanford.edu/entries/paradox-suspense/"
+    },
+    {
+        "title": "Zeno’s Paradoxes",
+        "link": "https://plato.stanford.edu/entries/paradox-zeno/"
+    },
+    {
+        "title": "Paradoxes and Contemporary Logic",
+        "link": "https://plato.stanford.edu/entries/paradoxes-contemporary-logic/"
+    },
+    {
+        "title": "Parenthood and Procreation",
         "link": "https://plato.stanford.edu/entries/parenthood/"
     },
     {
@@ -5649,23 +5165,23 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/parmenides/"
     },
     {
-        "title": "Pascal, Blaise",
-        "link": "https://plato.stanford.edu/entries/pascal/"
-    },
-    {
-        "title": "Pascal\u2019s wager",
+        "title": "Pascal’s Wager",
         "link": "https://plato.stanford.edu/entries/pascal-wager/"
     },
     {
-        "title": "paternalism",
+        "title": "Blaise Pascal",
+        "link": "https://plato.stanford.edu/entries/pascal/"
+    },
+    {
+        "title": "Paternalism",
         "link": "https://plato.stanford.edu/entries/paternalism/"
     },
     {
-        "title": "patriotism",
+        "title": "Patriotism",
         "link": "https://plato.stanford.edu/entries/patriotism/"
     },
     {
-        "title": "Patrizi, Francesco",
+        "title": "Francesco Patrizi",
         "link": "https://plato.stanford.edu/entries/patrizi/"
     },
     {
@@ -5673,80 +5189,144 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/paul-venice/"
     },
     {
-        "title": "Peirce, Benjamin",
+        "title": "Benjamin Peirce",
         "link": "https://plato.stanford.edu/entries/peirce-benjamin/"
     },
     {
-        "title": "Peirce, Charles Sanders",
-        "link": "https://plato.stanford.edu/entries/peirce/"
-    },
-    {
-        "title": "logic",
+        "title": "Peirce’s Deductive Logic",
         "link": "https://plato.stanford.edu/entries/peirce-logic/"
     },
     {
-        "title": "theory of signs",
+        "title": "Peirce’s Theory of Signs",
         "link": "https://plato.stanford.edu/entries/peirce-semiotics/"
     },
     {
-        "title": "Penbygull, William",
+        "title": "Charles Sanders Peirce",
+        "link": "https://plato.stanford.edu/entries/peirce/"
+    },
+    {
+        "title": "William Penbygull",
         "link": "https://plato.stanford.edu/entries/penbygull/"
     },
     {
-        "title": "the contents of",
+        "title": "Auditory Perception",
+        "link": "https://plato.stanford.edu/entries/perception-auditory/"
+    },
+    {
+        "title": "The Contents of Perception",
         "link": "https://plato.stanford.edu/entries/perception-contents/"
     },
     {
-        "title": "the disjunctive theory of",
+        "title": "The Disjunctive Theory of Perception",
         "link": "https://plato.stanford.edu/entries/perception-disjunctive/"
     },
     {
-        "title": "experience and justification",
+        "title": "Epistemological Problems of Perception",
+        "link": "https://plato.stanford.edu/entries/perception-episprob/"
+    },
+    {
+        "title": "Perceptual Experience and Concepts in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/perception-india/"
+    },
+    {
+        "title": "Perceptual Experience and Perceptual Justification",
         "link": "https://plato.stanford.edu/entries/perception-justification/"
     },
     {
-        "title": "the problem of",
+        "title": "The Problem of Perception",
         "link": "https://plato.stanford.edu/entries/perception-problem/"
     },
     {
-        "title": "Pereira, G\u00f3mez",
-        "link": "https://plato.stanford.edu/entries/gomez-pereira/"
+        "title": "Perceptual Learning",
+        "link": "https://plato.stanford.edu/entries/perceptual-learning/"
     },
     {
-        "title": "perfectionism, in moral and political philosophy",
+        "title": "Perfect Goodness",
+        "link": "https://plato.stanford.edu/entries/perfect-goodness/"
+    },
+    {
+        "title": "Perfectionism in Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/perfectionism-moral/"
     },
     {
-        "title": "personalism",
-        "link": "https://plato.stanford.edu/entries/personalism/"
+        "title": "Personal Autonomy",
+        "link": "https://plato.stanford.edu/entries/personal-autonomy/"
     },
     {
-        "title": "personal relationship goods",
+        "title": "Personal Relationship Goods",
         "link": "https://plato.stanford.edu/entries/personal-relationship-goods/"
     },
     {
-        "title": "Peter of Spain [= Petrus Hispanus]",
+        "title": "Personalism",
+        "link": "https://plato.stanford.edu/entries/personalism/"
+    },
+    {
+        "title": "Personhood in Classical Indian Philosophy",
+        "link": "https://plato.stanford.edu/entries/personhood-india/"
+    },
+    {
+        "title": "Treating Persons as Means",
+        "link": "https://plato.stanford.edu/entries/persons-means/"
+    },
+    {
+        "title": "Peter Damian",
+        "link": "https://plato.stanford.edu/entries/peter-damian/"
+    },
+    {
+        "title": "The Logic of Peter of Spain",
         "link": "https://plato.stanford.edu/entries/peter-spain/"
     },
     {
-        "title": "Petrizi, Joane",
-        "link": "https://plato.stanford.edu/entries/joane-petrizi/"
+        "title": "Petitionary Prayer",
+        "link": "https://plato.stanford.edu/entries/petitionary-prayer/"
     },
     {
-        "title": "phenomenology",
-        "link": "https://plato.stanford.edu/entries/phenomenology/"
+        "title": "Phenomenal Intentionality",
+        "link": "https://plato.stanford.edu/entries/phenomenal-intentionality/"
     },
     {
-        "title": "of the Munich and G\u00f6ttingen Circles",
+        "title": "The Phenomenology of the Munich and Göttingen Circles",
         "link": "https://plato.stanford.edu/entries/phenomenology-mg/"
     },
     {
-        "title": "philanthropy",
+        "title": "Phenomenology of Religion",
+        "link": "https://plato.stanford.edu/entries/phenomenology-religion/"
+    },
+    {
+        "title": "Phenomenology",
+        "link": "https://plato.stanford.edu/entries/phenomenology/"
+    },
+    {
+        "title": "Philosophy of Biology in Latin America",
+        "link": "https://plato.stanford.edu/entries/phil-bio-latin-america/"
+    },
+    {
+        "title": "Philosophical Aspects of Multi-Modal Logic",
+        "link": "https://plato.stanford.edu/entries/phil-multimodallogic/"
+    },
+    {
+        "title": "Philosophy of Science in Latin America",
+        "link": "https://plato.stanford.edu/entries/phil-science-latin-america/"
+    },
+    {
+        "title": "Philanthropy",
         "link": "https://plato.stanford.edu/entries/philanthropy/"
     },
     {
         "title": "Philip the Chancellor",
         "link": "https://plato.stanford.edu/entries/philip-chancellor/"
+    },
+    {
+        "title": "Philippa Foot",
+        "link": "https://plato.stanford.edu/entries/philippa-foot/"
+    },
+    {
+        "title": "Philo of Larissa",
+        "link": "https://plato.stanford.edu/entries/philo-larissa/"
+    },
+    {
+        "title": "Philo of Alexandria",
+        "link": "https://plato.stanford.edu/entries/philo/"
     },
     {
         "title": "Philodemus",
@@ -5757,99 +5337,139 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/philolaus/"
     },
     {
-        "title": "Philo of Alexandria",
-        "link": "https://plato.stanford.edu/entries/philo/"
+        "title": "John Philoponus",
+        "link": "https://plato.stanford.edu/entries/philoponus/"
     },
     {
-        "title": "Philo of Larissa",
-        "link": "https://plato.stanford.edu/entries/philo-larissa/"
+        "title": "19th and 20th Century Chilean Philosophy",
+        "link": "https://plato.stanford.edu/entries/philosophy-chile/"
     },
     {
-        "title": "phylogenetic inference",
+        "title": "Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/philosophy-mathematics/"
+    },
+    {
+        "title": "Philosophy in Mexico",
+        "link": "https://plato.stanford.edu/entries/philosophy-mexico/"
+    },
+    {
+        "title": "Philosophy of Religion",
+        "link": "https://plato.stanford.edu/entries/philosophy-religion/"
+    },
+    {
+        "title": "Phylogenetic Inference",
         "link": "https://plato.stanford.edu/entries/phylogenetic-inference/"
     },
     {
-        "title": "holism and nonseparability",
+        "title": "Physicalism",
+        "link": "https://plato.stanford.edu/entries/physicalism/"
+    },
+    {
+        "title": "Reichenbach’s Common Cause Principle",
+        "link": "https://plato.stanford.edu/entries/physics-Rpcc/"
+    },
+    {
+        "title": "Experiment in Physics",
+        "link": "https://plato.stanford.edu/entries/physics-experiment/"
+    },
+    {
+        "title": "Holism and Nonseparability in Physics",
         "link": "https://plato.stanford.edu/entries/physics-holism/"
     },
     {
-        "title": "intertheory relations in",
+        "title": "Intertheory Relations in Physics",
         "link": "https://plato.stanford.edu/entries/physics-interrelate/"
     },
     {
-        "title": "quantum theory: quantum field theory",
-        "link": "https://plato.stanford.edu/entries/quantum-field-theory/"
-    },
-    {
-        "title": "structuralism in",
+        "title": "Structuralism in Physics",
         "link": "https://plato.stanford.edu/entries/physics-structuralism/"
     },
     {
-        "title": "symmetry and symmetry breaking",
-        "link": "https://plato.stanford.edu/entries/symmetry-breaking/"
+        "title": "Giovanni Pico della Mirandola",
+        "link": "https://plato.stanford.edu/entries/pico-della-mirandola/"
     },
     {
-        "title": "Pico della Mirandola, Giovanni",
-        "link": "https://plato.stanford.edu/entries/pico-della-mirandola/"
+        "title": "Descartes and the Pineal Gland",
+        "link": "https://plato.stanford.edu/entries/pineal-gland/"
+    },
+    {
+        "title": "Plato’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/plato-aesthetics/"
+    },
+    {
+        "title": "Plato’sCratylus",
+        "link": "https://plato.stanford.edu/entries/plato-cratylus/"
+    },
+    {
+        "title": "Plato’s Ethics and Politics inThe Republic",
+        "link": "https://plato.stanford.edu/entries/plato-ethics-politics/"
+    },
+    {
+        "title": "Plato’s Shorter Ethical Works",
+        "link": "https://plato.stanford.edu/entries/plato-ethics-shorter/"
+    },
+    {
+        "title": "Plato’s Ethics: An Overview",
+        "link": "https://plato.stanford.edu/entries/plato-ethics/"
+    },
+    {
+        "title": "Plato on Friendship and Eros",
+        "link": "https://plato.stanford.edu/entries/plato-friendship/"
+    },
+    {
+        "title": "Plato’s Middle Period Metaphysics and Epistemology",
+        "link": "https://plato.stanford.edu/entries/plato-metaphysics/"
+    },
+    {
+        "title": "Plato’s Myths",
+        "link": "https://plato.stanford.edu/entries/plato-myths/"
+    },
+    {
+        "title": "Plato’sParmenides",
+        "link": "https://plato.stanford.edu/entries/plato-parmenides/"
+    },
+    {
+        "title": "Plato on Rhetoric and Poetry",
+        "link": "https://plato.stanford.edu/entries/plato-rhetoric/"
+    },
+    {
+        "title": "Method and Metaphysics in Plato’sSophistandStatesman",
+        "link": "https://plato.stanford.edu/entries/plato-sophstate/"
+    },
+    {
+        "title": "Plato on Knowledge in theTheaetetus",
+        "link": "https://plato.stanford.edu/entries/plato-theaetetus/"
+    },
+    {
+        "title": "Plato’sTimaeus",
+        "link": "https://plato.stanford.edu/entries/plato-timaeus/"
+    },
+    {
+        "title": "Plato on utopia",
+        "link": "https://plato.stanford.edu/entries/plato-utopia/"
     },
     {
         "title": "Plato",
         "link": "https://plato.stanford.edu/entries/plato/"
     },
     {
-        "title": "Cratylus",
-        "link": "https://plato.stanford.edu/entries/plato-cratylus/"
+        "title": "Platonism in the Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/platonism-mathematics/"
     },
     {
-        "title": "ethics",
-        "link": "https://plato.stanford.edu/entries/plato-ethics/"
-    },
-    {
-        "title": "ethics and politics in The Republic",
-        "link": "https://plato.stanford.edu/entries/plato-ethics-politics/"
-    },
-    {
-        "title": "friendship and eros",
-        "link": "https://plato.stanford.edu/entries/plato-friendship/"
-    },
-    {
-        "title": "method and metaphysics in the Sophist and Statesman",
-        "link": "https://plato.stanford.edu/entries/plato-sophstate/"
-    },
-    {
-        "title": "on knowledge in the Theaetetus",
-        "link": "https://plato.stanford.edu/entries/plato-theaetetus/"
-    },
-    {
-        "title": "on utopia",
-        "link": "https://plato.stanford.edu/entries/plato-utopia/"
-    },
-    {
-        "title": "Parmenides",
-        "link": "https://plato.stanford.edu/entries/plato-parmenides/"
-    },
-    {
-        "title": "rhetoric and poetry",
-        "link": "https://plato.stanford.edu/entries/plato-rhetoric/"
-    },
-    {
-        "title": "shorter ethical works",
-        "link": "https://plato.stanford.edu/entries/plato-ethics-shorter/"
-    },
-    {
-        "title": "Timaeus",
-        "link": "https://plato.stanford.edu/entries/plato-timaeus/"
-    },
-    {
-        "title": "in metaphysics",
+        "title": "Platonism in Metaphysics",
         "link": "https://plato.stanford.edu/entries/platonism/"
     },
     {
-        "title": "pleasure",
+        "title": "Pleasure",
         "link": "https://plato.stanford.edu/entries/pleasure/"
     },
     {
-        "title": "plural quantification",
+        "title": "Plotinus",
+        "link": "https://plato.stanford.edu/entries/plotinus/"
+    },
+    {
+        "title": "Plural Quantification",
         "link": "https://plato.stanford.edu/entries/plural-quant/"
     },
     {
@@ -5857,83 +5477,99 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/plutarch/"
     },
     {
-        "title": "Poincar\u00e9, Henri",
+        "title": "The Notation inPrincipia Mathematica",
+        "link": "https://plato.stanford.edu/entries/pm-notation/"
+    },
+    {
+        "title": "Henri Poincaré",
         "link": "https://plato.stanford.edu/entries/poincare/"
     },
     {
-        "title": "Polqar, Isaac",
-        "link": "https://plato.stanford.edu/entries/polqar/"
-    },
-    {
-        "title": "political obligation",
+        "title": "Political Obligation",
         "link": "https://plato.stanford.edu/entries/political-obligation/"
     },
     {
-        "title": "ancient",
-        "link": "https://plato.stanford.edu/entries/ancient-political/"
+        "title": "Political Representation",
+        "link": "https://plato.stanford.edu/entries/political-representation/"
     },
     {
-        "title": "in international relations",
-        "link": "https://plato.stanford.edu/entries/realism-intl-relations/"
+        "title": "Isaac Polqar",
+        "link": "https://plato.stanford.edu/entries/polqar/"
     },
     {
-        "title": "religion: and political theory",
-        "link": "https://plato.stanford.edu/entries/religion-politics/"
-    },
-    {
-        "title": "Pomponazzi, Pietro",
+        "title": "Pietro Pomponazzi",
         "link": "https://plato.stanford.edu/entries/pomponazzi/"
     },
     {
-        "title": "Popper, Karl",
+        "title": "Karl Popper",
         "link": "https://plato.stanford.edu/entries/popper/"
+    },
+    {
+        "title": "Population Genetics",
+        "link": "https://plato.stanford.edu/entries/population-genetics/"
+    },
+    {
+        "title": "Pornography and Censorship",
+        "link": "https://plato.stanford.edu/entries/pornography-censorship/"
     },
     {
         "title": "Porphyry",
         "link": "https://plato.stanford.edu/entries/porphyry/"
     },
     {
-        "title": "Porta, Giambattista della",
-        "link": "https://plato.stanford.edu/entries/della-porta/"
-    },
-    {
         "title": "Port Royal Logic",
         "link": "https://plato.stanford.edu/entries/port-royal-logic/"
     },
     {
-        "title": "postmodernism",
+        "title": "The Possibilism-Actualism Debate",
+        "link": "https://plato.stanford.edu/entries/possibilism-actualism/"
+    },
+    {
+        "title": "Possible Objects",
+        "link": "https://plato.stanford.edu/entries/possible-objects/"
+    },
+    {
+        "title": "Possible Worlds",
+        "link": "https://plato.stanford.edu/entries/possible-worlds/"
+    },
+    {
+        "title": "Postmodernism",
         "link": "https://plato.stanford.edu/entries/postmodernism/"
     },
     {
-        "title": "Poulain de la Barre, Fran\u00e7ois",
-        "link": "https://plato.stanford.edu/entries/francois-barre/"
+        "title": "Practical Reason and the Structure of Actions",
+        "link": "https://plato.stanford.edu/entries/practical-reason-action/"
     },
     {
-        "title": "practical reason",
+        "title": "Medieval Theories of Practical Reason",
+        "link": "https://plato.stanford.edu/entries/practical-reason-med/"
+    },
+    {
+        "title": "Practical Reason",
         "link": "https://plato.stanford.edu/entries/practical-reason/"
     },
     {
-        "title": "pragmatics",
+        "title": "Pragmatic Arguments and Belief in God",
+        "link": "https://plato.stanford.edu/entries/pragmatic-belief-god/"
+    },
+    {
+        "title": "Pragmatics",
         "link": "https://plato.stanford.edu/entries/pragmatics/"
     },
     {
-        "title": "pragmatism",
+        "title": "Pragmatism",
         "link": "https://plato.stanford.edu/entries/pragmatism/"
     },
     {
-        "title": "petitionary",
-        "link": "https://plato.stanford.edu/entries/petitionary-prayer/"
-    },
-    {
-        "title": "prediction versus accommodation",
+        "title": "Prediction versus Accommodation",
         "link": "https://plato.stanford.edu/entries/prediction-accommodation/"
     },
     {
-        "title": "preferences",
+        "title": "Preferences",
         "link": "https://plato.stanford.edu/entries/preferences/"
     },
     {
-        "title": "presentism",
+        "title": "Presentism",
         "link": "https://plato.stanford.edu/entries/presentism/"
     },
     {
@@ -5941,75 +5577,67 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/presocratics/"
     },
     {
-        "title": "presupposition",
+        "title": "Presupposition",
         "link": "https://plato.stanford.edu/entries/presupposition/"
     },
     {
-        "title": "Price, Henry Habberley",
+        "title": "Henry Habberley Price",
         "link": "https://plato.stanford.edu/entries/price/"
     },
     {
-        "title": "Price, Richard",
-        "link": "https://plato.stanford.edu/entries/richard-price/"
-    },
-    {
-        "title": "Prichard, Harold Arthur",
+        "title": "Harold Arthur Prichard",
         "link": "https://plato.stanford.edu/entries/prichard/"
-    },
-    {
-        "title": "primary and secondary qualities in early modern philosophy",
-        "link": "https://plato.stanford.edu/entries/qualities-prim-sec/"
     },
     {
         "title": "Principia Mathematica",
         "link": "https://plato.stanford.edu/entries/principia-mathematica/"
     },
     {
-        "title": "notation in",
-        "link": "https://plato.stanford.edu/entries/pm-notation/"
+        "title": "The Principle of Beneficence in Applied Ethics",
+        "link": "https://plato.stanford.edu/entries/principle-beneficence/"
     },
     {
-        "title": "principle of sufficient reason",
-        "link": "https://plato.stanford.edu/entries/sufficient-reason/"
-    },
-    {
-        "title": "Prior, Arthur",
+        "title": "Arthur Prior",
         "link": "https://plato.stanford.edu/entries/prior/"
     },
     {
-        "title": "prioritarianism as a theory of value",
+        "title": "Prioritarianism as a Theory of Value",
         "link": "https://plato.stanford.edu/entries/prioritarianism/"
     },
     {
-        "title": "prisoner\u2019s dilemma",
+        "title": "Prisoner’s Dilemma",
         "link": "https://plato.stanford.edu/entries/prisoner-dilemma/"
     },
     {
-        "title": "privacy",
+        "title": "Privacy and Medicine",
+        "link": "https://plato.stanford.edu/entries/privacy-medicine/"
+    },
+    {
+        "title": "Privacy",
         "link": "https://plato.stanford.edu/entries/privacy/"
     },
     {
-        "title": "private language",
+        "title": "Private Language",
         "link": "https://plato.stanford.edu/entries/private-language/"
     },
     {
-        "title": "probabilities, imprecise",
-        "link": "https://plato.stanford.edu/entries/imprecise-probabilities/"
-    },
-    {
-        "title": "probability, in medieval and Renaissance philosophy",
-        "link": "https://plato.stanford.edu/entries/probability-medieval-renaissance/"
-    },
-    {
-        "title": "probability, interpretations of",
+        "title": "Interpretations of Probability",
         "link": "https://plato.stanford.edu/entries/probability-interpret/"
     },
     {
-        "title": "process philosophy",
+        "title": "Probability in Medieval and Renaissance Philosophy",
+        "link": "https://plato.stanford.edu/entries/probability-medieval-renaissance/"
+    },
+    {
+        "title": "The Problem of the Many",
+        "link": "https://plato.stanford.edu/entries/problem-of-many/"
+    },
+    {
+        "title": "Process Philosophy",
         "link": "https://plato.stanford.edu/entries/process-philosophy/"
     },
     {
-        "title": "process theism",
+        "title": "Process Theism",
         "link": "https://plato.stanford.edu/entries/process-theism/"
     },
     {
@@ -6017,72 +5645,112 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/proclus/"
     },
     {
-        "title": "progress",
+        "title": "Progress",
         "link": "https://plato.stanford.edu/entries/progress/"
     },
     {
-        "title": "promises",
+        "title": "Promises",
         "link": "https://plato.stanford.edu/entries/promises/"
     },
     {
-        "title": "proof theory",
+        "title": "Proof-Theoretic Semantics",
+        "link": "https://plato.stanford.edu/entries/proof-theoretic-semantics/"
+    },
+    {
+        "title": "The Development of Proof Theory",
+        "link": "https://plato.stanford.edu/entries/proof-theory-development/"
+    },
+    {
+        "title": "Proof Theory",
         "link": "https://plato.stanford.edu/entries/proof-theory/"
     },
     {
-        "title": "natural",
-        "link": "https://plato.stanford.edu/entries/natural-properties/"
-    },
-    {
-        "title": "intellectual",
-        "link": "https://plato.stanford.edu/entries/intellectual-property/"
-    },
-    {
-        "title": "prophecy",
-        "link": "https://plato.stanford.edu/entries/prophecy/"
-    },
-    {
-        "title": "propositional attitude reports",
+        "title": "Propositional Attitude Reports",
         "link": "https://plato.stanford.edu/entries/prop-attitude-reports/"
     },
     {
-        "title": "propositions",
-        "link": "https://plato.stanford.edu/entries/propositions/"
+        "title": "Emergent Properties",
+        "link": "https://plato.stanford.edu/entries/properties-emergent/"
     },
     {
-        "title": "singular",
+        "title": "Properties",
+        "link": "https://plato.stanford.edu/entries/properties/"
+    },
+    {
+        "title": "Property and Ownership",
+        "link": "https://plato.stanford.edu/entries/property/"
+    },
+    {
+        "title": "Prophecy",
+        "link": "https://plato.stanford.edu/entries/prophecy/"
+    },
+    {
+        "title": "Propositional Function",
+        "link": "https://plato.stanford.edu/entries/propositional-function/"
+    },
+    {
+        "title": "Singular Propositions",
         "link": "https://plato.stanford.edu/entries/propositions-singular/"
     },
     {
-        "title": "structured",
+        "title": "Structured Propositions",
         "link": "https://plato.stanford.edu/entries/propositions-structured/"
+    },
+    {
+        "title": "Propositions",
+        "link": "https://plato.stanford.edu/entries/propositions/"
     },
     {
         "title": "Protagoras",
         "link": "https://plato.stanford.edu/entries/protagoras/"
     },
     {
-        "title": "soul, ancient theories of",
-        "link": "https://plato.stanford.edu/entries/ancient-soul/"
+        "title": "Divine Providence",
+        "link": "https://plato.stanford.edu/entries/providence-divine/"
     },
     {
-        "title": "psychiatry, philosophy of",
+        "title": "Pseudo-Dionysius the Areopagite",
+        "link": "https://plato.stanford.edu/entries/pseudo-dionysius-areopagite/"
+    },
+    {
+        "title": "Science and Pseudo-Science",
+        "link": "https://plato.stanford.edu/entries/pseudo-science/"
+    },
+    {
+        "title": "Philosophy of Psychiatry",
         "link": "https://plato.stanford.edu/entries/psychiatry/"
     },
     {
-        "title": "psychologism",
+        "title": "Psychologism",
         "link": "https://plato.stanford.edu/entries/psychologism/"
     },
     {
-        "title": "publicity",
-        "link": "https://plato.stanford.edu/entries/publicity/"
+        "title": "The Psychology of Normative Cognition",
+        "link": "https://plato.stanford.edu/entries/psychology-normative-cognition/"
     },
     {
-        "title": "public reason",
+        "title": "Public Goods",
+        "link": "https://plato.stanford.edu/entries/public-goods/"
+    },
+    {
+        "title": "Public Reason",
         "link": "https://plato.stanford.edu/entries/public-reason/"
     },
     {
-        "title": "moral and political philosophy",
+        "title": "Public Health Ethics",
+        "link": "https://plato.stanford.edu/entries/publichealth-ethics/"
+    },
+    {
+        "title": "Publicity",
+        "link": "https://plato.stanford.edu/entries/publicity/"
+    },
+    {
+        "title": "Pufendorf’s Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/pufendorf-moral/"
+    },
+    {
+        "title": "Pyrrho",
+        "link": "https://plato.stanford.edu/entries/pyrrho/"
     },
     {
         "title": "Pythagoras",
@@ -6093,115 +5761,143 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/pythagoreanism/"
     },
     {
-        "title": "qualia",
-        "link": "https://plato.stanford.edu/entries/qualia/"
+        "title": "Qing Philosophy",
+        "link": "https://plato.stanford.edu/entries/qing-philosophy/"
     },
     {
-        "title": "knowledge argument",
-        "link": "https://plato.stanford.edu/entries/qualia-knowledge/"
+        "title": "Action at a Distance in Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm-action-distance/"
     },
     {
-        "title": "quantifiers and quantification",
-        "link": "https://plato.stanford.edu/entries/quantification/"
-    },
-    {
-        "title": "quantum mechanics",
-        "link": "https://plato.stanford.edu/entries/qm/"
-    },
-    {
-        "title": "Bohmian mechanics",
+        "title": "Bohmian Mechanics",
         "link": "https://plato.stanford.edu/entries/qm-bohm/"
     },
     {
-        "title": "collapse theories",
+        "title": "Collapse Theories",
         "link": "https://plato.stanford.edu/entries/qm-collapse/"
     },
     {
-        "title": "consistent histories approach",
+        "title": "The Consistent Histories Approach to Quantum Mechanics",
         "link": "https://plato.stanford.edu/entries/qm-consistent-histories/"
     },
     {
-        "title": "Copenhagen interpretation of",
+        "title": "Copenhagen Interpretation of Quantum Mechanics",
         "link": "https://plato.stanford.edu/entries/qm-copenhagen/"
     },
     {
-        "title": "Everettian",
-        "link": "https://plato.stanford.edu/entries/qm-everett/"
-    },
-    {
-        "title": "many-worlds interpretation of",
-        "link": "https://plato.stanford.edu/entries/qm-manyworlds/"
-    },
-    {
-        "title": "modal interpretations of",
-        "link": "https://plato.stanford.edu/entries/qm-modal/"
-    },
-    {
-        "title": "relational",
-        "link": "https://plato.stanford.edu/entries/qm-relational/"
-    },
-    {
-        "title": "the role of decoherence in",
+        "title": "The Role of Decoherence in Quantum Mechanics",
         "link": "https://plato.stanford.edu/entries/qm-decoherence/"
     },
     {
-        "title": "Bayesian and pragmatist views",
-        "link": "https://plato.stanford.edu/entries/quantum-bayesian/"
+        "title": "Everettian Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm-everett/"
     },
     {
-        "title": "and consciousness",
+        "title": "Many-Worlds Interpretation of Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm-manyworlds/"
+    },
+    {
+        "title": "Modal Interpretations of Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm-modal/"
+    },
+    {
+        "title": "Relational Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm-relational/"
+    },
+    {
+        "title": "Retrocausality in Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm-retrocausality/"
+    },
+    {
+        "title": "Quantum Mechanics",
+        "link": "https://plato.stanford.edu/entries/qm/"
+    },
+    {
+        "title": "Quantum Approaches to Consciousness",
         "link": "https://plato.stanford.edu/entries/qt-consciousness/"
     },
     {
-        "title": "the Einstein-Podolsky-Rosen argument in",
+        "title": "Quantum Entanglement and Information",
+        "link": "https://plato.stanford.edu/entries/qt-entangle/"
+    },
+    {
+        "title": "The Einstein-Podolsky-Rosen Argument in Quantum Theory",
         "link": "https://plato.stanford.edu/entries/qt-epr/"
     },
     {
-        "title": "identity and individuality in",
+        "title": "Identity and Individuality in Quantum Theory",
         "link": "https://plato.stanford.edu/entries/qt-idind/"
     },
     {
-        "title": "and mathematical rigor",
-        "link": "https://plato.stanford.edu/entries/qt-nvd/"
-    },
-    {
-        "title": "quantum theory: philosophical issues in",
+        "title": "Philosophical Issues in Quantum Theory",
         "link": "https://plato.stanford.edu/entries/qt-issues/"
     },
     {
-        "title": "quantum computing",
+        "title": "Quantum Theory and Mathematical Rigor",
+        "link": "https://plato.stanford.edu/entries/qt-nvd/"
+    },
+    {
+        "title": "Quantum Computing",
         "link": "https://plato.stanford.edu/entries/qt-quantcomp/"
     },
     {
-        "title": "quantum gravity",
-        "link": "https://plato.stanford.edu/entries/quantum-gravity/"
-    },
-    {
-        "title": "quantum logic and probability theory",
+        "title": "Quantum Logic and Probability Theory",
         "link": "https://plato.stanford.edu/entries/qt-quantlog/"
     },
     {
-        "title": "Uncertainty Principle",
+        "title": "The Uncertainty Principle",
         "link": "https://plato.stanford.edu/entries/qt-uncertainty/"
     },
     {
-        "title": "questions",
+        "title": "Inverted Qualia",
+        "link": "https://plato.stanford.edu/entries/qualia-inverted/"
+    },
+    {
+        "title": "Qualia: The Knowledge Argument",
+        "link": "https://plato.stanford.edu/entries/qualia-knowledge/"
+    },
+    {
+        "title": "Qualia",
+        "link": "https://plato.stanford.edu/entries/qualia/"
+    },
+    {
+        "title": "Primary and Secondary Qualities in Early Modern Philosophy",
+        "link": "https://plato.stanford.edu/entries/qualities-prim-sec/"
+    },
+    {
+        "title": "Quantifiers and Quantification",
+        "link": "https://plato.stanford.edu/entries/quantification/"
+    },
+    {
+        "title": "Quantum-Bayesian and Pragmatist Views of Quantum Theory",
+        "link": "https://plato.stanford.edu/entries/quantum-bayesian/"
+    },
+    {
+        "title": "Quantum Field Theory",
+        "link": "https://plato.stanford.edu/entries/quantum-field-theory/"
+    },
+    {
+        "title": "Quantum Gravity",
+        "link": "https://plato.stanford.edu/entries/quantum-gravity/"
+    },
+    {
+        "title": "Questions",
         "link": "https://plato.stanford.edu/entries/questions/"
     },
     {
-        "title": "Quine, Willard Van Orman",
-        "link": "https://plato.stanford.edu/entries/quine/"
-    },
-    {
-        "title": "New Foundations",
+        "title": "Quine’s New Foundations",
         "link": "https://plato.stanford.edu/entries/quine-nf/"
     },
     {
-        "title": "quotation",
+        "title": "Willard Van Orman Quine",
+        "link": "https://plato.stanford.edu/entries/quine/"
+    },
+    {
+        "title": "Quotation",
         "link": "https://plato.stanford.edu/entries/quotation/"
     },
     {
-        "title": "race",
+        "title": "Race",
         "link": "https://plato.stanford.edu/entries/race/"
     },
     {
@@ -6209,275 +5905,323 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/radulphus-brito/"
     },
     {
-        "title": "Ramsey, Frank",
+        "title": "Ramsey and Intergenerational Welfare Economics",
+        "link": "https://plato.stanford.edu/entries/ramsey-economics/"
+    },
+    {
+        "title": "Frank Ramsey",
         "link": "https://plato.stanford.edu/entries/ramsey/"
     },
     {
-        "title": "Ramus, Petrus",
+        "title": "Petrus Ramus",
         "link": "https://plato.stanford.edu/entries/ramus/"
     },
     {
-        "title": "Rand, Ayn",
-        "link": "https://plato.stanford.edu/entries/ayn-rand/"
+        "title": "Rationalism vs. Empiricism",
+        "link": "https://plato.stanford.edu/entries/rationalism-empiricism/"
     },
     {
-        "title": "historicist theories of",
+        "title": "Historicist Theories of Scientific Rationality",
         "link": "https://plato.stanford.edu/entries/rationality-historicist/"
     },
     {
-        "title": "structural",
+        "title": "Instrumental Rationality",
+        "link": "https://plato.stanford.edu/entries/rationality-instrumental/"
+    },
+    {
+        "title": "Normative Theories of Rational Choice: Rivals to Expected Utility",
+        "link": "https://plato.stanford.edu/entries/rationality-normative-nonutility/"
+    },
+    {
+        "title": "Normative Theories of Rational Choice: Expected Utility",
+        "link": "https://plato.stanford.edu/entries/rationality-normative-utility/"
+    },
+    {
+        "title": "Structural Rationality",
         "link": "https://plato.stanford.edu/entries/rationality-structural/"
     },
     {
-        "title": "Rawls, John",
+        "title": "John Rawls",
         "link": "https://plato.stanford.edu/entries/rawls/"
     },
     {
-        "title": "realism",
-        "link": "https://plato.stanford.edu/entries/realism/"
+        "title": "Locke on Real Essence",
+        "link": "https://plato.stanford.edu/entries/real-essence/"
     },
     {
-        "title": "challenges to metaphysical",
+        "title": "Realism and Anti-Realism about Metaphysics",
+        "link": "https://plato.stanford.edu/entries/realism-about-metaphysics/"
+    },
+    {
+        "title": "Political Realism in International Relations",
+        "link": "https://plato.stanford.edu/entries/realism-intl-relations/"
+    },
+    {
+        "title": "Challenges to Metaphysical Realism",
         "link": "https://plato.stanford.edu/entries/realism-sem-challenge/"
     },
     {
-        "title": "scientific realism",
-        "link": "https://plato.stanford.edu/entries/scientific-realism/"
-    },
-    {
-        "title": "structural realism",
-        "link": "https://plato.stanford.edu/entries/structural-realism/"
-    },
-    {
-        "title": "and theory change in science",
+        "title": "Realism and Theory Change in Science",
         "link": "https://plato.stanford.edu/entries/realism-theory-change/"
     },
     {
-        "title": "religious commitment and reason",
-        "link": "https://plato.stanford.edu/entries/religious-commitment-reason/"
+        "title": "Realism",
+        "link": "https://plato.stanford.edu/entries/realism/"
     },
     {
-        "title": "recognition",
+        "title": "Analogy and Analogical Reasoning",
+        "link": "https://plato.stanford.edu/entries/reasoning-analogy/"
+    },
+    {
+        "title": "Automated Reasoning",
+        "link": "https://plato.stanford.edu/entries/reasoning-automated/"
+    },
+    {
+        "title": "Defeasible Reasoning",
+        "link": "https://plato.stanford.edu/entries/reasoning-defeasible/"
+    },
+    {
+        "title": "Moral Reasoning",
+        "link": "https://plato.stanford.edu/entries/reasoning-moral/"
+    },
+    {
+        "title": "Reasons for Action: Agent-Neutral vs. Agent-Relative",
+        "link": "https://plato.stanford.edu/entries/reasons-agent/"
+    },
+    {
+        "title": "Reasons for Action: Internal vs. External",
+        "link": "https://plato.stanford.edu/entries/reasons-internal-external/"
+    },
+    {
+        "title": "Reasons for Action: Justification, Motivation, Explanation",
+        "link": "https://plato.stanford.edu/entries/reasons-just-vs-expl/"
+    },
+    {
+        "title": "Recognition",
         "link": "https://plato.stanford.edu/entries/recognition/"
     },
     {
-        "title": "reconciliation",
+        "title": "Reconciliation",
         "link": "https://plato.stanford.edu/entries/reconciliation/"
     },
     {
-        "title": "redistribution",
+        "title": "Recursive Functions",
+        "link": "https://plato.stanford.edu/entries/recursive-functions/"
+    },
+    {
+        "title": "Redistribution",
         "link": "https://plato.stanford.edu/entries/redistribution/"
     },
     {
-        "title": "reduction, scientific",
-        "link": "https://plato.stanford.edu/entries/scientific-reduction/"
+        "title": "Reductionism in Biology",
+        "link": "https://plato.stanford.edu/entries/reduction-biology/"
     },
     {
-        "title": "reflective equilibrium",
+        "title": "Reference",
+        "link": "https://plato.stanford.edu/entries/reference/"
+    },
+    {
+        "title": "Reflective Equilibrium",
         "link": "https://plato.stanford.edu/entries/reflective-equilibrium/"
     },
     {
-        "title": "Regius, Henricus",
-        "link": "https://plato.stanford.edu/entries/henricus-regius/"
-    },
-    {
-        "title": "Rehberg, August Wilhelm",
-        "link": "https://plato.stanford.edu/entries/august-rehberg/"
-    },
-    {
-        "title": "Reichenbach, Hans",
+        "title": "Hans Reichenbach",
         "link": "https://plato.stanford.edu/entries/reichenbach/"
     },
     {
-        "title": "Reid, Thomas",
-        "link": "https://plato.stanford.edu/entries/reid/"
-    },
-    {
-        "title": "ethics",
+        "title": "Reid’s Ethics",
         "link": "https://plato.stanford.edu/entries/reid-ethics/"
     },
     {
-        "title": "on memory and personal identity",
+        "title": "Reid on Memory and Personal Identity",
         "link": "https://plato.stanford.edu/entries/reid-memory-identity/"
     },
     {
-        "title": "Reinach, Adolf",
+        "title": "Thomas Reid",
+        "link": "https://plato.stanford.edu/entries/reid/"
+    },
+    {
+        "title": "Adolf Reinach",
         "link": "https://plato.stanford.edu/entries/reinach/"
     },
     {
-        "title": "Reinhold, Karl Leonhard",
-        "link": "https://plato.stanford.edu/entries/karl-reinhold/"
-    },
-    {
-        "title": "reism",
+        "title": "Reism",
         "link": "https://plato.stanford.edu/entries/reism/"
     },
     {
-        "title": "relations",
+        "title": "Medieval Theories of Relations",
+        "link": "https://plato.stanford.edu/entries/relations-medieval/"
+    },
+    {
+        "title": "Relations",
         "link": "https://plato.stanford.edu/entries/relations/"
     },
     {
-        "title": "relativism",
+        "title": "Relativism",
         "link": "https://plato.stanford.edu/entries/relativism/"
     },
     {
-        "title": "comparative philosophy of",
+        "title": "Reliabilist Epistemology",
+        "link": "https://plato.stanford.edu/entries/reliabilism/"
+    },
+    {
+        "title": "Comparative Philosophy of Religion",
         "link": "https://plato.stanford.edu/entries/religion-comparative/"
     },
     {
-        "title": "concept of",
-        "link": "https://plato.stanford.edu/entries/concept-religion/"
-    },
-    {
-        "title": "epistemology of",
+        "title": "The Epistemology of Religion",
         "link": "https://plato.stanford.edu/entries/religion-epistemology/"
     },
     {
-        "title": "and morality in western philosophy",
+        "title": "Religion and Morality in Western Philosophy",
         "link": "https://plato.stanford.edu/entries/religion-morality/"
     },
     {
-        "title": "theology, natural and natural religion",
-        "link": "https://plato.stanford.edu/entries/natural-theology/"
+        "title": "Religion and Political Theory",
+        "link": "https://plato.stanford.edu/entries/religion-politics/"
     },
     {
-        "title": "phenomenology of",
-        "link": "https://plato.stanford.edu/entries/phenomenology-religion/"
-    },
-    {
-        "title": "philosophy of",
-        "link": "https://plato.stanford.edu/entries/philosophy-religion/"
-    },
-    {
-        "title": "and science",
+        "title": "Religion and Science",
         "link": "https://plato.stanford.edu/entries/religion-science/"
     },
     {
-        "title": "religious experience",
+        "title": "Reason and Religious Commitment",
+        "link": "https://plato.stanford.edu/entries/religious-commitment-reason/"
+    },
+    {
+        "title": "Religious Experience",
         "link": "https://plato.stanford.edu/entries/religious-experience/"
     },
     {
-        "title": "religious language",
+        "title": "Religious Language",
         "link": "https://plato.stanford.edu/entries/religious-language/"
     },
     {
-        "title": "reparations, Black",
-        "link": "https://plato.stanford.edu/entries/black-reparations/"
+        "title": "Religious Diversity (Pluralism)",
+        "link": "https://plato.stanford.edu/entries/religious-pluralism/"
     },
     {
-        "title": "replication and reproduction",
+        "title": "Replication and Reproduction",
         "link": "https://plato.stanford.edu/entries/replication/"
     },
     {
-        "title": "representation, political",
-        "link": "https://plato.stanford.edu/entries/political-representation/"
+        "title": "Mental Representation in Medieval Philosophy",
+        "link": "https://plato.stanford.edu/entries/representation-medieval/"
     },
     {
-        "title": "scientific representation",
-        "link": "https://plato.stanford.edu/entries/scientific-representation/"
-    },
-    {
-        "title": "reproducibility, scientific",
-        "link": "https://plato.stanford.edu/entries/scientific-reproducibility/"
-    },
-    {
-        "title": "republicanism",
+        "title": "Republicanism",
         "link": "https://plato.stanford.edu/entries/republicanism/"
     },
     {
-        "title": "repugnant conclusion, the",
+        "title": "The Repugnant Conclusion",
         "link": "https://plato.stanford.edu/entries/repugnant-conclusion/"
     },
     {
-        "title": "respect",
+        "title": "Respect",
         "link": "https://plato.stanford.edu/entries/respect/"
     },
     {
-        "title": "collective",
-        "link": "https://plato.stanford.edu/entries/collective-responsibility/"
-    },
-    {
-        "title": "reverse mathematics",
+        "title": "Reverse Mathematics",
         "link": "https://plato.stanford.edu/entries/reverse-mathematics/"
     },
     {
-        "title": "revolution",
+        "title": "Revolution",
         "link": "https://plato.stanford.edu/entries/revolution/"
     },
     {
-        "title": "Richard the Sophister [Ricardus Sophista, Magister abstractionum]",
+        "title": "Richard Price",
+        "link": "https://plato.stanford.edu/entries/richard-price/"
+    },
+    {
+        "title": "Richard the Sophister",
         "link": "https://plato.stanford.edu/entries/richard-sophister/"
     },
     {
-        "title": "Rickert, Heinrich",
-        "link": "https://plato.stanford.edu/entries/heinrich-rickert/"
-    },
-    {
-        "title": "Ricoeur, Paul",
+        "title": "Paul Ricoeur",
         "link": "https://plato.stanford.edu/entries/ricoeur/"
     },
     {
-        "title": "rights",
-        "link": "https://plato.stanford.edu/entries/rights/"
-    },
-    {
-        "title": "of children",
+        "title": "Children’s Rights",
         "link": "https://plato.stanford.edu/entries/rights-children/"
     },
     {
-        "title": "rigid designators",
+        "title": "Group Rights",
+        "link": "https://plato.stanford.edu/entries/rights-group/"
+    },
+    {
+        "title": "Human Rights",
+        "link": "https://plato.stanford.edu/entries/rights-human/"
+    },
+    {
+        "title": "Rights",
+        "link": "https://plato.stanford.edu/entries/rights/"
+    },
+    {
+        "title": "Rigid Designators",
         "link": "https://plato.stanford.edu/entries/rigid-designators/"
     },
     {
-        "title": "risk",
+        "title": "Risk",
         "link": "https://plato.stanford.edu/entries/risk/"
     },
     {
-        "title": "Rorty, Richard",
+        "title": "Robert Kilwardby",
+        "link": "https://plato.stanford.edu/entries/robert-kilwardby/"
+    },
+    {
+        "title": "Roger Bacon",
+        "link": "https://plato.stanford.edu/entries/roger-bacon/"
+    },
+    {
+        "title": "Richard Rorty",
         "link": "https://plato.stanford.edu/entries/rorty/"
     },
     {
-        "title": "Rosenstock-Huessy, Eugen",
+        "title": "Eugen Rosenstock-Huessy",
         "link": "https://plato.stanford.edu/entries/rosenstock-huessy/"
     },
     {
-        "title": "Rosenzweig, Franz",
+        "title": "Franz Rosenzweig",
         "link": "https://plato.stanford.edu/entries/rosenzweig/"
     },
     {
-        "title": "Rosmini, Antonio",
-        "link": "https://plato.stanford.edu/entries/antonio-rosmini/"
-    },
-    {
-        "title": "Ross, William David",
-        "link": "https://plato.stanford.edu/entries/william-david-ross/"
-    },
-    {
-        "title": "Rousseau, Jean Jacques",
+        "title": "Jean Jacques Rousseau",
         "link": "https://plato.stanford.edu/entries/rousseau/"
     },
     {
-        "title": "Sylvan, Richard",
-        "link": "https://plato.stanford.edu/entries/sylvan-routley/"
-    },
-    {
-        "title": "Royce, Josiah",
+        "title": "Josiah Royce",
         "link": "https://plato.stanford.edu/entries/royce/"
     },
     {
-        "title": "rule-following and intentionality",
+        "title": "Rule-Following and Intentionality",
         "link": "https://plato.stanford.edu/entries/rule-following/"
     },
     {
-        "title": "Russell, Bertrand",
-        "link": "https://plato.stanford.edu/entries/russell/"
+        "title": "The Rule of Law",
+        "link": "https://plato.stanford.edu/entries/rule-of-law/"
     },
     {
-        "title": "moral philosophy",
+        "title": "Russell’s Moral Philosophy",
         "link": "https://plato.stanford.edu/entries/russell-moral/"
     },
     {
-        "title": "Ryle, Gilbert",
+        "title": "Russell’s Paradox",
+        "link": "https://plato.stanford.edu/entries/russell-paradox/"
+    },
+    {
+        "title": "Bertrand Russell",
+        "link": "https://plato.stanford.edu/entries/russell/"
+    },
+    {
+        "title": "Russellian Monism",
+        "link": "https://plato.stanford.edu/entries/russellian-monism/"
+    },
+    {
+        "title": "Ruth Barcan Marcus",
+        "link": "https://plato.stanford.edu/entries/ruth-barcan-marcus/"
+    },
+    {
+        "title": "Gilbert Ryle",
         "link": "https://plato.stanford.edu/entries/ryle/"
     },
     {
@@ -6485,79 +6229,63 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/saadya/"
     },
     {
-        "title": "\u015a\u0101ntarak\u1e63ita",
+        "title": "Śāntarakṣita",
         "link": "https://plato.stanford.edu/entries/saantarak-sita/"
     },
     {
-        "title": "\u015a\u0101ntideva",
-        "link": "https://plato.stanford.edu/entries/shantideva/"
-    },
-    {
-        "title": "Sakya Pa\u1e47\u1e0dita [sa skya pa\u1e47 \u1e0di ta]",
+        "title": "Sakya Paṇḍita [sa skya paṇ ḍi ta]",
         "link": "https://plato.stanford.edu/entries/sakya-pandita/"
     },
     {
-        "title": "Salmon, Wesley",
-        "link": "https://plato.stanford.edu/entries/wesley-salmon/"
-    },
-    {
-        "title": "Sanches, Francisco",
-        "link": "https://plato.stanford.edu/entries/francisco-sanches/"
-    },
-    {
-        "title": "\u015aa\u1e45kara",
-        "link": "https://plato.stanford.edu/entries/shankara/"
-    },
-    {
-        "title": "Santayana, George",
+        "title": "George Santayana",
         "link": "https://plato.stanford.edu/entries/santayana/"
     },
     {
-        "title": "Sartre, Jean-Paul",
+        "title": "Jean-Paul Sartre",
         "link": "https://plato.stanford.edu/entries/sartre/"
     },
     {
-        "title": "Scheler, Max",
+        "title": "Max Scheler",
         "link": "https://plato.stanford.edu/entries/scheler/"
     },
     {
-        "title": "Schelling, Friedrich Wilhelm Joseph von",
+        "title": "Friedrich Wilhelm Joseph von Schelling",
         "link": "https://plato.stanford.edu/entries/schelling/"
     },
     {
-        "title": "schema",
+        "title": "Schema",
         "link": "https://plato.stanford.edu/entries/schema/"
     },
     {
-        "title": "Schiller, Friedrich",
+        "title": "Friedrich Schiller",
         "link": "https://plato.stanford.edu/entries/schiller/"
     },
     {
-        "title": "Schlegel, August Wilhelm von",
+        "title": "August Wilhelm von Schlegel",
         "link": "https://plato.stanford.edu/entries/schlegel-aw/"
     },
     {
-        "title": "Schlegel, Friedrich",
+        "title": "Friedrich Schlegel",
         "link": "https://plato.stanford.edu/entries/schlegel/"
     },
     {
-        "title": "Schleiermacher, Friedrich Daniel Ernst",
+        "title": "Friedrich Daniel Ernst Schleiermacher",
         "link": "https://plato.stanford.edu/entries/schleiermacher/"
     },
     {
-        "title": "Schlick, Moritz",
+        "title": "Moritz Schlick",
         "link": "https://plato.stanford.edu/entries/schlick/"
     },
     {
-        "title": "Schmitt, Carl",
+        "title": "Carl Schmitt",
         "link": "https://plato.stanford.edu/entries/schmitt/"
     },
     {
-        "title": "Scholem, Gershom",
+        "title": "Gershom Scholem",
         "link": "https://plato.stanford.edu/entries/scholem/"
     },
     {
-        "title": "Scholz, Heinrich",
+        "title": "Heinrich Scholz",
         "link": "https://plato.stanford.edu/entries/scholz/"
     },
     {
@@ -6569,103 +6297,147 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/school-salamanca/"
     },
     {
-        "title": "Schopenhauer, Arthur",
+        "title": "Schopenhauer’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/schopenhauer-aesthetics/"
+    },
+    {
+        "title": "Arthur Schopenhauer",
         "link": "https://plato.stanford.edu/entries/schopenhauer/"
     },
     {
-        "title": "Schutz, Alfred",
+        "title": "Alfred Schutz",
         "link": "https://plato.stanford.edu/entries/schutz/"
     },
     {
-        "title": "theory and observation in",
-        "link": "https://plato.stanford.edu/entries/science-theory-observation/"
-    },
-    {
-        "title": "unity of",
-        "link": "https://plato.stanford.edu/entries/scientific-unity/"
-    },
-    {
-        "title": "scientific discovery",
-        "link": "https://plato.stanford.edu/entries/scientific-discovery/"
-    },
-    {
-        "title": "social dimensions of",
-        "link": "https://plato.stanford.edu/entries/scientific-knowledge-social/"
-    },
-    {
-        "title": "scientific method",
-        "link": "https://plato.stanford.edu/entries/scientific-method/"
-    },
-    {
-        "title": "scientific pluralism",
-        "link": "https://plato.stanford.edu/entries/scientific-pluralism/"
-    },
-    {
-        "title": "scientific progress",
-        "link": "https://plato.stanford.edu/entries/scientific-progress/"
-    },
-    {
-        "title": "scientific research and big data",
+        "title": "Scientific Research and Big Data",
         "link": "https://plato.stanford.edu/entries/science-big-data/"
     },
     {
-        "title": "scientific revolutions",
+        "title": "Mechanisms in Science",
+        "link": "https://plato.stanford.edu/entries/science-mechanisms/"
+    },
+    {
+        "title": "Theory and Observation in Science",
+        "link": "https://plato.stanford.edu/entries/science-theory-observation/"
+    },
+    {
+        "title": "Scientific Discovery",
+        "link": "https://plato.stanford.edu/entries/scientific-discovery/"
+    },
+    {
+        "title": "20th Century Theories of Scientific Explanation",
+        "link": "https://plato.stanford.edu/entries/scientific-explanation-20th/"
+    },
+    {
+        "title": "The Social Dimensions of Scientific Knowledge",
+        "link": "https://plato.stanford.edu/entries/scientific-knowledge-social/"
+    },
+    {
+        "title": "Scientific Method",
+        "link": "https://plato.stanford.edu/entries/scientific-method/"
+    },
+    {
+        "title": "Scientific Objectivity",
+        "link": "https://plato.stanford.edu/entries/scientific-objectivity/"
+    },
+    {
+        "title": "Scientific Pluralism",
+        "link": "https://plato.stanford.edu/entries/scientific-pluralism/"
+    },
+    {
+        "title": "Scientific Progress",
+        "link": "https://plato.stanford.edu/entries/scientific-progress/"
+    },
+    {
+        "title": "Scientific Realism",
+        "link": "https://plato.stanford.edu/entries/scientific-realism/"
+    },
+    {
+        "title": "Scientific Reduction",
+        "link": "https://plato.stanford.edu/entries/scientific-reduction/"
+    },
+    {
+        "title": "Scientific Representation",
+        "link": "https://plato.stanford.edu/entries/scientific-representation/"
+    },
+    {
+        "title": "Reproducibility of Scientific Results",
+        "link": "https://plato.stanford.edu/entries/scientific-reproducibility/"
+    },
+    {
+        "title": "Scientific Revolutions",
         "link": "https://plato.stanford.edu/entries/scientific-revolutions/"
     },
     {
-        "title": "structure of",
-        "link": "https://plato.stanford.edu/entries/structure-scientific-theories/"
-    },
-    {
-        "title": "underdetermination, of scientific theories",
+        "title": "Underdetermination of Scientific Theory",
         "link": "https://plato.stanford.edu/entries/scientific-underdetermination/"
     },
     {
-        "title": "Scud\u00e9ry, Madeleine de",
-        "link": "https://plato.stanford.edu/entries/madeleine-scudery/"
+        "title": "The Unity of Science",
+        "link": "https://plato.stanford.edu/entries/scientific-unity/"
     },
     {
-        "title": "secession",
+        "title": "Scottish Philosophy in the 18th Century",
+        "link": "https://plato.stanford.edu/entries/scottish-18th/"
+    },
+    {
+        "title": "Scottish Philosophy in the 19th Century",
+        "link": "https://plato.stanford.edu/entries/scottish-19th/"
+    },
+    {
+        "title": "John Scottus Eriugena",
+        "link": "https://plato.stanford.edu/entries/scottus-eriugena/"
+    },
+    {
+        "title": "Secession",
         "link": "https://plato.stanford.edu/entries/secession/"
     },
     {
-        "title": "self-consciousness",
-        "link": "https://plato.stanford.edu/entries/self-consciousness/"
+        "title": "Units and Levels of Selection",
+        "link": "https://plato.stanford.edu/entries/selection-units/"
     },
     {
-        "title": "phenomenological approaches to",
+        "title": "Phenomenological Approaches to Self-Consciousness",
         "link": "https://plato.stanford.edu/entries/self-consciousness-phenomenological/"
     },
     {
-        "title": "self-defense",
+        "title": "Self-Consciousness",
+        "link": "https://plato.stanford.edu/entries/self-consciousness/"
+    },
+    {
+        "title": "Self-Deception",
+        "link": "https://plato.stanford.edu/entries/self-deception/"
+    },
+    {
+        "title": "Self-Defense",
         "link": "https://plato.stanford.edu/entries/self-defense/"
     },
     {
-        "title": "self-reference",
+        "title": "Externalism and Self-Knowledge",
+        "link": "https://plato.stanford.edu/entries/self-knowledge-externalism/"
+    },
+    {
+        "title": "Self-Knowledge",
+        "link": "https://plato.stanford.edu/entries/self-knowledge/"
+    },
+    {
+        "title": "Self-Locating Beliefs",
+        "link": "https://plato.stanford.edu/entries/self-locating-beliefs/"
+    },
+    {
+        "title": "Obligations to Oneself",
+        "link": "https://plato.stanford.edu/entries/self-obligations/"
+    },
+    {
+        "title": "Self-Reference and Paradox",
         "link": "https://plato.stanford.edu/entries/self-reference/"
     },
     {
-        "title": "Sellars, Wilfrid",
+        "title": "Wilfrid Sellars",
         "link": "https://plato.stanford.edu/entries/sellars/"
     },
     {
-        "title": "Montague",
-        "link": "https://plato.stanford.edu/entries/montague-semantics/"
-    },
-    {
-        "title": "proof-theoretic",
-        "link": "https://plato.stanford.edu/entries/proof-theoretic-semantics/"
-    },
-    {
-        "title": "sign language semantics",
-        "link": "https://plato.stanford.edu/entries/sign-language-semantics/"
-    },
-    {
-        "title": "two-dimensional",
-        "link": "https://plato.stanford.edu/entries/two-dimensional-semantics/"
-    },
-    {
-        "title": "medieval",
+        "title": "Medieval Semiotics",
         "link": "https://plato.stanford.edu/entries/semiotics-medieval/"
     },
     {
@@ -6673,35 +6445,27 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/seneca/"
     },
     {
-        "title": "sense data",
+        "title": "Sense Data",
         "link": "https://plato.stanford.edu/entries/sense-data/"
     },
     {
-        "title": "set theory",
-        "link": "https://plato.stanford.edu/entries/set-theory/"
-    },
-    {
-        "title": "alternative axiomatic theories",
-        "link": "https://plato.stanford.edu/entries/settheory-alternative/"
-    },
-    {
-        "title": "constructive and intuitionistic ZF",
+        "title": "Set Theory: Constructive and Intuitionistic ZF",
         "link": "https://plato.stanford.edu/entries/set-theory-constructive/"
     },
     {
-        "title": "independence and large cardinals",
-        "link": "https://plato.stanford.edu/entries/independence-large-cardinals/"
+        "title": "Set Theory",
+        "link": "https://plato.stanford.edu/entries/set-theory/"
     },
     {
-        "title": "non-wellfounded",
-        "link": "https://plato.stanford.edu/entries/nonwellfounded-set-theory/"
+        "title": "Alternative Axiomatic Set Theories",
+        "link": "https://plato.stanford.edu/entries/settheory-alternative/"
     },
     {
-        "title": "Zermelo\u2019s axiomatization of",
-        "link": "https://plato.stanford.edu/entries/zermelo-set-theory/"
+        "title": "The Early Development of Set Theory",
+        "link": "https://plato.stanford.edu/entries/settheory-early/"
     },
     {
-        "title": "sex and sexuality",
+        "title": "Sex and Sexuality",
         "link": "https://plato.stanford.edu/entries/sex-sexuality/"
     },
     {
@@ -6709,83 +6473,139 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/sextus-empiricus/"
     },
     {
-        "title": "Shaftesbury, Lord [Anthony Ashley Cooper, 3rd Earl of]",
+        "title": "Lord Shaftesbury [Anthony Ashley Cooper, 3rd Earl of Shaftesbury]",
         "link": "https://plato.stanford.edu/entries/shaftesbury/"
     },
     {
-        "title": "Sharpe, Johannes",
+        "title": "Śaṅkara",
+        "link": "https://plato.stanford.edu/entries/shankara/"
+    },
+    {
+        "title": "Śāntideva",
+        "link": "https://plato.stanford.edu/entries/shantideva/"
+    },
+    {
+        "title": "Shared Agency",
+        "link": "https://plato.stanford.edu/entries/shared-agency/"
+    },
+    {
+        "title": "Johannes Sharpe",
         "link": "https://plato.stanford.edu/entries/sharpe/"
     },
     {
-        "title": "Shepherd, Mary",
-        "link": "https://plato.stanford.edu/entries/mary-shepherd/"
+        "title": "Henry Sidgwick",
+        "link": "https://plato.stanford.edu/entries/sidgwick/"
     },
     {
-        "title": "Sidgwick, Henry",
-        "link": "https://plato.stanford.edu/entries/sidgwick/"
+        "title": "Sidney Hook",
+        "link": "https://plato.stanford.edu/entries/sidney-hook/"
+    },
+    {
+        "title": "Sign Language Semantics",
+        "link": "https://plato.stanford.edu/entries/sign-language-semantics/"
     },
     {
         "title": "Simon of Faversham",
         "link": "https://plato.stanford.edu/entries/simon-faversham/"
     },
     {
-        "title": "simplicity",
+        "title": "Simone Weil",
+        "link": "https://plato.stanford.edu/entries/simone-weil/"
+    },
+    {
+        "title": "Simplicity",
         "link": "https://plato.stanford.edu/entries/simplicity/"
     },
     {
-        "title": "simulations in science",
+        "title": "Simplicius",
+        "link": "https://plato.stanford.edu/entries/simplicius/"
+    },
+    {
+        "title": "Computer Simulations in Science",
         "link": "https://plato.stanford.edu/entries/simulations-science/"
     },
     {
-        "title": "sin, in Christian thought",
+        "title": "Sin in Christian Thought",
         "link": "https://plato.stanford.edu/entries/sin-christian/"
     },
     {
-        "title": "in natural language semantics",
+        "title": "Medieval Theories of Singular Terms",
+        "link": "https://plato.stanford.edu/entries/singular-terms-medieval/"
+    },
+    {
+        "title": "Situations in Natural Language Semantics",
         "link": "https://plato.stanford.edu/entries/situations-semantics/"
     },
     {
-        "title": "skeptical theism",
+        "title": "Skeptical Theism",
         "link": "https://plato.stanford.edu/entries/skeptical-theism/"
     },
     {
-        "title": "about moral responsibility",
-        "link": "https://plato.stanford.edu/entries/skepticism-moral-responsibility/"
+        "title": "Ancient Skepticism",
+        "link": "https://plato.stanford.edu/entries/skepticism-ancient/"
     },
     {
-        "title": "medieval",
+        "title": "Content Externalism and Skepticism",
+        "link": "https://plato.stanford.edu/entries/skepticism-content-externalism/"
+    },
+    {
+        "title": "Skepticism in Latin America",
+        "link": "https://plato.stanford.edu/entries/skepticism-latin-america/"
+    },
+    {
+        "title": "Medieval Skepticism",
         "link": "https://plato.stanford.edu/entries/skepticism-medieval/"
     },
     {
-        "title": "moral and political philosophy",
+        "title": "Skepticism About Moral Responsibility",
+        "link": "https://plato.stanford.edu/entries/skepticism-moral-responsibility/"
+    },
+    {
+        "title": "Moral Skepticism",
+        "link": "https://plato.stanford.edu/entries/skepticism-moral/"
+    },
+    {
+        "title": "Skepticism",
+        "link": "https://plato.stanford.edu/entries/skepticism/"
+    },
+    {
+        "title": "Adam Smith’s Moral and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/smith-moral-political/"
     },
     {
-        "title": "naturalistic approaches to",
+        "title": "Social Choice Theory",
+        "link": "https://plato.stanford.edu/entries/social-choice/"
+    },
+    {
+        "title": "Naturalistic Approaches to Social Construction",
         "link": "https://plato.stanford.edu/entries/social-construction-naturalistic/"
     },
     {
-        "title": "contemporary approaches to",
-        "link": "https://plato.stanford.edu/entries/contractarianism-contemporary/"
-    },
-    {
-        "title": "social institutions",
+        "title": "Social Institutions",
         "link": "https://plato.stanford.edu/entries/social-institutions/"
     },
     {
-        "title": "socialism",
-        "link": "https://plato.stanford.edu/entries/socialism/"
-    },
-    {
-        "title": "social minimum [basic income]",
+        "title": "Social Minimum",
         "link": "https://plato.stanford.edu/entries/social-minimum/"
     },
     {
-        "title": "social procedures, formal approaches",
+        "title": "Social Norms",
+        "link": "https://plato.stanford.edu/entries/social-norms/"
+    },
+    {
+        "title": "Social Ontology",
+        "link": "https://plato.stanford.edu/entries/social-ontology/"
+    },
+    {
+        "title": "Formal Approaches to Social Procedures",
         "link": "https://plato.stanford.edu/entries/social-procedures/"
     },
     {
-        "title": "sociobiology",
+        "title": "Socialism",
+        "link": "https://plato.stanford.edu/entries/socialism/"
+    },
+    {
+        "title": "Sociobiology",
         "link": "https://plato.stanford.edu/entries/sociobiology/"
     },
     {
@@ -6793,63 +6613,87 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/socrates/"
     },
     {
-        "title": "solidarity in social and political philosophy",
+        "title": "Solidarity in Social and Political Philosophy",
         "link": "https://plato.stanford.edu/entries/solidarity/"
+    },
+    {
+        "title": "Song-Ming Confucianism",
+        "link": "https://plato.stanford.edu/entries/song-ming-confucianism/"
     },
     {
         "title": "Sophie de Grouchy",
         "link": "https://plato.stanford.edu/entries/sophie-de-grouchy/"
     },
     {
-        "title": "sophismata [= sophisms]",
+        "title": "Sophismata",
         "link": "https://plato.stanford.edu/entries/sophismata/"
     },
     {
-        "title": "Sorites paradox",
+        "title": "The Sophists",
+        "link": "https://plato.stanford.edu/entries/sophists/"
+    },
+    {
+        "title": "Sorites Paradox",
         "link": "https://plato.stanford.edu/entries/sorites-paradox/"
     },
     {
-        "title": "sortals",
+        "title": "Sortals",
         "link": "https://plato.stanford.edu/entries/sortals/"
     },
     {
-        "title": "sounds",
+        "title": "Sounds",
         "link": "https://plato.stanford.edu/entries/sounds/"
     },
     {
-        "title": "sovereignty",
+        "title": "Sovereignty",
         "link": "https://plato.stanford.edu/entries/sovereignty/"
     },
     {
-        "title": "absolute and relational space and motion, classical theories",
-        "link": "https://plato.stanford.edu/entries/spacetime-theories-classical/"
+        "title": "Being and Becoming in Modern Physics",
+        "link": "https://plato.stanford.edu/entries/spacetime-bebecome/"
     },
     {
-        "title": "absolute and relational space and motion, post-Newtonian theories",
-        "link": "https://plato.stanford.edu/entries/spacetime-theories/"
-    },
-    {
-        "title": "conventionality of simultaneity",
+        "title": "Conventionality of Simultaneity",
         "link": "https://plato.stanford.edu/entries/spacetime-convensimul/"
     },
     {
-        "title": "singularities and black holes",
+        "title": "The Hole Argument",
+        "link": "https://plato.stanford.edu/entries/spacetime-holearg/"
+    },
+    {
+        "title": "Space and Time: Inertial Frames",
+        "link": "https://plato.stanford.edu/entries/spacetime-iframes/"
+    },
+    {
+        "title": "Singularities and Black Holes",
         "link": "https://plato.stanford.edu/entries/spacetime-singularities/"
     },
     {
-        "title": "supertasks",
+        "title": "Supertasks",
         "link": "https://plato.stanford.edu/entries/spacetime-supertasks/"
     },
     {
-        "title": "species",
+        "title": "Absolute and Relational Space and Motion: Classical Theories",
+        "link": "https://plato.stanford.edu/entries/spacetime-theories-classical/"
+    },
+    {
+        "title": "Absolute and Relational Space and Motion: Post-Newtonian Theories",
+        "link": "https://plato.stanford.edu/entries/spacetime-theories/"
+    },
+    {
+        "title": "Special Obligations",
+        "link": "https://plato.stanford.edu/entries/special-obligations/"
+    },
+    {
+        "title": "Species",
         "link": "https://plato.stanford.edu/entries/species/"
     },
     {
-        "title": "speech acts",
+        "title": "Speech Acts",
         "link": "https://plato.stanford.edu/entries/speech-acts/"
     },
     {
-        "title": "Spencer, Herbert",
+        "title": "Herbert Spencer",
         "link": "https://plato.stanford.edu/entries/spencer/"
     },
     {
@@ -6857,163 +6701,215 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/speusippus/"
     },
     {
-        "title": "epistemology and philosophy of mind",
-        "link": "https://plato.stanford.edu/entries/spinoza-epistemology-mind/"
-    },
-    {
-        "title": "Spinoza, Baruch",
-        "link": "https://plato.stanford.edu/entries/spinoza/"
-    },
-    {
-        "title": "physical theory",
-        "link": "https://plato.stanford.edu/entries/spinoza-physics/"
-    },
-    {
-        "title": "political philosophy",
-        "link": "https://plato.stanford.edu/entries/spinoza-political/"
-    },
-    {
-        "title": "psychological theory",
-        "link": "https://plato.stanford.edu/entries/spinoza-psychological/"
-    },
-    {
-        "title": "theory of attributes",
+        "title": "Spinoza’s Theory of Attributes",
         "link": "https://plato.stanford.edu/entries/spinoza-attributes/"
     },
     {
-        "title": "sport, philosophy of",
+        "title": "Spinoza’s Epistemology and Philosophy of Mind",
+        "link": "https://plato.stanford.edu/entries/spinoza-epistemology-mind/"
+    },
+    {
+        "title": "Spinoza’s Modal Metaphysics",
+        "link": "https://plato.stanford.edu/entries/spinoza-modal/"
+    },
+    {
+        "title": "Spinoza’s Physical Theory",
+        "link": "https://plato.stanford.edu/entries/spinoza-physics/"
+    },
+    {
+        "title": "Spinoza’s Political Philosophy",
+        "link": "https://plato.stanford.edu/entries/spinoza-political/"
+    },
+    {
+        "title": "Spinoza’s Psychological Theory",
+        "link": "https://plato.stanford.edu/entries/spinoza-psychological/"
+    },
+    {
+        "title": "Baruch Spinoza",
+        "link": "https://plato.stanford.edu/entries/spinoza/"
+    },
+    {
+        "title": "Philosophy of Sport",
         "link": "https://plato.stanford.edu/entries/sport/"
     },
     {
-        "title": "square of opposition",
+        "title": "The Traditional Square of Opposition",
         "link": "https://plato.stanford.edu/entries/square/"
     },
     {
-        "title": "\u015ar\u012bhar\u1e63a",
+        "title": "Śrīharṣa",
         "link": "https://plato.stanford.edu/entries/sriharsa/"
     },
     {
-        "title": "states of affairs",
+        "title": "States of Affairs",
         "link": "https://plato.stanford.edu/entries/states-of-affairs/"
     },
     {
-        "title": "Boltzmann\u2019s work in",
-        "link": "https://plato.stanford.edu/entries/statphys-Boltzmann/"
-    },
-    {
-        "title": "philosophy of statistical mechanics",
-        "link": "https://plato.stanford.edu/entries/statphys-statmech/"
-    },
-    {
-        "title": "statistics, philosophy of",
+        "title": "Philosophy of Statistics",
         "link": "https://plato.stanford.edu/entries/statistics/"
     },
     {
-        "title": "Stebbing, Susan",
+        "title": "Boltzmann’s Work in Statistical Physics",
+        "link": "https://plato.stanford.edu/entries/statphys-Boltzmann/"
+    },
+    {
+        "title": "Philosophy of Statistical Mechanics",
+        "link": "https://plato.stanford.edu/entries/statphys-statmech/"
+    },
+    {
+        "title": "Susan Stebbing",
         "link": "https://plato.stanford.edu/entries/stebbing/"
     },
     {
-        "title": "Stein, Edith",
+        "title": "Edith Stein",
         "link": "https://plato.stanford.edu/entries/stein/"
     },
     {
-        "title": "Stevenson, Charles Leslie",
-        "link": "https://plato.stanford.edu/entries/stevenson/"
+        "title": "Ethics of Stem Cell Research",
+        "link": "https://plato.stanford.edu/entries/stem-cells/"
     },
     {
-        "title": "Stirner, Max",
-        "link": "https://plato.stanford.edu/entries/max-stirner/"
+        "title": "Charles Leslie Stevenson",
+        "link": "https://plato.stanford.edu/entries/stevenson/"
     },
     {
         "title": "Stoicism",
         "link": "https://plato.stanford.edu/entries/stoicism/"
     },
     {
-        "title": "Strauss, Leo",
+        "title": "Leo Strauss",
         "link": "https://plato.stanford.edu/entries/strauss-leo/"
     },
     {
-        "title": "Strawson, Peter Frederick",
+        "title": "Peter Frederick Strawson",
         "link": "https://plato.stanford.edu/entries/strawson/"
     },
     {
-        "title": "Stumpf, Carl",
+        "title": "Structural Realism",
+        "link": "https://plato.stanford.edu/entries/structural-realism/"
+    },
+    {
+        "title": "Structuralism in the Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/structuralism-mathematics/"
+    },
+    {
+        "title": "The Structure of Scientific Theories",
+        "link": "https://plato.stanford.edu/entries/structure-scientific-theories/"
+    },
+    {
+        "title": "Carl Stumpf",
         "link": "https://plato.stanford.edu/entries/stumpf/"
     },
     {
-        "title": "Sturm, Johann",
-        "link": "https://plato.stanford.edu/entries/johann-sturm/"
+        "title": "Francisco Suárez",
+        "link": "https://plato.stanford.edu/entries/suarez/"
+    },
+    {
+        "title": "Substance",
+        "link": "https://plato.stanford.edu/entries/substance/"
+    },
+    {
+        "title": "Principle of Sufficient Reason",
+        "link": "https://plato.stanford.edu/entries/sufficient-reason/"
     },
     {
         "title": "Suhrawardi",
         "link": "https://plato.stanford.edu/entries/suhrawardi/"
     },
     {
-        "title": "suicide",
+        "title": "Suicide",
         "link": "https://plato.stanford.edu/entries/suicide/"
     },
     {
-        "title": "supererogation",
+        "title": "Supererogation",
         "link": "https://plato.stanford.edu/entries/supererogation/"
     },
     {
-        "title": "supervenience",
-        "link": "https://plato.stanford.edu/entries/supervenience/"
-    },
-    {
-        "title": "in ethics",
+        "title": "Supervenience in Ethics",
         "link": "https://plato.stanford.edu/entries/supervenience-ethics/"
     },
     {
-        "title": "Susman, Margarete",
+        "title": "Supervenience",
+        "link": "https://plato.stanford.edu/entries/supervenience/"
+    },
+    {
+        "title": "Margarete Susman",
         "link": "https://plato.stanford.edu/entries/susman-margarete/"
+    },
+    {
+        "title": "Richard Sylvan [Routley]",
+        "link": "https://plato.stanford.edu/entries/sylvan-routley/"
+    },
+    {
+        "title": "Symmetry and Symmetry Breaking",
+        "link": "https://plato.stanford.edu/entries/symmetry-breaking/"
     },
     {
         "title": "Syrianus",
         "link": "https://plato.stanford.edu/entries/syrianus/"
     },
     {
-        "title": "systems and synthetic biology, philosophy of",
+        "title": "Philosophy of Systems and Synthetic Biology",
         "link": "https://plato.stanford.edu/entries/systems-synthetic-biology/"
     },
     {
-        "title": "Tarski, Alfred",
-        "link": "https://plato.stanford.edu/entries/tarski/"
-    },
-    {
-        "title": "truth definitions",
+        "title": "Tarski’s Truth Definitions",
         "link": "https://plato.stanford.edu/entries/tarski-truth/"
     },
     {
-        "title": "Taurellus, Nicolaus",
+        "title": "Alfred Tarski",
+        "link": "https://plato.stanford.edu/entries/tarski/"
+    },
+    {
+        "title": "Nicolaus Taurellus",
         "link": "https://plato.stanford.edu/entries/taurellus/"
     },
     {
-        "title": "technology, philosophy of",
+        "title": "Philosophy of Technology",
         "link": "https://plato.stanford.edu/entries/technology/"
     },
     {
-        "title": "Telesio, Bernardino",
+        "title": "Teleological Arguments for God’s Existence",
+        "link": "https://plato.stanford.edu/entries/teleological-arguments/"
+    },
+    {
+        "title": "Teleological Notions in Biology",
+        "link": "https://plato.stanford.edu/entries/teleology-biology/"
+    },
+    {
+        "title": "Bernardino Telesio",
         "link": "https://plato.stanford.edu/entries/telesio/"
     },
     {
-        "title": "terrorism",
+        "title": "Temporal Parts",
+        "link": "https://plato.stanford.edu/entries/temporal-parts/"
+    },
+    {
+        "title": "Tense and Aspect",
+        "link": "https://plato.stanford.edu/entries/tense-aspect/"
+    },
+    {
+        "title": "Territorial Rights and Territorial Justice",
+        "link": "https://plato.stanford.edu/entries/territorial-rights/"
+    },
+    {
+        "title": "Terrorism",
         "link": "https://plato.stanford.edu/entries/terrorism/"
     },
     {
-        "title": "epistemological problems of",
+        "title": "Epistemological Problems of Testimony",
         "link": "https://plato.stanford.edu/entries/testimony-episprob/"
     },
     {
-        "title": "theater, philosophy of",
+        "title": "Philosophy of Theater",
         "link": "https://plato.stanford.edu/entries/theater/"
     },
     {
-        "title": "theodicies",
+        "title": "Theodicies",
         "link": "https://plato.stanford.edu/entries/theodicies/"
     },
     {
-        "title": "Theology of Aristotle",
+        "title": "The Theology of Aristotle",
         "link": "https://plato.stanford.edu/entries/theology-aristotle/"
     },
     {
@@ -7021,215 +6917,259 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/theophrastus/"
     },
     {
-        "title": "theoretical terms in science",
+        "title": "Theoretical Terms in Science",
         "link": "https://plato.stanford.edu/entries/theoretical-terms-science/"
     },
     {
-        "title": "Thomas of Erfurt",
-        "link": "https://plato.stanford.edu/entries/erfurt/"
+        "title": "Theories of Biological Development",
+        "link": "https://plato.stanford.edu/entries/theories-biological-development/"
     },
     {
-        "title": "Thoreau, Henry David",
+        "title": "Theory and Bioethics",
+        "link": "https://plato.stanford.edu/entries/theory-bioethics/"
+    },
+    {
+        "title": "Thick Ethical Concepts",
+        "link": "https://plato.stanford.edu/entries/thick-ethical-concepts/"
+    },
+    {
+        "title": "Thomas Kuhn",
+        "link": "https://plato.stanford.edu/entries/thomas-kuhn/"
+    },
+    {
+        "title": "Thomas More",
+        "link": "https://plato.stanford.edu/entries/thomas-more/"
+    },
+    {
+        "title": "Henry David Thoreau",
         "link": "https://plato.stanford.edu/entries/thoreau/"
     },
     {
-        "title": "thought experiments",
+        "title": "Thought Experiments",
         "link": "https://plato.stanford.edu/entries/thought-experiment/"
     },
     {
-        "title": "Tibetan epistemology and philosophy of language",
-        "link": "https://plato.stanford.edu/entries/epistemology-language-tibetan/"
+        "title": "Samuel Ibn Tibbon",
+        "link": "https://plato.stanford.edu/entries/tibbon/"
     },
     {
-        "title": "thermodynamic asymmetry in",
-        "link": "https://plato.stanford.edu/entries/time-thermo/"
-    },
-    {
-        "title": "time machines",
+        "title": "Time Machines",
         "link": "https://plato.stanford.edu/entries/time-machine/"
     },
     {
-        "title": "time travel",
+        "title": "Thermodynamic Asymmetry in Time",
+        "link": "https://plato.stanford.edu/entries/time-thermo/"
+    },
+    {
+        "title": "Time Travel and Modern Physics",
+        "link": "https://plato.stanford.edu/entries/time-travel-phys/"
+    },
+    {
+        "title": "Time Travel",
         "link": "https://plato.stanford.edu/entries/time-travel/"
     },
     {
-        "title": "and modern physics",
-        "link": "https://plato.stanford.edu/entries/time-travel-phys/"
+        "title": "Time",
+        "link": "https://plato.stanford.edu/entries/time/"
     },
     {
         "title": "Timon of Phlius",
         "link": "https://plato.stanford.edu/entries/timon-phlius/"
     },
     {
-        "title": "toleration",
+        "title": "Toleration",
         "link": "https://plato.stanford.edu/entries/toleration/"
     },
     {
-        "title": "torts, theories of the common law of",
+        "title": "Theories of the Common Law of Torts",
         "link": "https://plato.stanford.edu/entries/tort-theories/"
     },
     {
-        "title": "torture",
+        "title": "Torture",
         "link": "https://plato.stanford.edu/entries/torture/"
     },
     {
-        "title": "touch",
+        "title": "Touch",
         "link": "https://plato.stanford.edu/entries/touch/"
     },
     {
-        "title": "transcendental arguments",
-        "link": "https://plato.stanford.edu/entries/transcendental-arguments/"
-    },
-    {
-        "title": "transcendentalism",
-        "link": "https://plato.stanford.edu/entries/transcendentalism/"
-    },
-    {
-        "title": "transformative experience",
-        "link": "https://plato.stanford.edu/entries/transformative-experience/"
-    },
-    {
-        "title": "trans philosophy",
+        "title": "Trans Philosophy",
         "link": "https://plato.stanford.edu/entries/trans/"
     },
     {
-        "title": "trinity",
+        "title": "Transcendental Arguments",
+        "link": "https://plato.stanford.edu/entries/transcendental-arguments/"
+    },
+    {
+        "title": "Transcendentalism",
+        "link": "https://plato.stanford.edu/entries/transcendentalism/"
+    },
+    {
+        "title": "Medieval Theories of Transcendentals",
+        "link": "https://plato.stanford.edu/entries/transcendentals-medieval/"
+    },
+    {
+        "title": "Transformative Experience",
+        "link": "https://plato.stanford.edu/entries/transformative-experience/"
+    },
+    {
+        "title": "Transmission of Justification and Warrant",
+        "link": "https://plato.stanford.edu/entries/transmission-justification-warrant/"
+    },
+    {
+        "title": "Trinity",
         "link": "https://plato.stanford.edu/entries/trinity/"
     },
     {
-        "title": "tropes",
+        "title": "Tropes",
         "link": "https://plato.stanford.edu/entries/tropes/"
     },
     {
-        "title": "trust",
+        "title": "Trust",
         "link": "https://plato.stanford.edu/entries/trust/"
     },
     {
-        "title": "truth",
-        "link": "https://plato.stanford.edu/entries/truth/"
-    },
-    {
-        "title": "axiomatic theories of",
+        "title": "Axiomatic Theories of Truth",
         "link": "https://plato.stanford.edu/entries/truth-axiomatic/"
     },
     {
-        "title": "coherence theory of",
+        "title": "The Coherence Theory of Truth",
         "link": "https://plato.stanford.edu/entries/truth-coherence/"
     },
     {
-        "title": "correspondence theory of",
+        "title": "The Correspondence Theory of Truth",
         "link": "https://plato.stanford.edu/entries/truth-correspondence/"
     },
     {
-        "title": "deflationism about",
+        "title": "Deflationism About Truth",
         "link": "https://plato.stanford.edu/entries/truth-deflationary/"
     },
     {
-        "title": "identity theory of",
+        "title": "The Identity Theory of Truth",
         "link": "https://plato.stanford.edu/entries/truth-identity/"
     },
     {
-        "title": "pluralist theories of",
+        "title": "Pluralist Theories of Truth",
         "link": "https://plato.stanford.edu/entries/truth-pluralist/"
     },
     {
-        "title": "pragmatic theory of",
+        "title": "The Pragmatic Theory of Truth",
         "link": "https://plato.stanford.edu/entries/truth-pragmatic/"
     },
     {
-        "title": "primitivist theories of",
+        "title": "Primitivist Theories of Truth",
         "link": "https://plato.stanford.edu/entries/truth-primitivist/"
     },
     {
-        "title": "revision theory of",
+        "title": "The Revision Theory of Truth",
         "link": "https://plato.stanford.edu/entries/truth-revision/"
     },
     {
-        "title": "truthlikeness",
+        "title": "Truth Values",
+        "link": "https://plato.stanford.edu/entries/truth-values/"
+    },
+    {
+        "title": "Truth",
+        "link": "https://plato.stanford.edu/entries/truth/"
+    },
+    {
+        "title": "Truthlikeness",
         "link": "https://plato.stanford.edu/entries/truthlikeness/"
     },
     {
-        "title": "truthmakers",
+        "title": "Truthmakers",
         "link": "https://plato.stanford.edu/entries/truthmakers/"
-    },
-    {
-        "title": "truth values",
-        "link": "https://plato.stanford.edu/entries/truth-values/"
     },
     {
         "title": "Tsongkhapa",
         "link": "https://plato.stanford.edu/entries/tsongkhapa/"
     },
     {
-        "title": "Turing, Alan",
-        "link": "https://plato.stanford.edu/entries/turing/"
-    },
-    {
-        "title": "Turing machines",
+        "title": "Turing Machines",
         "link": "https://plato.stanford.edu/entries/turing-machine/"
     },
     {
-        "title": "Twardowski, Kazimierz",
+        "title": "The Turing Test",
+        "link": "https://plato.stanford.edu/entries/turing-test/"
+    },
+    {
+        "title": "Alan Turing",
+        "link": "https://plato.stanford.edu/entries/turing/"
+    },
+    {
+        "title": "Kazimierz Twardowski",
         "link": "https://plato.stanford.edu/entries/twardowski/"
     },
     {
-        "title": "two truths in India, theory of",
+        "title": "Two-Dimensional Semantics",
+        "link": "https://plato.stanford.edu/entries/two-dimensional-semantics/"
+    },
+    {
+        "title": "The Theory of Two Truths in India",
         "link": "https://plato.stanford.edu/entries/twotruths-india/"
     },
     {
-        "title": "two truths in Tibet, theory of",
+        "title": "The Theory of Two Truths in Tibet",
         "link": "https://plato.stanford.edu/entries/twotruths-tibet/"
     },
     {
-        "title": "types and tokens",
-        "link": "https://plato.stanford.edu/entries/types-tokens/"
+        "title": "Church’s Type Theory",
+        "link": "https://plato.stanford.edu/entries/type-theory-church/"
     },
     {
-        "title": "type theory",
+        "title": "Intuitionistic Type Theory",
+        "link": "https://plato.stanford.edu/entries/type-theory-intuitionistic/"
+    },
+    {
+        "title": "Type Theory",
         "link": "https://plato.stanford.edu/entries/type-theory/"
     },
     {
-        "title": "Church\u2019s type theory",
-        "link": "https://plato.stanford.edu/entries/type-theory-church/"
+        "title": "Typelogical Grammar",
+        "link": "https://plato.stanford.edu/entries/typelogical-grammar/"
+    },
+    {
+        "title": "Types and Tokens",
+        "link": "https://plato.stanford.edu/entries/types-tokens/"
     },
     {
         "title": "Umar Khayyam",
         "link": "https://plato.stanford.edu/entries/umar-khayyam/"
     },
     {
-        "title": "understanding",
+        "title": "Understanding",
         "link": "https://plato.stanford.edu/entries/understanding/"
     },
     {
-        "title": "the medieval problem of",
+        "title": "The Medieval Problem of Universals",
         "link": "https://plato.stanford.edu/entries/universals-medieval/"
     },
     {
-        "title": "history of",
+        "title": "The History of Utilitarianism",
         "link": "https://plato.stanford.edu/entries/utilitarianism-history/"
     },
     {
-        "title": "vagueness",
+        "title": "Vagueness",
         "link": "https://plato.stanford.edu/entries/vagueness/"
     },
     {
-        "title": "Vaihinger, Hans",
+        "title": "Hans Vaihinger",
         "link": "https://plato.stanford.edu/entries/vaihinger/"
     },
     {
-        "title": "Valla, Lorenzo",
-        "link": "https://plato.stanford.edu/entries/lorenzo-valla/"
+        "title": "Incommensurable Values",
+        "link": "https://plato.stanford.edu/entries/value-incommensurable/"
     },
     {
-        "title": "intrinsic vs. extrinsic",
+        "title": "Intrinsic vs. Extrinsic Value",
         "link": "https://plato.stanford.edu/entries/value-intrinsic-extrinsic/"
     },
     {
-        "title": "pluralism",
+        "title": "Value Pluralism",
         "link": "https://plato.stanford.edu/entries/value-pluralism/"
     },
     {
-        "title": "value theory",
+        "title": "Value Theory",
         "link": "https://plato.stanford.edu/entries/value-theory/"
     },
     {
@@ -7237,11 +7177,11 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/vasubandhu/"
     },
     {
-        "title": "vegetarianism, ethics of",
+        "title": "Moral Vegetarianism",
         "link": "https://plato.stanford.edu/entries/vegetarianism/"
     },
     {
-        "title": "Vico, Giambattista",
+        "title": "Giambattista Vico",
         "link": "https://plato.stanford.edu/entries/vico/"
     },
     {
@@ -7249,52 +7189,84 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/vienna-circle/"
     },
     {
-        "title": "Vives, Juan Luis",
+        "title": "Juan Luis Vives [Joannes Ludovicus Vives]",
         "link": "https://plato.stanford.edu/entries/vives/"
     },
     {
-        "title": "voting",
-        "link": "https://plato.stanford.edu/entries/voting/"
+        "title": "Voltaire",
+        "link": "https://plato.stanford.edu/entries/voltaire/"
     },
     {
-        "title": "methods",
+        "title": "Theological Voluntarism",
+        "link": "https://plato.stanford.edu/entries/voluntarism-theological/"
+    },
+    {
+        "title": "Voting Methods",
         "link": "https://plato.stanford.edu/entries/voting-methods/"
     },
     {
-        "title": "war",
+        "title": "The Ethics and Rationality of Voting",
+        "link": "https://plato.stanford.edu/entries/voting/"
+    },
+    {
+        "title": "Walter Chatton",
+        "link": "https://plato.stanford.edu/entries/walter-chatton/"
+    },
+    {
+        "title": "Wang Yangming",
+        "link": "https://plato.stanford.edu/entries/wang-yangming/"
+    },
+    {
+        "title": "War",
         "link": "https://plato.stanford.edu/entries/war/"
     },
     {
-        "title": "Ward, James",
-        "link": "https://plato.stanford.edu/entries/james-ward/"
+        "title": "Watsuji Tetsurō",
+        "link": "https://plato.stanford.edu/entries/watsuji-tetsuro/"
     },
     {
-        "title": "Weber, Max",
+        "title": "Weakness of Will",
+        "link": "https://plato.stanford.edu/entries/weakness-will/"
+    },
+    {
+        "title": "Max Weber",
         "link": "https://plato.stanford.edu/entries/weber/"
     },
     {
-        "title": "weighing reasons",
+        "title": "Weighing Reasons",
         "link": "https://plato.stanford.edu/entries/weighing-reasons/"
     },
     {
-        "title": "Weil, Simone",
-        "link": "https://plato.stanford.edu/entries/simone-weil/"
-    },
-    {
-        "title": "well-being",
+        "title": "Well-Being",
         "link": "https://plato.stanford.edu/entries/well-being/"
     },
     {
-        "title": "Weyl, Hermann",
+        "title": "Wesley Salmon",
+        "link": "https://plato.stanford.edu/entries/wesley-salmon/"
+    },
+    {
+        "title": "Hermann Weyl",
         "link": "https://plato.stanford.edu/entries/weyl/"
     },
     {
-        "title": "Whewell, William",
+        "title": "William Whewell",
         "link": "https://plato.stanford.edu/entries/whewell/"
     },
     {
-        "title": "Whitehead, Alfred North",
+        "title": "Alfred North Whitehead",
         "link": "https://plato.stanford.edu/entries/whitehead/"
+    },
+    {
+        "title": "Wilhelm von Humboldt",
+        "link": "https://plato.stanford.edu/entries/wilhelm-humboldt/"
+    },
+    {
+        "title": "Wilhelm Windelband",
+        "link": "https://plato.stanford.edu/entries/wilhelm-windelband/"
+    },
+    {
+        "title": "Wilhelm Maximilian Wundt",
+        "link": "https://plato.stanford.edu/entries/wilhelm-wundt/"
     },
     {
         "title": "William of Auvergne",
@@ -7305,63 +7277,79 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/william-champeaux/"
     },
     {
+        "title": "William David Ross",
+        "link": "https://plato.stanford.edu/entries/william-david-ross/"
+    },
+    {
+        "title": "William Stanley Jevons",
+        "link": "https://plato.stanford.edu/entries/william-jevons/"
+    },
+    {
         "title": "William of Sherwood",
         "link": "https://plato.stanford.edu/entries/william-sherwood/"
     },
     {
-        "title": "Williams, Bernard",
+        "title": "Bernard Williams",
         "link": "https://plato.stanford.edu/entries/williams-bernard/"
     },
     {
-        "title": "Williams, Donald Cary",
+        "title": "Donald Cary Williams",
         "link": "https://plato.stanford.edu/entries/williams-dc/"
     },
     {
-        "title": "Wilson, John Cook",
+        "title": "John Cook Wilson",
         "link": "https://plato.stanford.edu/entries/wilson/"
     },
     {
-        "title": "Windelband, Wilhelm",
-        "link": "https://plato.stanford.edu/entries/wilhelm-windelband/"
-    },
-    {
-        "title": "wisdom",
+        "title": "Wisdom",
         "link": "https://plato.stanford.edu/entries/wisdom/"
     },
     {
-        "title": "Wittgenstein, Ludwig",
+        "title": "Wittgenstein’s Aesthetics",
+        "link": "https://plato.stanford.edu/entries/wittgenstein-aesthetics/"
+    },
+    {
+        "title": "Wittgenstein’s Logical Atomism",
+        "link": "https://plato.stanford.edu/entries/wittgenstein-atomism/"
+    },
+    {
+        "title": "Wittgenstein’s Philosophy of Mathematics",
+        "link": "https://plato.stanford.edu/entries/wittgenstein-mathematics/"
+    },
+    {
+        "title": "Ludwig Wittgenstein",
         "link": "https://plato.stanford.edu/entries/wittgenstein/"
     },
     {
-        "title": "Wodeham, Adam de",
+        "title": "Adam de Wodeham",
         "link": "https://plato.stanford.edu/entries/wodeham/"
     },
     {
-        "title": "Wolff, Christian",
+        "title": "Christian Wolff",
         "link": "https://plato.stanford.edu/entries/wolff-christian/"
     },
     {
-        "title": "Wollstonecraft, Mary",
+        "title": "Mary Wollstonecraft",
         "link": "https://plato.stanford.edu/entries/wollstonecraft/"
     },
     {
-        "title": "work and labor",
+        "title": "Word Meaning",
+        "link": "https://plato.stanford.edu/entries/word-meaning/"
+    },
+    {
+        "title": "Philosophical Approaches to Work and Labor",
         "link": "https://plato.stanford.edu/entries/work-labor/"
     },
     {
-        "title": "world government",
+        "title": "World Government",
         "link": "https://plato.stanford.edu/entries/world-government/"
     },
     {
-        "title": "Wright, Chauncey",
+        "title": "Chauncey Wright",
         "link": "https://plato.stanford.edu/entries/wright/"
     },
     {
-        "title": "Wundt, Wilhelm Maximilian",
-        "link": "https://plato.stanford.edu/entries/wilhelm-wundt/"
-    },
-    {
-        "title": "Wyclif, John",
+        "title": "John Wyclif",
         "link": "https://plato.stanford.edu/entries/wyclif/"
     },
     {
@@ -7373,15 +7361,19 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/xenophanes/"
     },
     {
-        "title": "Yog\u0101c\u0101ra",
+        "title": "Xunzi",
+        "link": "https://plato.stanford.edu/entries/xunzi/"
+    },
+    {
+        "title": "Yogācāra",
         "link": "https://plato.stanford.edu/entries/yogacara/"
     },
     {
-        "title": "Yorck von Wartenburg, Count Paul",
+        "title": "Count Paul Yorck von Wartenburg",
         "link": "https://plato.stanford.edu/entries/yorck/"
     },
     {
-        "title": "Zabarella, Giacomo",
+        "title": "Giacomo Zabarella",
         "link": "https://plato.stanford.edu/entries/zabarella/"
     },
     {
@@ -7389,7 +7381,19 @@ const articles = [
         "link": "https://plato.stanford.edu/entries/zeno-elea/"
     },
     {
-        "title": "zombies",
+        "title": "Zermelo’s Axiomatization of Set Theory",
+        "link": "https://plato.stanford.edu/entries/zermelo-set-theory/"
+    },
+    {
+        "title": "Zhu Xi",
+        "link": "https://plato.stanford.edu/entries/zhu-xi/"
+    },
+    {
+        "title": "Zhuangzi",
+        "link": "https://plato.stanford.edu/entries/zhuangzi/"
+    },
+    {
+        "title": "Zombies",
         "link": "https://plato.stanford.edu/entries/zombies/"
     }
 ];

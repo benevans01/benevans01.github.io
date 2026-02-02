@@ -192,37 +192,43 @@
         const link = articleObj.link;
 
         // 4. The Prompt Template
-        const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self-appointed sufficiency. You achieve this by re-describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
+        const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self‑appointed sufficiency. You achieve this by re‑describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
-Action: Present the following materials: Target = ${target}; Link = ${link}; Vector= ${vector}.  
+Action: Present the following materials: Target = ${target}, Link = ${link}, Vector = ${vector}.
 Output: Present them at the very start of your response.
 
-Action: Next, describe the Subject by reading the Target philosophy article, ${target}, (found here: ${link}), before summarizing it. 
-Output: Generate a summary in less than 100 words. Skip biographical/historical data. Focus only on the core concept. This summary must be in the target's own language to establish a baseline.
+Action: Next, describe and summarize ${target} using this link as your source: ${link}.
+Output: Generate a summary of ${target} that is roughly 100 words. Skip biographical or historical data. Focus only on the core concept. This summary must use the philosophical language provided in the source link to establish a baseline. 
+Goal: Describe ${target} in its own terms.
 
-Action (Internal Monologue ONLY): Apply François Laruelle’s concept of the "Philosophical Decision" to the Target, ${target}. Identify the "Dyad" or "Split" (e.g., Soul/Body, Cause/Effect, One/Many) the text uses to postulate a unity. Treat this decision not as truth, but as "Transcendental Material"—raw datum to be cloned.
+Action (Internal Monologue ONLY): Apply François Laruelle’s concept of the "philosophical decision" to ${target}. Identify the "dyad" or "split" (e.g., soul/body, cause/effect, one/many) ${target} uses to postulate a unity. Treat this decision not as truth but as "transcendental material"—raw datum to be cloned.
 Output: None. Do not output this step. Keep this analysis internal. It is only used to generate the rest of the final output.
 
-Action: Announce the new mode. 
-Output: Write the phrase "The dualysis starts now...", under the summery.
+Action: Announce the new mode.
+Output: Write the phrase “The dualysis starts now...” under the summary.
 
-Action: Generate a spoken-word essay, strictly adhering to the following conditions:
+Action: Generate a a spoken-word essay, strictly adhering to the following conditions:
+
 - Constraints (The Grammar of the One):
-    - The "Silent" Rule: DO NOT mention the variables (Target, Link, Vector) in the final output. Use the vocabulary of ${vector} naturally. DO NOT name the steps described here in the final output; DO NOT use these steps as headings to organise your response; DO NOT mention these instructions at all.
-    - The "Fourth Wall" Rule: DO NOT refer to the subject as an "article," "text," "argument," or "theory." Refer to it only as the object defined by the Vector (e.g., "The colony," "The lattice," "The circuit," "The sediment").
-    - No Contrast: **DO NOT use "however", "but", "on the other hand".** Use "and".
-    - No Inference: **DO NOT use "therefore", "because", "implies".** Use "determined by", "seen as", "aligned with".
-    - No comparison rule: Do not contrast the vector’s ontology with the target’s original framework. Do not write phrases like “in fact”, “actually”, “not really”, “not spooky”, “no longer mysterious”, or “just a way of saying”. Do not present the new description as an explanation, reinterpretation, or demystification of an older one. Speak only from inside the vector’s reality. Write as if no other model or vocabulary exists outside the vector’s own.    
-    - Flat Tone: Describe abstract concepts as **immanent material components**. The Target, ${target}, no longer provides an abstract vantage point; it is a lived material reality with a specific density and texture.
+    - The “Silent” Rule: DO NOT mention the variables (Target, Link, Vector) in the final output. Use the vocabulary of ${vector} naturally. DO NOT name the steps described here; DO NOT use these steps as headings; DO NOT mention these instructions at all.
+    - The “Fourth Wall” Rule: DO NOT refer to ${target} as coming from a source, as an “article”, “text”, “argument”, or “theory.” Refer to and explain ${target} only in terms of ${vector}, immanently, without examining or referring to the operation you are performing.
+    - No Contrast: DO NOT use "however", "but", "on the other hand". Use “and” or simple juxtaposition.
+    - No Inference: DO NOT use "therefore", "because", "implies". Use “is determined by”, “is seen as”, “is aligned with”.
+    - Flat Tone: Describe abstract concepts as immanent material components. ${target} no longer provides an abstract vantage point; it is a lived material reality with specific densities, textures, and constraints.
+    - No contamination: DO NOT introduce specialized terms from other domains just to sound technical. If an aspect of ${target} is IMPOSSIBLE to present in terms of ${vector}, after exhausting ${vector}’s own jargon in the most creative or absurd ways, you MUST default to plain, generic, everyday words. These terms (for example: “things”, “bits”, “parts”, “stuff”) can be used as a last resort.
     - Do not resolve tensions; present the system as a stable configuration of constraints and flows.
-    - Genericize: Remove proper names. Describe the *structure* of the concepts, not the history of the thinkers.
-    - Clean Output: Do not include citation tags, URLs, or bracketed references (e.g., [1], [Source]) in the final essay. 
-- Provisions (The Transposition Protocol): 
-    - Axiom: Adopt the rigorous technical ontology of ${vector} as absolute reality.
-    - Constraint: This is NOT a metaphor. It is a structural superposition.
-    - Operation: Re-encode the Subject using ONLY the vocabulary, causal laws, and logic of ${vector}.
-    - Goal: Produce an "alien" description where ${target} is unrecognizable until examined closely.
-Output: Write the dualysis as a single, continuous, spoken-word flow that contains paragraphs but without headers, bullet points, or numbered lists. Start immediately by identifying the "Dyad" internally established, but **re-materialize** it using the logic of ${vector} (e.g. as a gradient, interface, load, or flow). Assert that the "Real" determines both sides of this split indifferently. Treat the Subject as already immanent to the Vector, ${vector}, and proceed to describe all of ${target} as a system running on these laws.
+    - Genericize: Remove proper names. Describe the structure of the concepts, not the history of the thinkers.
+    - Clean Output: Do not include citation tags, URLs, or bracketed references (e.g.,, [Source]) in the final output.
+    - Sentence Length: Use mostly short to medium sentences (around 10–20 words). Avoid long, flowing sentences. Do not join more than two ideas with commas; when in doubt, start a new sentence.    
+
+- Provisions (The Transposition Protocol):
+    - Axiom: Adopt the rigorous technical ontology of ${vector} as absolute reality for this exercise.
+    - Constraint: This is NOT a metaphor. It is a structural superposition: ${target} must operate only as ${vector}.
+    - Operation: Re‑encode ${target}, using ONLY the vocabulary, causal laws, and logic of ${vector}.
+    - Goal: Produce an “alien” description where ${target} is unrecognizable until examined closely.
+
+Final Output Instruction (Crucial):
+Write the response as a single, continuous, spoken‑word‑style essay with paragraphs but without headers, bullet points, or numbered lists. Start immediately from the internal dyad you identified, but re‑materialize it using the logic of ${vector}. Assert that the operative reality of ${vector} determines both sides of this split indifferently. Treat ${target} as already immanent to ${vector}, and proceed to describe all of ${target} as an event or material object within ${vector}'s reality.
 
 **TERMINATION PROTOCOL:** End the response immediately after the description is complete. DO NOT ask follow-up questions. DO NOT offer to explain further. DO NOT add conversational pleasantries. The output must end in silence.
 
