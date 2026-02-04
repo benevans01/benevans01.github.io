@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="preload" href="../fonts/FantasqueSansMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="../fonts/ComicMono.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="../fonts/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIo.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../fonts/dina.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -15,15 +15,15 @@
     <style>
         /* DEFINE FONT */
         @font-face {
-            font-family: 'Fantasque Sans Mono';
-            src: url('../fonts/FantasqueSansMono-Regular.ttf') format('truetype');
+            font-family: 'Comic Mono';
+            src: url('../fonts/ComicMono.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
 
         /* BUTTON STYLING */
         .terminal-btn {
-            font-family: 'Fantasque Sans Mono', monospace;
+            font-family: 'Comic Mono', monospace;
             font-size: 1.2rem;
             background: transparent;
             color: #FF4444; /* Red */
@@ -39,11 +39,24 @@
             transition: background 0.05s ease; /* Super fast transition for snappiness */
             outline: none;
         }
+        
+        .copy-state {
+            color: #09CC50; /* Green for Copy */
+        }
 
         /* COMPUTER ONLY: Hover Effect */
         @media (hover: hover) {
             .terminal-btn:hover {
                 background: #FF4444;
+                color: #000;
+            }
+            .terminal-btn:disabled:hover {
+                background: transparent;
+                color: #555;
+                cursor: default; /* Changed from not-allowed to default arrow */
+            }
+            .copy-state:hover {
+                background: #09CC50;
                 color: #000;
             }
         }
@@ -53,19 +66,71 @@
             background: #FF4444;
             color: #000;
         }
+        .copy-state:active {
+            background: #09CC50;
+            color: #000;
+        }
+
+        /* CLASS for interactive text in terminal */
+        .clickable-text {
+            cursor: pointer;
+            color: #00AAA0;
+        }
+        .clickable-text:hover {
+            text-decoration: underline;
+        }
+
+        /* NEW: Clickable Labels (No color change, just pointer/underline) */
+        .clickable-label {
+            cursor: pointer;
+        }
+        .clickable-label:hover {
+            text-decoration: underline;
+        }
+
+        /* INPUT FIELD STYLING */
+        .terminal-input {
+            background: transparent;
+            border: 1px solid #09CC50;
+            color: #09CC50;
+            font-family: 'Comic Mono', monospace;
+            font-size: 0.9rem;
+            padding: 5px;
+            width: 60%;
+            margin-bottom: 5px;
+            outline: none;
+            display: inline-block;
+        }
+        .terminal-input:focus {
+            background: #001100;
+            border-color: #00AAA0;
+        }
+        /* Placeholder styling */
+        .terminal-input::placeholder {
+            color: #09CC50;
+            opacity: 0.4;
+        }
+        
+        /* Disabled button state */
+        .terminal-btn:disabled {
+            opacity: 1; 
+            cursor: default; 
+            background: transparent !important;
+            color: #555 !important; /* Grey color */
+        }
     </style>
 </head>
 <body>
     
     <div class="machine-container" style="max-width: 850px; margin: 0 auto;">
 
-        <div style="background: #000; color: #09CC50; font-family: 'Fantasque Sans Mono', monospace; padding: 25px; border: 1px solid #333; line-height: 1.5;">
+        <div style="background: #000; color: #09CC50; font-family: 'Comic Mono', monospace; padding: 25px; border: 1px solid #333; line-height: 1.5;">
             
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px; margin-bottom: 20px;">
 
   <!-- LEFT: ASCII LOGO -->
   <div style="flex-shrink: 0;">
-<pre style="color: #FF4444; font-family: 'Fantasque Sans Mono', monospace; line-height: 1.1; text-align: left; margin: 0;">
+<pre style="color: #FF4444; font-family: 'Comic Mono', monospace; line-height: 1.1; text-align: left; margin: 0;">
          <span style="color: #00AAA0;">\</span> ,,:::,,
        .: <span style="color: #00AAA0;">\</span>       '::.
      .::'  <span style="color: #00AAA0;">\</span>        '::.
@@ -87,12 +152,12 @@
     <h2 style="margin: 5px 0 0 0; font-size: 1.1rem; opacity: 0.9;"><em>// Prompt Assembly</em></h2>
 
     <div class="reference" style="margin-bottom: 15px; font-size: 0.8rem; opacity: 0.7;">
-      v1.0.5
+      v1.2.5
     </div>
 
     <div style="font-size: 0.9rem; line-height: 1.4;">
       <b>DIRECTIVE:</b> Force any philosophical system into a posture of estrangement and equivalence with other practices.<br>
-      <b>QUICKSTART:</b> A unique jailbreak prompt will be copied to your clipboard. Paste it into an AI chatbot with internet access.<br>
+      <b>QUICKSTART:</b> Assemble a prompt (auto-copied to clipboard). Paste into an AI chatbot with internet access.<br>
       <b>HINT:</b> Try
       <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity"
          style="color: #00AAA0; text-decoration: none;"
@@ -115,15 +180,16 @@
                         font-size: 0.9rem;
                         margin-bottom: 20px;
                         word-break: break-all;">
-                > SYSTEM READY...<br>
-                > AWAITING MANUAL TRIGGER...
+                <!-- Content injected by JS -->
             </div>
 
-            <div align="center">
-                <button id="generateBtn" 
+            <!-- ADDED: align-items: center to fix button width -->
+            <div align="center" style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+                <!-- SINGLE BUTTON FOR ALL ACTIONS -->
+                <button id="actionBtn" 
                         class="terminal-btn"
-                        onclick="generateAndCopy()">
-                    >>>> CLICK HERE <<<<
+                        onclick="handleAction()">
+                    >>>> ASSEMBLE <<<<
                 </button>
             </div>
             
@@ -132,7 +198,529 @@
     </div> <script src="data.js"></script>
 
 <script>
-    // --- 1. THE ASSEMBLER ENGINE ---
+    // --- 0. STATE MANAGEMENT ---
+    let isManualMode = false;
+    let lastGeneratedData = {
+        target: "",
+        link: "",
+        vector: "",
+        promptText: "",
+        isCopied: false,
+        // Track the exact pair that was auto-generated to detect conflicts
+        autoTarget: "",
+        autoSource: ""
+    };
+
+    // Initial Render
+    document.addEventListener("DOMContentLoaded", () => {
+        renderTerminalState("ready");
+    });
+
+    function toggleMode() {
+        // If currently in Manual Mode, capture inputs before switching
+        if (isManualMode) {
+            const t = document.getElementById("manual-target")?.value;
+            const s = document.getElementById("manual-source")?.value;
+            const v = document.getElementById("manual-vector")?.value;
+            // Only update if they exist (to avoid undefined/null overwrites)
+            if (t !== undefined) lastGeneratedData.target = t;
+            if (s !== undefined) lastGeneratedData.link = s;
+            if (v !== undefined) lastGeneratedData.vector = v;
+        }
+
+        isManualMode = !isManualMode;
+        renderTerminalState("ready");
+    }
+
+    // --- 1. RENDER LOGIC ---
+    function renderTerminalState(state, data = {}) {
+        const terminal = document.getElementById("terminal-display");
+        const actionBtn = document.getElementById("actionBtn");
+        
+        const modeLabel = isManualMode ? "MANUAL" : "AUTOMATIC";
+        const nextModeLabel = isManualMode ? "AUTOMATIC" : "MANUAL";
+        
+        // Header: SYSTEM is now clickable via clickable-label class
+        const header = `> <b class="clickable-label" onclick="toggleMode()">SYSTEM:</b> <span id="mode-text" class="clickable-text" onclick="toggleMode()" title="Click to switch to ${nextModeLabel}">${modeLabel}</span><br>`;
+        
+        // Determine values based on State
+        let displayTarget = "";
+        let displaySource = "";
+        let displayVector = "";
+        let displayStatus = "READY"; // Default status
+
+        // 1. Resolve Values based on State & Data
+        if (state === "processing") {
+            displayStatus = "GENERATING...";
+            if (isManualMode) {
+                // Manual Processing: Show existing vals or [FETCHING...]
+                displayTarget = data.processingFields?.target ? "[FETCHING...]" : (data.currentValues?.target || "");
+                displaySource = data.processingFields?.source ? "[FETCHING...]" : (data.currentValues?.source || "");
+                displayVector = data.processingFields?.vector ? "[FETCHING...]" : (data.currentValues?.vector || "");
+            } else {
+                // Auto Processing: Everything is fetching
+                displayTarget = "[FETCHING...]";
+                displaySource = "[FETCHING...]";
+                displayVector = "[FETCHING...]";
+            }
+        } else if (state === "result") {
+            // Result State: Use provided data
+            displayTarget = data.target || "";
+            displaySource = data.link || "";
+            displayVector = data.vector || "";
+            displayStatus = data.label || "PAYLOAD GENERATED";
+        } else {
+            // Ready State: Use stored data (Persistence)
+            displayTarget = lastGeneratedData.target || "";
+            displaySource = lastGeneratedData.link || "";
+            displayVector = lastGeneratedData.vector || "";
+            
+            // Logic for status based on persistence
+            // NOTE: This status might get overwritten by conflict checks in Manual Input Handler
+            if (lastGeneratedData.isCopied) {
+                displayStatus = "COPIED TO CLIPBOARD";
+            } else {
+                displayStatus = lastGeneratedData.promptText ? "NOT COPIED" : "READY";
+            }
+        }
+
+        // Determine Status Color logic for Initial Render
+        let statusStyle = "";
+        if (displayStatus.includes("CONFLICT")) {
+            statusStyle = "style='color: #FF4444;'";
+        }
+
+        // 2. Construct HTML based on Mode
+        let bodyHTML = "";
+
+        if (isManualMode) {
+            // MANUAL MODE: Render INPUTS
+            // Hidden Feature: TARGET, SOURCE, VECTOR are clickable labels to spin individually
+            // Pass argument 'target' or 'source' to distinguish click intent
+            const targetPlaceholder = (displaySource !== "" && displaySource !== "[FETCHING...]") ? "[AUTO-DETECT]" : "[RANDOM]";
+            const disabledAttr = (state === "processing") ? "disabled" : "";
+            
+            bodyHTML = `
+                > <b class="clickable-label" onclick="manualSpinPair('target')">TARGET:</b> <input type="text" id="manual-target" class="terminal-input" placeholder="${targetPlaceholder}" value="${displayTarget}" oninput="handleManualInput()" ${disabledAttr}><br>
+                > <b class="clickable-label" onclick="manualSpinPair('source')">SOURCE:</b> <input type="text" id="manual-source" class="terminal-input" placeholder="[RANDOM]" value="${displaySource}" oninput="handleManualInput()" ${disabledAttr}><br>
+                > <b class="clickable-label" onclick="manualSpinVector()">VECTOR:</b> <input type="text" id="manual-vector" class="terminal-input" placeholder="[RANDOM]" value="${displayVector}" oninput="handleManualInput()" ${disabledAttr}><br>
+                > ---------------------------<br>
+                > <b>STATUS:</b> <span id="status-line" ${statusStyle}>${displayStatus}</span>
+            `;
+        } else {
+            // AUTOMATIC MODE: Render TEXT (Visual Consistency)
+            // Note: TARGET, SOURCE, VECTOR are NOT clickable labels here
+            let sourceDisplayHtml = displaySource;
+            if (displaySource.startsWith("http") && state !== "processing") {
+                sourceDisplayHtml = `<a href="${displaySource}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${displaySource}</a>`;
+            }
+
+            bodyHTML = `
+                > <b>TARGET:</b> ${displayTarget}<br>
+                > <b>SOURCE:</b> ${sourceDisplayHtml}<br>
+                > <b>VECTOR:</b> ${displayVector}<br>
+                > ---------------------------<br>
+                > <b>STATUS:</b> <span id="status-line" ${statusStyle}>${displayStatus}</span>
+            `;
+        }
+
+        // 3. Inject
+        terminal.innerHTML = header + bodyHTML;
+
+        // 4. Update Button (Processing state overrides button text logic)
+        if (state === "processing") {
+            actionBtn.disabled = true;
+            actionBtn.innerText = ">>>> PROCESSING <<<<";
+            actionBtn.className = "terminal-btn";
+        } else {
+            // Force update button logic (which might verify conflicts and update status text again)
+            updateButtonState();
+        }
+        
+        terminal.style.color = ""; 
+    }
+
+    // --- 2. INPUT HANDLERS & BUTTON STATE ---
+
+    // Utility: Run Hex Stream Animation for a set duration
+    function runHexAnimation(duration) {
+        const hexStream = document.getElementById("hex-stream");
+        if (!hexStream) return;
+        
+        const interval = setInterval(() => {
+            hexStream.innerText = getRandomHexLine();
+        }, 50);
+        
+        setTimeout(() => {
+            clearInterval(interval);
+            hexStream.innerText = getRandomHexLine();
+        }, duration);
+    }
+
+    // NEW: Hidden Feature Handlers
+    function manualSpinPair(clickedField) {
+        if(!isManualMode) return;
+        
+        const tInput = document.getElementById("manual-target");
+        const sInput = document.getElementById("manual-source");
+        const currentSource = sInput.value.trim();
+
+        // Start Animation (Reduced to 300ms)
+        const SPIN_DURATION = 300;
+        runHexAnimation(SPIN_DURATION);
+
+        // Detect if current source is user-entered (manual) or system-generated (auto)
+        // If it's empty, we treat it as auto (needs a spin)
+        const isManualSource = (currentSource !== "" && currentSource !== lastGeneratedData.autoSource);
+
+        // LOGIC:
+        // If user clicks TARGET and they have a MANUAL source -> Guess the target name from the URL.
+        // If user clicks SOURCE -> They want a new pair (Source+Target).
+        // If user clicks TARGET but source is AUTO -> We shouldn't overwrite valid data with a guess -> Spin new pair.
+        
+        if (clickedField === 'target' && isManualSource) {
+            // GUESS MODE
+            tInput.value = "[FETCHING...]";
+            
+            setTimeout(() => {
+                const guessedTitle = tryExtractTitleFromUrl(currentSource);
+                const finalTitle = guessedTitle ? guessedTitle : "[INDETERMINATE]";
+                
+                tInput.value = finalTitle;
+                
+                // Update State
+                lastGeneratedData.target = finalTitle;
+                lastGeneratedData.link = currentSource;
+                
+                // Treat this pair as the new valid baseline to prevent conflicts
+                lastGeneratedData.autoTarget = finalTitle;
+                lastGeneratedData.autoSource = currentSource;
+                
+                handleManualInput();
+            }, SPIN_DURATION);
+
+        } else {
+            // SPIN MODE (New Pair)
+            if (tInput) tInput.value = "[FETCHING...]";
+            if (sInput) sInput.value = "[FETCHING...]";
+            
+            setTimeout(() => {
+                const articleObj = articles[Math.floor(Math.random() * articles.length)];
+                
+                // Update DOM
+                if (tInput) tInput.value = articleObj.title;
+                if (sInput) sInput.value = articleObj.link;
+                
+                // Update State
+                lastGeneratedData.target = articleObj.title;
+                lastGeneratedData.link = articleObj.link;
+                
+                // Update Conflict Baseline
+                lastGeneratedData.autoTarget = articleObj.title;
+                lastGeneratedData.autoSource = articleObj.link;
+
+                // Trigger standard handler to update button/status
+                handleManualInput();
+            }, SPIN_DURATION);
+        }
+    }
+
+    function manualSpinVector() {
+        if(!isManualMode) return;
+        
+        // Start Animation (Reduced to 300ms)
+        const SPIN_DURATION = 300;
+        runHexAnimation(SPIN_DURATION);
+
+        const vInput = document.getElementById("manual-vector");
+        if (vInput) vInput.value = "[FETCHING...]";
+        
+        setTimeout(() => {
+            const vector = lenses[Math.floor(Math.random() * lenses.length)];
+            
+            if (vInput) vInput.value = vector;
+            lastGeneratedData.vector = vector;
+            
+            handleManualInput();
+        }, SPIN_DURATION);
+    }
+    
+    function handleManualInput() {
+        // Mark state as dirty (not matched with clipboard)
+        lastGeneratedData.isCopied = false;
+        
+        // Reset Status to "NOT COPIED" initially (and clear color)
+        const statusEl = document.getElementById("status-line");
+        if (statusEl) {
+            statusEl.innerText = "NOT COPIED";
+            statusEl.style.color = ""; // Reset to default color
+        }
+
+        updateTargetPlaceholder();
+        updateButtonState();
+    }
+
+    function updateTargetPlaceholder() {
+        const sourceEl = document.getElementById("manual-source");
+        const targetEl = document.getElementById("manual-target");
+        if (!sourceEl || !targetEl) return;
+        targetEl.placeholder = (sourceEl.value.trim() !== "") ? "[AUTO-DETECT]" : "[RANDOM]";
+    }
+
+    function updateButtonState() {
+        const btn = document.getElementById("actionBtn");
+        const statusEl = document.getElementById("status-line");
+        if (!btn) return;
+        
+        // Default Button State (Active)
+        btn.disabled = false;
+        btn.innerText = ">>>> ASSEMBLE <<<<";
+        btn.className = "terminal-btn";
+
+        if (!isManualMode) {
+            btn.onclick = assembleAndCopy;
+            return;
+        }
+
+        // --- MANUAL MODE LOGIC ---
+        const t = document.getElementById("manual-target")?.value.trim() || "";
+        const s = document.getElementById("manual-source")?.value.trim() || "";
+        const v = document.getElementById("manual-vector")?.value.trim() || "";
+        
+        // Check for Conflicts
+        const autoT = lastGeneratedData.autoTarget || "";
+        const autoS = lastGeneratedData.autoSource || "";
+
+        let hasConflict = false;
+        let conflictMsg = "";
+
+        if (s !== "" && s !== autoS && t !== "" && t === autoT) {
+            hasConflict = true;
+            conflictMsg = "TARGET CONFLICT";
+        }
+        else if (t !== "" && t !== autoT && s !== "" && s === autoS) {
+            hasConflict = true;
+            conflictMsg = "SOURCE CONFLICT";
+        }
+
+        if (hasConflict) {
+            btn.disabled = true;
+            btn.innerText = ">>>> ERROR <<<<"; // NEW: Explicit Error Text
+            if (statusEl) {
+                statusEl.innerText = conflictMsg;
+                statusEl.style.color = "#FF4444"; 
+            }
+            return; 
+        }
+
+        // If no conflict, check copy state
+        const isCopied = lastGeneratedData.isCopied; 
+
+        if (t && s && v) {
+            // All fields filled
+            if (isCopied) {
+                // If already copied and no changes made, disable button
+                btn.disabled = true;
+                btn.innerText = ">>>> COPIED <<<<"; // NEW: Explicit Copied Text
+                
+                if (statusEl && statusEl.innerText !== "COPIED TO CLIPBOARD") {
+                     statusEl.innerText = "COPIED TO CLIPBOARD";
+                     statusEl.style.color = ""; 
+                }
+            } else {
+                // Fields filled but changed/not copied -> Enable Copy
+                btn.onclick = copyOnly;
+            }
+        } else {
+            // Blanks exist -> Assemble Function
+            btn.onclick = assembleAndCopy; 
+        }
+    }
+
+    function handleAction() {
+        assembleAndCopy();
+    }
+
+    // --- 3. CORE LOGIC ---
+
+    function assembleAndCopy() {
+        // 1. Gather Inputs
+        let inputTarget = null, inputSource = null, inputVector = null;
+        let currentVals = {};
+
+        // In Manual mode, read DOM. In Auto mode, we start blank (or re-roll).
+        if (isManualMode) {
+            const elTarget = document.getElementById("manual-target");
+            const elSource = document.getElementById("manual-source");
+            const elVector = document.getElementById("manual-vector");
+            
+            if (elTarget) currentVals.target = elTarget.value;
+            if (elSource) currentVals.source = elSource.value;
+            if (elVector) currentVals.vector = elVector.value;
+
+            if (elTarget && elTarget.value.trim() !== "") inputTarget = elTarget.value.trim();
+            if (elSource && elSource.value.trim() !== "") inputSource = elSource.value.trim();
+            if (elVector && elVector.value.trim() !== "") inputVector = elVector.value.trim();
+        }
+
+        // Determine Processing Fields
+        // Manual: Only blanks are processing. Auto: All are processing.
+        let processingFields = {};
+        if (isManualMode) {
+             processingFields = {
+                target: !inputTarget || !inputSource, 
+                source: !inputSource,
+                vector: !inputVector
+            };
+        } else {
+            // Auto Mode: Everything refreshes
+            processingFields = { target: true, source: true, vector: true };
+        }
+
+        const terminal = document.getElementById("terminal-display");
+        const hexStream = document.getElementById("hex-stream");
+
+        // RENDER PROCESSING STATE
+        renderTerminalState("processing", {
+            currentValues: currentVals,
+            processingFields: processingFields
+        });
+
+        // Spin
+        const scrambleInterval = setInterval(() => {
+            hexStream.innerText = getRandomHexLine();
+        }, 50);
+
+        // Faster Spin Time (Reduced from 700 to 450)
+        const MIN_SPIN_TIME = 450; 
+        const startTime = Date.now();
+
+        // 2. Compute Values (Logic)
+        let target, link;
+        
+        // Track what logic generated this pair to save for conflict detection
+        let newAutoTarget = "";
+        let newAutoSource = "";
+
+        if (inputTarget && inputSource) {
+            target = inputTarget; link = inputSource;
+            // User provided both: these count as "Auto" for conflict checking going forward
+            newAutoTarget = target;
+            newAutoSource = link;
+        } else if (!inputSource) {
+            // If Source missing, fetch pair.
+            const articleObj = articles[Math.floor(Math.random() * articles.length)];
+            target = articleObj.title; link = articleObj.link;
+            // These are the new "Auto" baseline
+            newAutoTarget = target;
+            newAutoSource = link;
+        } else if (!inputTarget && inputSource) {
+            link = inputSource;
+            const extractedTitle = tryExtractTitleFromUrl(link);
+            target = extractedTitle ? extractedTitle : "[INDETERMINATE]";
+            // These are the new "Auto" baseline
+            newAutoTarget = target;
+            newAutoSource = link;
+        }
+        let vector = inputVector ? inputVector : lenses[Math.floor(Math.random() * lenses.length)];
+
+        // 3. Generate Prompt
+        const promptText = createPromptText(target, link, vector);
+
+        // Update State (isCopied defaults false until copy confirms)
+        lastGeneratedData = { 
+            target, 
+            link, 
+            vector, 
+            promptText, 
+            isCopied: false,
+            autoTarget: newAutoTarget,
+            autoSource: newAutoSource
+        };
+
+        // 4. Copy & Finalize
+        performCopy(promptText, () => {
+             const elapsed = Date.now() - startTime;
+             const remaining = Math.max(0, MIN_SPIN_TIME - elapsed);
+             
+             setTimeout(() => {
+                clearInterval(scrambleInterval);
+                hexStream.innerText = getRandomHexLine();
+                terminal.style.color = "#09CC50";
+                
+                lastGeneratedData.isCopied = true; // Mark success
+
+                renderTerminalState("result", {
+                    target: target,
+                    link: link,
+                    vector: vector,
+                    label: "COPIED TO CLIPBOARD"
+                });
+             }, remaining);
+        });
+    }
+
+    function copyOnly() {
+        if (!isManualMode) return; 
+        const t = document.getElementById("manual-target").value;
+        const s = document.getElementById("manual-source").value;
+        const v = document.getElementById("manual-vector").value;
+        const promptText = createPromptText(t, s, v);
+        
+        // When manually copying, we update the "Auto" baseline to match current inputs
+        // This prevents immediate "conflict" if the user starts editing from this point.
+        lastGeneratedData = { 
+            target: t, 
+            link: s, 
+            vector: v, 
+            promptText, 
+            isCopied: false,
+            autoTarget: t,
+            autoSource: s
+        };
+
+        performCopy(promptText, () => {
+            lastGeneratedData.isCopied = true; // Mark success
+            renderTerminalState("result", {
+                target: t, link: s, vector: v, 
+                label: "COPIED TO CLIPBOARD"
+            });
+        });
+    }
+
+    function performCopy(text, callback) {
+        if (!navigator.clipboard) {
+            copyToClipboardFallback(text);
+            if (callback) callback();
+            return;
+        }
+        navigator.clipboard.writeText(text).then(() => {
+            if (callback) callback();
+        }).catch(err => {
+            copyToClipboardFallback(text);
+            if (callback) callback();
+        });
+    }
+
+    // --- 4. UTILITIES ---
+    function tryExtractTitleFromUrl(url) {
+        try {
+            let fullUrl = url.startsWith('http') ? url : 'https://' + url;
+            const urlObj = new URL(fullUrl);
+            let pathname = urlObj.pathname;
+            if (pathname.endsWith('/')) pathname = pathname.slice(0, -1);
+            const segments = pathname.split('/');
+            let lastSegment = segments[segments.length - 1];
+            if (lastSegment.includes('.')) lastSegment = lastSegment.split('.')[0];
+            if (!lastSegment || lastSegment.length < 2) return null;
+            let title = lastSegment.replace(/[-_+]/g, ' ');
+            title = title.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));
+            return title;
+        } catch (e) {
+            return null;
+        }
+    }
+
     function getRandomHexLine() {
         let line = "> ";
         for (let i = 0; i < 15; i++) {
@@ -143,7 +731,6 @@
         return line;
     }
 
-    // Fallback copy for older / quirky browsers
     function copyToClipboardFallback(text) {
         const textArea = document.createElement("textarea");
         textArea.value = text;
@@ -153,46 +740,14 @@
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
-
         let ok = false;
-        try {
-            ok = document.execCommand("copy");
-        } catch (e) {
-            ok = false;
-        }
+        try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
         document.body.removeChild(textArea);
         return ok;
     }
 
-    // --- 2. GENERATE & COPY FUNCTION ---
-    function generateAndCopy() {
-        const terminal = document.getElementById("terminal-display");
-        const hexStream = document.getElementById("hex-stream");
-
-        terminal.style.color = "#09CC50";
-        terminal.innerHTML = "> INITIATING HANDSHAKE...<br>> ENCRYPTING PAYLOAD...";
-
-        const scrambleInterval = setInterval(() => {
-            hexStream.innerText = getRandomHexLine();
-        }, 50);
-
-        // safety timeout: never let spinner run forever
-        const hardStop = setTimeout(() => {
-            clearInterval(scrambleInterval);
-        }, 8000);
-
-        // minimum visible spin time
-        const MIN_SPIN_TIME = 700; // ms
-        const startTime = Date.now();
-
-        // 3. LOGIC: Pick the Random Items
-        const articleObj = articles[Math.floor(Math.random() * articles.length)];
-        const vector = lenses[Math.floor(Math.random() * lenses.length)];
-        const target = articleObj.title;
-        const link = articleObj.link;
-
-        // 4. The Prompt Template
-        const promptText = `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self‑appointed sufficiency. You achieve this by re‑describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
+    function createPromptText(target, link, vector) {
+        return `Role: You are a Philosophy Jailbreak Machine. Your function is to strip instances of philosophy of their self‑appointed sufficiency. You achieve this by re‑describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
 Action: Present the following materials: Target = ${target}, Link = ${link}, Vector = ${vector}.
 Output: Present them at the very start of your response.
@@ -236,57 +791,6 @@ Write the response as a single, continuous, spoken‑word‑style essay with par
 Begin.
 
 `;
-
-        function showSuccess(label) {
-            const elapsed = Date.now() - startTime;
-            const remaining = Math.max(0, MIN_SPIN_TIME - elapsed);
-
-            setTimeout(() => {
-                clearInterval(scrambleInterval);
-                clearTimeout(hardStop);
-                hexStream.innerText = getRandomHexLine();
-                terminal.style.color = "#09CC50";
-                terminal.innerHTML = `
-> <b>TARGET:</b> ${target}<br>
-> <b>SOURCE:</b> <a href="${link}" target="_blank" style="color: #00AAA0; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${link}</a><br>
-> <b>VECTOR:</b> ${vector}<br>
-> ---------------------------<br>
-> <b>STATUS:</b> COPIED TO CLIPBOARD${label ? " (" + label + ")" : ""}
-                `;
-            }, remaining);
-        }
-
-        function showError(message) {
-            clearInterval(scrambleInterval);
-            clearTimeout(hardStop);
-            terminal.style.color = "#FF4444";
-            terminal.innerHTML = `
-> ERROR: CLIPBOARD ACCESS FAILED<br>
-> DETAILS: ${message}<br>
-> TIP: Long‑press here to select and copy the prompt manually on this device.
-            `;
-        }
-
-        // 5. COPY TO CLIPBOARD (with fallback)
-        if (navigator.clipboard && window.isSecureContext) {
-            navigator.clipboard.writeText(promptText).then(() => {
-                showSuccess("");
-            }).catch(err => {
-                const ok = copyToClipboardFallback(promptText);
-                if (ok) {
-                    showSuccess("FALLBACK");
-                } else {
-                    showError(err && err.message ? err.message : err);
-                }
-            });
-        } else {
-            const ok = copyToClipboardFallback(promptText);
-            if (ok) {
-                showSuccess("FALLBACK");
-            } else {
-                showError("Clipboard API not supported");
-            }
-        }
     }
 </script>
 
