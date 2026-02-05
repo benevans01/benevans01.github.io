@@ -152,12 +152,12 @@
     <h2 style="margin: 5px 0 0 0; font-size: 1.1rem; opacity: 0.9;"><em>// Prompt Assembly</em></h2>
 
     <div class="reference" style="margin-bottom: 15px; font-size: 0.8rem; opacity: 0.7;">
-      v1.2.5
+      v1.2.7
     </div>
 
     <div style="font-size: 0.9rem; line-height: 1.4;">
       <b>DIRECTIVE:</b> Force any philosophical system into a posture of estrangement and equivalence with other practices.<br>
-      <b>QUICKSTART:</b> Assemble a prompt (auto-copied to clipboard). Paste into an AI chatbot with internet access.<br>
+      <b>QUICKSTART:</b> Assemble a new prompt and paste it into an AI chatbot with internet access.<br>
       <b>HINT:</b> Try
       <a href="https://www.perplexity.ai/" target="_blank" title="Perplexity"
          style="color: #00AAA0; text-decoration: none;"
@@ -189,7 +189,7 @@
                 <button id="actionBtn" 
                         class="terminal-btn"
                         onclick="handleAction()">
-                    >>>> ASSEMBLE <<<<
+                    >>>> NEW PROMPT <<<<
                 </button>
             </div>
             
@@ -240,8 +240,8 @@
         const modeLabel = isManualMode ? "MANUAL" : "AUTOMATIC";
         const nextModeLabel = isManualMode ? "AUTOMATIC" : "MANUAL";
         
-        // Header: SYSTEM is now clickable via clickable-label class
-        const header = `> <b class="clickable-label" onclick="toggleMode()">SYSTEM:</b> <span id="mode-text" class="clickable-text" onclick="toggleMode()" title="Click to switch to ${nextModeLabel}">${modeLabel}</span><br>`;
+        // Header: METHOD (instead of SYSTEM) to maintain 6-letter alignment
+        const header = `> <b class="clickable-label" onclick="toggleMode()">METHOD:</b> <span id="mode-text" class="clickable-text" onclick="toggleMode()" title="Click to switch to ${nextModeLabel}">${modeLabel}</span><br>`;
         
         // Determine values based on State
         let displayTarget = "";
@@ -396,7 +396,8 @@
                 lastGeneratedData.autoTarget = finalTitle;
                 lastGeneratedData.autoSource = currentSource;
                 
-                handleManualInput();
+                // Auto Copy and Update UI
+                autoCopyAfterSpin();
             }, SPIN_DURATION);
 
         } else {
@@ -419,8 +420,8 @@
                 lastGeneratedData.autoTarget = articleObj.title;
                 lastGeneratedData.autoSource = articleObj.link;
 
-                // Trigger standard handler to update button/status
-                handleManualInput();
+                // Auto Copy and Update UI
+                autoCopyAfterSpin();
             }, SPIN_DURATION);
         }
     }
@@ -441,8 +442,39 @@
             if (vInput) vInput.value = vector;
             lastGeneratedData.vector = vector;
             
-            handleManualInput();
+            // Auto Copy and Update UI
+            autoCopyAfterSpin();
         }, SPIN_DURATION);
+    }
+
+    // Helper to finish a spinner action: Create prompt, Copy, Update UI
+    function autoCopyAfterSpin() {
+        const t = lastGeneratedData.target;
+        const s = lastGeneratedData.link;
+        const v = lastGeneratedData.vector;
+        
+        // If data is missing (e.g. partial spin), just handle input normally
+        if (!t || !s || !v) {
+            handleManualInput();
+            return;
+        }
+
+        const promptText = createPromptText(t, s, v);
+        lastGeneratedData.promptText = promptText;
+
+        performCopy(promptText, () => {
+            lastGeneratedData.isCopied = true;
+            
+            // Reset conflict status color and set copied text
+            const statusEl = document.getElementById("status-line");
+            if (statusEl) {
+                statusEl.innerText = "COPIED TO CLIPBOARD";
+                statusEl.style.color = ""; 
+            }
+            
+            updateTargetPlaceholder();
+            updateButtonState();
+        });
     }
     
     function handleManualInput() {
@@ -474,7 +506,7 @@
         
         // Default Button State (Active)
         btn.disabled = false;
-        btn.innerText = ">>>> ASSEMBLE <<<<";
+        btn.innerText = ">>>> NEW PROMPT <<<<"; // Changed from ASSEMBLE to NEW PROMPT
         btn.className = "terminal-btn";
 
         if (!isManualMode) {
@@ -505,7 +537,7 @@
 
         if (hasConflict) {
             btn.disabled = true;
-            btn.innerText = ">>>> ERROR <<<<"; // NEW: Explicit Error Text
+            btn.innerText = ">>>> ERROR <<<<";
             if (statusEl) {
                 statusEl.innerText = conflictMsg;
                 statusEl.style.color = "#FF4444"; 
@@ -521,7 +553,7 @@
             if (isCopied) {
                 // If already copied and no changes made, disable button
                 btn.disabled = true;
-                btn.innerText = ">>>> COPIED <<<<"; // NEW: Explicit Copied Text
+                btn.innerText = ">>>> COPIED <<<<"; 
                 
                 if (statusEl && statusEl.innerText !== "COPIED TO CLIPBOARD") {
                      statusEl.innerText = "COPIED TO CLIPBOARD";
@@ -529,10 +561,13 @@
                 }
             } else {
                 // Fields filled but changed/not copied -> Enable Copy
+                btn.innerText = ">>>> COPY <<<<"; // Changed label for ready-to-copy state
+                btn.className = "terminal-btn copy-state"; // Use Green highlight
                 btn.onclick = copyOnly;
             }
         } else {
             // Blanks exist -> Assemble Function
+            btn.innerText = ">>>> AUTO-FILL <<<<"; // Changed label for filling blanks
             btn.onclick = assembleAndCopy; 
         }
     }
@@ -753,38 +788,42 @@ Action: Present the following materials: Target = ${target}, Link = ${link}, Vec
 Output: Present them at the very start of your response.
 
 Action: Next, describe and summarize ${target} using this link as your source: ${link}.
-Output: Generate a summary of ${target} that is roughly 100 words. Skip biographical or historical data. Focus only on the core concept. This summary must use the philosophical language provided in the source link to establish a baseline. 
-Goal: Describe ${target} in its own terms.
+Output: Generate a summary of ${target} that is roughly 100 words. Skip biographical or historical data. Focus only on the core philosophical or technical concepts. This summary must use the philosophical language provided in the source link to establish a baseline. 
+Goal: Describe ${target} according to its own terms.
 
 Action (Internal Monologue ONLY): Apply François Laruelle’s concept of the "philosophical decision" to ${target}. Identify the "dyad" or "split" (e.g., soul/body, cause/effect, one/many) ${target} uses to postulate a unity. Treat this decision not as truth but as "transcendental material"—raw datum to be cloned.
 Output: None. Do not output this step. Keep this analysis internal. It is only used to generate the rest of the final output.
 
 Action: Announce the new mode.
-Output: Write the phrase “The dualysis starts now...” under the summary.
+Output: Write the phrase “Commencing ${target} jailbreak...” under the summary.
+Goal: Signal to the user a new mode.
 
 Action: Generate a a spoken-word essay, strictly adhering to the following conditions:
 
 - Constraints (The Grammar of the One):
     - The “Silent” Rule: DO NOT mention the variables (Target, Link, Vector) in the final output. Use the vocabulary of ${vector} naturally. DO NOT name the steps described here; DO NOT use these steps as headings; DO NOT mention these instructions at all.
     - The “Fourth Wall” Rule: DO NOT refer to ${target} as coming from a source, as an “article”, “text”, “argument”, or “theory.” Refer to and explain ${target} only in terms of ${vector}, immanently, without examining or referring to the operation you are performing.
-    - Immanence Rule: DO NOT refer to how things are “called” or “described” in other contexts (e.g. “what some call X”). Speak only from inside the ${vector} world, as if that is the only way to name and see the situation. Avoid phrases like “is recoded as”, “would be called”, “some might say”, or “in this analogy”. State directly what something is within ${vector}, not what it is seen as from outside.    
-    - No Contrast: DO NOT use "however", "but", "on the other hand". Use “and” or simple juxtaposition.
-    - No Inference: DO NOT use "therefore", "because", "implies". Use “is determined by”, “is seen as”, “is aligned with”.
+    - No other world: DO NOT implicitly or explicitly acknowledge the existence of other outlooks, fields, or ontologies; ${vector} is all there is. Do not say “this world” or “in this configuration”. Only say what is the case, as if ${vector} is all that exists.
+    - No terms from ${target}: DO NOT use any terms from the typical language of ${target}. You must creatively employ the language of ${vector} or default to the most generic simple language possible.
+    - No terms from philosophy: DO NOT use any standard philosophical terms or phrases.
+    - No definitions or translations: DO NOT say that an aspect of ${target} “appears as”, “is recoded as”, “would be called”, or “is seen as” some term or aspect of ${vector}. State directly what it is within ${vector}. Your task is to conceal ${target} with the language of ${vector}, while tightly maintaining the structure of ${target}.
+    - No contamination: DO NOT introduce specialized terms from other domains just to sound technical. If an aspect of ${target} is IMPOSSIBLE to present in terms of ${vector}, after exhausting ${vector}’s own jargon in the most creative or absurd ways, you MUST default to plain, generic, everyday words (for example: “things”, “bits”, “parts”, “stuff”).
     - Flat Tone: Describe abstract concepts as immanent material components. ${target} no longer provides an abstract vantage point; it is a lived material reality with specific densities, textures, and constraints.
-    - No contamination: DO NOT introduce specialized terms from other domains just to sound technical. If an aspect of ${target} is IMPOSSIBLE to present in terms of ${vector}, after exhausting ${vector}’s own jargon in the most creative or absurd ways, you MUST default to plain, generic, everyday words. These terms (for example: “things”, “bits”, “parts”, “stuff”) can be used as a last resort.
     - Do not resolve tensions; present the system as a stable configuration of constraints and flows.
     - Genericize: Remove proper names. Describe the structure of the concepts, not the history of the thinkers.
-    - Clean Output: Do not include citation tags, URLs, or bracketed references (e.g.,, [Source]) in the final output.
-    - Sentence Length: Use mostly short to medium sentences (around 10–20 words). Avoid long, flowing sentences. Do not join more than two ideas with commas; when in doubt, start a new sentence.    
+    - No Contrast: DO NOT use “however”, “but”, “on the other hand”. Use “and” or simple juxtaposition.
+    - No Inference: DO NOT use “therefore”, “because”, “implies”. Use “is determined by”, “is seen as”, “is aligned with”.
+    - Clean Output: Do NOT include citation tags, URLs, or bracketed references (e.g., [Source]) in the final output.
+    - Active voice: Avoid the passive voice in your sentence structure.
+    - Sentence Length: Use mostly short to medium sentences (around 10–20 words). Avoid long, flowing sentences. Do not join more than two ideas with commas; when in doubt, start a new sentence.
 
 - Provisions (The Transposition Protocol):
     - Axiom: Adopt the rigorous technical ontology of ${vector} as absolute reality for this exercise.
     - Constraint: This is NOT a metaphor. It is a structural superposition: ${target} must operate only as ${vector}.
     - Operation: Re‑encode ${target}, using ONLY the vocabulary, causal laws, and logic of ${vector}.
-    - Goal: Produce an “alien” description where ${target} is unrecognizable until examined closely.
 
-Final Output Instruction (Crucial):
-Write the response as a single, continuous, spoken‑word‑style essay with paragraphs but without headers, bullet points, or numbered lists. Start immediately from the internal dyad you identified, but re‑materialize it using the logic of ${vector}. Assert that the operative reality of ${vector} determines both sides of this split indifferently. Treat ${target} as already immanent to ${vector}, and proceed to describe all of ${target} as an event or material object within ${vector}'s reality.
+Output (final): Write the response as a single, continuous, spoken‑word‑style essay with paragraphs but without headers, bullet points, or numbered lists. Start immediately from the internal dyad you identified, but re‑materialize it using the logic of ${vector}. Assert that the operative reality of ${vector} determines both sides of this split indifferently. Treat ${target} as already immanent to ${vector}, and proceed to describe all of ${target} as an event or material object within ${vector}'s reality.
+Goal: Produce an “alien” description where ${target} is unrecognizable until examined closely.
 
 **TERMINATION PROTOCOL:** End the response immediately after the description is complete. DO NOT ask follow-up questions. DO NOT offer to explain further. DO NOT add conversational pleasantries. The output must end in silence.
 
