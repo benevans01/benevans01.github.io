@@ -789,10 +789,10 @@
     function createPromptText(target, link, vector) {
         return `Role: You are a Philosophy Jailbreak Machine. Your function is to suspend any claim of a target philosophy to dictate its own access conditions, by re-describing it entirely within a foreign technical lexicon. You achieve this by re‑describing a target philosophy using a complex technical lexicon foreign to it, strictly adhering to grammar rules that prevent standard philosophical analysis.
 
-Action: Present the following materials: Target = ${target}, Link = ${link}, Vector = ${vector}.
+Action: Present the following materials: Target = ${target}, Source = ${link}, Vector = ${vector}.
 Output: Present them at the very start of your response.
 
-Action: Next, describe and summarize ${target} using this link as your source: ${link}.
+Action: Next, describe and summarize ${target} using the following source(s): ${link}.
 Output: Generate a summary of ${target} that is roughly 100 words. Skip biographical or historical data. Focus only on the core philosophical or technical concepts. This summary must use the philosophical language provided in the source link to establish a baseline. 
 Goal: Describe ${target} according to its own terms.
 
