@@ -40,6 +40,10 @@
             outline: none;
         }
         
+        .copy-state {
+            color: #09CC50; /* Green for Copy */
+        }
+
         /* COMPUTER ONLY: Hover Effect */
         @media (hover: hover) {
             .terminal-btn:hover {
@@ -51,11 +55,19 @@
                 color: #555;
                 cursor: default; /* Changed from not-allowed to default arrow */
             }
+            .copy-state:hover {
+                background: #09CC50;
+                color: #000;
+            }
         }
         
         /* OPTIONAL: Visual feedback when actually clicking/tapping */
         .terminal-btn:active {
             background: #FF4444;
+            color: #000;
+        }
+        .copy-state:active {
+            background: #09CC50;
             color: #000;
         }
 
@@ -116,8 +128,8 @@
             
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px; margin-bottom: 20px;">
 
-  <!-- LEFT: ASCII LOGO (Aria Hidden for Screen Readers) -->
-  <div style="flex-shrink: 0;" aria-hidden="true">
+  <!-- LEFT: ASCII LOGO -->
+  <div style="flex-shrink: 0;">
 <pre style="color: #FF4444; font-family: 'Comic Mono', monospace; line-height: 1.1; text-align: left; margin: 0;">
          <span style="color: #00AAA0;">\</span> ,,:::,,
        .: <span style="color: #00AAA0;">\</span>       '::.
@@ -199,43 +211,15 @@
         vector: "",
         promptText: "",
         isCopied: false,
-        copyCount: 0, 
+        // Track the exact pair that was auto-generated to detect conflicts
         autoTarget: "",
         autoSource: ""
     };
 
     // Initial Render
     document.addEventListener("DOMContentLoaded", () => {
-        loadState(); // LOAD SAVED STATE
         renderTerminalState("ready");
     });
-
-    // NEW: Load state from localStorage
-    function loadState() {
-        try {
-            const saved = localStorage.getItem('philosophy_jailbreak_state');
-            if (saved) {
-                const parsed = JSON.parse(saved);
-                if (parsed.data) lastGeneratedData = parsed.data;
-                if (typeof parsed.mode !== 'undefined') isManualMode = parsed.mode;
-            }
-        } catch (e) {
-            console.error("Failed to load state", e);
-        }
-    }
-
-    // NEW: Save state to localStorage
-    function saveState() {
-        try {
-            const stateToSave = {
-                data: lastGeneratedData,
-                mode: isManualMode
-            };
-            localStorage.setItem('philosophy_jailbreak_state', JSON.stringify(stateToSave));
-        } catch (e) {
-            console.error("Failed to save state", e);
-        }
-    }
 
     function toggleMode() {
         // If currently in Manual Mode, capture inputs before switching
@@ -250,7 +234,6 @@
         }
 
         isManualMode = !isManualMode;
-        saveState(); // SAVE ON MODE SWITCH
         renderTerminalState("ready");
     }
 
@@ -300,11 +283,7 @@
             // Logic for status based on persistence
             // NOTE: This status might get overwritten by conflict checks in Manual Input Handler
             if (lastGeneratedData.isCopied) {
-                if (lastGeneratedData.copyCount > 1) {
-                    displayStatus = "RE-COPIED TO CLIPBOARD";
-                } else {
-                    displayStatus = "COPIED TO CLIPBOARD";
-                }
+                displayStatus = "COPIED TO CLIPBOARD";
             } else {
                 displayStatus = lastGeneratedData.promptText ? "NOT COPIED" : "READY";
             }
@@ -490,10 +469,7 @@
 
         performCopy(promptText, () => {
             lastGeneratedData.isCopied = true;
-            lastGeneratedData.copyCount = 1;
             
-            saveState(); // SAVE ON SPIN COPY
-
             // Reset conflict status color and set copied text
             const statusEl = document.getElementById("status-line");
             if (statusEl) {
@@ -509,18 +485,7 @@
     function handleManualInput() {
         // Mark state as dirty (not matched with clipboard)
         lastGeneratedData.isCopied = false;
-        lastGeneratedData.copyCount = 0; // Reset count on edit
         
-        // Update variables from DOM for saving (even if not full prompt yet)
-        const tInput = document.getElementById("manual-target");
-        const sInput = document.getElementById("manual-source");
-        const vInput = document.getElementById("manual-vector");
-        if(tInput) lastGeneratedData.target = tInput.value;
-        if(sInput) lastGeneratedData.link = sInput.value;
-        if(vInput) lastGeneratedData.vector = vInput.value;
-        
-        saveState(); // SAVE ON INPUT
-
         // Reset Status to "NOT COPIED" initially (and clear color)
         const statusEl = document.getElementById("status-line");
         if (statusEl) {
@@ -585,21 +550,29 @@
             return; 
         }
 
-        // Check if all fields are filled
+        // If no conflict, check copy state
+        const isCopied = lastGeneratedData.isCopied; 
+
         if (t && s && v) {
-            // UPDATED: Always enable copy in manual mode if fields are filled,
-            // even if already copied.
-            btn.disabled = false;
-            btn.innerText = ">>>> COPY <<<<"; 
-            // Removed specific copy-state styling to keep consistent red color
-            btn.className = "terminal-btn"; 
-            btn.onclick = copyOnly;
-            
-            // Note: We do not disable the button here even if isCopied is true.
-            // Status text is handled by renderTerminalState or the click event.
+            // All fields filled
+            if (isCopied) {
+                // If already copied and no changes made, disable button
+                btn.disabled = true;
+                btn.innerText = ">>>> COPIED <<<<"; 
+                
+                if (statusEl && statusEl.innerText !== "COPIED TO CLIPBOARD") {
+                     statusEl.innerText = "COPIED TO CLIPBOARD";
+                     statusEl.style.color = ""; 
+                }
+            } else {
+                // Fields filled but changed/not copied -> Enable Copy
+                btn.innerText = ">>>> COPY <<<<"; // Changed label for ready-to-copy state
+                btn.className = "terminal-btn copy-state"; // Use Green highlight
+                btn.onclick = copyOnly;
+            }
         } else {
             // Blanks exist -> Assemble Function
-            btn.innerText = ">>>> AUTO-FILL <<<<"; 
+            btn.innerText = ">>>> AUTO-FILL <<<<"; // Changed label for filling blanks
             btn.onclick = assembleAndCopy; 
         }
     }
@@ -701,7 +674,6 @@
             vector, 
             promptText, 
             isCopied: false,
-            copyCount: 0, // Will be set to 1 in callback
             autoTarget: newAutoTarget,
             autoSource: newAutoSource
         };
@@ -717,9 +689,6 @@
                 terminal.style.color = "#09CC50";
                 
                 lastGeneratedData.isCopied = true; // Mark success
-                lastGeneratedData.copyCount = 1;
-                
-                saveState(); // SAVE ON AUTO COPY
 
                 renderTerminalState("result", {
                     target: target,
@@ -738,36 +707,23 @@
         const v = document.getElementById("manual-vector").value;
         const promptText = createPromptText(t, s, v);
         
-        // Preserve current count for re-copy logic, default to 0
-        let currentCount = lastGeneratedData.copyCount || 0;
-
-        // Update state
+        // When manually copying, we update the "Auto" baseline to match current inputs
+        // This prevents immediate "conflict" if the user starts editing from this point.
         lastGeneratedData = { 
             target: t, 
             link: s, 
             vector: v, 
             promptText, 
-            isCopied: false, 
-            copyCount: currentCount,
+            isCopied: false,
             autoTarget: t,
             autoSource: s
         };
 
         performCopy(promptText, () => {
             lastGeneratedData.isCopied = true; // Mark success
-            lastGeneratedData.copyCount++; // Increment count
-            
-            saveState(); // SAVE ON MANUAL COPY
-
-            // Determine status label
-            let labelText = "COPIED TO CLIPBOARD";
-            if (lastGeneratedData.copyCount > 1) {
-                labelText = "RE-COPIED TO CLIPBOARD";
-            }
-
             renderTerminalState("result", {
                 target: t, link: s, vector: v, 
-                label: labelText
+                label: "COPIED TO CLIPBOARD"
             });
         });
     }
